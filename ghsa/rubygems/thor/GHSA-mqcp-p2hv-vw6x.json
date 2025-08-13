@@ -1,0 +1,65 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2025-07-21T19:33:26Z",
+  "Package": {
+    "Ecosystem": "RUBYGEMS",
+    "Name": "thor"
+  },
+  "Advisory": {
+    "DatabaseId": 304343,
+    "Id": "GSA_kwCzR0hTQS1tcWNwLXAyaHYtdnc2eM4ABKTX",
+    "GhsaId": "GHSA-mqcp-p2hv-vw6x",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54314"
+      },
+      {
+        "Url": "https://github.com/rails/thor/pull/897"
+      },
+      {
+        "Url": "https://github.com/rails/thor/commit/536b79036a0efb765c1899233412e7b1ca94abfa"
+      },
+      {
+        "Url": "https://hackerone.com/reports/3260153"
+      },
+      {
+        "Url": "https://github.com/rails/thor/releases/tag/v1.4.0"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/thor/CVE-2025-54314.yml"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-mqcp-p2hv-vw6x"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-mqcp-p2hv-vw6x"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2025-54314"
+      }
+    ],
+    "Description": "Thor before 1.4.0 can construct an unsafe shell command from library input.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2025-07-20T03:30:19Z",
+    "Severity": "HIGH",
+    "Summary": "Thor can construct an unsafe shell command from library input.",
+    "UpdatedAt": "2025-08-05T20:41:36Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.9,
+      "VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.4.0"
+      },
+      "VulnerableVersionRange": "\u003c 1.4.0"
+    }
+  ]
+}

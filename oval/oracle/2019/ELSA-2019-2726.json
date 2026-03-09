@@ -1,5 +1,5 @@
 {
-  "Title": "ELSA-2019-2726:  go-toolset:rhel8 security and bug fix update (IMPORTANT)",
+  "Title": "ELSA-2019-2726:  go-toolset:ol8 security and bug fix update (IMPORTANT)",
   "Description": "go-toolset\n[1.11.13-1]\n- Bump version to 1.11.13\n- Related: rhbz#1743204\n- Related: rhbz#1743206\n\ngolang\n[1.11.13-2]\n- Improve error message when using non-FIPS API in FIPS mode.\n- Fixes CVE-2019-9512.\n- Fixes CVE-2019-9514.\n- Resolves: rhbz#1745711\n- Resolves: rhbz#1745705\n\n[1.11.6-3]\n- Updates to be less strict on key size in FIPS mode\n- Resolves: rhbz#1731550\n\n[1.11.6-2]\n- Lock to specific OpenSSL version on build\n- Resolves: rhbz#1709606",
   "Platform": [
     "Oracle Linux 8"
@@ -283,6 +283,6 @@
     }
   ],
   "Issued": {
-    "Date": "2019-09-17"
+    "Date": "2026-02-16"
   }
 }

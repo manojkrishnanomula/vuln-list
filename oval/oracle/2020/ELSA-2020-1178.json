@@ -85,18 +85,6 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "zziplib is earlier than 0:0.13.62-12.el7"
-                      },
-                      {
-                        "Comment": "zziplib is signed with the Oracle Linux 7 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
                         "Comment": "zziplib-devel is earlier than 0:0.13.62-12.el7"
                       },
                       {
@@ -113,6 +101,18 @@
                       },
                       {
                         "Comment": "zziplib-utils is signed with the Oracle Linux 7 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "zziplib is earlier than 0:0.13.62-12.el7"
+                      },
+                      {
+                        "Comment": "zziplib is signed with the Oracle Linux 7 key"
                       }
                     ]
                   }

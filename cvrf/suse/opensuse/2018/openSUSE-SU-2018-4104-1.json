@@ -106,10 +106,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-0734",
@@ -159,8 +161,7 @@
             "openSUSE Leap 42.3:libopenssl0_9_8-32bit-0.9.8j-27.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-5407",
@@ -198,8 +199,7 @@
             "openSUSE Leap 42.3:libopenssl0_9_8-32bit-0.9.8j-27.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

@@ -543,10 +543,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-37327",
@@ -646,8 +648,7 @@
             "openSUSE Leap 15.4:typelib-1_0-GstFft-1_0-1.12.5-150000.3.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-37328",
@@ -747,8 +748,7 @@
             "openSUSE Leap 15.4:typelib-1_0-GstFft-1_0-1.12.5-150000.3.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

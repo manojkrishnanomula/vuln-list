@@ -207,10 +207,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "9",
-        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "9",
+          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-29501",
@@ -255,10 +257,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "9",
-        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "9",
+          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-31251",
@@ -302,8 +306,7 @@
             "SUSE Linux Enterprise Module for HPC 12:slurm-torque-17.02.11-6.53.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

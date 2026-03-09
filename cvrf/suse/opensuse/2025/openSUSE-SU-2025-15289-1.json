@@ -116,12 +116,11 @@
             "openSUSE Tumbleweed:python314-x86-64-v3-3.14.0~b3-3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-6069",
-      "Description": "unknown",
+      "Description": "The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.",
       "Threats": [
         {
           "Type": "Impact",
@@ -150,8 +149,7 @@
             "openSUSE Tumbleweed:python314-x86-64-v3-3.14.0~b3-3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

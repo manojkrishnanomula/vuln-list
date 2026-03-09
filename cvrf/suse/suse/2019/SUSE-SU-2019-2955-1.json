@@ -31,28 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-CHOST-BYOS-Azure-2019-2955,Image SLES15-SP1-CHOST-BYOS-EC2-2019-2955,Image SLES15-SP1-CHOST-BYOS-GCE-2019-2955,SUSE-2019-2955,SUSE-SLE-Module-Basesystem-15-SP1-2019-2955,SUSE-SLE-Module-Development-Tools-OBS-15-SP1-2019-2955,SUSE-SLE-Module-Server-Applications-15-SP1-2019-2955",
+      "Text": "SUSE-2019-2955,SUSE-SLE-Module-Basesystem-15-SP1-2019-2955,SUSE-SLE-Module-Development-Tools-OBS-15-SP1-2019-2955,SUSE-SLE-Module-Server-Applications-15-SP1-2019-2955",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "qemu-tools-3.1.1.1-9.6.2",
-        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "qemu-tools-3.1.1.1-9.6.2",
-        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "qemu-tools-3.1.1.1-9.6.2",
-        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "qemu-tools-3.1.1.1-9.6.2",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
@@ -319,9 +304,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-arm-3.1.1.1-9.6.2",
@@ -347,10 +329,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-20126",
@@ -375,9 +359,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-arm-3.1.1.1-9.6.2",
@@ -403,10 +384,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11135",
@@ -451,9 +434,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-arm-3.1.1.1-9.6.2",
@@ -479,10 +459,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-12068",
@@ -515,9 +497,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-arm-3.1.1.1-9.6.2",
@@ -543,10 +522,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-14378",
@@ -579,9 +560,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-arm-3.1.1.1-9.6.2",
@@ -607,10 +585,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.5",
-        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.5",
+          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-15890",
@@ -643,9 +623,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.6.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:qemu-tools-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-3.1.1.1-9.6.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP1:qemu-arm-3.1.1.1-9.6.2",
@@ -671,10 +648,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     }
   ]
 }

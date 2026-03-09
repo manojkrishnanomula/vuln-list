@@ -1180,8 +1180,7 @@
             "SUSE OpenStack Cloud Crowbar 8:libvirt-nss-3.3.0-5.49.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-4147",
@@ -1393,10 +1392,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+        }
+      ]
     }
   ]
 }

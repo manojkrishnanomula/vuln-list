@@ -93,8 +93,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-3197",
@@ -133,10 +132,12 @@
           "ProductID": null
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-0702",
@@ -178,8 +179,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0703",
@@ -217,8 +217,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0704",
@@ -252,8 +251,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0705",
@@ -291,8 +289,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0797",
@@ -326,8 +323,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0798",
@@ -357,8 +353,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0799",
@@ -405,10 +400,12 @@
           "ProductID": null
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.6",
-        "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.6",
+          "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-0800",
@@ -454,8 +451,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

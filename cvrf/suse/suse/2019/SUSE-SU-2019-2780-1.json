@@ -31,78 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-Azure-BYOS-2019-2780,Image SLES15-EC2-HVM-BYOS-2019-2780,Image SLES15-GCE-BYOS-2019-2780,Image SLES15-OCI-BYOS-2019-2780,Image SLES15-SAP-Azure-2019-2780,Image SLES15-SAP-Azure-BYOS-2019-2780,Image SLES15-SAP-Azure-LI-BYOS-Production-2019-2780,Image SLES15-SAP-Azure-VLI-BYOS-Production-2019-2780,Image SLES15-SAP-EC2-HVM-2019-2780,Image SLES15-SAP-EC2-HVM-BYOS-2019-2780,Image SLES15-SAP-GCE-2019-2780,Image SLES15-SAP-GCE-BYOS-2019-2780,Image SLES15-SAP-OCI-BYOS-2019-2780,SUSE-2019-2780,SUSE-SLE-Module-Basesystem-15-2019-2780,SUSE-SLE-Module-Development-Tools-15-2019-2780,SUSE-SLE-Module-Development-Tools-OBS-15-2019-2780,SUSE-SLE-Module-Packagehub-Subpackages-15-2019-2780",
+      "Text": "SUSE-2019-2780,SUSE-SLE-Module-Basesystem-15-2019-2780,SUSE-SLE-Module-Development-Tools-15-2019-2780,SUSE-SLE-Module-Development-Tools-OBS-15-2019-2780,SUSE-SLE-Module-Packagehub-Subpackages-15-2019-2780",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "binutils-2.32-6.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "binutils-2.32-6.8.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
@@ -379,19 +314,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -399,10 +321,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.6",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.6",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-17358",
@@ -427,19 +351,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -447,10 +358,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-17359",
@@ -475,19 +388,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -495,10 +395,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-17360",
@@ -523,19 +425,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -543,10 +432,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-17985",
@@ -571,19 +462,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -591,10 +469,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-18309",
@@ -619,19 +499,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -639,10 +506,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-18483",
@@ -667,19 +536,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -687,10 +543,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-18484",
@@ -715,19 +573,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -735,10 +580,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-18605",
@@ -763,19 +610,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -783,10 +617,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-18606",
@@ -811,19 +647,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -831,10 +654,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-18607",
@@ -859,19 +684,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -879,10 +691,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-19931",
@@ -911,19 +725,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -931,10 +732,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-19932",
@@ -963,19 +766,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -983,10 +773,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-20623",
@@ -1011,19 +803,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1031,10 +810,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-20651",
@@ -1059,19 +840,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1079,10 +847,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-20671",
@@ -1107,19 +877,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1127,10 +884,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-6323",
@@ -1155,19 +914,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1175,10 +921,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-6543",
@@ -1203,19 +951,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1223,10 +958,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-6759",
@@ -1251,19 +988,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1271,10 +995,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-6872",
@@ -1299,19 +1025,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1319,10 +1032,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-7208",
@@ -1347,19 +1062,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1367,10 +1069,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-7568",
@@ -1395,19 +1099,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1415,10 +1106,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-7569",
@@ -1443,19 +1136,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1463,10 +1143,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-7570",
@@ -1491,19 +1173,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1511,10 +1180,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-7642",
@@ -1543,19 +1214,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1563,10 +1221,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-7643",
@@ -1591,19 +1251,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1611,10 +1258,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-8945",
@@ -1639,19 +1288,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1659,10 +1295,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-1010180",
@@ -1687,19 +1325,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-OCI-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-Azure:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-EC2-HVM:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE-BYOS:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-GCE:binutils-2.32-6.8.1",
-            "Image SLES15-SAP-OCI-BYOS:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15:binutils-devel-2.32-6.8.1",
             "SUSE Linux Enterprise Module for Development Tools 15:binutils-devel-32bit-2.32-6.8.1",
@@ -1707,10 +1332,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     }
   ]
 }

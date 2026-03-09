@@ -305,10 +305,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:N/A:N"
+        },
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-2162",
@@ -369,8 +375,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.183.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3567",
@@ -431,8 +436,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.183.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-52973",
@@ -473,8 +477,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.183.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-52974",
@@ -515,8 +518,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.183.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-53000",
@@ -557,8 +559,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.183.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-53141",
@@ -599,8 +600,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.183.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-21700",
@@ -641,8 +641,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.183.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-21702",
@@ -683,8 +682,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.183.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-22004",
@@ -729,8 +727,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.183.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

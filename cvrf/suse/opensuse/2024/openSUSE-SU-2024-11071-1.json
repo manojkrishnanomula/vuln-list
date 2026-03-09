@@ -91,10 +91,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.6",
+          "Vector": "AV:N/AC:H/Au:S/C:P/I:P/A:P"
+        },
+        {
+          "BaseScore": "6",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-3589",
@@ -131,10 +137,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "1.7",
+          "Vector": "AV:L/AC:L/Au:S/C:N/I:P/A:N"
+        },
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2020-2875",
@@ -167,10 +179,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4",
-        "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4",
+          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:N"
+        }
+      ]
     }
   ]
 }

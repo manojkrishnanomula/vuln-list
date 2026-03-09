@@ -79,7 +79,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -100,8 +100,7 @@
             "openSUSE Tumbleweed:chromium-133.0.6943.98-2.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-0996",
@@ -109,7 +108,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -130,8 +129,7 @@
             "openSUSE Tumbleweed:chromium-133.0.6943.98-2.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-0997",
@@ -139,7 +137,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -160,16 +158,15 @@
             "openSUSE Tumbleweed:chromium-133.0.6943.98-2.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-0998",
-      "Description": "Out of bounds memory access in V8 in Google Chrome prior to 133.0.6943.98 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "Description": "Not exploitable",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -190,8 +187,7 @@
             "openSUSE Tumbleweed:chromium-133.0.6943.98-2.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

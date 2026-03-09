@@ -132,10 +132,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.4",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.4",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-15099",
@@ -173,10 +175,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:L/AC:L/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:L/AC:L/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-7546",
@@ -222,10 +226,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.4",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.4",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-7547",
@@ -271,10 +277,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-7548",
@@ -320,10 +328,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "8.5",
-        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "8.5",
+          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-1053",
@@ -360,8 +370,7 @@
             "openSUSE Leap 42.3:postgresql95-test-9.5.11-2.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

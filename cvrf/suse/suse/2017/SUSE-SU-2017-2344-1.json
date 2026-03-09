@@ -191,10 +191,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "9.3",
-        "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.6",
+          "Vector": "AV:N/AC:H/Au:N/C:C/I:C/A:C"
+        },
+        {
+          "BaseScore": "9.3",
+          "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+        }
+      ]
     }
   ]
 }

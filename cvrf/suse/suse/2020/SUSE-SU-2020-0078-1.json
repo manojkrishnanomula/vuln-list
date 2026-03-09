@@ -31,33 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SAP-Azure-LI-BYOS-Production-2020-78,Image SLES15-SAP-Azure-VLI-BYOS-Production-2020-78,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2020-78,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2020-78,SUSE-2020-78,SUSE-SLE-Module-Desktop-Applications-15-2020-78,SUSE-SLE-Module-Desktop-Applications-15-SP1-2020-78,SUSE-SLE-Module-Development-Tools-OBS-15-2020-78,SUSE-SLE-Module-Development-Tools-OBS-15-SP1-2020-78",
+      "Text": "SUSE-2020-78,SUSE-SLE-Module-Desktop-Applications-15-2020-78,SUSE-SLE-Module-Desktop-Applications-15-SP1-2020-78,SUSE-SLE-Module-Development-Tools-OBS-15-2020-78,SUSE-SLE-Module-Development-Tools-OBS-15-SP1-2020-78",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "MozillaFirefox-68.4.1-3.66.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-68.4.1-3.66.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-68.4.1-3.66.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-68.4.1-3.66.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "MozillaFirefox-68.4.1-3.66.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15",
@@ -174,10 +154,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-devel-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-translations-common-68.4.1-3.66.1",
@@ -189,10 +165,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-17016",
@@ -217,10 +195,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-devel-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-translations-common-68.4.1-3.66.1",
@@ -232,10 +206,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-17017",
@@ -260,10 +236,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-devel-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-translations-common-68.4.1-3.66.1",
@@ -275,10 +247,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-17021",
@@ -303,10 +277,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-devel-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-translations-common-68.4.1-3.66.1",
@@ -318,10 +288,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.6",
-        "Vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.6",
+          "Vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-17022",
@@ -346,10 +318,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-devel-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-translations-common-68.4.1-3.66.1",
@@ -361,10 +329,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-17024",
@@ -389,10 +359,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-devel-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-translations-common-68.4.1-3.66.1",
@@ -404,10 +370,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-17026",
@@ -432,10 +400,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-devel-68.4.1-3.66.1",
             "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:MozillaFirefox-translations-common-68.4.1-3.66.1",
@@ -447,10 +411,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     }
   ]
 }

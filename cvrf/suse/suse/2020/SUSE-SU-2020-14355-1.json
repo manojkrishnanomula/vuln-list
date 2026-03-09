@@ -117,10 +117,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-15690",
@@ -153,8 +155,7 @@
             "SUSE Linux Enterprise Server 11 SP4-LTSS:LibVNCServer-0.9.1-160.14.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2019-20788",
@@ -188,10 +189,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     }
   ]
 }

@@ -137,10 +137,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.9",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.9",
+          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:C"
+        },
+        {
+          "BaseScore": "6.9",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-10853",
@@ -176,10 +182,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.6",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.6",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-3646",
@@ -255,10 +263,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     }
   ]
 }

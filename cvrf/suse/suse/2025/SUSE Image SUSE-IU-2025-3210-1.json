@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2025-10-26T22:07:23Z",
+        "Date": "2026-03-08T16:00:16Z",
         "Description": "current"
       }
     ]
@@ -322,7 +322,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": null,
@@ -331,8 +331,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-40175",
@@ -349,8 +348,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4130",
@@ -367,8 +365,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4515",
@@ -385,8 +382,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-53261",
@@ -403,8 +399,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-5633",
@@ -421,8 +416,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-21647",
@@ -439,8 +433,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-26661",
@@ -457,8 +450,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-45614",
@@ -475,8 +467,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-46733",
@@ -493,8 +484,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-49996",
@@ -511,8 +501,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-52615",
@@ -529,8 +518,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-53125",
@@ -547,8 +535,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-58090",
@@ -565,8 +552,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-58238",
@@ -583,8 +569,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-58239",
@@ -601,12 +586,11 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10230",
-      "Description": "unknown",
+      "Description": "A flaw was found in Samba, in the front-end WINS hook handling: NetBIOS names from registration packets are passed to a shell without proper validation or escaping. Unsanitized NetBIOS name data from WINS registration packets are inserted into a shell command and executed by the Samba Active Directory Domain Controller's wins hook, allowing an unauthenticated network attacker to achieve remote command execution as the Samba process.",
       "Threats": [
         {
           "Type": "Impact",
@@ -619,8 +603,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-22022",
@@ -637,8 +620,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-22868",
@@ -655,8 +637,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-3576",
@@ -673,8 +654,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38006",
@@ -691,8 +671,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38075",
@@ -709,8 +688,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38103",
@@ -727,8 +705,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38119",
@@ -745,8 +722,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38125",
@@ -763,8 +739,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38146",
@@ -781,8 +756,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38160",
@@ -799,8 +773,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38184",
@@ -817,8 +790,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38185",
@@ -835,8 +807,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38190",
@@ -853,8 +824,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38201",
@@ -871,8 +841,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38205",
@@ -889,8 +858,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38208",
@@ -907,8 +875,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38216",
@@ -925,8 +892,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38234",
@@ -943,8 +909,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38245",
@@ -961,8 +926,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38251",
@@ -979,8 +943,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38255",
@@ -997,8 +960,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38263",
@@ -1015,8 +977,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38351",
@@ -1033,8 +994,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38360",
@@ -1051,8 +1011,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38402",
@@ -1069,8 +1028,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38408",
@@ -1087,8 +1045,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38418",
@@ -1105,8 +1062,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38419",
@@ -1123,8 +1079,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38439",
@@ -1141,8 +1096,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38440",
@@ -1159,8 +1113,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38441",
@@ -1177,8 +1130,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38444",
@@ -1195,8 +1147,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38445",
@@ -1213,8 +1164,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38456",
@@ -1231,8 +1181,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38458",
@@ -1249,8 +1198,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38459",
@@ -1267,8 +1215,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38464",
@@ -1285,8 +1232,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38466",
@@ -1303,8 +1249,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38472",
@@ -1321,8 +1266,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38488",
@@ -1339,8 +1283,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38490",
@@ -1357,8 +1300,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38491",
@@ -1375,8 +1317,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38499",
@@ -1393,8 +1334,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38500",
@@ -1411,8 +1351,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38503",
@@ -1429,8 +1368,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38506",
@@ -1447,8 +1385,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38510",
@@ -1465,8 +1402,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38511",
@@ -1483,8 +1419,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38512",
@@ -1501,8 +1436,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38513",
@@ -1519,8 +1453,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38514",
@@ -1537,8 +1470,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38515",
@@ -1555,8 +1487,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38516",
@@ -1573,8 +1504,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38520",
@@ -1591,8 +1521,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38521",
@@ -1609,8 +1538,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38524",
@@ -1627,8 +1555,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38526",
@@ -1645,8 +1572,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38527",
@@ -1663,8 +1589,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38528",
@@ -1681,8 +1606,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38529",
@@ -1699,8 +1623,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38530",
@@ -1717,8 +1640,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38531",
@@ -1735,8 +1657,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38533",
@@ -1753,8 +1674,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38535",
@@ -1771,8 +1691,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38537",
@@ -1789,8 +1708,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38538",
@@ -1807,8 +1725,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38540",
@@ -1825,8 +1742,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38541",
@@ -1843,8 +1759,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38543",
@@ -1861,8 +1776,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38544",
@@ -1879,8 +1793,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38546",
@@ -1897,8 +1810,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38548",
@@ -1915,8 +1827,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38550",
@@ -1933,8 +1844,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38553",
@@ -1951,8 +1861,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38555",
@@ -1969,8 +1878,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38556",
@@ -1987,8 +1895,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38560",
@@ -2005,8 +1912,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38563",
@@ -2023,8 +1929,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38566",
@@ -2041,8 +1946,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38568",
@@ -2059,8 +1963,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38571",
@@ -2077,8 +1980,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38572",
@@ -2095,8 +1997,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38574",
@@ -2113,8 +2014,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38576",
@@ -2131,8 +2031,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38581",
@@ -2149,8 +2048,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38582",
@@ -2167,8 +2065,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38583",
@@ -2185,8 +2082,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38584",
@@ -2203,8 +2099,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38585",
@@ -2221,8 +2116,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38587",
@@ -2239,8 +2133,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38588",
@@ -2257,8 +2150,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38590",
@@ -2275,8 +2167,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38591",
@@ -2293,8 +2184,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38593",
@@ -2311,8 +2201,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38595",
@@ -2329,8 +2218,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38597",
@@ -2347,8 +2235,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38601",
@@ -2365,8 +2252,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38602",
@@ -2383,8 +2269,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38604",
@@ -2401,8 +2286,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38605",
@@ -2419,8 +2303,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38608",
@@ -2437,8 +2320,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38609",
@@ -2455,8 +2337,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38610",
@@ -2473,8 +2354,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38612",
@@ -2491,8 +2371,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38614",
@@ -2509,8 +2388,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38616",
@@ -2527,8 +2405,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38617",
@@ -2545,8 +2422,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38618",
@@ -2563,8 +2439,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38621",
@@ -2581,8 +2456,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38622",
@@ -2599,8 +2473,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38623",
@@ -2617,8 +2490,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38624",
@@ -2635,8 +2507,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38628",
@@ -2653,8 +2524,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38630",
@@ -2671,8 +2541,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38632",
@@ -2689,8 +2558,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38634",
@@ -2707,8 +2575,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38635",
@@ -2725,8 +2592,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38639",
@@ -2743,8 +2609,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38640",
@@ -2761,8 +2626,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38643",
@@ -2779,8 +2643,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38644",
@@ -2797,8 +2660,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38645",
@@ -2815,8 +2677,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38646",
@@ -2833,8 +2694,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38650",
@@ -2851,8 +2711,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38656",
@@ -2869,8 +2728,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38659",
@@ -2887,8 +2745,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38660",
@@ -2905,8 +2762,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38663",
@@ -2923,8 +2779,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38664",
@@ -2941,8 +2796,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38665",
@@ -2959,8 +2813,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38668",
@@ -2977,8 +2830,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38670",
@@ -2995,8 +2847,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38671",
@@ -3013,8 +2864,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38676",
@@ -3031,8 +2881,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38678",
@@ -3049,8 +2898,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38679",
@@ -3067,8 +2915,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38684",
@@ -3085,8 +2932,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38701",
@@ -3103,8 +2949,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38703",
@@ -3121,8 +2966,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38705",
@@ -3139,8 +2983,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38709",
@@ -3157,8 +3000,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38710",
@@ -3175,8 +3017,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38721",
@@ -3193,8 +3034,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38722",
@@ -3211,8 +3051,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38730",
@@ -3229,8 +3068,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-38732",
@@ -3247,8 +3085,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39677",
@@ -3265,8 +3102,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39678",
@@ -3283,8 +3119,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39681",
@@ -3301,8 +3136,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39682",
@@ -3319,8 +3153,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39691",
@@ -3337,8 +3170,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39695",
@@ -3355,8 +3187,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39703",
@@ -3373,8 +3204,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39705",
@@ -3391,8 +3221,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39707",
@@ -3409,8 +3238,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39711",
@@ -3427,8 +3255,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39718",
@@ -3445,8 +3272,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39738",
@@ -3463,8 +3289,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39744",
@@ -3481,8 +3306,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39746",
@@ -3499,8 +3323,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39747",
@@ -3517,8 +3340,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39749",
@@ -3535,8 +3357,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39754",
@@ -3553,8 +3374,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39764",
@@ -3571,8 +3391,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39766",
@@ -3589,8 +3408,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39770",
@@ -3607,8 +3425,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39773",
@@ -3625,8 +3442,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39782",
@@ -3643,8 +3459,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39787",
@@ -3661,8 +3476,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39797",
@@ -3679,8 +3493,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39807",
@@ -3697,8 +3510,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39811",
@@ -3715,8 +3527,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39816",
@@ -3733,8 +3544,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39823",
@@ -3751,8 +3561,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39825",
@@ -3769,8 +3578,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39830",
@@ -3787,8 +3595,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39834",
@@ -3805,8 +3612,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39835",
@@ -3823,8 +3629,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39838",
@@ -3841,8 +3646,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39842",
@@ -3859,8 +3663,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39857",
@@ -3877,8 +3680,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39865",
@@ -3895,8 +3697,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39885",
@@ -3913,8 +3714,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39890",
@@ -3931,8 +3731,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-39922",
@@ -3949,8 +3748,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-40300",
@@ -3967,8 +3765,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-50422",
@@ -3985,8 +3782,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-53905",
@@ -4003,8 +3799,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-53906",
@@ -4021,8 +3816,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-55157",
@@ -4039,8 +3833,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-55158",
@@ -4057,8 +3850,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-59375",
@@ -4075,8 +3867,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-8114",
@@ -4093,8 +3884,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-8277",
@@ -4111,8 +3901,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-9230",
@@ -4129,8 +3918,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-9640",
@@ -4147,8 +3935,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

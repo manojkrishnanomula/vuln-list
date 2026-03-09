@@ -355,10 +355,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.1",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.1",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-3259",
@@ -435,10 +437,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:L/AC:L/Au:S/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.1",
+          "Vector": "AV:L/AC:M/Au:S/C:P/I:P/A:P"
+        },
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:L/AC:L/Au:S/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-4164",
@@ -507,10 +515,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-5154",
@@ -579,10 +589,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.2",
-        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-5165",
@@ -651,10 +663,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "9.3",
-        "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "9.3",
+          "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-5166",
@@ -723,10 +737,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.2",
-        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     }
   ]
 }

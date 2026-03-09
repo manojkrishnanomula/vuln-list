@@ -130,13 +130,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2025-22868.html",
           "Description": "CVE-2025-22868"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1239185",
+          "Description": "SUSE Bug 1239185"
         },
         {
           "URL": "https://bugzilla.suse.com/1239186",
@@ -162,8 +166,7 @@
             "openSUSE Tumbleweed:teleport-zsh-completion-17.2.9-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-22869",
@@ -171,7 +174,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -203,8 +206,7 @@
             "openSUSE Tumbleweed:teleport-zsh-completion-17.2.9-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-27144",
@@ -212,7 +214,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -248,8 +250,7 @@
             "openSUSE Tumbleweed:teleport-zsh-completion-17.2.9-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

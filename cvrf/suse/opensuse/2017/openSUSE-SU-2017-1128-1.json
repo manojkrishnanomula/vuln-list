@@ -155,8 +155,7 @@
             "openSUSE Leap 42.2:ruby2.1-stdlib-2.1.9-8.3.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-1855",
@@ -197,8 +196,7 @@
             "openSUSE Leap 42.2:ruby2.1-stdlib-2.1.9-8.3.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-3900",
@@ -239,8 +237,7 @@
             "openSUSE Leap 42.2:ruby2.1-stdlib-2.1.9-8.3.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-7551",
@@ -286,10 +283,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-2339",
@@ -331,10 +330,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     }
   ]
 }

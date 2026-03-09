@@ -189,8 +189,7 @@
             "openSUSE Leap 42.3:nscd-2.22-13.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-8804",
@@ -241,10 +240,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-1000001",
@@ -294,8 +295,7 @@
             "openSUSE Leap 42.3:nscd-2.22-13.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-6485",
@@ -341,8 +341,7 @@
             "openSUSE Leap 42.3:nscd-2.22-13.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-6551",
@@ -388,8 +387,7 @@
             "openSUSE Leap 42.3:nscd-2.22-13.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

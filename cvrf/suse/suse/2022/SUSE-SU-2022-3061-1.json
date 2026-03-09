@@ -433,10 +433,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-36946",
@@ -545,8 +547,7 @@
             "SUSE Linux Enterprise Live Patching 15:kernel-livepatch-4_12_14-150_86-default-8-150000.2.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

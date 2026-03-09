@@ -151,10 +151,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2013-0263",
@@ -187,10 +189,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.1",
-        "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.1",
+          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-3225",
@@ -219,10 +223,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-16471",
@@ -259,10 +265,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-16782",
@@ -295,10 +303,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2020-8184",
@@ -335,10 +345,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-30122",
@@ -370,8 +382,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-30123",
@@ -379,7 +390,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -399,8 +410,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-44570",
@@ -428,8 +438,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-44571",
@@ -457,8 +466,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-44572",
@@ -486,8 +494,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-27530",
@@ -495,7 +502,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -515,8 +522,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-27539",
@@ -544,8 +550,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-25126",
@@ -553,7 +558,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -573,8 +578,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-26141",
@@ -582,7 +586,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -602,12 +606,11 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-26146",
-      "Description": "Rack is a modular Ruby web server interface. Carefully crafted headers can cause header parsing in Rack to take longer than expected resulting in a possible denial of service issue. Accept and Forwarded headers are impacted. Ruby 3.2 has mitigations for this problem, so Rack applications using Ruby 3.2 or newer are unaffected. This vulnerability is fixed in 2.0.9.4, 2.1.4.4, 2.2.8.1, and 3.0.9.1.\n",
+      "Description": "Rack is a modular Ruby web server interface. Carefully crafted headers can cause header parsing in Rack to take longer than expected resulting in a possible denial of service issue. Accept and Forwarded headers are impacted. Ruby 3.2 has mitigations for this problem, so Rack applications using Ruby 3.2 or newer are unaffected. This vulnerability is fixed in 2.0.9.4, 2.1.4.4, 2.2.8.1, and 3.0.9.1.",
       "Threats": [
         {
           "Type": "Impact",
@@ -635,8 +638,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-25184",
@@ -664,8 +666,7 @@
             "openSUSE Tumbleweed:ruby3.4-rubygem-rack-2.2-2.2.11-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

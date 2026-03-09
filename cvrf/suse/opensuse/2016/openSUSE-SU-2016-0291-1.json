@@ -83,8 +83,7 @@
             "openSUSE Leap 42.1:ecryptfs-utils-32bit-103-3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-1572",
@@ -114,10 +113,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6",
-        "Vector": "AV:L/AC:M/Au:S/C:C/I:C/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6",
+          "Vector": "AV:L/AC:M/Au:S/C:C/I:C/A:N"
+        }
+      ]
     }
   ]
 }

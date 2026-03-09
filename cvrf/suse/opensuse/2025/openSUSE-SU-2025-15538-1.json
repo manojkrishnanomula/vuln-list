@@ -126,8 +126,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-58259",
@@ -155,8 +154,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-51667",
@@ -180,12 +178,11 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-53884",
-      "Description": "unknown",
+      "Description": "NeuVector stores user passwords and API keys using a simple, unsalted hash. This method is vulnerable to rainbow table attack (offline attack where hashes of known passwords are precomputed).",
       "Threats": [
         {
           "Type": "Impact",
@@ -209,12 +206,11 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-54467",
-      "Description": "unknown",
+      "Description": "When a Java command with password parameters is executed and terminated by NeuVector for Process rule violation the password will  appear in the NeuVector security event log.",
       "Threats": [
         {
           "Type": "Impact",
@@ -238,8 +234,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-55190",
@@ -263,8 +258,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-56760",
@@ -288,8 +282,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-56761",
@@ -313,8 +306,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-58355",
@@ -338,8 +330,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-6203",
@@ -363,12 +354,11 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-8077",
-      "Description": "unknown",
+      "Description": "A vulnerability exists in NeuVector versions up to and including 5.4.5, where a fixed string is used as the default password for the built-in `admin` account. If this password is not changed immediately after deployment, any workload with network access within the cluster could use the default credentials to obtain an authentication token. This token can then be used to perform any operation via NeuVector APIs.",
       "Threats": [
         {
           "Type": "Impact",
@@ -392,8 +382,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-9566",
@@ -421,8 +410,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250908T141310-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

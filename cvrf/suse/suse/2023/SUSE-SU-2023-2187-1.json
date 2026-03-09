@@ -373,10 +373,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-27664",
@@ -451,8 +453,7 @@
             "openSUSE Leap 15.4:golang-github-prometheus-node_exporter-1.5.0-150100.3.23.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-46146",
@@ -523,8 +524,7 @@
             "openSUSE Leap 15.4:golang-github-prometheus-node_exporter-1.5.0-150100.3.23.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

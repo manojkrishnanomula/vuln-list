@@ -103,10 +103,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+        },
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-9232",
@@ -131,10 +137,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "10",
-        "Vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "10",
+          "Vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2025-35965",
@@ -158,8 +166,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250424T181457-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-41395",
@@ -183,8 +190,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250424T181457-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-41423",
@@ -208,8 +214,7 @@
             "openSUSE Tumbleweed:govulncheck-vulndb-0.0.20250424T181457-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

@@ -655,10 +655,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-22677",
@@ -778,8 +780,7 @@
             "openSUSE Leap 15.4:libwebkit2gtk3-lang-2.36.4-150200.38.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-26710",
@@ -903,8 +904,7 @@
             "openSUSE Leap 15.4:libwebkit2gtk3-lang-2.36.4-150200.38.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

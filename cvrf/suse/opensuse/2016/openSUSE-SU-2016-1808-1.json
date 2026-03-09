@@ -126,10 +126,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.0",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.0",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-2099",
@@ -165,8 +167,7 @@
             "openSUSE 13.2:xerces-c-doc-3.1.4-13.9.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-4463",
@@ -203,10 +204,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     }
   ]
 }

@@ -169,10 +169,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-4304",
@@ -227,8 +229,7 @@
             "openSUSE Tumbleweed:openssl-1_0_0-doc-1.0.2u-12.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0215",
@@ -275,8 +276,7 @@
             "openSUSE Tumbleweed:openssl-1_0_0-doc-1.0.2u-12.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0286",
@@ -347,8 +347,7 @@
             "openSUSE Tumbleweed:openssl-1_0_0-doc-1.0.2u-12.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

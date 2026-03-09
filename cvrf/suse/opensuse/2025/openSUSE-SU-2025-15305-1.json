@@ -90,7 +90,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2024-28180",
-      "Description": "Package jose aims to provide an implementation of the Javascript Object Signing and Encryption set of standards. An attacker could send a JWE containing compressed data that used large amounts of memory and CPU when decompressed by Decrypt or DecryptMulti. Those functions now return an error if the decompressed data would exceed 250kB or 10x the compressed size (whichever is larger). This vulnerability has been patched in versions 4.0.1, 3.0.3 and 2.6.3.\n",
+      "Description": "Package jose aims to provide an implementation of the Javascript Object Signing and Encryption set of standards. An attacker could send a JWE containing compressed data that used large amounts of memory and CPU when decompressed by Decrypt or DecryptMulti. Those functions now return an error if the decompressed data would exceed 250kB or 10x the compressed size (whichever is larger). This vulnerability has been patched in versions 4.0.1, 3.0.3 and 2.6.3.",
       "Threats": [
         {
           "Type": "Impact",
@@ -114,8 +114,7 @@
             "openSUSE Tumbleweed:traefik2-2.11.26-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-45338",
@@ -123,7 +122,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -143,8 +142,7 @@
             "openSUSE Tumbleweed:traefik2-2.11.26-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-22868",
@@ -176,8 +174,7 @@
             "openSUSE Tumbleweed:traefik2-2.11.26-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-22869",
@@ -205,8 +202,7 @@
             "openSUSE Tumbleweed:traefik2-2.11.26-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-22871",
@@ -234,8 +230,7 @@
             "openSUSE Tumbleweed:traefik2-2.11.26-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-22872",
@@ -263,8 +258,7 @@
             "openSUSE Tumbleweed:traefik2-2.11.26-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-27144",
@@ -296,8 +290,7 @@
             "openSUSE Tumbleweed:traefik2-2.11.26-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-32431",
@@ -305,7 +298,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -321,8 +314,7 @@
             "openSUSE Tumbleweed:traefik2-2.11.26-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-47952",
@@ -350,8 +342,7 @@
             "openSUSE Tumbleweed:traefik2-2.11.26-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

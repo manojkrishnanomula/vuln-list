@@ -179,10 +179,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.5",
-        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.5",
+          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-3153",
@@ -226,8 +228,7 @@
             "openSUSE Tumbleweed:python3-ovs-3.1.0-15.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

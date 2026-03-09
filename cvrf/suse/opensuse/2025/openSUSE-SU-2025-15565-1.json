@@ -118,11 +118,11 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2025-10527",
-      "Description": "This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
+      "Description": "Sandbox escape due to use-after-free in the Graphics: Canvas2D component. This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -146,16 +146,15 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10528",
-      "Description": "This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
+      "Description": "Sandbox escape due to undefined behavior, invalid pointer in the Graphics: Canvas2D component. This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -179,16 +178,15 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10529",
-      "Description": "This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
+      "Description": "Same-origin policy bypass in the Layout component. This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -212,12 +210,11 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10530",
-      "Description": "This vulnerability affects Firefox \u003c 143 and Thunderbird \u003c 143.",
+      "Description": "Spoofing issue in the WebAuthn component in Firefox for Android. This vulnerability affects Firefox \u003c 143 and Thunderbird \u003c 143.",
       "Threats": [
         {
           "Type": "Impact",
@@ -245,12 +242,11 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10531",
-      "Description": "This vulnerability affects Firefox \u003c 143 and Thunderbird \u003c 143.",
+      "Description": "Mitigation bypass in the Web Compatibility: Tooling component. This vulnerability affects Firefox \u003c 143 and Thunderbird \u003c 143.",
       "Threats": [
         {
           "Type": "Impact",
@@ -278,16 +274,15 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10532",
-      "Description": "This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
+      "Description": "Incorrect boundary conditions in the JavaScript: GC component. This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -311,16 +306,15 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10533",
-      "Description": "This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 115.28, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
+      "Description": "Integer overflow in the SVG component. This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 115.28, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -344,12 +338,11 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10534",
-      "Description": "This vulnerability affects Firefox \u003c 143 and Thunderbird \u003c 143.",
+      "Description": "Spoofing issue in the Site Permissions component. This vulnerability affects Firefox \u003c 143 and Thunderbird \u003c 143.",
       "Threats": [
         {
           "Type": "Impact",
@@ -377,12 +370,11 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10535",
-      "Description": "This vulnerability affects Firefox \u003c 143.",
+      "Description": "Information disclosure, mitigation bypass in the Privacy component in Firefox for Android. This vulnerability affects Firefox \u003c 143.",
       "Threats": [
         {
           "Type": "Impact",
@@ -410,16 +402,15 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10536",
-      "Description": "This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
+      "Description": "Information disclosure in the Networking: Cache component. This vulnerability affects Firefox \u003c 143, Firefox ESR \u003c 140.3, Thunderbird \u003c 143, and Thunderbird \u003c 140.3.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -443,8 +434,7 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-10537",
@@ -452,7 +442,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -476,8 +466,7 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-143.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

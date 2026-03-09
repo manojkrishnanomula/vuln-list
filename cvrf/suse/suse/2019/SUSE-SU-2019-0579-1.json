@@ -153,10 +153,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.4",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.4",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-12180",
@@ -192,10 +194,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-3630",
@@ -230,8 +234,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP3:qemu-uefi-aarch64-2017+git1492060560.b6d11d7c46-4.20.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

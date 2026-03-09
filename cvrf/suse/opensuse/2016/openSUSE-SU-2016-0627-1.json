@@ -160,10 +160,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.6",
-        "Vector": "AV:L/AC:H/Au:N/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.6",
+          "Vector": "AV:L/AC:H/Au:N/C:P/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-0705",
@@ -215,10 +217,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.5",
-        "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.5",
+          "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-0797",
@@ -265,8 +269,7 @@
             "openSUSE 13.2:openssl-doc-1.0.1k-2.33.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0798",
@@ -309,8 +312,7 @@
             "openSUSE 13.2:openssl-doc-1.0.1k-2.33.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0799",
@@ -370,10 +372,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.5",
-        "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.5",
+          "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-0800",
@@ -428,8 +432,7 @@
             "openSUSE 13.2:openssl-doc-1.0.1k-2.33.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

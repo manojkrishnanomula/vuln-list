@@ -113,10 +113,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2020-6817",
@@ -145,8 +147,7 @@
             "SUSE Package Hub 15 SP2:python3-bleach-3.1.5-bp152.2.4.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-23980",
@@ -175,8 +176,7 @@
             "SUSE Package Hub 15 SP2:python3-bleach-3.1.5-bp152.2.4.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

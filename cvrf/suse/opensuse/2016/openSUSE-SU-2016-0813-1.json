@@ -924,10 +924,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.8",
-        "Vector": "AV:A/AC:M/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.8",
+          "Vector": "AV:A/AC:M/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-0771",
@@ -1097,10 +1099,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:A/AC:M/Au:N/C:N/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:A/AC:M/Au:N/C:N/I:P/A:P"
+        }
+      ]
     }
   ]
 }

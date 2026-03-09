@@ -31,213 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-Azure-BYOS-2019-1861,Image SLES12-SP4-EC2-HVM-BYOS-2019-1861,Image SLES12-SP4-GCE-BYOS-2019-1861,Image SLES12-SP4-OCI-BYOS-2019-1861,Image SLES12-SP4-SAP-Azure-2019-1861,Image SLES12-SP4-SAP-Azure-BYOS-2019-1861,Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2019-1861,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2019-1861,Image SLES12-SP4-SAP-EC2-HVM-2019-1861,Image SLES12-SP4-SAP-EC2-HVM-BYOS-2019-1861,Image SLES12-SP4-SAP-GCE-2019-1861,Image SLES12-SP4-SAP-GCE-BYOS-2019-1861,Image SLES12-SP4-SAP-OCI-BYOS-2019-1861,Image SLES12-SP5-Azure-BYOS-2019-1861,Image SLES12-SP5-Azure-Basic-On-Demand-2019-1861,Image SLES12-SP5-Azure-HPC-BYOS-2019-1861,Image SLES12-SP5-Azure-HPC-On-Demand-2019-1861,Image SLES12-SP5-Azure-SAP-BYOS-2019-1861,Image SLES12-SP5-Azure-SAP-On-Demand-2019-1861,Image SLES12-SP5-Azure-Standard-On-Demand-2019-1861,Image SLES12-SP5-EC2-BYOS-2019-1861,Image SLES12-SP5-EC2-ECS-On-Demand-2019-1861,Image SLES12-SP5-EC2-On-Demand-2019-1861,Image SLES12-SP5-EC2-SAP-BYOS-2019-1861,Image SLES12-SP5-EC2-SAP-On-Demand-2019-1861,Image SLES12-SP5-GCE-BYOS-2019-1861,Image SLES12-SP5-GCE-On-Demand-2019-1861,Image SLES12-SP5-GCE-SAP-BYOS-2019-1861,Image SLES12-SP5-GCE-SAP-On-Demand-2019-1861,Image SLES12-SP5-OCI-BYOS-BYOS-2019-1861,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2019-1861,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2019-1861,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2019-1861,SUSE-2019-1861,SUSE-Storage-5-2019-1861",
+      "Text": "Image SLES12-SP5-Azure-BYOS-2019-1861,Image SLES12-SP5-Azure-Basic-On-Demand-2019-1861,Image SLES12-SP5-Azure-HPC-BYOS-2019-1861,Image SLES12-SP5-Azure-HPC-On-Demand-2019-1861,Image SLES12-SP5-Azure-SAP-BYOS-2019-1861,Image SLES12-SP5-Azure-SAP-On-Demand-2019-1861,Image SLES12-SP5-Azure-Standard-On-Demand-2019-1861,Image SLES12-SP5-EC2-BYOS-2019-1861,Image SLES12-SP5-EC2-ECS-On-Demand-2019-1861,Image SLES12-SP5-EC2-On-Demand-2019-1861,Image SLES12-SP5-EC2-SAP-BYOS-2019-1861,Image SLES12-SP5-EC2-SAP-On-Demand-2019-1861,Image SLES12-SP5-GCE-BYOS-2019-1861,Image SLES12-SP5-GCE-On-Demand-2019-1861,Image SLES12-SP5-GCE-SAP-BYOS-2019-1861,Image SLES12-SP5-GCE-SAP-On-Demand-2019-1861,Image SLES12-SP5-OCI-BYOS-BYOS-2019-1861,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2019-1861,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2019-1861,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2019-1861,SUSE-2019-1861,SUSE-Storage-5-2019-1861",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libfreebl3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libfreebl3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libfreebl3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libfreebl3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libfreebl3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libfreebl3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libfreebl3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libfreebl3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libfreebl3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "mozilla-nss-certs-3.44.1-58.28.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
@@ -642,46 +442,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -749,10 +509,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11711",
@@ -777,46 +539,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -884,10 +606,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11712",
@@ -912,46 +636,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -1019,10 +703,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11713",
@@ -1047,46 +733,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -1154,10 +800,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11715",
@@ -1182,46 +830,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -1289,10 +897,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11717",
@@ -1317,46 +927,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -1424,10 +994,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11719",
@@ -1452,46 +1024,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -1559,10 +1091,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11729",
@@ -1587,46 +1121,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -1694,10 +1188,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11730",
@@ -1722,46 +1218,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -1829,10 +1285,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-9811",
@@ -1857,46 +1315,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-Azure:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-GCE:mozilla-nss-certs-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libfreebl3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libsoftokn3-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-3.44.1-58.28.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:mozilla-nss-certs-3.44.1-58.28.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:mozilla-nss-certs-3.44.1-58.28.1",
@@ -1964,10 +1382,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.1",
-        "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.1",
+          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
+        }
+      ]
     }
   ]
 }

@@ -82,10 +82,12 @@
           "ProductID": null
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4",
-        "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4",
+          "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-1799",
@@ -131,8 +133,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

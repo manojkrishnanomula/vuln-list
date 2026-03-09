@@ -271,10 +271,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "3.5",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "3.5",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-44142",
@@ -345,10 +347,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "9",
-        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "9",
+          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-0336",
@@ -406,8 +410,7 @@
             "openSUSE Tumbleweed:samba-winbind-libs-4.15.5+git.328.f1f29505d84-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

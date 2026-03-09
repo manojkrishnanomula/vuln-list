@@ -1034,10 +1034,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "3.2",
-        "Vector": "AV:A/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "3.2",
+          "Vector": "AV:A/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-1333",
@@ -1223,8 +1225,7 @@
             "openSUSE 13.2:xtables-addons-kmp-xen-debuginfo-2.6_k3.16.7_29-13.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-2925",
@@ -1422,8 +1423,7 @@
             "openSUSE 13.2:xtables-addons-kmp-xen-debuginfo-2.6_k3.16.7_29-13.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-3290",
@@ -1625,8 +1625,7 @@
             "openSUSE 13.2:xtables-addons-kmp-xen-debuginfo-2.6_k3.16.7_29-13.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-5283",
@@ -1812,8 +1811,7 @@
             "openSUSE 13.2:xtables-addons-kmp-xen-debuginfo-2.6_k3.16.7_29-13.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-5707",
@@ -2011,8 +2009,7 @@
             "openSUSE 13.2:xtables-addons-kmp-xen-debuginfo-2.6_k3.16.7_29-13.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-7872",
@@ -2211,10 +2208,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.5",
-        "Vector": "AV:L/AC:M/Au:S/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.5",
+          "Vector": "AV:L/AC:M/Au:S/C:C/I:C/A:C"
+        }
+      ]
     }
   ]
 }

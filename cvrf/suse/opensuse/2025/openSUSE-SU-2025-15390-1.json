@@ -100,7 +100,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -126,8 +126,7 @@
             "openSUSE Tumbleweed:java-11-openj9-src-11.0.28.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-30761",
@@ -135,7 +134,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -146,6 +145,10 @@
         {
           "URL": "https://bugzilla.suse.com/1246580",
           "Description": "SUSE Bug 1246580"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1246595",
+          "Description": "SUSE Bug 1246595"
         }
       ],
       "ProductStatuses": [
@@ -161,8 +164,7 @@
             "openSUSE Tumbleweed:java-11-openj9-src-11.0.28.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-50106",
@@ -170,7 +172,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -181,6 +183,10 @@
         {
           "URL": "https://bugzilla.suse.com/1246584",
           "Description": "SUSE Bug 1246584"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1246595",
+          "Description": "SUSE Bug 1246595"
         }
       ],
       "ProductStatuses": [
@@ -196,8 +202,7 @@
             "openSUSE Tumbleweed:java-11-openj9-src-11.0.28.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

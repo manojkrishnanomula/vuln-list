@@ -31,23 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SAP-Azure-LI-BYOS-Production-2019-586,SUSE-2019-586,SUSE-SLE-Module-Basesystem-15-2019-586,SUSE-SLE-Module-Development-Tools-OBS-15-2019-586",
+      "Text": "SUSE-2019-586,SUSE-SLE-Module-Basesystem-15-2019-586,SUSE-SLE-Module-Development-Tools-OBS-15-2019-586",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "librados2-13.2.4.125+gad802694f5-3.7.2",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "librbd1-13.2.4.125+gad802694f5-3.7.2",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "ceph-common-13.2.4.125+gad802694f5-3.7.2",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
@@ -220,8 +210,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librados2-13.2.4.125+gad802694f5-3.7.2",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librbd1-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:ceph-common-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs-devel-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs2-13.2.4.125+gad802694f5-3.7.2",
@@ -241,10 +229,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.5",
-        "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.5",
+          "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-1128",
@@ -281,8 +271,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librados2-13.2.4.125+gad802694f5-3.7.2",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librbd1-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:ceph-common-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs-devel-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs2-13.2.4.125+gad802694f5-3.7.2",
@@ -302,10 +290,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.4",
-        "Vector": "AV:A/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.4",
+          "Vector": "AV:A/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-1129",
@@ -334,8 +324,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librados2-13.2.4.125+gad802694f5-3.7.2",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librbd1-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:ceph-common-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs-devel-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs2-13.2.4.125+gad802694f5-3.7.2",
@@ -355,10 +343,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "3.3",
-        "Vector": "AV:A/AC:L/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "3.3",
+          "Vector": "AV:A/AC:L/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-14662",
@@ -387,8 +377,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librados2-13.2.4.125+gad802694f5-3.7.2",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librbd1-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:ceph-common-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs-devel-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs2-13.2.4.125+gad802694f5-3.7.2",
@@ -408,10 +396,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.7",
-        "Vector": "AV:A/AC:L/Au:S/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.7",
+          "Vector": "AV:A/AC:L/Au:S/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-16846",
@@ -436,8 +426,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librados2-13.2.4.125+gad802694f5-3.7.2",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:librbd1-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:ceph-common-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs-devel-13.2.4.125+gad802694f5-3.7.2",
             "SUSE Linux Enterprise Module for Basesystem 15:libcephfs2-13.2.4.125+gad802694f5-3.7.2",
@@ -457,10 +445,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4",
-        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4",
+          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+        }
+      ]
     }
   ]
 }

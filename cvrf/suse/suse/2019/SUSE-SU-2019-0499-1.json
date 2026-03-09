@@ -31,33 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2019-499,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2019-499,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2019-499,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2019-499,SUSE-2019-499,SUSE-SLE-DESKTOP-12-SP3-2019-499,SUSE-SLE-DESKTOP-12-SP4-2019-499,SUSE-SLE-SDK-12-SP3-2019-499,SUSE-SLE-SDK-12-SP4-2019-499,SUSE-SLE-SERVER-12-SP3-2019-499,SUSE-SLE-SERVER-12-SP4-2019-499,SUSE-Storage-5-2019-499",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2019-499,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2019-499,SUSE-2019-499,SUSE-SLE-DESKTOP-12-SP3-2019-499,SUSE-SLE-DESKTOP-12-SP4-2019-499,SUSE-SLE-SDK-12-SP3-2019-499,SUSE-SLE-SDK-12-SP4-2019-499,SUSE-SLE-SERVER-12-SP3-2019-499,SUSE-SLE-SERVER-12-SP4-2019-499,SUSE-Storage-5-2019-499",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
         "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
@@ -615,10 +595,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
@@ -719,10 +695,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.7",
-        "Vector": "AV:A/AC:L/Au:S/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.7",
+          "Vector": "AV:A/AC:L/Au:S/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-16846",
@@ -747,10 +725,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
@@ -851,10 +825,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4",
-        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4",
+          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-16889",
@@ -879,10 +855,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:librados2-12.2.10+git.1549630712.bb089269ea-2.27.2",
@@ -983,10 +955,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+        }
+      ]
     }
   ]
 }

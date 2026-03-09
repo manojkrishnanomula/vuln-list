@@ -183,8 +183,7 @@
             "openSUSE Leap 42.1:qemu-x86-2.3.1-12.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-8345",
@@ -234,10 +233,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.2",
-        "Vector": "AV:A/AC:M/Au:S/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.2",
+          "Vector": "AV:A/AC:M/Au:S/C:N/I:N/A:C"
+        }
+      ]
     }
   ]
 }

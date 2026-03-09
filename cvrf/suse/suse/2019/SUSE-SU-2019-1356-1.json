@@ -31,93 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SAP-Azure-2019-1356,Image SLES15-SAP-Azure-BYOS-2019-1356,Image SLES15-SAP-Azure-LI-BYOS-Production-2019-1356,Image SLES15-SAP-EC2-HVM-2019-1356,Image SLES15-SAP-EC2-HVM-BYOS-2019-1356,Image SLES15-SAP-GCE-2019-1356,Image SLES15-SAP-GCE-BYOS-2019-1356,Image SLES15-SAP-OCI-BYOS-2019-1356,SUSE-2019-1356,SUSE-SLE-Module-Basesystem-15-2019-1356,SUSE-SLE-Module-Development-Tools-OBS-15-2019-1356,SUSE-SLE-Module-Server-Applications-15-2019-1356",
+      "Text": "SUSE-2019-1356,SUSE-SLE-Module-Basesystem-15-2019-1356,SUSE-SLE-Module-Development-Tools-OBS-15-2019-1356,SUSE-SLE-Module-Server-Applications-15-2019-1356",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "libvirt-client-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-libs-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-client-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-libs-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-client-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-libs-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-client-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-libs-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-client-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-libs-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-client-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-libs-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-client-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-libs-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-client-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libvirt-libs-4.0.0-9.22.1",
-        "RelatesToProductReference": "Image SLES15-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "libvirt-libs-4.0.0-9.22.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
@@ -385,22 +305,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-OCI-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-OCI-BYOS:libvirt-libs-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libvirt-libs-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Server Applications 15:libvirt-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Server Applications 15:libvirt-admin-4.0.0-9.22.1",
@@ -435,10 +339,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-12127",
@@ -491,22 +397,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-OCI-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-OCI-BYOS:libvirt-libs-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libvirt-libs-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Server Applications 15:libvirt-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Server Applications 15:libvirt-admin-4.0.0-9.22.1",
@@ -541,10 +431,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-12130",
@@ -601,22 +493,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-OCI-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-OCI-BYOS:libvirt-libs-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libvirt-libs-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Server Applications 15:libvirt-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Server Applications 15:libvirt-admin-4.0.0-9.22.1",
@@ -651,10 +527,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11091",
@@ -715,22 +593,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-Azure:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-EC2-HVM:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE-BYOS:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-GCE:libvirt-libs-4.0.0-9.22.1",
-            "Image SLES15-SAP-OCI-BYOS:libvirt-client-4.0.0-9.22.1",
-            "Image SLES15-SAP-OCI-BYOS:libvirt-libs-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libvirt-libs-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Server Applications 15:libvirt-4.0.0-9.22.1",
             "SUSE Linux Enterprise Module for Server Applications 15:libvirt-admin-4.0.0-9.22.1",
@@ -765,10 +627,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     }
   ]
 }

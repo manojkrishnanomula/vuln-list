@@ -958,8 +958,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libssh2-1-1.9.0-150000.4.16.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2020-25720",
@@ -980,8 +979,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:samba-libs-4.17.9+git.387.ca59f91f61-150500.3.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2127",
@@ -1002,8 +1000,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:samba-libs-4.17.9+git.387.ca59f91f61-150500.3.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-23517",
@@ -1022,8 +1019,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ruby2.5-rubygem-rails-html-sanitizer-1.0.4-150000.4.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-23518",
@@ -1042,8 +1038,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ruby2.5-rubygem-rails-html-sanitizer-1.0.4-150000.4.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-23519",
@@ -1062,8 +1057,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ruby2.5-rubygem-rails-html-sanitizer-1.0.4-150000.4.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-23520",
@@ -1082,8 +1076,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ruby2.5-rubygem-rails-html-sanitizer-1.0.4-150000.4.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-24903",
@@ -1103,10 +1096,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-40133",
@@ -1129,8 +1124,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-40982",
@@ -1154,8 +1148,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:xen-libs-4.17.2_02-150500.3.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-41409",
@@ -1175,8 +1168,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libpcre2-8-0-10.39-150400.4.9.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4269",
@@ -1199,8 +1191,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4304",
@@ -1220,8 +1211,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:openssl-1_1-1.1.1l-150500.17.15.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-45884",
@@ -1244,8 +1234,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-45885",
@@ -1268,8 +1257,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-45886",
@@ -1292,8 +1280,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-45887",
@@ -1316,8 +1303,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-45919",
@@ -1340,8 +1326,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0459",
@@ -1364,8 +1349,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0464",
@@ -1385,8 +1369,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:openssl-1_1-1.1.1l-150500.17.15.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0465",
@@ -1406,8 +1389,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:openssl-1_1-1.1.1l-150500.17.15.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1077",
@@ -1430,8 +1412,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1079",
@@ -1454,8 +1435,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1249",
@@ -1478,8 +1458,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1382",
@@ -1502,8 +1481,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1829",
@@ -1526,8 +1504,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2002",
@@ -1550,8 +1527,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2004",
@@ -1570,8 +1546,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libfreetype6-2.10.4-150000.4.15.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2007",
@@ -1594,8 +1569,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-20569",
@@ -1619,8 +1593,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:xen-libs-4.17.2_02-150500.3.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-20588",
@@ -1643,8 +1616,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-20593",
@@ -1668,8 +1640,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:xen-libs-4.17.2_02-150500.3.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-21102",
@@ -1692,8 +1663,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-21106",
@@ -1716,8 +1686,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-21400",
@@ -1740,8 +1709,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2156",
@@ -1764,8 +1732,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2162",
@@ -1788,8 +1755,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2166",
@@ -1812,8 +1778,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2269",
@@ -1836,8 +1801,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2426",
@@ -1857,8 +1821,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:vim-data-common-9.0.1632-150500.20.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2430",
@@ -1881,8 +1844,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2602",
@@ -1901,8 +1863,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libcap2-2.63-150400.3.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2603",
@@ -1921,8 +1882,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libcap2-2.63-150400.3.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2609",
@@ -1942,8 +1902,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:vim-data-common-9.0.1632-150500.20.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2610",
@@ -1963,8 +1922,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:vim-data-common-9.0.1632-150500.20.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-26112",
@@ -1983,8 +1941,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:python3-configobj-5.0.6-150000.3.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2650",
@@ -2004,8 +1961,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:openssl-1_1-1.1.1l-150500.17.15.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2700",
@@ -2025,8 +1981,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libvirt-libs-9.0.0-150500.6.11.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2828",
@@ -2046,8 +2001,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:python3-bind-9.16.42-150500.8.7.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28362",
@@ -2066,8 +2020,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.18.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28410",
@@ -2090,8 +2043,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28840",
@@ -2110,8 +2062,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:docker-24.0.5_ce-150000.185.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28841",
@@ -2130,8 +2081,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:docker-24.0.5_ce-150000.185.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28842",
@@ -2150,8 +2100,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:docker-24.0.5_ce-150000.185.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28866",
@@ -2174,8 +2123,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2911",
@@ -2195,8 +2143,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:python3-bind-9.16.42-150500.8.7.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2985",
@@ -2219,8 +2166,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3006",
@@ -2243,8 +2189,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-30456",
@@ -2267,8 +2212,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3090",
@@ -2291,8 +2235,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-31083",
@@ -2315,8 +2258,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-31084",
@@ -2339,8 +2281,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3111",
@@ -2363,8 +2304,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-31248",
@@ -2387,8 +2327,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3138",
@@ -2409,8 +2348,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libX11-xcb1-1.6.5-150000.3.30.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3141",
@@ -2433,8 +2371,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-31436",
@@ -2457,8 +2394,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-31484",
@@ -2478,8 +2414,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:perl-base-5.26.1-150300.17.14.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3161",
@@ -2502,8 +2437,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-32001",
@@ -2523,8 +2457,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libcurl4-8.0.1-150400.5.26.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3212",
@@ -2547,8 +2480,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3220",
@@ -2571,8 +2503,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-32233",
@@ -2595,8 +2526,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-32360",
@@ -2616,8 +2546,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libcups2-2.2.7-150000.3.51.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-32573",
@@ -2636,8 +2565,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libQt5Svg5-5.15.8+kde8-150500.3.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3268",
@@ -2660,8 +2588,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-32681",
@@ -2680,8 +2607,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:python3-requests-2.24.0-150300.3.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-32762",
@@ -2704,8 +2630,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libQt5Widgets5-5.15.8+kde185-150500.4.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-32763",
@@ -2728,8 +2653,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libQt5Widgets5-5.15.8+kde185-150500.4.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-33285",
@@ -2752,8 +2676,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libQt5Widgets5-5.15.8+kde185-150500.4.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-33288",
@@ -2776,8 +2699,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-33460",
@@ -2796,8 +2718,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libyajl2-2.1.0-150000.4.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3347",
@@ -2818,8 +2739,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:samba-libs-4.17.9+git.387.ca59f91f61-150500.3.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3357",
@@ -2842,8 +2762,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3358",
@@ -2866,8 +2785,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3389",
@@ -2890,8 +2808,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3390",
@@ -2914,8 +2831,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-33951",
@@ -2938,8 +2854,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-34241",
@@ -2959,8 +2874,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libcups2-2.2.7-150000.3.51.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-34319",
@@ -2983,8 +2897,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-34410",
@@ -3007,8 +2920,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libQt5Widgets5-5.15.8+kde185-150500.4.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3446",
@@ -3028,8 +2940,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:openssl-1_1-1.1.1l-150500.17.15.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-34966",
@@ -3050,8 +2961,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:samba-libs-4.17.9+git.387.ca59f91f61-150500.3.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-34967",
@@ -3072,8 +2982,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:samba-libs-4.17.9+git.387.ca59f91f61-150500.3.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-34968",
@@ -3094,8 +3003,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:samba-libs-4.17.9+git.387.ca59f91f61-150500.3.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-34969",
@@ -3115,8 +3023,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libdbus-1-3-1.12.2-150400.18.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-35001",
@@ -3139,8 +3046,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3567",
@@ -3163,8 +3069,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-35788",
@@ -3187,8 +3092,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-35823",
@@ -3211,8 +3115,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-35828",
@@ -3235,8 +3138,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-35829",
@@ -3259,8 +3161,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-36054",
@@ -3280,8 +3181,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:krb5-client-1.20.1-150500.3.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3609",
@@ -3304,8 +3204,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3610",
@@ -3328,8 +3227,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3611",
@@ -3352,8 +3250,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-37453",
@@ -3376,8 +3273,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3750",
@@ -3397,8 +3293,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libvirt-libs-9.0.0-150500.6.11.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3772",
@@ -3421,8 +3316,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3776",
@@ -3445,8 +3339,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3812",
@@ -3469,8 +3362,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3817",
@@ -3490,8 +3382,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:openssl-1_1-1.1.1l-150500.17.15.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-38197",
@@ -3514,8 +3405,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libQt5Widgets5-5.15.8+kde185-150500.4.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-38408",
@@ -3537,8 +3427,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:openssh-server-8.4p1-150300.3.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-38409",
@@ -3561,8 +3450,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3863",
@@ -3585,8 +3473,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-39615",
@@ -3606,8 +3493,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libxml2-tools-2.10.3-150500.5.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4004",
@@ -3630,8 +3516,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4016",
@@ -3651,8 +3536,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:procps-3.3.15-150000.7.34.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-40283",
@@ -3675,8 +3559,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4039",
@@ -3693,8 +3576,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4128",
@@ -3717,8 +3599,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4133",
@@ -3741,8 +3622,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4134",
@@ -3765,8 +3645,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4147",
@@ -3789,8 +3668,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4156",
@@ -3809,8 +3687,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:gawk-4.2.1-150000.3.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4194",
@@ -3833,8 +3710,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4273",
@@ -3857,8 +3733,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4387",
@@ -3881,8 +3756,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4459",
@@ -3905,8 +3779,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4504",
@@ -3926,8 +3799,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libcups2-2.2.7-150000.3.51.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4563",
@@ -3950,8 +3822,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4569",
@@ -3974,8 +3845,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:ocfs2-kmp-default-5.14.21-150500.55.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-4863",
@@ -3994,8 +3864,7 @@
             "Public Cloud Image google/sles-15-sp5-sap-v20230921-x86-64:libwebp7-1.0.3-150200.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

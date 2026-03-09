@@ -3568,8 +3568,7 @@
             "openSUSE Leap 15.5:ruby2.5-stdlib-2.5.9-150000.4.29.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-41817",
@@ -4173,10 +4172,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-28755",
@@ -4783,8 +4784,7 @@
             "openSUSE Leap 15.5:ruby2.5-stdlib-2.5.9-150000.4.29.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28756",
@@ -5391,8 +5391,7 @@
             "openSUSE Leap 15.5:ruby2.5-stdlib-2.5.9-150000.4.29.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

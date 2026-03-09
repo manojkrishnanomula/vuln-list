@@ -31,43 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-EC2-HVM-BYOS-2019-3310,Image SLES12-SP4-SAP-EC2-HVM-2019-3310,Image SLES12-SP4-SAP-EC2-HVM-BYOS-2019-3310,SUSE-2019-3310,SUSE-SLE-DESKTOP-12-SP4-2019-3310,SUSE-SLE-SDK-12-SP4-2019-3310,SUSE-SLE-SERVER-12-SP4-2019-3310",
+      "Text": "SUSE-2019-3310,SUSE-SLE-DESKTOP-12-SP4-2019-3310,SUSE-SLE-SDK-12-SP4-2019-3310,SUSE-SLE-SERVER-12-SP4-2019-3310",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "xen-libs-4.11.3_02-2.20.1",
-        "RelatesToProductReference": "Image SLES12-SP4-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.11.3_02-2.20.1",
-        "RelatesToProductReference": "Image SLES12-SP4-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.11.3_02-2.20.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.11.3_02-2.20.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.11.3_02-2.20.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.11.3_02-2.20.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "xen-4.11.3_02-2.20.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Desktop 12 SP4",
@@ -264,12 +234,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -289,10 +253,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "8.5",
-        "Vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "8.5",
+          "Vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-18423",
@@ -317,12 +283,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -342,10 +302,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "8.5",
-        "Vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "8.5",
+          "Vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-18424",
@@ -370,12 +332,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -395,10 +351,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.9",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.9",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-19577",
@@ -423,12 +381,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -448,10 +400,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.2",
-        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-19578",
@@ -480,12 +434,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -505,10 +453,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.2",
-        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-19579",
@@ -533,12 +483,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -558,10 +502,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.2",
-        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-19580",
@@ -590,12 +536,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -615,10 +555,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-19581",
@@ -643,12 +585,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -668,10 +604,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-19582",
@@ -696,12 +634,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -721,10 +653,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-19583",
@@ -753,12 +687,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:xen-tools-domU-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-libs-4.11.3_02-2.20.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:xen-tools-domU-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-32bit-4.11.3_02-2.20.1",
             "SUSE Linux Enterprise Desktop 12 SP4:xen-libs-4.11.3_02-2.20.1",
@@ -778,10 +706,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     }
   ]
 }

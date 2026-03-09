@@ -52,6 +52,10 @@
   },
   "References": [
     {
+      "URL": "https://lists.opensuse.org/archives/list/security-announce@lists.opensuse.org/thread/IVB5I4E2WYMZHY5UCOCLR75CX3WJV47A/",
+      "Description": "E-Mail link for openSUSE-SU-2025:14950-1"
+    },
+    {
       "URL": "https://www.suse.com/support/security/rating/",
       "Description": "SUSE Security Ratings"
     },
@@ -100,8 +104,7 @@
             "openSUSE Tumbleweed:libassimp5-5.4.3-5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-2592",
@@ -109,7 +112,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -130,8 +133,7 @@
             "openSUSE Tumbleweed:libassimp5-5.4.3-5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-3015",
@@ -139,13 +141,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2025-3015.html",
           "Description": "CVE-2025-3015"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1239698",
+          "Description": "SUSE Bug 1239698"
         },
         {
           "URL": "https://bugzilla.suse.com/1240412",
@@ -160,8 +166,7 @@
             "openSUSE Tumbleweed:libassimp5-5.4.3-5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-3016",
@@ -190,8 +195,7 @@
             "openSUSE Tumbleweed:libassimp5-5.4.3-5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

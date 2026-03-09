@@ -315,10 +315,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-21830",
@@ -378,8 +380,7 @@
             "SUSE OpenStack Cloud Crowbar 9:java-1_8_0-ibm-plugin-1.8.0_sr8.0-30.105.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-21835",
@@ -439,8 +440,7 @@
             "SUSE OpenStack Cloud Crowbar 9:java-1_8_0-ibm-plugin-1.8.0_sr8.0-30.105.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-21843",
@@ -500,8 +500,7 @@
             "SUSE OpenStack Cloud Crowbar 9:java-1_8_0-ibm-plugin-1.8.0_sr8.0-30.105.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

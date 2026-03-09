@@ -219,10 +219,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.4",
-        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.4",
+          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-20208",
@@ -269,10 +271,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:N"
+        }
+      ]
     }
   ]
 }

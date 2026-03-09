@@ -152,8 +152,7 @@
             "openSUSE Tumbleweed:libulockmgr1-2.9.5-1.6"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2011-0541",
@@ -191,10 +190,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "3.3",
-        "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "3.3",
+          "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-3202",
@@ -228,10 +229,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "3.6",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.1",
+          "Vector": "AV:L/AC:M/Au:S/C:P/I:P/A:P"
+        },
+        {
+          "BaseScore": "3.6",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:P"
+        }
+      ]
     }
   ]
 }

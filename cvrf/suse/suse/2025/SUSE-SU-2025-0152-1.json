@@ -313,10 +313,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.2",
-        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        },
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-14051",
@@ -358,10 +364,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6",
+          "Vector": "AV:L/AC:H/Au:S/C:C/I:C/A:C"
+        },
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-2636",
@@ -415,10 +427,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.9",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6",
+          "Vector": "AV:L/AC:H/Au:S/C:C/I:C/A:C"
+        },
+        {
+          "BaseScore": "6.9",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-20368",
@@ -463,8 +481,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-48839",
@@ -505,8 +522,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-53146",
@@ -551,8 +567,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-53156",
@@ -601,8 +616,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-53173",
@@ -651,8 +665,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-53239",
@@ -701,8 +714,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-56539",
@@ -751,8 +763,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-56548",
@@ -801,8 +812,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-56598",
@@ -847,8 +857,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-56604",
@@ -893,8 +902,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-56605",
@@ -943,8 +951,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-56619",
@@ -989,8 +996,7 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.174.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

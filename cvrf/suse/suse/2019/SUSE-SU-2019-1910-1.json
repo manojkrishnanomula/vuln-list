@@ -31,23 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2019-1910,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2019-1910,SUSE-2019-1910,SUSE-SLE-Module-Basesystem-15-SP1-2019-1910",
+      "Text": "SUSE-2019-1910,SUSE-SLE-Module-Basesystem-15-SP1-2019-1910",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "ucode-intel-20190618-3.3.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "ucode-intel-20190618-3.3.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "ucode-intel-20190618-3.3.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
@@ -161,16 +151,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:ucode-intel-20190618-3.3.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:ucode-intel-20190618-3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:ucode-intel-20190618-3.3.1"
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-12127",
@@ -223,16 +213,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:ucode-intel-20190618-3.3.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:ucode-intel-20190618-3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:ucode-intel-20190618-3.3.1"
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-12130",
@@ -289,16 +279,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:ucode-intel-20190618-3.3.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:ucode-intel-20190618-3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:ucode-intel-20190618-3.3.1"
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11091",
@@ -359,16 +349,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:ucode-intel-20190618-3.3.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:ucode-intel-20190618-3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:ucode-intel-20190618-3.3.1"
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     }
   ]
 }

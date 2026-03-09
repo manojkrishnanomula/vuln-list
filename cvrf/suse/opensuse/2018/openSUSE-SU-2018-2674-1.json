@@ -112,10 +112,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.6",
-        "Vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.6",
+          "Vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-12376",
@@ -148,8 +150,7 @@
             "openSUSE Leap 42.3:MozillaFirefox-translations-other-60.2.0-109.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-12377",
@@ -182,8 +183,7 @@
             "openSUSE Leap 42.3:MozillaFirefox-translations-other-60.2.0-109.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-12378",
@@ -216,8 +216,7 @@
             "openSUSE Leap 42.3:MozillaFirefox-translations-other-60.2.0-109.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

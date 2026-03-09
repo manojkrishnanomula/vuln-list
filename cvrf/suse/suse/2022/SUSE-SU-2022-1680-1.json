@@ -361,10 +361,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.5",
-        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.5",
+          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-27776",
@@ -436,10 +438,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     }
   ]
 }

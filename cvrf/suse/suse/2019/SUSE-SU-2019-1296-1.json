@@ -31,23 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2019-1296,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2019-1296,SUSE-2019-1296,SUSE-OpenStack-Cloud-7-2019-1296,SUSE-SLE-DESKTOP-12-SP3-2019-1296,SUSE-SLE-DESKTOP-12-SP4-2019-1296,SUSE-SLE-SAP-12-SP1-2019-1296,SUSE-SLE-SAP-12-SP2-2019-1296,SUSE-SLE-SERVER-12-2019-1296,SUSE-SLE-SERVER-12-SP1-2019-1296,SUSE-SLE-SERVER-12-SP2-2019-1296,SUSE-SLE-SERVER-12-SP2-BCL-2019-1296,SUSE-SLE-SERVER-12-SP3-2019-1296,SUSE-SLE-SERVER-12-SP4-2019-1296,SUSE-Storage-4-2019-1296",
+      "Text": "SUSE-2019-1296,SUSE-OpenStack-Cloud-7-2019-1296,SUSE-SLE-DESKTOP-12-SP3-2019-1296,SUSE-SLE-DESKTOP-12-SP4-2019-1296,SUSE-SLE-SAP-12-SP1-2019-1296,SUSE-SLE-SAP-12-SP2-2019-1296,SUSE-SLE-SERVER-12-2019-1296,SUSE-SLE-SERVER-12-SP1-2019-1296,SUSE-SLE-SERVER-12-SP2-2019-1296,SUSE-SLE-SERVER-12-SP2-BCL-2019-1296,SUSE-SLE-SERVER-12-SP3-2019-1296,SUSE-SLE-SERVER-12-SP4-2019-1296,SUSE-Storage-4-2019-1296",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "ucode-intel-20190514-13.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "ucode-intel-20190514-13.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "ucode-intel-20190514-13.44.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 4",
@@ -226,8 +216,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:ucode-intel-20190514-13.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:ucode-intel-20190514-13.44.1",
             "SUSE Enterprise Storage 4:ucode-intel-20190514-13.44.1",
             "SUSE Linux Enterprise Desktop 12 SP3:ucode-intel-20190514-13.44.1",
             "SUSE Linux Enterprise Desktop 12 SP4:ucode-intel-20190514-13.44.1",
@@ -245,10 +233,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-12127",
@@ -301,8 +291,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:ucode-intel-20190514-13.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:ucode-intel-20190514-13.44.1",
             "SUSE Enterprise Storage 4:ucode-intel-20190514-13.44.1",
             "SUSE Linux Enterprise Desktop 12 SP3:ucode-intel-20190514-13.44.1",
             "SUSE Linux Enterprise Desktop 12 SP4:ucode-intel-20190514-13.44.1",
@@ -320,10 +308,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-12130",
@@ -380,8 +370,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:ucode-intel-20190514-13.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:ucode-intel-20190514-13.44.1",
             "SUSE Enterprise Storage 4:ucode-intel-20190514-13.44.1",
             "SUSE Linux Enterprise Desktop 12 SP3:ucode-intel-20190514-13.44.1",
             "SUSE Linux Enterprise Desktop 12 SP4:ucode-intel-20190514-13.44.1",
@@ -399,10 +387,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-11091",
@@ -463,8 +453,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:ucode-intel-20190514-13.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:ucode-intel-20190514-13.44.1",
             "SUSE Enterprise Storage 4:ucode-intel-20190514-13.44.1",
             "SUSE Linux Enterprise Desktop 12 SP3:ucode-intel-20190514-13.44.1",
             "SUSE Linux Enterprise Desktop 12 SP4:ucode-intel-20190514-13.44.1",
@@ -482,10 +470,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     }
   ]
 }

@@ -82,7 +82,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2025-49709",
-      "Description": "unknown",
+      "Description": "Certain canvas operations could have lead to memory corruption. This vulnerability affects Firefox \u003c 139.0.4.",
       "Threats": [
         {
           "Type": "Impact",
@@ -110,12 +110,11 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-139.0.4-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-49710",
-      "Description": "unknown",
+      "Description": "An integer overflow was present in `OrderedHashTable` used by the JavaScript engine This vulnerability affects Firefox \u003c 139.0.4.",
       "Threats": [
         {
           "Type": "Impact",
@@ -143,8 +142,7 @@
             "openSUSE Tumbleweed:MozillaFirefox-translations-other-139.0.4-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

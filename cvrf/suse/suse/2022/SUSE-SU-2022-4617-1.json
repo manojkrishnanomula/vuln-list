@@ -1983,10 +1983,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "1.7",
+          "Vector": "AV:L/AC:L/Au:S/C:N/I:N/A:P"
+        },
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2020-16119",
@@ -2043,10 +2049,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.6",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.6",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2020-36516",
@@ -2111,10 +2119,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-33135",
@@ -2167,10 +2177,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-4037",
@@ -2222,8 +2234,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-1184",
@@ -2279,8 +2290,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-1263",
@@ -2332,8 +2342,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-1882",
@@ -2390,10 +2399,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.2",
-        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-20368",
@@ -2449,8 +2460,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-20369",
@@ -2506,8 +2516,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2153",
@@ -2559,8 +2568,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2586",
@@ -2616,8 +2624,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2588",
@@ -2681,8 +2688,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2602",
@@ -2738,8 +2744,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-26373",
@@ -2795,8 +2800,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2639",
@@ -2848,8 +2852,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2663",
@@ -2905,8 +2908,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-28356",
@@ -2959,10 +2961,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-28693",
@@ -3014,8 +3018,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2873",
@@ -3067,8 +3070,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-28748",
@@ -3120,8 +3122,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2905",
@@ -3173,8 +3174,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2938",
@@ -3226,8 +3226,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2959",
@@ -3283,8 +3282,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2964",
@@ -3344,8 +3342,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2977",
@@ -3397,8 +3394,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2978",
@@ -3454,8 +3450,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3028",
@@ -3511,8 +3506,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3078",
@@ -3564,8 +3558,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3114",
@@ -3617,8 +3610,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3169",
@@ -3670,8 +3662,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3176",
@@ -3727,8 +3718,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3202",
@@ -3780,8 +3770,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-32250",
@@ -3854,10 +3843,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.2",
-        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-32296",
@@ -3910,10 +3901,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-3239",
@@ -3965,8 +3958,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3303",
@@ -4022,8 +4014,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-33981",
@@ -4076,10 +4067,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-3424",
@@ -4143,8 +4136,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3435",
@@ -4196,8 +4188,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3521",
@@ -4253,8 +4244,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3524",
@@ -4310,8 +4300,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3526",
@@ -4363,8 +4352,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3535",
@@ -4416,8 +4404,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3542",
@@ -4473,8 +4460,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3545",
@@ -4538,8 +4524,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3565",
@@ -4603,8 +4588,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3566",
@@ -4656,8 +4640,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3567",
@@ -4709,8 +4692,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3577",
@@ -4766,8 +4748,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3586",
@@ -4835,8 +4816,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3594",
@@ -4892,8 +4872,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3619",
@@ -4945,8 +4924,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3621",
@@ -5002,8 +4980,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3625",
@@ -5055,8 +5032,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3628",
@@ -5108,8 +5084,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3629",
@@ -5162,10 +5137,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "1.4",
-        "Vector": "AV:A/AC:H/Au:S/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "1.4",
+          "Vector": "AV:A/AC:H/Au:S/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-3633",
@@ -5218,10 +5195,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.7",
-        "Vector": "AV:A/AC:L/Au:S/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.7",
+          "Vector": "AV:A/AC:L/Au:S/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-3635",
@@ -5285,8 +5264,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3640",
@@ -5346,8 +5324,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3643",
@@ -5399,8 +5376,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3646",
@@ -5452,8 +5428,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3649",
@@ -5509,8 +5484,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-36879",
@@ -5566,8 +5540,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-36946",
@@ -5647,8 +5620,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3707",
@@ -5700,8 +5672,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3903",
@@ -5757,8 +5728,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-39188",
@@ -5826,8 +5796,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-39189",
@@ -5887,8 +5856,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-39190",
@@ -5940,8 +5908,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-40476",
@@ -5993,8 +5960,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-40768",
@@ -6046,8 +6012,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4095",
@@ -6115,8 +6080,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-41218",
@@ -6180,8 +6144,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4129",
@@ -6233,8 +6196,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4139",
@@ -6294,8 +6256,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-41674",
@@ -6355,8 +6316,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-41848",
@@ -6416,8 +6376,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-41849",
@@ -6473,8 +6432,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-41850",
@@ -6530,8 +6488,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-41858",
@@ -6591,8 +6548,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42328",
@@ -6644,8 +6600,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42329",
@@ -6697,8 +6652,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42703",
@@ -6766,8 +6720,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42719",
@@ -6827,8 +6780,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42720",
@@ -6888,8 +6840,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42721",
@@ -6949,8 +6900,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42722",
@@ -7010,8 +6960,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42895",
@@ -7063,8 +7012,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42896",
@@ -7116,8 +7064,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-43750",
@@ -7173,8 +7120,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4378",
@@ -7258,8 +7204,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-43945",
@@ -7331,8 +7276,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-45869",
@@ -7384,8 +7328,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-45888",
@@ -7437,8 +7380,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-45934",
@@ -7494,8 +7436,7 @@
             "openSUSE Leap 15.4:ocfs2-kmp-rt-5.14.21-150400.15.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

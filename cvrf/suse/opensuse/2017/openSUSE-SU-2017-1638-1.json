@@ -100,10 +100,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-7478",
@@ -138,8 +140,7 @@
             "openSUSE Leap 42.2:openvpn-down-root-plugin-2.3.8-8.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-7479",
@@ -174,8 +175,7 @@
             "openSUSE Leap 42.2:openvpn-down-root-plugin-2.3.8-8.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

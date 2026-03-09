@@ -31,63 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2019-1038,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2019-1038,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2019-1038,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2019-1038,SUSE-2019-1038,SUSE-SLE-DESKTOP-12-SP3-2019-1038,SUSE-SLE-DESKTOP-12-SP4-2019-1038,SUSE-SLE-SDK-12-SP3-2019-1038,SUSE-SLE-SDK-12-SP4-2019-1038,SUSE-SLE-SERVER-12-SP3-2019-1038,SUSE-SLE-SERVER-12-SP4-2019-1038",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2019-1038,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2019-1038,SUSE-2019-1038,SUSE-SLE-DESKTOP-12-SP3-2019-1038,SUSE-SLE-DESKTOP-12-SP4-2019-1038,SUSE-SLE-SDK-12-SP3-2019-1038,SUSE-SLE-SDK-12-SP4-2019-1038,SUSE-SLE-SERVER-12-SP3-2019-1038,SUSE-SLE-SERVER-12-SP4-2019-1038",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "libwireshark9-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libwiretap7-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libwscodecs1-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libwsutil8-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "wireshark-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libwireshark9-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libwiretap7-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libwscodecs1-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libwsutil8-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "wireshark-2.4.14-48.45.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "libwireshark9-2.4.14-48.45.1",
         "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
@@ -404,16 +354,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:wireshark-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
@@ -465,10 +405,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-10895",
@@ -501,16 +443,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:wireshark-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
@@ -562,10 +494,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-10896",
@@ -598,16 +532,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:wireshark-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
@@ -659,10 +583,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-10899",
@@ -695,16 +621,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:wireshark-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
@@ -756,10 +672,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-10901",
@@ -792,16 +710,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:wireshark-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
@@ -853,10 +761,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-10903",
@@ -889,16 +799,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:wireshark-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil8-2.4.14-48.45.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwireshark9-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwiretap7-2.4.14-48.45.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libwscodecs1-2.4.14-48.45.1",
@@ -950,10 +850,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     }
   ]
 }

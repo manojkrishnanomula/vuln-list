@@ -31,43 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy-2019-2975,Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy-2019-2975,Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy-2019-2975,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure-2019-2975,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM-2019-2975,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE-2019-2975,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2019-2975,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2019-2975,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2019-2975,SUSE-2019-2975,SUSE-SLE-Module-Server-Applications-15-2019-2975,SUSE-SLE-Module-Server-Applications-15-SP1-2019-2975",
+      "Text": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2019-2975,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2019-2975,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2019-2975,SUSE-2019-2975,SUSE-SLE-Module-Server-Applications-15-2019-2975,SUSE-SLE-Module-Server-Applications-15-SP1-2019-2975",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "squid-4.9-5.11.1",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "squid-4.9-5.11.1",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "squid-4.9-5.11.1",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "squid-4.9-5.11.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "squid-4.9-5.11.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "squid-4.9-5.11.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "squid-4.9-5.11.1",
         "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
@@ -229,12 +199,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -243,10 +207,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.4",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.4",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-12525",
@@ -271,12 +237,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -285,10 +245,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-12526",
@@ -313,12 +275,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -327,10 +283,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-12527",
@@ -355,12 +313,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -369,10 +321,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-12529",
@@ -397,12 +351,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -411,10 +359,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-12854",
@@ -439,12 +389,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -453,10 +397,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-13345",
@@ -481,12 +427,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -495,10 +435,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-18676",
@@ -527,12 +469,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -541,10 +477,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-18677",
@@ -569,12 +507,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -583,10 +515,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-18678",
@@ -611,12 +545,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -625,10 +553,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-18679",
@@ -653,12 +583,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -667,10 +591,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-3688",
@@ -699,12 +625,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:squid-4.9-5.11.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:squid-4.9-5.11.1",
@@ -713,10 +633,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.6",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.6",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:C/A:C"
+        }
+      ]
     }
   ]
 }

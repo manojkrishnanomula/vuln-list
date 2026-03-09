@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "HPE-Helion-OpenStack-8-2020-51,Image SLES12-SP4-SAP-Azure-2020-51,Image SLES12-SP4-SAP-Azure-BYOS-2020-51,Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2020-51,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2020-51,Image SLES12-SP4-SAP-EC2-HVM-2020-51,Image SLES12-SP4-SAP-EC2-HVM-BYOS-2020-51,Image SLES12-SP4-SAP-GCE-2020-51,Image SLES12-SP4-SAP-GCE-BYOS-2020-51,Image SLES12-SP4-SAP-OCI-BYOS-2020-51,Image SLES12-SP5-Azure-SAP-BYOS-2020-51,Image SLES12-SP5-Azure-SAP-On-Demand-2020-51,Image SLES12-SP5-EC2-SAP-BYOS-2020-51,Image SLES12-SP5-EC2-SAP-On-Demand-2020-51,Image SLES12-SP5-GCE-SAP-BYOS-2020-51,Image SLES12-SP5-GCE-SAP-On-Demand-2020-51,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2020-51,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2020-51,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2020-51,SUSE-2020-51,SUSE-OpenStack-Cloud-7-2020-51,SUSE-OpenStack-Cloud-8-2020-51,SUSE-OpenStack-Cloud-Crowbar-8-2020-51,SUSE-SLE-SAP-12-SP1-2020-51,SUSE-SLE-SAP-12-SP2-2020-51,SUSE-SLE-SAP-12-SP3-2020-51,SUSE-SLE-SDK-12-SP4-2020-51,SUSE-SLE-SDK-12-SP5-2020-51,SUSE-SLE-SERVER-12-SP1-2020-51,SUSE-SLE-SERVER-12-SP2-2020-51,SUSE-SLE-SERVER-12-SP2-BCL-2020-51,SUSE-SLE-SERVER-12-SP3-2020-51,SUSE-SLE-SERVER-12-SP3-BCL-2020-51,SUSE-SLE-SERVER-12-SP4-2020-51,SUSE-SLE-SERVER-12-SP5-2020-51,SUSE-Storage-5-2020-51",
+      "Text": "HPE-Helion-OpenStack-8-2020-51,Image SLES12-SP5-Azure-SAP-BYOS-2020-51,Image SLES12-SP5-Azure-SAP-On-Demand-2020-51,Image SLES12-SP5-EC2-SAP-BYOS-2020-51,Image SLES12-SP5-EC2-SAP-On-Demand-2020-51,Image SLES12-SP5-GCE-SAP-BYOS-2020-51,Image SLES12-SP5-GCE-SAP-On-Demand-2020-51,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2020-51,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2020-51,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2020-51,SUSE-2020-51,SUSE-OpenStack-Cloud-7-2020-51,SUSE-OpenStack-Cloud-8-2020-51,SUSE-OpenStack-Cloud-Crowbar-8-2020-51,SUSE-SLE-SAP-12-SP1-2020-51,SUSE-SLE-SAP-12-SP2-2020-51,SUSE-SLE-SAP-12-SP3-2020-51,SUSE-SLE-SDK-12-SP4-2020-51,SUSE-SLE-SDK-12-SP5-2020-51,SUSE-SLE-SERVER-12-SP1-2020-51,SUSE-SLE-SERVER-12-SP2-2020-51,SUSE-SLE-SERVER-12-SP2-BCL-2020-51,SUSE-SLE-SERVER-12-SP3-2020-51,SUSE-SLE-SERVER-12-SP3-BCL-2020-51,SUSE-SLE-SERVER-12-SP4-2020-51,SUSE-SLE-SERVER-12-SP5-2020-51,SUSE-Storage-5-2020-51",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -56,71 +56,6 @@
       {
         "ProductReference": "java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
         "RelatesToProductReference": "HPE Helion OpenStack 8",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -628,19 +563,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -725,10 +647,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2945",
@@ -761,19 +685,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -858,10 +769,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.6",
-        "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.6",
+          "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2962",
@@ -894,19 +807,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -991,10 +891,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2964",
@@ -1027,19 +929,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -1124,10 +1013,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2973",
@@ -1160,19 +1051,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -1257,10 +1135,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2978",
@@ -1293,19 +1173,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -1390,10 +1257,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2981",
@@ -1426,19 +1295,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -1523,10 +1379,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2983",
@@ -1559,19 +1417,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -1656,10 +1501,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2989",
@@ -1692,19 +1539,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -1789,10 +1623,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2992",
@@ -1825,19 +1661,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -1922,10 +1745,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2019-2999",
@@ -1958,19 +1783,6 @@
             "HPE Helion OpenStack 8:java-1_7_1-ibm-alsa-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
             "HPE Helion OpenStack 8:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-jdbc-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:java-1_7_1-ibm-plugin-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-Azure:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-GCE:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:java-1_7_1-ibm-1.7.1_sr4.55-38.44.1",
@@ -2055,10 +1867,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4",
-        "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4",
+          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:N"
+        }
+      ]
     }
   ]
 }

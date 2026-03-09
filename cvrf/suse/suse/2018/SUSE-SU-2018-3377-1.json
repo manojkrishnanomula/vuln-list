@@ -333,10 +333,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-10925",
@@ -402,10 +404,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.5",
-        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.5",
+          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:N"
+        }
+      ]
     }
   ]
 }

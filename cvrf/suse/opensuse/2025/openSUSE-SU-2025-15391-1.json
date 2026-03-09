@@ -96,7 +96,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -122,8 +122,7 @@
             "openSUSE Tumbleweed:java-17-openj9-src-17.0.16.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-50059",
@@ -131,7 +130,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -142,6 +141,10 @@
         {
           "URL": "https://bugzilla.suse.com/1246575",
           "Description": "SUSE Bug 1246575"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1246595",
+          "Description": "SUSE Bug 1246595"
         }
       ],
       "ProductStatuses": [
@@ -157,8 +160,7 @@
             "openSUSE Tumbleweed:java-17-openj9-src-17.0.16.0-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

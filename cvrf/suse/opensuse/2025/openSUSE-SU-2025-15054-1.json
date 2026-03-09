@@ -80,7 +80,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -102,8 +102,7 @@
             "openSUSE Tumbleweed:rclone-zsh-completion-1.69.2-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-22870",
@@ -137,8 +136,7 @@
             "openSUSE Tumbleweed:rclone-zsh-completion-1.69.2-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-30204",
@@ -155,6 +153,10 @@
           "Description": "CVE-2025-30204"
         },
         {
+          "URL": "https://bugzilla.suse.com/1240441",
+          "Description": "SUSE Bug 1240441"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1240442",
           "Description": "SUSE Bug 1240442"
         }
@@ -168,8 +170,7 @@
             "openSUSE Tumbleweed:rclone-zsh-completion-1.69.2-1.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

@@ -72,7 +72,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2022-30187",
-      "Description": "Azure Storage Library Information Disclosure Vulnerability",
+      "Description": "unknown",
       "Threats": [
         {
           "Type": "Impact",
@@ -107,10 +107,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "1.9",
-        "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "1.9",
+          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     }
   ]
 }

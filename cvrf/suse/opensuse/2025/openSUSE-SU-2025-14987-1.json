@@ -57,6 +57,10 @@
   },
   "References": [
     {
+      "URL": "https://lists.opensuse.org/archives/list/security-announce@lists.opensuse.org/thread/ULS2CQWOTPM7SN6Z2YWKR4U2M2XSNHRY/",
+      "Description": "E-Mail link for openSUSE-SU-2025:14987-1"
+    },
+    {
       "URL": "https://www.suse.com/support/security/rating/",
       "Description": "SUSE Security Ratings"
     },
@@ -103,10 +107,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+        }
+      ]
     }
   ]
 }

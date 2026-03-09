@@ -261,10 +261,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.3",
+          "Vector": "AV:N/AC:H/Au:N/C:C/I:C/A:P"
+        },
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-22067",
@@ -299,8 +305,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:java-1_8_0-openjdk-headless-1.8.0.392-27.93.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-22081",
@@ -335,8 +340,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:java-1_8_0-openjdk-headless-1.8.0.392-27.93.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

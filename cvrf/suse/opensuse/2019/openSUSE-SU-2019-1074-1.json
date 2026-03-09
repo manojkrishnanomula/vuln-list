@@ -212,10 +212,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.3",
-        "Vector": "AV:A/AC:M/Au:S/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.3",
+          "Vector": "AV:A/AC:M/Au:S/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-13673",
@@ -273,10 +275,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.3",
-        "Vector": "AV:A/AC:M/Au:S/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.3",
+          "Vector": "AV:A/AC:M/Au:S/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-16872",
@@ -329,8 +333,7 @@
             "openSUSE Leap 42.3:qemu-x86-2.9.1-56.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-18954",
@@ -379,8 +382,7 @@
             "openSUSE Leap 42.3:qemu-x86-2.9.1-56.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-19364",
@@ -433,8 +435,7 @@
             "openSUSE Leap 42.3:qemu-x86-2.9.1-56.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-19489",
@@ -487,8 +488,7 @@
             "openSUSE Leap 42.3:qemu-x86-2.9.1-56.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-7858",
@@ -537,8 +537,7 @@
             "openSUSE Leap 42.3:qemu-x86-2.9.1-56.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2019-6778",
@@ -595,8 +594,7 @@
             "openSUSE Leap 42.3:qemu-x86-2.9.1-56.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

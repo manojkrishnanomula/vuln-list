@@ -157,10 +157,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.9",
-        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.9",
+          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-35942",
@@ -204,10 +206,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.4",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.4",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-4813",
@@ -246,8 +250,7 @@
             "openSUSE Tumbleweed:nscd-2.38-6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

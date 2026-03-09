@@ -225,10 +225,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "9",
-        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "3.5",
+          "Vector": "AV:L/AC:H/Au:S/C:P/I:P/A:P"
+        },
+        {
+          "BaseScore": "9",
+          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-7718",
@@ -280,10 +286,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.4",
+          "Vector": "AV:L/AC:H/Au:S/C:P/I:N/A:P"
+        },
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     }
   ]
 }

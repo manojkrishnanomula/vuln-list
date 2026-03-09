@@ -238,10 +238,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.0",
-        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.0",
+          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-5289",
@@ -299,8 +301,7 @@
             "openSUSE 13.2:postgresql93-test-9.3.10-2.7.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

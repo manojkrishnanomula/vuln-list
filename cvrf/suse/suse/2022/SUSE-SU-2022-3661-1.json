@@ -1051,12 +1051,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-31628",
@@ -1240,7 +1238,8 @@
             "openSUSE Leap 15.4:php8-zlib-8.0.24-150400.4.14.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-31629",
@@ -1428,7 +1427,8 @@
             "openSUSE Leap 15.4:php8-zlib-8.0.24-150400.4.14.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

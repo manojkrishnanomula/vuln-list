@@ -469,12 +469,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-45444",
@@ -494,12 +492,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.1",
-          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.1",
+        "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2024-2236",
@@ -518,7 +514,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libgcrypt20-1.10.3-150600.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-23337",
@@ -538,7 +535,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libjq1-1.6-150000.3.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-36350",
@@ -557,7 +555,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:xen-libs-4.18.5_04-150600.3.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-38822",
@@ -579,7 +578,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-38823",
@@ -601,7 +601,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-38824",
@@ -623,7 +624,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-38825",
@@ -645,7 +647,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-41965",
@@ -665,7 +668,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:vim-data-common-9.1.1406-150500.20.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-45310",
@@ -684,7 +688,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:runc-1.2.6-150000.73.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-45339",
@@ -703,7 +708,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:google-osconfig-agent-20250416.02-150000.1.50.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-0495",
@@ -722,7 +728,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:docker-28.2.2_ce-150000.227.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22236",
@@ -744,7 +751,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22237",
@@ -766,7 +774,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22238",
@@ -788,7 +797,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22239",
@@ -810,7 +820,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22240",
@@ -832,7 +843,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22241",
@@ -854,7 +866,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22242",
@@ -876,7 +889,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22868",
@@ -895,7 +909,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:docker-28.2.2_ce-150000.227.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22869",
@@ -914,7 +929,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:docker-28.2.2_ce-150000.227.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22872",
@@ -933,7 +949,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:docker-28.2.2_ce-150000.227.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-27465",
@@ -952,7 +969,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:xen-libs-4.18.5_04-150600.3.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-29768",
@@ -972,7 +990,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:vim-data-common-9.1.1406-150500.20.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-30258",
@@ -991,7 +1010,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:gpg2-2.4.4-150600.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-32462",
@@ -1010,7 +1030,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:sudo-1.9.15p5-150600.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-32463",
@@ -1029,7 +1050,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:sudo-1.9.15p5-150600.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40909",
@@ -1049,7 +1071,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:perl-base-5.26.1-150300.17.20.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4373",
@@ -1073,7 +1096,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libgthread-2_0-0-2.78.6-150600.4.16.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4598",
@@ -1096,7 +1120,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:udev-254.25-150600.4.40.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-46802",
@@ -1115,7 +1140,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:screen-4.6.2-150000.5.8.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-47287",
@@ -1137,7 +1163,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:salt-standalone-formulas-configuration-3006.0-150500.4.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4877",
@@ -1157,7 +1184,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libssh4-0.9.8-150600.11.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4878",
@@ -1177,7 +1205,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libssh4-0.9.8-150600.11.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-48964",
@@ -1196,7 +1225,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:iputils-20221126-150500.3.14.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-49794",
@@ -1216,7 +1246,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libxml2-tools-2.10.3-150500.5.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-49795",
@@ -1236,7 +1267,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libxml2-tools-2.10.3-150500.5.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-49796",
@@ -1256,7 +1288,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libxml2-tools-2.10.3-150500.5.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5222",
@@ -1276,7 +1309,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libicu65_1-ledata-65.1-150200.4.15.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5278",
@@ -1295,7 +1329,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:coreutils-8.32-150400.9.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5318",
@@ -1315,7 +1350,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libssh4-0.9.8-150600.11.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5372",
@@ -1335,7 +1371,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libssh4-0.9.8-150600.11.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6018",
@@ -1355,7 +1392,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:pam-config-1.1-150600.16.8.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6021",
@@ -1375,7 +1413,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libxml2-tools-2.10.3-150500.5.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6052",
@@ -1399,7 +1438,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libgthread-2_0-0-2.78.6-150600.4.16.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6170",
@@ -1419,7 +1459,8 @@
             "Public Cloud Image google/sles-15-sp6-sap-byos-v20250724-x86-64:libxml2-tools-2.10.3-150500.5.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -135,12 +135,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "9",
-          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "9",
+        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-25857",
@@ -168,7 +166,8 @@
             "SUSE Manager Server Module 4.1:snakeyaml-1.31-150200.12.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38749",
@@ -196,7 +195,8 @@
             "SUSE Manager Server Module 4.1:snakeyaml-1.31-150200.12.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38750",
@@ -224,7 +224,8 @@
             "SUSE Manager Server Module 4.1:snakeyaml-1.31-150200.12.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38751",
@@ -252,7 +253,8 @@
             "SUSE Manager Server Module 4.1:snakeyaml-1.31-150200.12.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38752",
@@ -280,7 +282,8 @@
             "SUSE Manager Server Module 4.1:snakeyaml-1.31-150200.12.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -925,12 +925,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-40090",
@@ -1091,7 +1089,8 @@
             "openSUSE Leap Micro 5.4:libtiff5-4.0.9-150000.45.35.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1916",
@@ -1252,7 +1251,8 @@
             "openSUSE Leap Micro 5.4:libtiff5-4.0.9-150000.45.35.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-26965",
@@ -1417,7 +1417,8 @@
             "openSUSE Leap Micro 5.4:libtiff5-4.0.9-150000.45.35.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2731",
@@ -1578,7 +1579,8 @@
             "openSUSE Leap Micro 5.4:libtiff5-4.0.9-150000.45.35.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -121,12 +121,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.5",
-          "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.5",
+        "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2023-0241",
@@ -159,7 +157,8 @@
             "openSUSE Tumbleweed:system-user-pgadmin-8.2-1.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-22298",
@@ -192,7 +191,8 @@
             "openSUSE Tumbleweed:system-user-pgadmin-8.2-1.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

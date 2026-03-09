@@ -213,12 +213,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.9",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1.9",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-41881",
@@ -263,7 +261,8 @@
             "openSUSE Leap 15.4:netty-tcnative-javadoc-2.0.59-150200.3.10.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-41915",
@@ -308,7 +307,8 @@
             "openSUSE Leap 15.4:netty-tcnative-javadoc-2.0.59-150200.3.10.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

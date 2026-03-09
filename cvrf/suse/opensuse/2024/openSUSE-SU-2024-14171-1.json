@@ -103,12 +103,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.5",
-          "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.5",
+        "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2018-8048",
@@ -141,12 +139,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2019-15587",
@@ -175,12 +171,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.5",
-          "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.5",
+        "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-23514",
@@ -208,7 +202,8 @@
             "openSUSE Tumbleweed:ruby3.3-rubygem-loofah-2.22.0-1.5"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-23515",
@@ -236,7 +231,8 @@
             "openSUSE Tumbleweed:ruby3.3-rubygem-loofah-2.22.0-1.5"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-23516",
@@ -264,7 +260,8 @@
             "openSUSE Tumbleweed:ruby3.3-rubygem-loofah-2.22.0-1.5"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

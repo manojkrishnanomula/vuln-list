@@ -149,12 +149,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-32212",
@@ -185,7 +183,8 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm12-12.22.12-1.51.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-32213",
@@ -216,7 +215,8 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm12-12.22.12-1.51.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-32214",
@@ -247,7 +247,8 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm12-12.22.12-1.51.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-32215",
@@ -278,7 +279,8 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm12-12.22.12-1.51.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

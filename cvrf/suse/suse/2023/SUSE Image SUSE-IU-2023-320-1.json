@@ -284,12 +284,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.7",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.7",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-12762",
@@ -309,12 +307,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-2196",
@@ -333,7 +329,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-28737",
@@ -352,7 +349,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:shim-15.7-150300.4.16.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-4744",
@@ -371,7 +369,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0386",
@@ -390,7 +389,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0394",
@@ -409,7 +409,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0465",
@@ -429,7 +430,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:openssl-1_1-1.1.1l-150400.7.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0466",
@@ -449,7 +451,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:openssl-1_1-1.1.1l-150400.7.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1127",
@@ -469,7 +472,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:vim-data-common-9.0.1443-150000.5.40.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1264",
@@ -489,7 +493,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:vim-data-common-9.0.1443-150000.5.40.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1281",
@@ -508,7 +513,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1355",
@@ -528,7 +534,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:vim-data-common-9.0.1443-150000.5.40.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1513",
@@ -547,7 +554,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1582",
@@ -566,7 +574,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1611",
@@ -585,7 +594,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1637",
@@ -604,7 +614,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1652",
@@ -623,7 +634,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1670",
@@ -642,7 +654,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1838",
@@ -661,7 +674,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1855",
@@ -680,7 +694,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1981",
@@ -700,7 +715,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:libavahi-common3-0.8-150400.7.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1989",
@@ -719,7 +735,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1990",
@@ -738,7 +755,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1998",
@@ -757,7 +775,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2008",
@@ -776,7 +795,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2019",
@@ -795,7 +815,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2176",
@@ -814,7 +835,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2235",
@@ -833,7 +855,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23001",
@@ -852,7 +875,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23006",
@@ -871,7 +895,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-24593",
@@ -890,7 +915,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:libglib-2_0-0-2.70.5-150400.3.8.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25153",
@@ -910,7 +936,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:containerd-ctr-1.6.19-150000.87.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25173",
@@ -930,7 +957,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:containerd-ctr-1.6.19-150000.87.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25809",
@@ -949,7 +977,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:runc-1.1.5-150000.41.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-27561",
@@ -968,7 +997,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:runc-1.1.5-150000.41.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28327",
@@ -987,7 +1017,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28464",
@@ -1006,7 +1037,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28466",
@@ -1025,7 +1057,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28484",
@@ -1044,7 +1077,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:libxml2-2-2.9.14-150400.5.16.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28642",
@@ -1063,7 +1097,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:runc-1.1.5-150000.41.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-29383",
@@ -1083,7 +1118,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:shadow-4.8.1-150400.10.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-29469",
@@ -1102,7 +1138,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:libxml2-2-2.9.14-150400.5.16.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-29491",
@@ -1124,7 +1161,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:terminfo-base-6.1-150000.5.15.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-30630",
@@ -1143,7 +1181,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:dmidecode-3.4-150400.16.8.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-30772",
@@ -1162,7 +1201,8 @@
             "Public Cloud Image google/sles-15-sp4-chost-byos-v20230510-x86-64:kernel-default-5.14.21-150400.24.63.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

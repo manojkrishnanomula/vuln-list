@@ -657,12 +657,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-22624",
@@ -785,7 +783,8 @@
             "SUSE OpenStack Cloud Crowbar 9:webkit2gtk-4_0-injected-bundles-2.36.0-2.96.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-22628",
@@ -904,7 +903,8 @@
             "SUSE OpenStack Cloud Crowbar 9:webkit2gtk-4_0-injected-bundles-2.36.0-2.96.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-22629",
@@ -1023,7 +1023,8 @@
             "SUSE OpenStack Cloud Crowbar 9:webkit2gtk-4_0-injected-bundles-2.36.0-2.96.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-22637",
@@ -1142,7 +1143,8 @@
             "SUSE OpenStack Cloud Crowbar 9:webkit2gtk-4_0-injected-bundles-2.36.0-2.96.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

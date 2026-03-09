@@ -275,12 +275,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.3",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.3",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-13225",
@@ -300,12 +298,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-46842",
@@ -324,7 +320,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240808-x86-64:xen-libs-4.17.4_04-150500.3.33.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-52425",
@@ -343,7 +340,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240808-x86-64:python3-lxml-4.9.1-150500.3.4.3"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5388",
@@ -362,7 +360,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240808-x86-64:mozilla-nss-certs-3.101.2-150400.3.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-31143",
@@ -381,7 +380,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240808-x86-64:xen-libs-4.17.4_04-150500.3.33.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-34459",
@@ -400,7 +400,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240808-x86-64:libxml2-2-2.10.3-150500.5.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-37370",
@@ -420,7 +421,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240808-x86-64:krb5-client-1.20.1-150500.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-37371",
@@ -440,7 +442,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240808-x86-64:krb5-client-1.20.1-150500.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-37891",
@@ -459,7 +462,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240808-x86-64:python3-urllib3-1.25.10-150300.4.12.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-41110",
@@ -478,7 +482,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240808-x86-64:docker-25.0.6_ce-150000.203.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

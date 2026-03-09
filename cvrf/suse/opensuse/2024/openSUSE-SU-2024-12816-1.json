@@ -131,12 +131,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:A/AC:H/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:A/AC:H/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-25585",
@@ -170,7 +168,8 @@
             "openSUSE Tumbleweed:libctf0-2.40-3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25587",
@@ -204,7 +203,8 @@
             "openSUSE Tumbleweed:libctf0-2.40-3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25588",
@@ -238,7 +238,8 @@
             "openSUSE Tumbleweed:libctf0-2.40-3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

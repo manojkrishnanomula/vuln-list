@@ -323,12 +323,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-3180",
@@ -390,7 +388,8 @@
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:qemu-x86-7.1.0-150500.49.9.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3354",
@@ -452,7 +451,8 @@
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:qemu-x86-7.1.0-150500.49.9.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

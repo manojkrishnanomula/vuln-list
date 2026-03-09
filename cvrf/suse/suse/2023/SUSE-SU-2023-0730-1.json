@@ -135,16 +135,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "7.8",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.8",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2023-24998",
@@ -188,7 +182,8 @@
             "openSUSE Leap 15.4:jakarta-commons-fileupload-javadoc-1.1.1-150000.4.8.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

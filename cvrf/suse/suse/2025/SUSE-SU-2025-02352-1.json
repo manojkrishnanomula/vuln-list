@@ -515,12 +515,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2024-36616",
@@ -614,7 +612,8 @@
             "openSUSE Leap 15.6:libswscale4-32bit-3.4.2-150200.11.64.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-36617",
@@ -708,7 +707,8 @@
             "openSUSE Leap 15.6:libswscale4-32bit-3.4.2-150200.11.64.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-36618",
@@ -802,7 +802,8 @@
             "openSUSE Leap 15.6:libswscale4-32bit-3.4.2-150200.11.64.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

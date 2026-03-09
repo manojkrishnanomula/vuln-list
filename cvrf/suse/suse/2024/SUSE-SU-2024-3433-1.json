@@ -399,12 +399,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-37032",
@@ -480,7 +478,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:quagga-devel-1.1.1-150000.4.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-44070",
@@ -556,7 +555,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:quagga-devel-1.1.1-150000.4.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

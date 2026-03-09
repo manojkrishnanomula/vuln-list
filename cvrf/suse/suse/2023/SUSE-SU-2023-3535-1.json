@@ -507,12 +507,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2023-29499",
@@ -606,7 +604,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libgthread-2_0-0-2.54.3-150000.4.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32611",
@@ -696,7 +695,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libgthread-2_0-0-2.54.3-150000.4.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32636",
@@ -786,7 +786,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libgthread-2_0-0-2.54.3-150000.4.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32643",
@@ -876,7 +877,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libgthread-2_0-0-2.54.3-150000.4.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32665",
@@ -970,7 +972,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libgthread-2_0-0-2.54.3-150000.4.29.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -577,12 +577,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-22677",
@@ -689,7 +687,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:webkit2gtk3-devel-2.36.4-150000.3.106.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-26710",
@@ -800,7 +799,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:webkit2gtk3-devel-2.36.4-150000.3.106.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

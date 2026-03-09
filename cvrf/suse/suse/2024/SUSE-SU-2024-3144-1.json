@@ -1305,12 +1305,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2017-17507",
@@ -1524,16 +1522,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.3",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:P"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-11202",
@@ -1747,12 +1739,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-11205",
@@ -1966,12 +1956,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-8396",
@@ -2185,12 +2173,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-10812",
@@ -2404,12 +2390,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-37501",
@@ -2622,7 +2606,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-29158",
@@ -2835,7 +2820,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-29161",
@@ -3048,7 +3034,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-29166",
@@ -3261,7 +3248,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-32608",
@@ -3474,7 +3462,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-32610",
@@ -3687,7 +3676,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-32614",
@@ -3900,7 +3890,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-32619",
@@ -4113,7 +4104,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-32620",
@@ -4326,7 +4318,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-33873",
@@ -4539,7 +4532,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-33874",
@@ -4752,7 +4746,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-33875",
@@ -4965,7 +4960,8 @@
             "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:trilinos_13_2_0-hpc-doc-13.2.0-150300.3.12.9"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

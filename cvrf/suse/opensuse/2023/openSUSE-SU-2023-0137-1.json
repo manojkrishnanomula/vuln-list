@@ -293,16 +293,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.2",
-          "Vector": "AV:L/AC:L/Au:S/C:P/I:P/A:N"
-        },
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-17354",
@@ -363,7 +357,8 @@
             "openSUSE Leap 15.4:lilypond-fonts-common-2.24.1-bp154.2.3.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

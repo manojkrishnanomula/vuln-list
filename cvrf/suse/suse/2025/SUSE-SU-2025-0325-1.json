@@ -805,12 +805,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-20197",
@@ -947,7 +945,8 @@
             "SUSE Manager Server 4.3:libfreshclam3-1.4.2-150200.8.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-20380",
@@ -1084,7 +1083,8 @@
             "SUSE Manager Server 4.3:libfreshclam3-1.4.2-150200.8.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-20505",
@@ -1221,7 +1221,8 @@
             "SUSE Manager Server 4.3:libfreshclam3-1.4.2-150200.8.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-20506",
@@ -1358,7 +1359,8 @@
             "SUSE Manager Server 4.3:libfreshclam3-1.4.2-150200.8.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-20128",
@@ -1495,7 +1497,8 @@
             "SUSE Manager Server 4.3:libfreshclam3-1.4.2-150200.8.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

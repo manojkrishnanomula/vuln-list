@@ -223,12 +223,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-36516",
@@ -275,12 +273,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-20368",
@@ -318,7 +314,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.188.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-20369",
@@ -356,7 +353,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.188.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-21385",
@@ -394,7 +392,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.188.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2588",
@@ -440,7 +439,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.188.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-26373",
@@ -478,7 +478,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.188.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2991",
@@ -520,7 +521,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.188.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3028",
@@ -558,7 +560,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.188.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-36879",
@@ -596,7 +599,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.188.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-39188",
@@ -646,7 +650,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.188.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

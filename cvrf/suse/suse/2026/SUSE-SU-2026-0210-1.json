@@ -239,12 +239,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2024-12718",
@@ -288,7 +286,8 @@
             "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:python3-tk-3.4.10-25.169.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4138",
@@ -332,7 +331,8 @@
             "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:python3-tk-3.4.10-25.169.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4330",
@@ -376,7 +376,8 @@
             "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:python3-tk-3.4.10-25.169.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4435",
@@ -420,7 +421,8 @@
             "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:python3-tk-3.4.10-25.169.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4517",
@@ -464,7 +466,8 @@
             "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:python3-tk-3.4.10-25.169.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

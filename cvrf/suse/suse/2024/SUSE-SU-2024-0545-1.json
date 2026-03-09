@@ -215,12 +215,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-40414",
@@ -264,7 +262,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:libjavascriptcoregtk-4_0-18-32bit-2.42.5-2.168.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-42833",
@@ -308,7 +307,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:libjavascriptcoregtk-4_0-18-32bit-2.42.5-2.168.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-23206",
@@ -352,7 +352,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:libjavascriptcoregtk-4_0-18-32bit-2.42.5-2.168.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-23213",
@@ -396,7 +397,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:libjavascriptcoregtk-4_0-18-32bit-2.42.5-2.168.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-23222",
@@ -444,7 +446,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:libjavascriptcoregtk-4_0-18-32bit-2.42.5-2.168.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

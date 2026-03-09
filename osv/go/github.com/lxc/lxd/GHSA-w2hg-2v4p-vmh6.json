@@ -1,8 +1,12 @@
 {
   "id": "GHSA-w2hg-2v4p-vmh6",
-  "modified": "2025-10-02T21:42:22.260400Z",
+  "modified": "2026-02-04T03:32:18.188161Z",
   "published": "2025-10-02T21:21:33Z",
   "aliases": [
+    "CVE-2025-54287",
+    "GO-2025-4004"
+  ],
+  "related": [
     "CVE-2025-54287"
   ],
   "summary": "Canonical LXD Arbitrary File Read via Template Injection in Snapshot Patterns",
@@ -19,7 +23,7 @@
           "type": "SEMVER",
           "events": [
             {
-              "introduced": "4.0"
+              "introduced": "4.0.0"
             },
             {
               "fixed": "5.21.4"
@@ -42,10 +46,10 @@
           "type": "SEMVER",
           "events": [
             {
-              "introduced": "6.0"
+              "introduced": "6.0.0"
             },
             {
-              "fixed": "6.5"
+              "fixed": "6.5.0"
             }
           ]
         }
@@ -90,6 +94,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/canonical/lxd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4004"
     }
   ]
 }

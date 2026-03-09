@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2024-83",
-  "modified": "2025-10-27T07:48:17.746372Z",
+  "modified": "2026-03-03T16:31:14.047093Z",
   "published": "2024-09-12T13:15:00Z",
   "aliases": [
     "CVE-2024-45853",
@@ -142,7 +142,25 @@
         "25.9.3rc1",
         "25.10.0rc1",
         "25.10.0",
-        "25.10.1"
+        "25.10.1",
+        "25.11.0rc1",
+        "25.11.0rc2",
+        "25.11.0",
+        "25.11.1",
+        "25.12.0rc1",
+        "25.12.0",
+        "25.13.0rc1",
+        "25.13.0rc2",
+        "25.13.0",
+        "25.13.1",
+        "25.14.0rc1",
+        "25.14.0",
+        "25.14.1",
+        "26.0.0rc1",
+        "26.0.0rc2",
+        "26.0.0rc3",
+        "26.0.0",
+        "26.0.1"
       ],
       "database_specific": {
         "source": "https://github.com/pypa/advisory-database/blob/main/vulns/mindsdb/PYSEC-2024-83.yaml"
@@ -150,6 +168,10 @@
     }
   ],
   "references": [
+    {
+      "type": "EVIDENCE",
+      "url": "https://hiddenlayer.com/sai-security-advisory/2024-09-mindsdb/"
+    },
     {
       "type": "ADVISORY",
       "url": "https://hiddenlayer.com/sai-security-advisory/2024-09-mindsdb/"

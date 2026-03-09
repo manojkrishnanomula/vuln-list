@@ -1,12 +1,14 @@
 {
   "id": "GHSA-j5gw-2vrg-8fgx",
-  "modified": "2025-10-27T15:13:02Z",
+  "modified": "2026-02-04T03:03:41.253918Z",
   "published": "2025-10-21T15:42:51Z",
   "aliases": [
     "CVE-2025-62518",
-    "RUSTSEC-2025-0110"
+    "RUSTSEC-2025-0110",
+    "RUSTSEC-2025-0111"
   ],
   "related": [
+    "CGA-c43c-444v-mwfp",
     "CVE-2025-62518",
     "RUSTSEC-2025-0111"
   ],
@@ -34,6 +36,29 @@
       ],
       "database_specific": {
         "last_known_affected_version_range": "\u003c= 0.5.5",
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/10/GHSA-j5gw-2vrg-8fgx/GHSA-j5gw-2vrg-8fgx.json"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "tokio-tar",
+        "purl": "pkg:cargo/tokio-tar"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.3.1"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/10/GHSA-j5gw-2vrg-8fgx/GHSA-j5gw-2vrg-8fgx.json"
       }
     }
@@ -66,6 +91,10 @@
     {
       "type": "WEB",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0110.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0111.html"
     }
   ]
 }

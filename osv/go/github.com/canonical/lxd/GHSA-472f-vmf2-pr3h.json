@@ -1,8 +1,12 @@
 {
   "id": "GHSA-472f-vmf2-pr3h",
-  "modified": "2025-10-02T21:27:22.108244Z",
+  "modified": "2026-02-04T04:12:22.549400Z",
   "published": "2025-10-02T21:15:53Z",
   "aliases": [
+    "CVE-2025-54293",
+    "GO-2025-4000"
+  ],
+  "related": [
     "CVE-2025-54293"
   ],
   "summary": "Canonical LXD Path Traversal Vulnerability in Instance Log File Retrieval Function",
@@ -94,6 +98,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/canonical/lxd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4000"
     }
   ]
 }

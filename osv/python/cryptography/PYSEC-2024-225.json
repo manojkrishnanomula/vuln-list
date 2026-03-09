@@ -1,9 +1,8 @@
 {
   "id": "PYSEC-2024-225",
-  "modified": "2025-02-06T01:12:08.453349Z",
+  "modified": "2026-02-04T09:15:05.378554Z",
   "published": "2024-02-21T17:15:09Z",
   "aliases": [
-    "CGA-f4qg-9fw4-8247",
     "CVE-2024-26130",
     "GHSA-6vqw-3v5j-54x4"
   ],
@@ -84,6 +83,10 @@
     {
       "type": "FIX",
       "url": "https://github.com/pyca/cryptography/commit/97d231672763cdb5959a3b191e692a362f1b9e55"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/pyca/cryptography/pull/10423"
     },
     {
       "type": "REPORT",

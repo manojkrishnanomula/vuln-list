@@ -1,12 +1,9 @@
 {
-  "name": "elasticsearch-fips-9.3",
+  "name": "tekton-pipelines-fips-1.10",
   "secfixes": {
-    "9.3.0-r2": [
-      "CVE-2025-68161",
-      "GHSA-vc5p-v9hr-52mj"
-    ],
-    "9.3.1-r2": [
-      "GHSA-72hv-8253-57qq"
+    "1.10.0-r1": [
+      "CVE-2026-27141",
+      "GHSA-8fj7-8h3w-xwfm"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

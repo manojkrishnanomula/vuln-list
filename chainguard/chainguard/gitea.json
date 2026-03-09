@@ -1,6 +1,10 @@
 {
   "name": "gitea",
   "secfixes": {
+    "0": [
+      "CVE-2025-68121",
+      "GHSA-h355-32pf-p2xm"
+    ],
     "1.22.2-r1": [
       "CVE-2024-34155",
       "CVE-2024-34156",
@@ -56,12 +60,40 @@
     "1.24.6-r1": [
       "CVE-2025-59937",
       "GHSA-wpwj-69cm-q9c5"
+    ],
+    "1.25.2-r0": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
+    "1.25.2-r1": [
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "1.25.4-r1": [
+      "CVE-2025-61732",
+      "GHSA-8jvr-vh7g-f8gx"
+    ],
+    "1.25.4-r2": [
+      "CVE-2026-25934",
+      "GHSA-37cx-329c-33x3"
+    ],
+    "1.25.4-r3": [
+      "CVE-2026-26958",
+      "GHSA-fw7p-63qq-7hpr"
+    ],
+    "1.25.4-r4": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

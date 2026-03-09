@@ -1,8 +1,13 @@
 {
   "name": "op-geth",
   "secfixes": {
+    "0": [
+      "CVE-2025-58181",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
     "1.101500.1-r1": [
-      "CVE-2025-22869"
+      "CVE-2025-22869",
+      "GHSA-hcg3-q754-cr77"
     ],
     "1.101500.1-r2": [
       "CVE-2025-22870",
@@ -25,12 +30,29 @@
     "1.101511.1-r1": [
       "CVE-2025-47907",
       "GHSA-j5pm-7495-qmr3"
+    ],
+    "1.101603.3-r0": [
+      "GHSA-fj2x-735w-74vq"
+    ],
+    "1.101603.5-r1": [
+      "CVE-2025-47914",
+      "GHSA-f6x5-jh6r-wrfv"
+    ],
+    "1.101603.5-r2": [
+      "CVE-2025-61729",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "1.101608.0-r1": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

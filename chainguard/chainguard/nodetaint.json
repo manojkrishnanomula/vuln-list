@@ -19,12 +19,16 @@
       "CVE-2023-45284",
       "CVE-2025-1767",
       "CVE-2025-47907",
+      "CVE-2025-47911",
+      "CVE-2025-58183",
+      "CVE-2025-58190",
       "GHSA-35c7-w35f-xwgh",
       "GHSA-3wgm-2gw2-vh5m",
       "GHSA-74j8-88mm-7496",
       "GHSA-7fxm-f474-hf8w",
       "GHSA-8cfg-vx93-jvxw",
       "GHSA-8mjg-8c8g-6h85",
+      "GHSA-9gcr-gp5f-jw27",
       "GHSA-cgcv-5272-97pr",
       "GHSA-f4w6-3rh6-6q4q",
       "GHSA-f9jg-8p32-2f55",
@@ -35,6 +39,7 @@
       "GHSA-rq3x-83w4-p28c",
       "GHSA-vvjp-q62m-2vph",
       "GHSA-vw47-mr44-3jf9",
+      "GHSA-w4gw-w5jq-g9jh",
       "GHSA-xc8m-28vv-4pjc"
     ],
     "0.0.4-r11": [
@@ -106,7 +111,8 @@
       "GHSA-jgfp-53c3-624w"
     ],
     "0.0.4-r29": [
-      "CVE-2025-22868"
+      "CVE-2025-22868",
+      "GHSA-6v2p-p543-phr9"
     ],
     "0.0.4-r30": [
       "CVE-2020-8559",
@@ -136,6 +142,36 @@
       "CVE-2025-47910",
       "GHSA-8pjc-487g-w6p2"
     ],
+    "0.0.4-r38": [
+      "CVE-2025-47912",
+      "CVE-2025-58185",
+      "CVE-2025-58186",
+      "CVE-2025-58187",
+      "CVE-2025-58188",
+      "CVE-2025-58189",
+      "CVE-2025-61723",
+      "CVE-2025-61724",
+      "CVE-2025-61725",
+      "GHSA-447v-2qg4-h8hc",
+      "GHSA-7wwx-xj66-r44x",
+      "GHSA-cxq7-xw9v-rcv3",
+      "GHSA-frhw-mqj2-wxw2",
+      "GHSA-hjx7-fpxx-mj48",
+      "GHSA-jwmf-chvc-rf92",
+      "GHSA-qh38-484v-w52x",
+      "GHSA-rjcg-56ph-3qvg",
+      "GHSA-wcw9-47fp-rrfr"
+    ],
+    "0.0.4-r39": [
+      "CVE-2025-61729",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "0.0.4-r41": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
     "0.0.4-r6": [
       "CVE-2023-39325",
       "CVE-2023-3978",
@@ -151,8 +187,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

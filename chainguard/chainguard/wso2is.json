@@ -8,12 +8,16 @@
     "7.1.0-r2": [
       "CVE-2025-49128",
       "GHSA-wf8f-6423-gfxg"
+    ],
+    "7.2.0-r0": [
+      "CVE-2025-12383",
+      "GHSA-7p63-w6x9-6gr7"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

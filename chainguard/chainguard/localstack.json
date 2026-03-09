@@ -17,6 +17,87 @@
       "CVE-2024-12797",
       "GHSA-79v4-65xg-pq4g"
     ],
+    "4.10.0-r0": [
+      "CVE-2024-45341",
+      "CVE-2025-22866",
+      "CVE-2025-22874",
+      "CVE-2025-4673",
+      "GHSA-3f6r-qh9c-x6mm",
+      "GHSA-3whm-j4xm-rv8x",
+      "GHSA-62jj-gr2r-5c34",
+      "GHSA-6f52-wpx2-hvf2"
+    ],
+    "4.10.0-r1": [
+      "CVE-2025-65015",
+      "GHSA-frfh-8v73-gjg4"
+    ],
+    "4.11.1-r1": [
+      "CVE-2025-47912",
+      "CVE-2025-58183",
+      "CVE-2025-58187",
+      "CVE-2025-61723",
+      "CVE-2025-61725",
+      "CVE-2025-66221",
+      "GHSA-447v-2qg4-h8hc",
+      "GHSA-9gcr-gp5f-jw27",
+      "GHSA-frhw-mqj2-wxw2",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-hjx7-fpxx-mj48",
+      "GHSA-qh38-484v-w52x"
+    ],
+    "4.12.0-r1": [
+      "CVE-2025-68131",
+      "GHSA-wcj4-jw5j-44wh"
+    ],
+    "4.12.0-r4": [
+      "CVE-2026-23490",
+      "CVE-2026-23949",
+      "GHSA-58pv-8j8x-9vj2",
+      "GHSA-63vm-454h-vhhq"
+    ],
+    "4.13.1-r0": [
+      "CVE-2025-58185",
+      "CVE-2025-58186",
+      "CVE-2025-58188",
+      "CVE-2025-58189",
+      "CVE-2025-61724",
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-7c64-f9jr-v9h2",
+      "GHSA-7wwx-xj66-r44x",
+      "GHSA-cxq7-xw9v-rcv3",
+      "GHSA-jwmf-chvc-rf92",
+      "GHSA-rjcg-56ph-3qvg",
+      "GHSA-wcw9-47fp-rrfr"
+    ],
+    "4.13.1-r1": [
+      "CVE-2026-0994",
+      "GHSA-7gcm-g887-7qv7"
+    ],
+    "4.13.1-r2": [
+      "CVE-2026-26007",
+      "CVE-2026-27199",
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-r6ph-v2qm-q3c2"
+    ],
+    "4.14.0-r0": [
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-61732",
+      "CVE-2025-68119",
+      "CVE-2025-68121",
+      "GHSA-747p-wmpv-9c78",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-h355-32pf-p2xm",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
     "4.3.0-r1": [
       "CVE-2025-43859",
       "GHSA-vqfr-h8mv-ghfj"
@@ -28,8 +109,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

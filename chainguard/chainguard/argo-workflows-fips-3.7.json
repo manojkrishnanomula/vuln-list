@@ -1,0 +1,42 @@
+{
+  "name": "argo-workflows-fips-3.7",
+  "secfixes": {
+    "0": [
+      "CVE-2026-24051",
+      "GHSA-9h8m-3fm2-qjrq"
+    ],
+    "3.7.10-r0": [
+      "CVE-2026-25934",
+      "GHSA-37cx-329c-33x3"
+    ],
+    "3.7.10-r1": [
+      "CVE-2026-26958",
+      "GHSA-fw7p-63qq-7hpr"
+    ],
+    "3.7.10-r2": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
+    ],
+    "3.7.10-r4": [
+      "CVE-2025-15558",
+      "GHSA-p436-gjf2-799p"
+    ],
+    "3.7.4-r1": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
+    "3.7.6-r1": [
+      "CVE-2025-68156",
+      "GHSA-cfpf-hrx2-8rv6"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

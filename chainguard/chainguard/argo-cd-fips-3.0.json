@@ -3,8 +3,10 @@
   "secfixes": {
     "0": [
       "CVE-2025-1767",
+      "CVE-2025-47914",
       "GHSA-274v-mgcv-cm8j",
-      "GHSA-3wgm-2gw2-vh5m"
+      "GHSA-3wgm-2gw2-vh5m",
+      "GHSA-f6x5-jh6r-wrfv"
     ],
     "3.0.0-r1": [
       "CVE-2025-22872",
@@ -22,7 +24,38 @@
       "CVE-2025-5187",
       "GHSA-4x4m-3c2p-qppc"
     ],
+    "3.0.20-r10": [
+      "CVE-2025-68156",
+      "GHSA-cfpf-hrx2-8rv6"
+    ],
+    "3.0.20-r5": [
+      "CVE-2025-58181",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
+    "3.0.20-r7": [
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "3.0.20-r9": [
+      "CVE-2025-13281",
+      "GHSA-r6j8-c6r2-37rr"
+    ],
+    "3.0.23-r2": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "CVE-2026-25934",
+      "GHSA-37cx-329c-33x3",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "3.0.23-r4": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
+    ],
     "3.0.6-r1": [
+      "CVE-2025-8556",
       "GHSA-2x5j-vhc8-9cwm"
     ],
     "3.0.9-r1": [
@@ -32,8 +65,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

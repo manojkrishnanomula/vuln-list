@@ -2,6 +2,7 @@
   "name": "rye",
   "secfixes": {
     "0.38.0-r0": [
+      "CVE-2024-58262",
       "GHSA-x4gp-pqpj-f43q"
     ],
     "0.43.0-r1": [
@@ -15,12 +16,16 @@
     "0.44.0-r3": [
       "CVE-2025-4432",
       "GHSA-c86p-w88r-qvqr"
+    ],
+    "0.44.0-r5": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

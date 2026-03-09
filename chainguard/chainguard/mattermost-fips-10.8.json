@@ -1,6 +1,10 @@
 {
   "name": "mattermost-fips-10.8",
   "secfixes": {
+    "0": [
+      "CVE-2025-58181",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
     "10.8.1-r0": [
       "CVE-2025-22872",
       "GHSA-vvgc-356p-c3xw"
@@ -26,12 +30,16 @@
     "10.8.4-r2": [
       "CVE-2025-58058",
       "GHSA-jc7w-c686-c4v9"
+    ],
+    "10.8.4-r5": [
+      "CVE-2025-47914",
+      "GHSA-f6x5-jh6r-wrfv"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

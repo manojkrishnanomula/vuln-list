@@ -14,12 +14,91 @@
       "CVE-2025-9288",
       "GHSA-95m3-7q98-8xr5",
       "GHSA-cpq7-6gpm-g9rc"
+    ],
+    "3.2.0-r1": [
+      "CVE-2025-64718",
+      "GHSA-mh29-5h37-fv8m"
+    ],
+    "3.2.0-r2": [
+      "CVE-2025-12816",
+      "CVE-2025-66030",
+      "CVE-2025-66031",
+      "GHSA-554w-wpv2-vw27",
+      "GHSA-5gfm-wpxj-wjgq",
+      "GHSA-65ch-62r8-g69g"
+    ],
+    "3.4.0-r0": [
+      "CVE-2025-57810",
+      "CVE-2025-58754",
+      "CVE-2025-68428",
+      "GHSA-4hjh-wcwx-xvwj",
+      "GHSA-8mvj-3j78-4qmw",
+      "GHSA-f8cm-6447-x5h2"
+    ],
+    "3.4.0-r1": [
+      "CVE-2025-13465",
+      "GHSA-6475-r3vj-m8vf",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "3.4.0-r3": [
+      "CVE-2026-24040",
+      "CVE-2026-24043",
+      "CVE-2026-24133",
+      "CVE-2026-24737",
+      "GHSA-95fx-jjr5-f39c",
+      "GHSA-cjw8-79x6-5cj4",
+      "GHSA-pqxr-3g65-p328",
+      "GHSA-vm32-vv63-w422"
+    ],
+    "3.4.0-r4": [
+      "CVE-2026-25128",
+      "CVE-2026-25639",
+      "GHSA-37qj-frw5-hhjh",
+      "GHSA-43fc-jf86-j433"
+    ],
+    "3.5.0-r0": [
+      "CVE-2025-14505",
+      "CVE-2025-57352",
+      "CVE-2026-23745",
+      "CVE-2026-23950",
+      "CVE-2026-24842",
+      "GHSA-34x7-hfp2-rc4v",
+      "GHSA-848j-6mx2-7j84",
+      "GHSA-8qq5-rm4j-mr97",
+      "GHSA-r6q2-hw4h-h46w",
+      "GHSA-rx8g-88g5-qh64"
+    ],
+    "3.5.0-r1": [
+      "CVE-2026-2391",
+      "GHSA-w7fw-mjwx-w883"
+    ],
+    "3.5.0-r2": [
+      "CVE-2026-27699",
+      "CVE-2026-27942",
+      "GHSA-5rq4-664w-9x2c",
+      "GHSA-fj3w-jwp8-x2g3"
+    ],
+    "3.5.0-r3": [
+      "CVE-2025-15284",
+      "CVE-2025-54798",
+      "CVE-2026-25535",
+      "CVE-2026-25755",
+      "CVE-2026-25940",
+      "CVE-2026-26960",
+      "CVE-2026-2739",
+      "GHSA-378v-28hj-76wf",
+      "GHSA-52f5-9888-hmc6",
+      "GHSA-67pg-wm7f-q7fj",
+      "GHSA-6rw7-vpxm-498p",
+      "GHSA-83g3-92jg-28cx",
+      "GHSA-9vjf-qc39-jprp",
+      "GHSA-p5xg-68wr-hm3m"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

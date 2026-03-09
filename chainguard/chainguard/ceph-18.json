@@ -1,7 +1,7 @@
 {
   "name": "ceph-18",
   "secfixes": {
-    "18.2.7-r2": [
+    "0": [
       "CVE-2017-12155",
       "CVE-2017-7519",
       "CVE-2019-10222",
@@ -14,8 +14,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

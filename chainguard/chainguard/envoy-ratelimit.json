@@ -5,9 +5,14 @@
       "CVE-2023-45283",
       "CVE-2023-45284",
       "CVE-2025-47907",
+      "CVE-2025-47911",
+      "CVE-2025-58190",
+      "CVE-2026-24051",
+      "GHSA-9h8m-3fm2-qjrq",
       "GHSA-j5pm-7495-qmr3",
       "GHSA-rq3x-83w4-p28c",
-      "GHSA-vvjp-q62m-2vph"
+      "GHSA-vvjp-q62m-2vph",
+      "GHSA-w4gw-w5jq-g9jh"
     ],
     "0.0.0_git20241216-r1": [
       "CVE-2024-45338",
@@ -29,9 +34,18 @@
       "CVE-2025-22872",
       "GHSA-vvgc-356p-c3xw"
     ],
+    "0.0.0_git20251103-r0": [
+      "CVE-2025-58187",
+      "GHSA-frhw-mqj2-wxw2"
+    ],
+    "0.0.0_git20260122-r2": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
     "0.0_git20231014-r3": [
       "CVE-2023-44487",
-      "GHSA-m425-mq94-257g",
       "GHSA-qppj-fm5r-hxr3"
     ],
     "0.0_git20231110-r0": [
@@ -75,8 +89,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

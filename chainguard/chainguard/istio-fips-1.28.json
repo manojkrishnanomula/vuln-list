@@ -1,0 +1,36 @@
+{
+  "name": "istio-fips-1.28",
+  "secfixes": {
+    "0": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
+    "1.28.1-r1": [
+      "CVE-2025-67499",
+      "GHSA-jv3w-x3r3-g6rm"
+    ],
+    "1.28.3-r5": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "1.28.4-r1": [
+      "CVE-2026-24051",
+      "GHSA-9h8m-3fm2-qjrq"
+    ],
+    "1.28.4-r3": [
+      "CVE-2025-15558",
+      "GHSA-p436-gjf2-799p"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

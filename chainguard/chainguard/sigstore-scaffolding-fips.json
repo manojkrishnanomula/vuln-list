@@ -1,6 +1,14 @@
 {
   "name": "sigstore-scaffolding-fips",
   "secfixes": {
+    "0": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "CVE-2026-26958",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-fw7p-63qq-7hpr",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
     "0.6.14-r0": [
       "CVE-2023-48795",
       "GHSA-45x7-px36-x8w8"
@@ -56,7 +64,8 @@
       "GHSA-hw49-2p59-3mhj"
     ],
     "0.7.21-r1": [
-      "CVE-2025-22868"
+      "CVE-2025-22868",
+      "GHSA-6v2p-p543-phr9"
     ],
     "0.7.21-r2": [
       "CVE-2020-8559",
@@ -78,8 +87,40 @@
       "CVE-2025-47907",
       "GHSA-j5pm-7495-qmr3"
     ],
+    "0.7.25-r1": [
+      "CVE-2024-47534",
+      "GHSA-4f8r-qqr9-fq8j"
+    ],
     "0.7.3-r1": [
       "GHSA-xr7q-jx4m-x55m"
+    ],
+    "0.7.31-r2": [
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "0.7.31-r3": [
+      "CVE-2025-66564",
+      "GHSA-4qg8-fj49-pxjh"
+    ],
+    "0.7.31-r4": [
+      "CVE-2025-66506",
+      "GHSA-f83f-xpx7-ffpw"
+    ],
+    "0.7.31-r5": [
+      "CVE-2026-22772",
+      "GHSA-59jp-pj84-45mr"
+    ],
+    "0.7.31-r6": [
+      "CVE-2026-23991",
+      "CVE-2026-23992",
+      "CVE-2026-24137",
+      "CVE-2026-24686",
+      "GHSA-846p-jg2w-w324",
+      "GHSA-fcv2-xgw5-pqxf",
+      "GHSA-fphv-w9fq-2525",
+      "GHSA-jqc5-w2xx-5vq4"
     ],
     "0.7.9-r0": [
       "CVE-2024-34155",
@@ -92,8 +133,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

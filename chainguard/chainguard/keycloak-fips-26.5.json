@@ -1,0 +1,26 @@
+{
+  "name": "keycloak-fips-26.5",
+  "secfixes": {
+    "26.5.2-r0": [
+      "CVE-2025-14559",
+      "CVE-2025-66560",
+      "GHSA-5rfx-cp42-p624",
+      "GHSA-wv3h-x6c4-r867"
+    ],
+    "26.5.3-r0": [
+      "CVE-2026-1190",
+      "GHSA-63v5-26vq-m4vm"
+    ],
+    "26.5.4-r0": [
+      "CVE-2026-2733",
+      "GHSA-fjf4-6f34-w64q"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

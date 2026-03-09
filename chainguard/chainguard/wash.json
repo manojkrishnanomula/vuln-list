@@ -2,6 +2,7 @@
   "name": "wash",
   "secfixes": {
     "0.30.0-r0": [
+      "CVE-2024-58262",
       "GHSA-x4gp-pqpj-f43q"
     ],
     "0.32.1-r1": [
@@ -45,12 +46,20 @@
     "0.39.0-r5": [
       "CVE-2025-58160",
       "GHSA-xwfj-jgwm-7wp5"
+    ],
+    "0.39.0-r6": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "0.39.0-r7": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

@@ -1,6 +1,10 @@
 {
   "name": "argo-workflows-3.6",
   "secfixes": {
+    "0": [
+      "CVE-2026-24051",
+      "GHSA-9h8m-3fm2-qjrq"
+    ],
     "3.6.11-r1": [
       "CVE-2025-8556",
       "GHSA-2x5j-vhc8-9cwm"
@@ -10,12 +14,70 @@
       "CVE-2025-62157",
       "GHSA-c2hv-4pfj-mm2r",
       "GHSA-p84v-gxvw-73pf"
+    ],
+    "3.6.13-r1": [
+      "CVE-2025-64718",
+      "GHSA-mh29-5h37-fv8m"
+    ],
+    "3.6.13-r2": [
+      "CVE-2024-51999",
+      "CVE-2025-12816",
+      "CVE-2025-66030",
+      "CVE-2025-66031",
+      "GHSA-554w-wpv2-vw27",
+      "GHSA-5gfm-wpxj-wjgq",
+      "GHSA-65ch-62r8-g69g",
+      "GHSA-pj86-cfqh-vqx6"
+    ],
+    "3.6.15-r1": [
+      "CVE-2025-68156",
+      "GHSA-cfpf-hrx2-8rv6"
+    ],
+    "3.6.16-r0": [
+      "CVE-2025-15284",
+      "GHSA-6rw7-vpxm-498p"
+    ],
+    "3.6.17-r0": [
+      "CVE-2026-24001",
+      "GHSA-73rr-hh4g-fpgx"
+    ],
+    "3.6.18-r0": [
+      "CVE-2025-13465",
+      "CVE-2025-50537",
+      "GHSA-p5wg-g6qr-c7cg",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "3.6.18-r2": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "3.6.19-r0": [
+      "CVE-2026-2391",
+      "GHSA-w7fw-mjwx-w883"
+    ],
+    "3.6.19-r1": [
+      "CVE-2026-25934",
+      "GHSA-37cx-329c-33x3"
+    ],
+    "3.6.19-r2": [
+      "CVE-2025-69873",
+      "CVE-2026-1229",
+      "GHSA-2g4f-4pwh-qvx6",
+      "GHSA-q9hv-hpm4-hj6x"
+    ],
+    "3.6.19-r3": [
+      "CVE-2025-15558",
+      "CVE-2026-29063",
+      "GHSA-p436-gjf2-799p",
+      "GHSA-wf6x-7x77-mvgw"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

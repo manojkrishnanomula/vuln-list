@@ -1,6 +1,12 @@
 {
   "name": "step-issuer-fips",
   "secfixes": {
+    "0": [
+      "CVE-2025-58181",
+      "CVE-2026-26958",
+      "GHSA-fw7p-63qq-7hpr",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
     "0.9.1-r3": [
       "CVE-2023-45288",
       "GHSA-4v7x-pqxf-cx7m"
@@ -10,6 +16,24 @@
       "CVE-2024-24790",
       "GHSA-236w-p7wf-5ph8",
       "GHSA-49gw-vxvf-fc2g"
+    ],
+    "0.9.11-r3": [
+      "CVE-2026-25518",
+      "GHSA-gx3x-vq4p-mhhv"
+    ],
+    "0.9.11-r4": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "0.9.11-r5": [
+      "CVE-2026-25793",
+      "GHSA-69x3-g4r3-p962"
+    ],
+    "0.9.11-r6": [
+      "CVE-2026-27141",
+      "GHSA-8fj7-8h3w-xwfm"
     ],
     "0.9.2-r1": [
       "CVE-2024-24791",
@@ -24,6 +48,8 @@
       "GHSA-j7vj-rw65-4v26"
     ],
     "0.9.6-r0": [
+      "CVE-2024-12401",
+      "GHSA-ghw8-3xqw-hhcj",
       "GHSA-r4pg-vg54-wxx4"
     ],
     "0.9.6-r1": [
@@ -47,10 +73,12 @@
       "GHSA-c6gw-w398-hv78"
     ],
     "0.9.7-r6": [
-      "CVE-2025-22868"
+      "CVE-2025-22868",
+      "GHSA-6v2p-p543-phr9"
     ],
     "0.9.7-r7": [
-      "CVE-2025-22869"
+      "CVE-2025-22869",
+      "GHSA-hcg3-q754-cr77"
     ],
     "0.9.7-r8": [
       "CVE-2025-22870",
@@ -80,12 +108,16 @@
     "0.9.9-r3": [
       "CVE-2025-62820",
       "GHSA-x6fh-7qmf-69xh"
+    ],
+    "0.9.9-r5": [
+      "CVE-2025-47914",
+      "GHSA-f6x5-jh6r-wrfv"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

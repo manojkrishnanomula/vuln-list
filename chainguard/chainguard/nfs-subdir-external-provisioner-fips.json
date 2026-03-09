@@ -4,8 +4,19 @@
     "0": [
       "CVE-2022-28948",
       "CVE-2025-47907",
+      "CVE-2025-47911",
+      "CVE-2025-47913",
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "CVE-2025-58190",
+      "CVE-2025-61728",
+      "GHSA-56w8-48fp-6mgv",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-g9q4-qjx4-2v7q",
       "GHSA-hp87-p4gw-j4gq",
-      "GHSA-j5pm-7495-qmr3"
+      "GHSA-j5pm-7495-qmr3",
+      "GHSA-j5w8-q4qc-rx2x",
+      "GHSA-w4gw-w5jq-g9jh"
     ],
     "4.0.18-r11": [
       "CVE-2024-24789",
@@ -46,7 +57,8 @@
       "GHSA-3whm-j4xm-rv8x"
     ],
     "4.0.18-r19": [
-      "CVE-2025-22869"
+      "CVE-2025-22869",
+      "GHSA-hcg3-q754-cr77"
     ],
     "4.0.18-r2": [
       "CVE-2023-39325",
@@ -61,7 +73,8 @@
     "4.0.18-r20": [
       "CVE-2020-8559",
       "CVE-2025-22868",
-      "GHSA-33c5-9fx5-fvjm"
+      "GHSA-33c5-9fx5-fvjm",
+      "GHSA-6v2p-p543-phr9"
     ],
     "4.0.18-r21": [
       "CVE-2025-22871",
@@ -77,6 +90,22 @@
       "GHSA-62jj-gr2r-5c34",
       "GHSA-6f52-wpx2-hvf2"
     ],
+    "4.0.18-r28": [
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "4.0.18-r29": [
+      "CVE-2025-61726",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-68119",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
     "4.0.18-r3": [
       "CVE-2023-45289",
       "CVE-2023-45290",
@@ -88,6 +117,12 @@
       "GHSA-fgq5-q76c-gx78",
       "GHSA-j6m3-gc37-6r6q",
       "GHSA-rr6r-cfgf-gc6h"
+    ],
+    "4.0.18-r30": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
     ],
     "4.0.18-r4": [
       "CVE-2024-24786",
@@ -106,8 +141,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

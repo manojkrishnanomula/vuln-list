@@ -1,6 +1,12 @@
 {
   "name": "kyverno-policy-reporter-fips",
   "secfixes": {
+    "0": [
+      "CVE-2025-58181",
+      "CVE-2025-61728",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
     "2.24.1-r2": [
       "CVE-2024-34155",
       "CVE-2024-34156",
@@ -51,12 +57,44 @@
     "3.3.2-r1": [
       "CVE-2025-47907",
       "GHSA-j5pm-7495-qmr3"
+    ],
+    "3.5.0-r1": [
+      "CVE-2024-44906",
+      "GHSA-h4h6-vccr-44h2"
+    ],
+    "3.5.0-r2": [
+      "CVE-2025-47914",
+      "GHSA-f6x5-jh6r-wrfv"
+    ],
+    "3.7.1-r1": [
+      "CVE-2025-61726",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-68119",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "3.7.1-r2": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "3.7.2-r1": [
+      "CVE-2026-26958",
+      "GHSA-fw7p-63qq-7hpr"
+    ],
+    "3.7.3-r1": [
+      "CVE-2026-27141",
+      "GHSA-8fj7-8h3w-xwfm"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

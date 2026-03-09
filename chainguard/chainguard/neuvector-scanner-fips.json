@@ -6,8 +6,12 @@
       "CVE-2025-22866",
       "CVE-2025-22870",
       "CVE-2025-22872",
+      "CVE-2025-47914",
+      "CVE-2025-58181",
       "GHSA-3whm-j4xm-rv8x",
       "GHSA-622h-h2p8-743x",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-j5w8-q4qc-rx2x",
       "GHSA-qxp5-gwg8-xv66",
       "GHSA-vvgc-356p-c3xw"
     ],
@@ -68,12 +72,22 @@
       "CVE-2025-54471",
       "GHSA-c8g6-qrwh-m3vp",
       "GHSA-h773-7gf7-9m2x"
+    ],
+    "3.974-r1": [
+      "CVE-2024-25621",
+      "CVE-2025-64329",
+      "GHSA-m6hq-p25p-ffr2",
+      "GHSA-pwhc-rpq9-4c8w"
+    ],
+    "3.974-r2": [
+      "CVE-2025-52881",
+      "GHSA-cgrx-mc8f-2prm"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

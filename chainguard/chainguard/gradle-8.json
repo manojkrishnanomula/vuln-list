@@ -15,6 +15,13 @@
       "CVE-2025-4949",
       "GHSA-vrpq-qp53-qv56"
     ],
+    "8.14.4-r0": [
+      "CVE-2026-22816",
+      "CVE-2026-22865"
+    ],
+    "8.14.4-r1": [
+      "GHSA-72hv-8253-57qq"
+    ],
     "8.2.1-r1": [
       "CVE-2020-8908",
       "CVE-2023-2976",
@@ -48,8 +55,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

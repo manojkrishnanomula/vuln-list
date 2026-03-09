@@ -2,19 +2,42 @@
   "name": "saf",
   "secfixes": {
     "1.4.22-r1": [
+      "CVE-2025-54371",
       "GHSA-rm8p-cx58-hcvx"
     ],
     "1.5.1-r0": [
+      "CVE-2024-51999",
       "CVE-2025-54798",
       "CVE-2025-58754",
       "GHSA-4hjh-wcwx-xvwj",
-      "GHSA-52f5-9888-hmc6"
+      "GHSA-52f5-9888-hmc6",
+      "GHSA-pj86-cfqh-vqx6"
+    ],
+    "1.5.2-r0": [
+      "CVE-2025-12758",
+      "CVE-2025-13466",
+      "CVE-2025-56200",
+      "CVE-2025-64718",
+      "CVE-2025-65945",
+      "GHSA-869p-cjfg-cm3x",
+      "GHSA-9965-vmph-33xx",
+      "GHSA-mh29-5h37-fv8m",
+      "GHSA-vghf-hv5q-vc2g",
+      "GHSA-wqch-xfxh-vrr4"
+    ],
+    "1.5.3-r1": [
+      "CVE-2025-13465",
+      "CVE-2025-15284",
+      "CVE-2026-0775",
+      "GHSA-3966-f6p6-2qr9",
+      "GHSA-6rw7-vpxm-498p",
+      "GHSA-xxjr-mmjv-4gpg"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

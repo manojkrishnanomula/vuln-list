@@ -1,7 +1,48 @@
 {
   "name": "tekton-pipelines-fips-0.65",
   "secfixes": {
+    "0": [
+      "CVE-2025-61728",
+      "GHSA-g9q4-qjx4-2v7q"
+    ],
+    "0.65.7-r11": [
+      "CVE-2025-61726",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-68119",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "0.65.7-r12": [
+      "CVE-2026-24137",
+      "GHSA-fcv2-xgw5-pqxf"
+    ],
+    "0.65.7-r13": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "0.65.7-r14": [
+      "CVE-2026-25934",
+      "GHSA-37cx-329c-33x3"
+    ],
+    "0.65.7-r15": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
+    ],
+    "0.65.7-r16": [
+      "CVE-2026-24051",
+      "GHSA-9h8m-3fm2-qjrq"
+    ],
+    "0.65.7-r17": [
+      "CVE-2026-27141",
+      "GHSA-8fj7-8h3w-xwfm"
+    ],
     "0.65.7-r3": [
+      "CVE-2025-8556",
       "GHSA-2x5j-vhc8-9cwm"
     ],
     "0.65.7-r5": [
@@ -11,12 +52,40 @@
     "0.65.7-r6": [
       "CVE-2025-54410",
       "GHSA-4vq8-7jfc-9cvp"
+    ],
+    "0.65.7-r7": [
+      "CVE-2025-47912",
+      "CVE-2025-58183",
+      "CVE-2025-58185",
+      "CVE-2025-58186",
+      "CVE-2025-58187",
+      "CVE-2025-58188",
+      "CVE-2025-58189",
+      "CVE-2025-61723",
+      "CVE-2025-61724",
+      "CVE-2025-61725",
+      "GHSA-447v-2qg4-h8hc",
+      "GHSA-7wwx-xj66-r44x",
+      "GHSA-9gcr-gp5f-jw27",
+      "GHSA-cxq7-xw9v-rcv3",
+      "GHSA-frhw-mqj2-wxw2",
+      "GHSA-hjx7-fpxx-mj48",
+      "GHSA-jwmf-chvc-rf92",
+      "GHSA-qh38-484v-w52x",
+      "GHSA-rjcg-56ph-3qvg",
+      "GHSA-wcw9-47fp-rrfr"
+    ],
+    "0.65.7-r9": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-j5w8-q4qc-rx2x"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

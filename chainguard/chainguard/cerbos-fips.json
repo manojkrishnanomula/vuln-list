@@ -1,6 +1,14 @@
 {
   "name": "cerbos-fips",
   "secfixes": {
+    "0": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "CVE-2026-26958",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-fw7p-63qq-7hpr",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
     "0.45.1-r1": [
       "CVE-2025-53547",
       "GHSA-557j-xg8c-q2mm"
@@ -14,12 +22,36 @@
       "CVE-2025-55199",
       "GHSA-9h84-qmv7-982p",
       "GHSA-f9f8-9pmf-xv68"
+    ],
+    "0.51.0-r0": [
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-68119",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "0.51.0-r1": [
+      "CVE-2026-25934",
+      "GHSA-37cx-329c-33x3"
+    ],
+    "0.51.0-r2": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
+    ],
+    "0.51.0-r3": [
+      "CVE-2026-24051",
+      "GHSA-9h8m-3fm2-qjrq"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

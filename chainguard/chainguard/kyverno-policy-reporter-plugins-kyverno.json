@@ -1,0 +1,64 @@
+{
+  "name": "kyverno-policy-reporter-plugins-kyverno",
+  "secfixes": {
+    "0": [
+      "CVE-2025-58181",
+      "CVE-2025-61728",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
+    "0.5.2-r0": [
+      "CVE-2025-47914",
+      "GHSA-f6x5-jh6r-wrfv"
+    ],
+    "0.5.3-r0": [
+      "CVE-2025-66506",
+      "GHSA-f83f-xpx7-ffpw"
+    ],
+    "0.5.3-r2": [
+      "CVE-2025-61726",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-66564",
+      "CVE-2025-68119",
+      "CVE-2026-22703",
+      "CVE-2026-23831",
+      "CVE-2026-23991",
+      "CVE-2026-23992",
+      "CVE-2026-24117",
+      "CVE-2026-24137",
+      "CVE-2026-24686",
+      "GHSA-273p-m2cw-6833",
+      "GHSA-4c4x-jm2x-pf9j",
+      "GHSA-4qg8-fj49-pxjh",
+      "GHSA-846p-jg2w-w324",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-fcv2-xgw5-pqxf",
+      "GHSA-fphv-w9fq-2525",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-jqc5-w2xx-5vq4",
+      "GHSA-whqx-f9j3-ch6m",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "0.5.3-r3": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
+    ],
+    "0.5.3-r4": [
+      "CVE-2026-24051",
+      "GHSA-9h8m-3fm2-qjrq"
+    ],
+    "0.5.3-r6": [
+      "CVE-2025-15558",
+      "GHSA-p436-gjf2-799p"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

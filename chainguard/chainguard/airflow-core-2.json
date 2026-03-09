@@ -1,6 +1,27 @@
 {
   "name": "airflow-core-2",
   "secfixes": {
+    "0": [
+      "CVE-2025-66221",
+      "CVE-2026-21860",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-hgf8-39gv-g3f2"
+    ],
+    "2.11.0-r10": [
+      "CVE-2025-68480",
+      "GHSA-428g-f7cq-pgp5"
+    ],
+    "2.11.0-r12": [
+      "CVE-2026-21441",
+      "GHSA-38jv-5279-wg99"
+    ],
+    "2.11.0-r14": [
+      "CVE-2026-26007",
+      "GHSA-r6ph-v2qm-q3c2"
+    ],
+    "2.11.0-r15": [
+      "GHSA-27jp-wm6q-gp25"
+    ],
     "2.11.0-r2": [
       "CVE-2024-47081",
       "GHSA-9hjg-9r4m-mvj7"
@@ -14,12 +35,40 @@
     "2.11.0-r4": [
       "CVE-2025-53643",
       "GHSA-9548-qrrj-x5pj"
+    ],
+    "2.11.0-r9": [
+      "CVE-2025-66418",
+      "CVE-2025-66471",
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-gm62-xv2j-4w53"
+    ],
+    "2.11.1-r0": [
+      "CVE-2023-46136",
+      "CVE-2024-34069",
+      "CVE-2024-49766",
+      "CVE-2024-49767",
+      "CVE-2024-56373",
+      "CVE-2025-27555",
+      "CVE-2025-65995",
+      "CVE-2025-68675",
+      "CVE-2026-0994",
+      "CVE-2026-27199",
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-7c2f-r6gc-h92h",
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-8r55-rv5w-6pfm",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-gfw7-2v73-69wg",
+      "GHSA-hrfv-mqp8-q5rw",
+      "GHSA-q34m-jh98-gwm2",
+      "GHSA-r837-hpv7-pc2f"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

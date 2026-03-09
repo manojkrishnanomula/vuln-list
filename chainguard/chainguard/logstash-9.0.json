@@ -15,6 +15,32 @@
       "GHSA-w9pc-fmgc-vxvw",
       "GHSA-wpv5-97wm-hp9c"
     ],
+    "9.0.8-r10": [
+      "CVE-2025-33042",
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-61732",
+      "CVE-2025-68119",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-h355-32pf-p2xm",
+      "GHSA-rp46-r563-jrc7",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "9.0.8-r11": [
+      "CVE-2026-22860",
+      "CVE-2026-25500",
+      "CVE-2026-25765",
+      "GHSA-33mh-2634-fwr2",
+      "GHSA-mxw3-3hh2-x2mh",
+      "GHSA-whrj-4476-wvmp"
+    ],
     "9.0.8-r2": [
       "CVE-2025-61780",
       "CVE-2025-61919",
@@ -22,12 +48,22 @@
       "GHSA-6xw4-3v39-52mm",
       "GHSA-mr3q-g2mv-mr4q",
       "GHSA-r657-rxjc-j557"
+    ],
+    "9.0.8-r3": [
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "9.0.8-r6": [
+      "CVE-2025-14762",
+      "GHSA-2xgq-q749-89fq"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

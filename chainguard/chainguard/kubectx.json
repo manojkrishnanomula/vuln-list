@@ -1,0 +1,23 @@
+{
+  "name": "kubectx",
+  "secfixes": {
+    "0": [
+      "CVE-2025-47911",
+      "CVE-2025-58190",
+      "CVE-2025-68121",
+      "GHSA-h355-32pf-p2xm",
+      "GHSA-w4gw-w5jq-g9jh"
+    ],
+    "0.9.5-r3": [
+      "CVE-2025-61732",
+      "GHSA-8jvr-vh7g-f8gx"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

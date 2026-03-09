@@ -31,15 +31,15 @@
       "CVE-2025-41249",
       "GHSA-jmp9-x22r-554x"
     ],
-    "6.4.0-r50": [
-      "CVE-2025-11226",
-      "GHSA-25qh-j22f-pwp8"
+    "6.4.1-r7": [
+      "CVE-2026-1225",
+      "GHSA-qqpg-mvqg-649v"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

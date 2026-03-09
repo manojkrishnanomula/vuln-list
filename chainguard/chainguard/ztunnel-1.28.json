@@ -1,0 +1,23 @@
+{
+  "name": "ztunnel-1.28",
+  "secfixes": {
+    "1.28.2-r1": [
+      "GHSA-rhfx-m35p-ff5j"
+    ],
+    "1.28.3-r2": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "1.28.3-r3": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

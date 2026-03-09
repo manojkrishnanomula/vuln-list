@@ -1,0 +1,20 @@
+{
+  "name": "datadog-agent-fips-7.73",
+  "secfixes": {
+    "7.73.3-r1": [
+      "CVE-2026-22771",
+      "GHSA-xrwg-mqj6-6m22"
+    ],
+    "7.73.3-r3": [
+      "CVE-2026-1703",
+      "GHSA-6vgw-5pg2-w6jp"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

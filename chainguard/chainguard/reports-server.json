@@ -1,0 +1,63 @@
+{
+  "name": "reports-server",
+  "secfixes": {
+    "0": [
+      "CVE-2024-48921",
+      "CVE-2025-46342",
+      "CVE-2025-47281",
+      "CVE-2026-22039",
+      "CVE-2026-23881",
+      "GHSA-459x-q9hg-4gpq",
+      "GHSA-8p9x-46gm-qfx2",
+      "GHSA-jrr2-x33p-6hvc",
+      "GHSA-qjvc-p88j-j9rm",
+      "GHSA-r2rj-wwm5-x6mq",
+      "GHSA-r5p3-955p-5ggq"
+    ],
+    "0.1.6-r0": [
+      "CVE-2026-23991",
+      "CVE-2026-23992",
+      "GHSA-846p-jg2w-w324",
+      "GHSA-fphv-w9fq-2525"
+    ],
+    "0.1.6-r1": [
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-61732",
+      "CVE-2025-68119",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-h355-32pf-p2xm",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "0.1.6-r2": [
+      "CVE-2026-26958",
+      "GHSA-fw7p-63qq-7hpr"
+    ],
+    "0.1.6-r3": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
+    ],
+    "0.1.6-r5": [
+      "CVE-2026-24051",
+      "GHSA-9h8m-3fm2-qjrq"
+    ],
+    "0.1.6-r7": [
+      "CVE-2025-15558",
+      "GHSA-p436-gjf2-799p"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

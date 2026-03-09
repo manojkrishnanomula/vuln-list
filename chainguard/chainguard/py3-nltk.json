@@ -4,12 +4,16 @@
     "3.8.2-r0": [
       "CVE-2024-39705",
       "GHSA-cgvx-9447-vcch"
+    ],
+    "3.9.3-r0": [
+      "CVE-2025-14009",
+      "GHSA-7p94-766c-hgjp"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

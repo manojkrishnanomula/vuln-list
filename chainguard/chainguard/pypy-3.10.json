@@ -14,12 +14,22 @@
     "7.3.19-r12": [
       "CVE-2024-47081",
       "GHSA-9hjg-9r4m-mvj7"
+    ],
+    "7.3.19-r14": [
+      "CVE-2026-23949",
+      "CVE-2026-24049",
+      "GHSA-58pv-8j8x-9vj2",
+      "GHSA-8rrh-rw8j-w5fx"
+    ],
+    "7.3.19-r15": [
+      "CVE-2026-1703",
+      "GHSA-6vgw-5pg2-w6jp"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

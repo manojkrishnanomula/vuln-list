@@ -1,0 +1,24 @@
+{
+  "name": "prefect",
+  "secfixes": {
+    "3.6.10-r0": [
+      "CVE-2026-21441",
+      "GHSA-38jv-5279-wg99"
+    ],
+    "3.6.17-r0": [
+      "CVE-2026-26007",
+      "GHSA-r6ph-v2qm-q3c2"
+    ],
+    "3.6.9-r0": [
+      "CVE-2023-6022",
+      "GHSA-4hh5-2678-83fx"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

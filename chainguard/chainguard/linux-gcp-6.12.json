@@ -8,6 +8,7 @@
       "CVE-2007-2764",
       "CVE-2007-4998",
       "CVE-2008-2544",
+      "CVE-2010-4563",
       "CVE-2014-8171",
       "CVE-2016-0774",
       "CVE-2016-3695",
@@ -96,6 +97,7 @@
       "GHSA-3c7w-rm52-555g",
       "GHSA-3chx-g7jg-4263",
       "GHSA-3xq4-8c55-jfwq",
+      "GHSA-4337-x4h9-rx8j",
       "GHSA-48h7-cvhw-3w6x",
       "GHSA-4h2p-5cf9-5j8f",
       "GHSA-4hgp-5v89-5fhw",
@@ -106,6 +108,7 @@
       "GHSA-6f7j-jmxj-m9g3",
       "GHSA-6q37-hh76-6rv4",
       "GHSA-74xp-vm35-rpjw",
+      "GHSA-75cj-jpmc-wm6c",
       "GHSA-78wg-6vv7-mj9q",
       "GHSA-794c-rcrg-7j7w",
       "GHSA-7f5q-x8vx-pfrp",
@@ -122,6 +125,7 @@
       "GHSA-9wx5-5c3v-3qmx",
       "GHSA-c8cv-8gr5-5v2w",
       "GHSA-cf7q-h67g-w62q",
+      "GHSA-cgrg-f7m4-p242",
       "GHSA-cvfm-v88g-pg7v",
       "GHSA-f7qv-v8h9-5244",
       "GHSA-ff3j-qf4h-7gcp",
@@ -177,12 +181,22 @@
     "6.12.53-r0": [
       "CVE-2025-37925",
       "GHSA-8ccv-3j8r-hx7f"
+    ],
+    "6.12.58-r0": [
+      "CVE-2025-22105",
+      "CVE-2025-23130",
+      "GHSA-qj48-g5ch-7g59",
+      "GHSA-r4vm-3mc7-prgx"
+    ],
+    "6.12.60-r1": [
+      "CVE-2025-38678",
+      "GHSA-g7rm-8pw5-wvg2"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

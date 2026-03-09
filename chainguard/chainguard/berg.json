@@ -2,6 +2,7 @@
   "name": "berg",
   "secfixes": {
     "0.3.5-r2": [
+      "CVE-2023-53159",
       "CVE-2024-27308",
       "CVE-2024-43806",
       "GHSA-8r5v-vm4m-4g25",
@@ -33,12 +34,23 @@
     ],
     "0.4.9-r2": [
       "GHSA-rr8g-9fpq-6wmg"
+    ],
+    "0.5.4-r2": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "0.5.4-r3": [
+      "GHSA-j39j-6gw9-jw6h"
+    ],
+    "0.5.5-r0": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

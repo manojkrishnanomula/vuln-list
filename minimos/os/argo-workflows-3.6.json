@@ -7,6 +7,7 @@
       "GHSA-fv92-fjc5-jj9h"
     ],
     "3.6.10-r2": [
+      "CVE-2025-11065",
       "GHSA-2464-8j7c-4cjm"
     ],
     "3.6.11-r0": [
@@ -14,10 +15,96 @@
       "GHSA-8pjc-487g-w6p2"
     ],
     "3.6.12-r0": [
+      "CVE-2025-47912",
+      "CVE-2025-58183",
+      "CVE-2025-58185",
+      "CVE-2025-58186",
+      "CVE-2025-58187",
+      "CVE-2025-58188",
+      "CVE-2025-58189",
+      "CVE-2025-61723",
+      "CVE-2025-61724",
+      "CVE-2025-61725",
       "CVE-2025-62156",
       "CVE-2025-62157",
+      "GHSA-447v-2qg4-h8hc",
+      "GHSA-7wwx-xj66-r44x",
+      "GHSA-9gcr-gp5f-jw27",
       "GHSA-c2hv-4pfj-mm2r",
-      "GHSA-p84v-gxvw-73pf"
+      "GHSA-cxq7-xw9v-rcv3",
+      "GHSA-frhw-mqj2-wxw2",
+      "GHSA-hjx7-fpxx-mj48",
+      "GHSA-jwmf-chvc-rf92",
+      "GHSA-p84v-gxvw-73pf",
+      "GHSA-qh38-484v-w52x",
+      "GHSA-rjcg-56ph-3qvg",
+      "GHSA-wcw9-47fp-rrfr"
+    ],
+    "3.6.13-r0": [
+      "CVE-2025-64718",
+      "GHSA-mh29-5h37-fv8m"
+    ],
+    "3.6.13-r1": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
+    "3.6.13-r2": [
+      "CVE-2025-12816",
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "CVE-2025-66030",
+      "CVE-2025-66031",
+      "GHSA-554w-wpv2-vw27",
+      "GHSA-5gfm-wpxj-wjgq",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-65ch-62r8-g69g",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "3.6.14-r0": [
+      "CVE-2025-66626",
+      "GHSA-xrqc-7xgx-c9vh"
+    ],
+    "3.6.15-r1": [
+      "CVE-2025-15284",
+      "CVE-2025-68156",
+      "CVE-2025-68157",
+      "CVE-2025-68458",
+      "GHSA-38r7-794h-5758",
+      "GHSA-6rw7-vpxm-498p",
+      "GHSA-8fgc-7cc6-rx7x",
+      "GHSA-cfpf-hrx2-8rv6"
+    ],
+    "3.6.17-r0": [
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-68119",
+      "CVE-2026-23960",
+      "CVE-2026-24001",
+      "GHSA-73rr-hh4g-fpgx",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-cv78-6m8q-ph82",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "3.6.18-r0": [
+      "CVE-2025-13465",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "3.6.18-r1": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "3.6.18-r2": [
+      "CVE-2026-25934",
+      "GHSA-37cx-329c-33x3"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

@@ -1,0 +1,77 @@
+{
+  "name": "airflow-3",
+  "secfixes": {
+    "0": [
+      "CVE-2023-48022",
+      "GHSA-6wgj-66m2-xxp2"
+    ],
+    "3.1.1-r0": [
+      "CVE-2025-58065",
+      "CVE-2025-62402",
+      "CVE-2025-62503",
+      "CVE-2025-62611",
+      "GHSA-273c-4g26-4jpm",
+      "GHSA-765j-9r45-w2q2",
+      "GHSA-gp5f-cx7h-8q6f",
+      "GHSA-r397-ff8c-wv2g"
+    ],
+    "3.1.4-r0": [
+      "CVE-2025-66388",
+      "GHSA-27jp-wm6q-gp25",
+      "GHSA-fv47-pqh6-wxgq"
+    ],
+    "3.1.5-r0": [
+      "CVE-2025-65995",
+      "CVE-2025-66418",
+      "CVE-2025-66471",
+      "CVE-2025-68158",
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-fg6f-75jq-6523",
+      "GHSA-gfw7-2v73-69wg",
+      "GHSA-gm62-xv2j-4w53"
+    ],
+    "3.1.6-r0": [
+      "CVE-2025-68146",
+      "CVE-2025-68438",
+      "CVE-2025-68480",
+      "CVE-2025-68675",
+      "CVE-2025-69277",
+      "CVE-2026-21441",
+      "CVE-2026-2472",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-3qmm-r55x-hpxx",
+      "GHSA-428g-f7cq-pgp5",
+      "GHSA-7c2f-r6gc-h92h",
+      "GHSA-mrfv-m5wm-5w6w",
+      "GHSA-qv8j-hgpc-vrq8",
+      "GHSA-w853-jp5j-5j7f"
+    ],
+    "3.1.7-r0": [
+      "CVE-2026-21226",
+      "CVE-2026-22701",
+      "CVE-2026-22922",
+      "CVE-2026-23490",
+      "CVE-2026-23949",
+      "CVE-2026-24049",
+      "CVE-2026-24098",
+      "CVE-2026-24486",
+      "CVE-2026-2473",
+      "GHSA-58pv-8j8x-9vj2",
+      "GHSA-5g2w-9f8g-g5q7",
+      "GHSA-63vm-454h-vhhq",
+      "GHSA-8rrh-rw8j-w5fx",
+      "GHSA-jm66-cg57-jjv5",
+      "GHSA-pm44-x5x7-24c4",
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-wh2j-26j7-9728",
+      "GHSA-wp53-j4wj-2cfg"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

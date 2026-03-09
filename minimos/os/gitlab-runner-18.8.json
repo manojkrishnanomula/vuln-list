@@ -1,0 +1,48 @@
+{
+  "name": "gitlab-runner-18.8",
+  "secfixes": {
+    "0": [
+      "CVE-2025-13335",
+      "CVE-2025-13927",
+      "CVE-2025-13928",
+      "CVE-2026-0595",
+      "CVE-2026-0723",
+      "CVE-2026-1094",
+      "CVE-2026-1102",
+      "CVE-2026-1282",
+      "CVE-2026-1456",
+      "CVE-2026-1458",
+      "GHSA-3rr2-xxqc-95fc",
+      "GHSA-4v3f-ffrw-xcx6",
+      "GHSA-8f2f-6w9m-mg42",
+      "GHSA-95p8-ccjw-3g7f",
+      "GHSA-cf2v-m456-7qjf",
+      "GHSA-gr75-mcwq-hxv5",
+      "GHSA-m668-xfwp-34x6",
+      "GHSA-r8f4-mx7h-29jp",
+      "GHSA-rf7g-f56c-v6w4",
+      "GHSA-w487-9r9p-6p96"
+    ],
+    "18.8.0-r1": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "18.8.0-r2": [
+      "CVE-2026-25934",
+      "GHSA-37cx-329c-33x3"
+    ],
+    "18.8.0-r3": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ingress-nginx-controller-1.14",
+  "secfixes": {
+    "1.14.2-r0": [
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-68119",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "1.14.3-r0": [
+      "CVE-2026-1580",
+      "CVE-2026-24512",
+      "CVE-2026-24513",
+      "CVE-2026-24514",
+      "GHSA-2pf9-vr92-6h3v",
+      "GHSA-4g2f-xcph-2335",
+      "GHSA-9h3p-52vh-959w",
+      "GHSA-jx8c-56mg-h6vp"
+    ],
+    "1.14.3-r1": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

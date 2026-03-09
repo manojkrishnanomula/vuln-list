@@ -1,0 +1,66 @@
+{
+  "name": "grafana-alloy",
+  "secfixes": {
+    "1.12.0-r0": [
+      "CVE-2025-31133",
+      "CVE-2025-52565",
+      "CVE-2025-52881",
+      "GHSA-9493-h29p-rfm2",
+      "GHSA-cgrx-mc8f-2prm",
+      "GHSA-qw9x-cqr3-wc7r"
+    ],
+    "1.12.0-r1": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "CVE-2025-63811",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-7c64-f9jr-v9h2",
+      "GHSA-9mj6-hxhv-w67j",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-j5w8-q4qc-rx2x"
+    ],
+    "1.12.1-r1": [
+      "CVE-2025-68156",
+      "GHSA-cfpf-hrx2-8rv6"
+    ],
+    "1.12.2-r1": [
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-68119",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "1.13.0-r0": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "1.13.0-r1": [
+      "CVE-2026-25934",
+      "GHSA-37cx-329c-33x3"
+    ],
+    "1.13.1-r1": [
+      "CVE-2026-26958",
+      "GHSA-fw7p-63qq-7hpr"
+    ],
+    "1.13.2-r1": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

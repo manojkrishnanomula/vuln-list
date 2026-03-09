@@ -1,0 +1,56 @@
+{
+  "name": "sonarqube",
+  "secfixes": {
+    "0": [
+      "CVE-2025-25193",
+      "CVE-2025-59250",
+      "GHSA-389x-839f-4rhx",
+      "GHSA-m494-w24q-6f7w"
+    ],
+    "25.11.0.114957-r0": [
+      "CVE-2025-11226",
+      "GHSA-25qh-j22f-pwp8"
+    ],
+    "25.12.0.117093-r0": [
+      "CVE-2025-48734",
+      "CVE-2025-68390",
+      "GHSA-gphj-4h6p-37xq",
+      "GHSA-wxr5-93ph-8wr9"
+    ],
+    "25.12.0.117093-r1": [
+      "CVE-2025-37731",
+      "CVE-2025-55163",
+      "CVE-2025-58056",
+      "CVE-2025-58057",
+      "GHSA-3p8m-j85q-pgmj",
+      "GHSA-fghv-69vj-qj49",
+      "GHSA-m9gh-789g-q5pv",
+      "GHSA-prj3-ccx8-p6x4"
+    ],
+    "25.12.0.117093-r2": [
+      "CVE-2025-68384",
+      "GHSA-qf7c-7r9h-mm92"
+    ],
+    "25.6.0.109173-r0": [
+      "CVE-2024-12798",
+      "CVE-2024-12801",
+      "CVE-2024-47535",
+      "CVE-2024-47554",
+      "GHSA-6v67-2wr5-gvf4",
+      "GHSA-78wr-2p64-hpwj",
+      "GHSA-pr98-23f8-jwxv",
+      "GHSA-xq3w-v528-46rv"
+    ],
+    "26.1.0.118079-r2": [
+      "CVE-2026-1225",
+      "GHSA-qqpg-mvqg-649v"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

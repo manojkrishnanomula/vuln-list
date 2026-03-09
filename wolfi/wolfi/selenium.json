@@ -1,0 +1,32 @@
+{
+  "name": "selenium",
+  "secfixes": {
+    "0": [
+      "CVE-2024-47535",
+      "CVE-2025-25193",
+      "GHSA-389x-839f-4rhx",
+      "GHSA-xq3w-v528-46rv"
+    ],
+    "4.19.0-r0": [
+      "CVE-2024-29025",
+      "GHSA-5jpm-x58v-624v"
+    ],
+    "4.28.0-r1": [
+      "CVE-2025-24970",
+      "GHSA-4g8c-wm8x-jfhw"
+    ],
+    "4.41.0-r0": [
+      "CVE-2025-58056",
+      "CVE-2025-58057",
+      "GHSA-3p8m-j85q-pgmj",
+      "GHSA-fghv-69vj-qj49"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

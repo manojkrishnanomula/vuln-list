@@ -1,0 +1,20 @@
+{
+  "name": "crossplane-2.2",
+  "secfixes": {
+    "2.2.0-r1": [
+      "CVE-2026-1229",
+      "GHSA-q9hv-hpm4-hj6x"
+    ],
+    "2.2.0-r2": [
+      "CVE-2025-15558",
+      "GHSA-p436-gjf2-799p"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

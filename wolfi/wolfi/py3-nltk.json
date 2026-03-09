@@ -1,0 +1,20 @@
+{
+  "name": "py3-nltk",
+  "secfixes": {
+    "3.8.2-r0": [
+      "CVE-2024-39705",
+      "GHSA-cgvx-9447-vcch"
+    ],
+    "3.9.3-r0": [
+      "CVE-2025-14009",
+      "GHSA-7p94-766c-hgjp"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

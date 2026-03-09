@@ -1,0 +1,31 @@
+{
+  "name": "sqlx",
+  "secfixes": {
+    "0.8.5-r2": [
+      "GHSA-4p46-pwfr-66x6"
+    ],
+    "0.8.5-r3": [
+      "CVE-2025-4432",
+      "GHSA-c86p-w88r-qvqr"
+    ],
+    "0.8.6-r2": [
+      "CVE-2026-21895",
+      "GHSA-9c48-w39g-hm26"
+    ],
+    "0.8.6-r3": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "0.8.6-r4": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

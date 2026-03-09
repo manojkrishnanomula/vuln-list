@@ -1,0 +1,32 @@
+{
+  "name": "opensearch-3",
+  "secfixes": {
+    "3.0.0-r2": [
+      "CVE-2025-27817",
+      "GHSA-vgq5-3255-v292"
+    ],
+    "3.3.0-r0": [
+      "CVE-2025-22227",
+      "GHSA-4q2v-9p7v-3v22"
+    ],
+    "3.3.2-r0": [
+      "CVE-2025-12194",
+      "CVE-2025-54988",
+      "GHSA-jv6h-4262-q663",
+      "GHSA-p72g-pv48-7w9x"
+    ],
+    "3.5.0-r0": [
+      "CVE-2025-67735",
+      "CVE-2025-68161",
+      "GHSA-84h7-rjj3-6jx4",
+      "GHSA-vc5p-v9hr-52mj"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

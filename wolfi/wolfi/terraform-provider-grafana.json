@@ -1,0 +1,38 @@
+{
+  "name": "terraform-provider-grafana",
+  "secfixes": {
+    "3.22.0-r1": [
+      "CVE-2025-22870",
+      "GHSA-qxp5-gwg8-xv66"
+    ],
+    "3.22.2-r1": [
+      "CVE-2025-22871",
+      "GHSA-g9pc-8g42-g6vq"
+    ],
+    "3.22.3-r2": [
+      "CVE-2025-22872",
+      "GHSA-vvgc-356p-c3xw"
+    ],
+    "4.25.0-r1": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "4.25.0-r2": [
+      "CVE-2026-24051",
+      "GHSA-9h8m-3fm2-qjrq"
+    ],
+    "4.26.0-r1": [
+      "CVE-2026-27141",
+      "GHSA-8fj7-8h3w-xwfm"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

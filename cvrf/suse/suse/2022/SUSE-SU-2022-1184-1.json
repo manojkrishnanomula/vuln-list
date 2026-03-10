@@ -127,10 +127,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.8",
-        "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.8",
+          "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-23121",
@@ -162,8 +164,7 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:netatalk-3.1.0-3.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-23125",
@@ -195,8 +196,7 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:netatalk-3.1.0-3.8.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

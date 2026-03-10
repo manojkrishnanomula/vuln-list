@@ -170,10 +170,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "3.3",
-        "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "3.3",
+          "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-46842",
@@ -192,8 +194,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240809-x86-64:xen-libs-4.17.4_04-150500.3.33.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-52425",
@@ -212,8 +213,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240809-x86-64:python3-lxml-4.9.1-150500.3.4.3"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-1737",
@@ -233,8 +233,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240809-x86-64:python3-bind-9.16.50-150500.8.21.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-1975",
@@ -254,8 +253,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240809-x86-64:python3-bind-9.16.50-150500.8.21.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-31143",
@@ -274,8 +272,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240809-x86-64:xen-libs-4.17.4_04-150500.3.33.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-37891",
@@ -294,8 +291,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240809-x86-64:python3-urllib3-1.25.10-150300.4.12.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-4076",
@@ -315,8 +311,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240809-x86-64:python3-bind-9.16.50-150500.8.21.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-41110",
@@ -335,8 +330,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240809-x86-64:docker-25.0.6_ce-150000.203.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

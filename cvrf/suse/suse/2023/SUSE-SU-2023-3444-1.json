@@ -1659,10 +1659,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-3750",
@@ -1953,10 +1955,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.6",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.6",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-0330",
@@ -2238,8 +2242,7 @@
             "SUSE Manager Server 4.2:qemu-x86-5.2.0-150300.127.3"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3180",
@@ -2521,8 +2524,7 @@
             "SUSE Manager Server 4.2:qemu-x86-5.2.0-150300.127.3"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3301",
@@ -2804,8 +2806,7 @@
             "SUSE Manager Server 4.2:qemu-x86-5.2.0-150300.127.3"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3354",
@@ -3087,8 +3088,7 @@
             "SUSE Manager Server 4.2:qemu-x86-5.2.0-150300.127.3"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

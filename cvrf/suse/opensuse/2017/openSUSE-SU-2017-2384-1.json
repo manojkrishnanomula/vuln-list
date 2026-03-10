@@ -190,10 +190,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.2",
-        "Vector": "AV:L/AC:H/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.2",
+          "Vector": "AV:L/AC:H/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-14051",
@@ -240,10 +242,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6",
-        "Vector": "AV:L/AC:H/Au:S/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6",
+          "Vector": "AV:L/AC:H/Au:S/C:C/I:C/A:C"
+        }
+      ]
     }
   ]
 }

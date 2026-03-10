@@ -87,10 +87,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.5",
-        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.5",
+          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-42073",
@@ -114,8 +116,7 @@
             "openSUSE Leap 15.2:barrier-2.4.0-lp152.3.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

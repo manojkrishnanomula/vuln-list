@@ -119,8 +119,7 @@
             "openSUSE 13.2:xerces-c-debugsource-3.1.1-13.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0729",
@@ -156,10 +155,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.0",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.0",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+        }
+      ]
     }
   ]
 }

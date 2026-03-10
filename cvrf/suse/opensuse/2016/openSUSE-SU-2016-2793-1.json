@@ -107,8 +107,7 @@
             "openSUSE Leap 42.2:chromium-ffmpegsumo-54.0.2840.100-91.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-5200",
@@ -142,10 +141,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-5201",
@@ -178,8 +179,7 @@
             "openSUSE Leap 42.2:chromium-ffmpegsumo-54.0.2840.100-91.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-5202",
@@ -212,8 +212,7 @@
             "openSUSE Leap 42.2:chromium-ffmpegsumo-54.0.2840.100-91.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

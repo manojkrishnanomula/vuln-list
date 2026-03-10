@@ -310,8 +310,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:kernel-syms-azure-4.12.14-16.106.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2020-36558",
@@ -361,8 +360,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:kernel-syms-azure-4.12.14-16.106.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-33655",
@@ -416,8 +414,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:kernel-syms-azure-4.12.14-16.106.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-33656",
@@ -463,8 +460,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:kernel-syms-azure-4.12.14-16.106.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-1462",
@@ -507,10 +503,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "3.3",
-        "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "3.3",
+          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-20166",
@@ -557,10 +555,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.6",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.6",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-36946",
@@ -630,8 +630,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:kernel-syms-azure-4.12.14-16.106.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

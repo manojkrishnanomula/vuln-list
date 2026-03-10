@@ -189,8 +189,7 @@
             "openSUSE 13.2:java-1_7_0-openjdk-src-1.7.0.95-16.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-7575",
@@ -289,10 +288,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-8126",
@@ -355,10 +356,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.2",
-        "Vector": "AV:L/AC:L/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.2",
+          "Vector": "AV:L/AC:L/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-8472",
@@ -416,8 +419,7 @@
             "openSUSE 13.2:java-1_7_0-openjdk-src-1.7.0.95-16.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0402",
@@ -471,8 +473,7 @@
             "openSUSE 13.2:java-1_7_0-openjdk-src-1.7.0.95-16.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0448",
@@ -526,8 +527,7 @@
             "openSUSE 13.2:java-1_7_0-openjdk-src-1.7.0.95-16.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0466",
@@ -581,8 +581,7 @@
             "openSUSE 13.2:java-1_7_0-openjdk-src-1.7.0.95-16.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0483",
@@ -636,8 +635,7 @@
             "openSUSE 13.2:java-1_7_0-openjdk-src-1.7.0.95-16.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2016-0494",
@@ -687,8 +685,7 @@
             "openSUSE 13.2:java-1_7_0-openjdk-src-1.7.0.95-16.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

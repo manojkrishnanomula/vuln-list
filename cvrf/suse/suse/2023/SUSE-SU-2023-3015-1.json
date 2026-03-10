@@ -399,10 +399,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.6",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.6",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-0330",
@@ -478,8 +480,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:qemu-x86-3.1.1.1-69.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2861",
@@ -555,8 +556,7 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:qemu-x86-3.1.1.1-69.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

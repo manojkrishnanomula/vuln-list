@@ -119,8 +119,7 @@
             "openSUSE Leap 42.3:wireshark-ui-qt-2.2.8-17.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-11407",
@@ -155,8 +154,7 @@
             "openSUSE Leap 42.3:wireshark-ui-qt-2.2.8-17.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-11408",
@@ -191,8 +189,7 @@
             "openSUSE Leap 42.3:wireshark-ui-qt-2.2.8-17.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-11410",
@@ -231,8 +228,7 @@
             "openSUSE Leap 42.3:wireshark-ui-qt-2.2.8-17.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-11411",
@@ -272,10 +268,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-7702",
@@ -315,10 +313,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.1",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.1",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-9350",
@@ -374,10 +374,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     }
   ]
 }

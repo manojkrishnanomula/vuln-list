@@ -1023,10 +1023,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2023-21830",
@@ -1204,8 +1206,7 @@
             "openSUSE Leap 15.4:java-1_8_0-ibm-src-1.8.0_sr8.0-150000.3.71.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-21835",
@@ -1383,8 +1384,7 @@
             "openSUSE Leap 15.4:java-1_8_0-ibm-src-1.8.0_sr8.0-150000.3.71.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-21843",
@@ -1562,8 +1562,7 @@
             "openSUSE Leap 15.4:java-1_8_0-ibm-src-1.8.0_sr8.0-150000.3.71.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

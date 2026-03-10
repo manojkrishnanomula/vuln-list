@@ -158,10 +158,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-3313",
@@ -210,10 +212,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "3.8",
-        "Vector": "AV:L/AC:H/Au:S/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "3.8",
+          "Vector": "AV:L/AC:H/Au:S/C:C/I:N/A:N"
+        }
+      ]
     }
   ]
 }

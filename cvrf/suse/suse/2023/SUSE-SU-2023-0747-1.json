@@ -253,10 +253,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-38096",
@@ -295,8 +297,7 @@
             "SUSE Linux Enterprise Real Time 12 SP5:ocfs2-kmp-rt-4.12.14-10.118.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4129",
@@ -335,8 +336,7 @@
             "SUSE Linux Enterprise Real Time 12 SP5:ocfs2-kmp-rt-4.12.14-10.118.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0597",
@@ -383,8 +383,7 @@
             "SUSE Linux Enterprise Real Time 12 SP5:ocfs2-kmp-rt-4.12.14-10.118.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1118",
@@ -443,8 +442,7 @@
             "SUSE Linux Enterprise Real Time 12 SP5:ocfs2-kmp-rt-4.12.14-10.118.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-23559",
@@ -483,8 +481,7 @@
             "SUSE Linux Enterprise Real Time 12 SP5:ocfs2-kmp-rt-4.12.14-10.118.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-26545",
@@ -531,8 +528,7 @@
             "SUSE Linux Enterprise Real Time 12 SP5:ocfs2-kmp-rt-4.12.14-10.118.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

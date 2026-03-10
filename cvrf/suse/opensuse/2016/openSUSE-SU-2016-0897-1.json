@@ -168,10 +168,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.0",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.0",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-7673",
@@ -214,8 +216,7 @@
             "openSUSE 13.2:typelib-1_0-GdkPixbuf-2_0-2.31.6-6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-7674",
@@ -258,8 +259,7 @@
             "openSUSE 13.2:typelib-1_0-GdkPixbuf-2_0-2.31.6-6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

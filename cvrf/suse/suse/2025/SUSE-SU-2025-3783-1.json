@@ -137,10 +137,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2024-12224",
@@ -169,8 +171,7 @@
             "SUSE Linux Enterprise Micro 5.2:afterburn-dracut-5.9.0.git21.a73f509-150300.3.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-3416",
@@ -199,8 +200,7 @@
             "SUSE Linux Enterprise Micro 5.2:afterburn-dracut-5.9.0.git21.a73f509-150300.3.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-5791",
@@ -229,8 +229,7 @@
             "SUSE Linux Enterprise Micro 5.2:afterburn-dracut-5.9.0.git21.a73f509-150300.3.5.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

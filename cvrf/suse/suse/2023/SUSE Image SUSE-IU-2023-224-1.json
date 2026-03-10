@@ -324,10 +324,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-5754",
@@ -347,10 +349,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-20251",
@@ -369,8 +373,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:samba-client-libs-4.15.13+git.594.449ec4a79a1-3.80.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-30560",
@@ -390,10 +393,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-38297",
@@ -411,10 +416,12 @@
           "ProductID": null
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-3923",
@@ -433,8 +440,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-4203",
@@ -454,10 +460,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-20567",
@@ -476,8 +484,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-23491",
@@ -496,8 +503,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:mozilla-nss-certs-3.79.4-58.94.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2991",
@@ -516,8 +522,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3107",
@@ -536,8 +541,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3108",
@@ -556,8 +560,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3479",
@@ -576,8 +579,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:mozilla-nss-certs-3.79.4-58.94.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3491",
@@ -597,8 +599,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3520",
@@ -618,8 +619,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3555",
@@ -639,8 +639,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libX11-data-1.6.2-12.27.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3564",
@@ -659,8 +658,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3591",
@@ -680,8 +678,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-36280",
@@ -700,8 +697,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3705",
@@ -721,8 +717,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-37966",
@@ -741,8 +736,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:samba-client-libs-4.15.13+git.594.449ec4a79a1-3.80.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-38023",
@@ -761,8 +755,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:samba-client-libs-4.15.13+git.594.449ec4a79a1-3.80.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-38096",
@@ -781,8 +774,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-40897",
@@ -802,8 +794,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:python3-setuptools-40.6.2-4.21.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-40899",
@@ -822,8 +813,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:python3-3.4.10-25.111.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4129",
@@ -842,8 +832,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4141",
@@ -863,8 +852,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4292",
@@ -884,8 +872,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4293",
@@ -905,8 +892,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-42969",
@@ -923,8 +909,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4304",
@@ -945,8 +930,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:openssl-1_0_0-1.0.2p-3.69.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4450",
@@ -965,8 +949,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libopenssl1_1-1.1.1d-2.81.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-45061",
@@ -983,8 +966,7 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4662",
@@ -1003,8 +985,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-47929",
@@ -1023,8 +1004,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-48303",
@@ -1043,8 +1023,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:tar-1.27.1-15.21.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0045",
@@ -1063,8 +1042,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0049",
@@ -1084,8 +1062,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0051",
@@ -1105,8 +1082,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0054",
@@ -1126,8 +1102,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0215",
@@ -1148,8 +1123,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:openssl-1_0_0-1.0.2p-3.69.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0266",
@@ -1168,8 +1142,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0286",
@@ -1190,8 +1163,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:openssl-1_0_0-1.0.2p-3.69.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0288",
@@ -1211,8 +1183,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0433",
@@ -1232,8 +1203,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0464",
@@ -1254,8 +1224,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:openssl-1_0_0-1.0.2p-3.69.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0465",
@@ -1274,8 +1243,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libopenssl1_1-1.1.1d-2.81.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0466",
@@ -1294,8 +1262,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libopenssl1_1-1.1.1d-2.81.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0512",
@@ -1315,8 +1282,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0590",
@@ -1335,8 +1301,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0597",
@@ -1355,8 +1320,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0767",
@@ -1375,8 +1339,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:mozilla-nss-certs-3.79.4-58.94.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0922",
@@ -1395,8 +1358,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:samba-client-libs-4.15.13+git.594.449ec4a79a1-3.80.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1076",
@@ -1415,8 +1377,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1095",
@@ -1435,8 +1396,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1118",
@@ -1455,8 +1415,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1127",
@@ -1476,8 +1435,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1170",
@@ -1497,8 +1455,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1175",
@@ -1518,8 +1475,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:vim-data-common-9.0.1386-17.15.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1281",
@@ -1538,8 +1494,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1390",
@@ -1558,8 +1513,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1513",
@@ -1578,8 +1532,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-22809",
@@ -1598,8 +1551,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:sudo-1.8.27-4.38.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-23454",
@@ -1618,8 +1570,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-23559",
@@ -1638,8 +1589,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-23916",
@@ -1659,8 +1609,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libcurl4-7.60.0-11.60.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-23931",
@@ -1682,8 +1631,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:python3-cryptography-2.8-7.40.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-24329",
@@ -1704,8 +1652,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:python3-base-3.4.10-25.111.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-26545",
@@ -1724,8 +1671,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-26604",
@@ -1748,8 +1694,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:udev-228-157.52.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-27533",
@@ -1769,8 +1714,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libcurl4-7.60.0-11.60.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-27534",
@@ -1790,8 +1734,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libcurl4-7.60.0-11.60.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-27535",
@@ -1811,8 +1754,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libcurl4-7.60.0-11.60.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-27536",
@@ -1832,8 +1774,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libcurl4-7.60.0-11.60.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-27538",
@@ -1853,8 +1794,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:libcurl4-7.60.0-11.60.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28328",
@@ -1873,8 +1813,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28464",
@@ -1893,8 +1832,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28486",
@@ -1913,8 +1851,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:sudo-1.8.27-4.38.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28487",
@@ -1933,8 +1870,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:sudo-1.8.27-4.38.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28772",
@@ -1953,8 +1889,7 @@
             "Public Cloud Image google/sles-12-sp5-byos-v20230417-x86-64:kernel-default-4.12.14-122.156.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

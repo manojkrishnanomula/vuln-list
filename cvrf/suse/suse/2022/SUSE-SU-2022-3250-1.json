@@ -183,10 +183,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-31150",
@@ -224,8 +226,7 @@
             "openSUSE Leap 15.4:npm16-16.17.0-150400.3.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-35948",
@@ -263,8 +264,7 @@
             "openSUSE Leap 15.4:npm16-16.17.0-150400.3.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-35949",
@@ -302,8 +302,7 @@
             "openSUSE Leap 15.4:npm16-16.17.0-150400.3.6.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

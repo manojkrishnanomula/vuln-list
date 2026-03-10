@@ -431,10 +431,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.9",
-        "Vector": "AV:A/AC:M/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.9",
+          "Vector": "AV:A/AC:M/Au:N/C:N/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-4382",
@@ -488,8 +490,7 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.34.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-47929",
@@ -539,8 +540,7 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.34.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0179",
@@ -598,8 +598,7 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.34.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0266",
@@ -657,8 +656,7 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.34.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

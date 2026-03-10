@@ -120,10 +120,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4",
-        "Vector": "AV:L/AC:H/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4",
+          "Vector": "AV:L/AC:H/Au:N/C:N/I:N/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2016-9801",
@@ -159,10 +161,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "1.2",
-        "Vector": "AV:L/AC:H/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "1.2",
+          "Vector": "AV:L/AC:H/Au:N/C:N/I:N/A:P"
+        }
+      ]
     }
   ]
 }

@@ -196,10 +196,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2015-3195",
@@ -264,8 +266,7 @@
             "openSUSE 13.2:libtls4-debuginfo-32bit-2.2.7-2.13.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-5333",
@@ -314,8 +315,7 @@
             "openSUSE 13.2:libtls4-debuginfo-32bit-2.2.7-2.13.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2015-5334",
@@ -364,8 +364,7 @@
             "openSUSE 13.2:libtls4-debuginfo-32bit-2.2.7-2.13.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

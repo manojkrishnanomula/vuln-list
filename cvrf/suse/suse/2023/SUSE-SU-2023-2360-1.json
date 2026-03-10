@@ -177,10 +177,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-32166",
@@ -217,8 +219,7 @@
             "SUSE OpenStack Cloud Crowbar 9:openvswitch-2.8.10-4.33.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4337",
@@ -255,8 +256,7 @@
             "SUSE OpenStack Cloud Crowbar 9:openvswitch-2.8.10-4.33.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-4338",
@@ -293,8 +293,7 @@
             "SUSE OpenStack Cloud Crowbar 9:openvswitch-2.8.10-4.33.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

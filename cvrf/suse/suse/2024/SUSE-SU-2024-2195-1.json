@@ -9203,10 +9203,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "3.3",
+          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:P"
+        },
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-11205",
@@ -10745,10 +10751,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2024-29158",
@@ -12286,8 +12294,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-29161",
@@ -13825,8 +13832,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-29166",
@@ -15364,8 +15370,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-32608",
@@ -16903,8 +16908,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-32610",
@@ -18442,8 +18446,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-32614",
@@ -19981,8 +19984,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-32619",
@@ -21520,8 +21522,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-32620",
@@ -23059,8 +23060,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-33873",
@@ -24598,8 +24598,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-33874",
@@ -26137,8 +26136,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-33875",
@@ -27676,8 +27674,7 @@
             "openSUSE Leap 15.6:pmix-test-3.2.3-150300.3.10.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

@@ -249,10 +249,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "7.2",
-        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "7.2",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-20322",
@@ -300,10 +302,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-31916",
@@ -343,10 +347,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.1",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.1",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-34981",
@@ -397,8 +403,7 @@
             "SUSE Linux Enterprise Real Time 12 SP5:ocfs2-kmp-rt-4.12.14-10.70.2"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

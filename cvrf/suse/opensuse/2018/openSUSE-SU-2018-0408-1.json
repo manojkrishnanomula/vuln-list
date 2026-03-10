@@ -203,8 +203,7 @@
             "openSUSE Leap 42.3:kselftests-kmp-vanilla-4.4.114-42.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-17712",
@@ -258,10 +257,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.6",
-        "Vector": "AV:L/AC:M/Au:N/C:P/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.6",
+          "Vector": "AV:L/AC:M/Au:N/C:P/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-17862",
@@ -310,8 +311,7 @@
             "openSUSE Leap 42.3:kselftests-kmp-vanilla-4.4.114-42.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-17864",
@@ -360,8 +360,7 @@
             "openSUSE Leap 42.3:kselftests-kmp-vanilla-4.4.114-42.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-18017",
@@ -422,8 +421,7 @@
             "openSUSE Leap 42.3:kselftests-kmp-vanilla-4.4.114-42.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2017-5715",
@@ -565,10 +563,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2018-1000004",
@@ -621,8 +621,7 @@
             "openSUSE Leap 42.3:kselftests-kmp-vanilla-4.4.114-42.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-5332",
@@ -675,8 +674,7 @@
             "openSUSE Leap 42.3:kselftests-kmp-vanilla-4.4.114-42.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2018-5333",
@@ -729,8 +727,7 @@
             "openSUSE Leap 42.3:kselftests-kmp-vanilla-4.4.114-42.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

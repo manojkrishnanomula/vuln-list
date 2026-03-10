@@ -368,8 +368,7 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.8.0-112.98.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-1196",
@@ -438,8 +437,7 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.8.0-112.98.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-24713",
@@ -513,10 +511,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5",
+          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-28281",
@@ -585,8 +585,7 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.8.0-112.98.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-28282",
@@ -655,8 +654,7 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.8.0-112.98.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-28285",
@@ -725,8 +723,7 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.8.0-112.98.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-28286",
@@ -795,8 +792,7 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.8.0-112.98.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-28289",
@@ -865,8 +861,7 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.8.0-112.98.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

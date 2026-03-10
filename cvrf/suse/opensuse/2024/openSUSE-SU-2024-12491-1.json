@@ -113,10 +113,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-3533",
@@ -147,8 +149,7 @@
             "openSUSE Tumbleweed:libbpf1-32bit-1.0.1-2.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3534",
@@ -179,8 +180,7 @@
             "openSUSE Tumbleweed:libbpf1-32bit-1.0.1-2.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-3606",
@@ -211,8 +211,7 @@
             "openSUSE Tumbleweed:libbpf1-32bit-1.0.1-2.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

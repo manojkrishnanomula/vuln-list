@@ -96,10 +96,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.4",
-        "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.4",
+          "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2017-11111",
@@ -135,10 +137,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.6",
-        "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.6",
+          "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
+        }
+      ]
     }
   ]
 }

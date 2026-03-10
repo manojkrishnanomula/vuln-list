@@ -2257,10 +2257,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:N/A:N"
+        },
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2020-27835",
@@ -2292,10 +2298,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-47248",
@@ -2326,8 +2334,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-47631",
@@ -2358,8 +2365,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-47641",
@@ -2390,8 +2396,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-47642",
@@ -2422,8 +2427,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-47650",
@@ -2454,8 +2458,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-47651",
@@ -2486,8 +2489,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-47652",
@@ -2518,8 +2520,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-47653",
@@ -2550,8 +2551,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-47659",
@@ -2582,8 +2582,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-0168",
@@ -2614,8 +2613,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-1016",
@@ -2646,8 +2644,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-1048",
@@ -2695,10 +2692,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.9",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.9",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-1184",
@@ -2733,8 +2732,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-2977",
@@ -2765,8 +2763,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-29900",
@@ -2806,10 +2803,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "2.1",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "2.1",
+          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-29901",
@@ -2845,10 +2844,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "1.9",
-        "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "1.9",
+          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-3303",
@@ -2883,8 +2884,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49044",
@@ -2915,8 +2915,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49051",
@@ -2947,8 +2946,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49053",
@@ -2983,8 +2981,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49055",
@@ -3015,8 +3012,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49058",
@@ -3047,8 +3043,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49059",
@@ -3079,8 +3074,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49063",
@@ -3111,8 +3105,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49065",
@@ -3143,8 +3136,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49073",
@@ -3175,8 +3167,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49076",
@@ -3207,8 +3198,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49078",
@@ -3239,8 +3229,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49082",
@@ -3271,8 +3260,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49083",
@@ -3303,8 +3291,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49085",
@@ -3335,8 +3322,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49091",
@@ -3367,8 +3353,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49095",
@@ -3399,8 +3384,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49098",
@@ -3431,8 +3415,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49100",
@@ -3463,8 +3446,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49111",
@@ -3495,8 +3477,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49114",
@@ -3527,8 +3508,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49122",
@@ -3559,8 +3539,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49137",
@@ -3591,8 +3570,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49145",
@@ -3623,8 +3601,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49151",
@@ -3655,8 +3632,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49153",
@@ -3687,8 +3663,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49155",
@@ -3719,8 +3694,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49156",
@@ -3751,8 +3725,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49157",
@@ -3783,8 +3756,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49158",
@@ -3815,8 +3787,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49159",
@@ -3847,8 +3818,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49160",
@@ -3879,8 +3849,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49162",
@@ -3911,8 +3880,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49164",
@@ -3943,8 +3911,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49175",
@@ -3975,8 +3942,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49185",
@@ -4007,8 +3973,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49189",
@@ -4039,8 +4004,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49196",
@@ -4071,8 +4035,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49200",
@@ -4103,8 +4066,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49201",
@@ -4135,8 +4097,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49206",
@@ -4167,8 +4128,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49212",
@@ -4199,8 +4159,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49213",
@@ -4231,8 +4190,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49216",
@@ -4263,8 +4221,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49217",
@@ -4295,8 +4252,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49224",
@@ -4327,8 +4283,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49226",
@@ -4359,8 +4314,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49232",
@@ -4391,8 +4345,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49235",
@@ -4423,8 +4376,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49239",
@@ -4455,8 +4407,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49242",
@@ -4487,8 +4438,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49243",
@@ -4519,8 +4469,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49247",
@@ -4551,8 +4500,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49248",
@@ -4583,8 +4531,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49253",
@@ -4615,8 +4562,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49259",
@@ -4647,8 +4593,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49261",
@@ -4679,8 +4624,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49263",
@@ -4711,8 +4655,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49264",
@@ -4743,8 +4686,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49271",
@@ -4775,8 +4717,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49272",
@@ -4807,8 +4748,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49275",
@@ -4843,8 +4783,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49279",
@@ -4875,8 +4814,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49280",
@@ -4907,8 +4845,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49281",
@@ -4939,8 +4876,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49285",
@@ -4971,8 +4907,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49287",
@@ -5003,8 +4938,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49288",
@@ -5035,8 +4969,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49290",
@@ -5067,8 +5000,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49291",
@@ -5103,8 +5035,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49292",
@@ -5135,8 +5066,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49293",
@@ -5167,8 +5097,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49295",
@@ -5199,8 +5128,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49297",
@@ -5231,8 +5159,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49298",
@@ -5263,8 +5190,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49299",
@@ -5295,8 +5221,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49300",
@@ -5327,8 +5252,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49301",
@@ -5359,8 +5283,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49302",
@@ -5391,8 +5314,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49304",
@@ -5423,8 +5345,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49305",
@@ -5455,8 +5376,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49307",
@@ -5487,8 +5407,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49313",
@@ -5519,8 +5438,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49314",
@@ -5551,8 +5469,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49315",
@@ -5583,8 +5500,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49316",
@@ -5615,8 +5531,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49320",
@@ -5647,8 +5562,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49321",
@@ -5679,8 +5593,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49326",
@@ -5711,8 +5624,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49327",
@@ -5743,8 +5655,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49331",
@@ -5775,8 +5686,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49332",
@@ -5807,8 +5717,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49335",
@@ -5839,8 +5748,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49343",
@@ -5871,8 +5779,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49347",
@@ -5903,8 +5810,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49349",
@@ -5935,8 +5841,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49352",
@@ -5967,8 +5872,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49357",
@@ -5999,8 +5903,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49370",
@@ -6031,8 +5934,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49371",
@@ -6063,8 +5965,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49373",
@@ -6095,8 +5996,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49375",
@@ -6127,8 +6027,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49376",
@@ -6159,8 +6058,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49382",
@@ -6191,8 +6089,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49385",
@@ -6223,8 +6120,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49389",
@@ -6255,8 +6151,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49394",
@@ -6287,8 +6182,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49396",
@@ -6319,8 +6213,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49397",
@@ -6351,8 +6244,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49398",
@@ -6383,8 +6275,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49399",
@@ -6415,8 +6306,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49402",
@@ -6447,8 +6337,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49404",
@@ -6479,8 +6368,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49409",
@@ -6511,8 +6399,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49410",
@@ -6543,8 +6430,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49411",
@@ -6575,8 +6461,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49413",
@@ -6611,8 +6496,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49414",
@@ -6643,8 +6527,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49416",
@@ -6675,8 +6558,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49421",
@@ -6707,8 +6589,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49422",
@@ -6739,8 +6620,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49437",
@@ -6771,8 +6651,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49438",
@@ -6803,8 +6682,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49441",
@@ -6835,8 +6713,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49442",
@@ -6867,8 +6744,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49446",
@@ -6899,8 +6775,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49451",
@@ -6931,8 +6806,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49455",
@@ -6963,8 +6837,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49459",
@@ -6995,8 +6868,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49460",
@@ -7027,8 +6899,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49462",
@@ -7059,8 +6930,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49465",
@@ -7095,8 +6965,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49467",
@@ -7127,8 +6996,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49473",
@@ -7159,8 +7027,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49474",
@@ -7191,8 +7058,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49475",
@@ -7223,8 +7089,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49478",
@@ -7255,8 +7120,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49481",
@@ -7287,8 +7151,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49482",
@@ -7319,8 +7182,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49488",
@@ -7351,8 +7213,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49489",
@@ -7383,8 +7244,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49490",
@@ -7415,8 +7275,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49491",
@@ -7447,8 +7306,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49493",
@@ -7479,8 +7337,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49495",
@@ -7511,8 +7368,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49498",
@@ -7543,8 +7399,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49503",
@@ -7575,8 +7430,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49504",
@@ -7607,8 +7461,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49505",
@@ -7639,8 +7492,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49508",
@@ -7671,8 +7523,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49514",
@@ -7703,8 +7554,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49517",
@@ -7735,8 +7585,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49521",
@@ -7767,8 +7616,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49522",
@@ -7799,8 +7647,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49524",
@@ -7831,8 +7678,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49525",
@@ -7863,8 +7709,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49526",
@@ -7895,8 +7740,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49527",
@@ -7927,8 +7771,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49532",
@@ -7959,8 +7802,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49534",
@@ -7991,8 +7833,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49535",
@@ -8023,8 +7864,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49536",
@@ -8055,8 +7895,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49537",
@@ -8087,8 +7926,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49541",
@@ -8119,8 +7957,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49542",
@@ -8151,8 +7988,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49544",
@@ -8183,8 +8019,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49545",
@@ -8219,8 +8054,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49546",
@@ -8251,8 +8085,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49555",
@@ -8283,8 +8116,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49563",
@@ -8319,8 +8151,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49564",
@@ -8355,8 +8186,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49566",
@@ -8387,8 +8217,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49609",
@@ -8419,8 +8248,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49610",
@@ -8451,8 +8279,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49611",
@@ -8483,8 +8310,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49623",
@@ -8515,8 +8341,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49627",
@@ -8547,8 +8372,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49631",
@@ -8579,8 +8403,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49640",
@@ -8611,8 +8434,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49641",
@@ -8643,8 +8465,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49643",
@@ -8675,8 +8496,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49644",
@@ -8707,8 +8527,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49645",
@@ -8739,8 +8558,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49646",
@@ -8771,8 +8589,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49647",
@@ -8803,8 +8620,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49648",
@@ -8835,8 +8651,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49649",
@@ -8867,8 +8682,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49652",
@@ -8899,8 +8713,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49657",
@@ -8931,8 +8744,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49661",
@@ -8963,8 +8775,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49670",
@@ -8995,8 +8806,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49671",
@@ -9027,8 +8837,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49673",
@@ -9059,8 +8868,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49674",
@@ -9091,8 +8899,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49678",
@@ -9123,8 +8930,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49685",
@@ -9155,8 +8961,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49687",
@@ -9187,8 +8992,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49693",
@@ -9219,8 +9023,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49700",
@@ -9251,8 +9054,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49701",
@@ -9283,8 +9085,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49703",
@@ -9315,8 +9116,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49707",
@@ -9347,8 +9147,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49708",
@@ -9379,8 +9178,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49710",
@@ -9411,8 +9209,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49711",
@@ -9443,8 +9240,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49712",
@@ -9475,8 +9271,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49713",
@@ -9507,8 +9302,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49720",
@@ -9539,8 +9333,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49723",
@@ -9571,8 +9364,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49724",
@@ -9603,8 +9395,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49729",
@@ -9635,8 +9426,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49730",
@@ -9667,8 +9457,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49731",
@@ -9699,8 +9488,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49733",
@@ -9731,8 +9519,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-49739",
@@ -9763,8 +9550,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2162",
@@ -9815,8 +9601,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-3567",
@@ -9867,8 +9652,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-52935",
@@ -9899,8 +9683,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-52973",
@@ -9931,8 +9714,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-52974",
@@ -9963,8 +9745,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-53000",
@@ -9995,8 +9776,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-53015",
@@ -10027,8 +9807,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-53024",
@@ -10059,8 +9838,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-50290",
@@ -10099,8 +9877,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-53063",
@@ -10139,8 +9916,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-56642",
@@ -10175,8 +9951,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-56651",
@@ -10211,8 +9986,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-57996",
@@ -10247,8 +10021,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-58014",
@@ -10283,8 +10056,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-21772",
@@ -10319,8 +10091,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2025-21780",
@@ -10355,8 +10126,7 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-source-rt-5.3.18-150300.205.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

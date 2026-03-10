@@ -124,10 +124,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2024-34459",
@@ -146,8 +148,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240726-arm64:libxml2-2-2.10.3-150500.5.17.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-37370",
@@ -166,8 +167,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240726-arm64:krb5-1.20.1-150500.3.9.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2024-37371",
@@ -186,8 +186,7 @@
             "Public Cloud Image google/sles-15-sp5-chost-byos-v20240726-arm64:krb5-1.20.1-150500.3.9.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

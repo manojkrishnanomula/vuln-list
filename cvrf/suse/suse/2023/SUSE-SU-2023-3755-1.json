@@ -123,10 +123,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "6.8",
-        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "6.8",
+          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2021-46310",
@@ -156,8 +158,7 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libdjvulibre-devel-3.5.25.3-5.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-46312",
@@ -187,8 +188,7 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libdjvulibre-devel-3.5.25.3-5.22.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

@@ -649,10 +649,16 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:L/AC:L/Au:N/C:C/I:N/A:N"
+        },
+        {
+          "BaseScore": "4.7",
+          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+        }
+      ]
     },
     {
       "CVE": "CVE-2020-36691",
@@ -721,8 +727,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-3923",
@@ -787,8 +792,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2021-4203",
@@ -854,10 +858,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.9",
-        "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.9",
+          "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-20567",
@@ -922,8 +928,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-43945",
@@ -1008,8 +1013,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0394",
@@ -1074,8 +1078,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0590",
@@ -1152,8 +1155,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-0597",
@@ -1226,8 +1228,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1076",
@@ -1296,8 +1297,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1095",
@@ -1362,8 +1362,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1118",
@@ -1448,8 +1447,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1390",
@@ -1522,8 +1520,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1513",
@@ -1588,8 +1585,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1611",
@@ -1654,8 +1650,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1670",
@@ -1724,8 +1719,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1855",
@@ -1790,8 +1784,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1989",
@@ -1872,8 +1865,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1990",
@@ -1946,8 +1938,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-1998",
@@ -2012,8 +2003,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2124",
@@ -2078,8 +2068,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2162",
@@ -2164,8 +2153,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-23454",
@@ -2250,8 +2238,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-23455",
@@ -2324,8 +2311,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-2483",
@@ -2390,8 +2376,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28328",
@@ -2460,8 +2445,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28464",
@@ -2534,8 +2518,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-28772",
@@ -2608,8 +2591,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2023-30772",
@@ -2674,8 +2656,7 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

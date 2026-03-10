@@ -223,10 +223,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.3",
-        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "4.3",
+          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        }
+      ]
     },
     {
       "CVE": "CVE-2022-27664",
@@ -270,8 +272,7 @@
             "SUSE OpenStack Cloud Crowbar 9:golang-github-prometheus-node_exporter-1.5.0-1.24.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-41715",
@@ -315,8 +316,7 @@
             "SUSE OpenStack Cloud Crowbar 9:golang-github-prometheus-node_exporter-1.5.0-1.24.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-46146",
@@ -356,8 +356,7 @@
             "SUSE OpenStack Cloud Crowbar 9:golang-github-prometheus-node_exporter-1.5.0-1.24.4"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     }
   ]
 }

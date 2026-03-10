@@ -430,8 +430,7 @@
             "openSUSE Leap 15.4:webkit2gtk4-minibrowser-2.36.3-150400.4.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-26709",
@@ -511,8 +510,7 @@
             "openSUSE Leap 15.4:webkit2gtk4-minibrowser-2.36.3-150400.4.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-26716",
@@ -592,8 +590,7 @@
             "openSUSE Leap 15.4:webkit2gtk4-minibrowser-2.36.3-150400.4.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-26717",
@@ -673,8 +670,7 @@
             "openSUSE Leap 15.4:webkit2gtk4-minibrowser-2.36.3-150400.4.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-26719",
@@ -754,8 +750,7 @@
             "openSUSE Leap 15.4:webkit2gtk4-minibrowser-2.36.3-150400.4.3.1"
           ]
         }
-      ],
-      "CVSSScoreSets": {}
+      ]
     },
     {
       "CVE": "CVE-2022-30293",
@@ -836,10 +831,12 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5.1",
-        "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
-      }
+      "CVSSScoreSets": [
+        {
+          "BaseScore": "5.1",
+          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
+        }
+      ]
     }
   ]
 }

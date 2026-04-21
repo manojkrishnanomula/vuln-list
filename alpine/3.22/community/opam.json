@@ -1,8 +1,8 @@
 {
-  "name": "yubikey-manager-qt",
+  "name": "opam",
   "secfixes": {
-    "0": [
-      "YSA-2024-01"
+    "2.3.0-r1": [
+      "OSEC-2026-03"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
@@ -19,5 +19,5 @@
   ],
   "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
   "reponame": "community",
-  "distroversion": "edge"
+  "distroversion": "v3.22"
 }

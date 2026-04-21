@@ -138,12 +138,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:N/AC:H/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:N/AC:H/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2016-10010",
@@ -188,12 +186,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.1",
-          "Vector": "AV:N/AC:H/Au:S/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.1",
+        "Vector": "AV:N/AC:H/Au:S/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2016-10011",
@@ -250,12 +246,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1",
-          "Vector": "AV:L/AC:H/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1",
+        "Vector": "AV:L/AC:H/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2016-10012",
@@ -344,12 +338,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.6",
-          "Vector": "AV:N/AC:H/Au:S/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.6",
+        "Vector": "AV:N/AC:H/Au:S/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2016-8858",
@@ -393,7 +385,8 @@
             "openSUSE Leap 42.2:openssh-helpers-7.2p2-9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

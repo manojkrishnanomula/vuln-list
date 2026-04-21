@@ -600,7 +600,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-40133",
@@ -651,7 +652,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2007",
@@ -702,7 +704,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-20588",
@@ -753,11 +756,12 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-34319",
-      "Description": "The fix for XSA-423 added logic to Linux'es netback driver to deal with\na frontend splitting a packet in a way such that not all of the headers\nwould come in one piece.  Unfortunately the logic introduced there\ndidn't account for the extreme case of the entire packet being split\ninto as many pieces as permitted by the protocol, yet still being\nsmaller than the area that's specially dealt with to keep all (possible)\nheaders together.  Such an unusual packet would therefore trigger a\nbuffer overrun in the driver.\n",
+      "Description": "The fix for XSA-423 added logic to Linux'es netback driver to deal with\na frontend splitting a packet in a way such that not all of the headers\nwould come in one piece.  Unfortunately the logic introduced there\ndidn't account for the extreme case of the entire packet being split\ninto as many pieces as permitted by the protocol, yet still being\nsmaller than the area that's specially dealt with to keep all (possible)\nheaders together.  Such an unusual packet would therefore trigger a\nbuffer overrun in the driver.",
       "Threats": [
         {
           "Type": "Impact",
@@ -804,11 +808,12 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3610",
-      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nFlaw in the error handling of bound chains causes a use-after-free in the abort path of NFT_MSG_NEWRULE. The vulnerability requires CAP_NET_ADMIN to be triggered.\n\nWe recommend upgrading past commit 4bedf9eee016286c835e3d8fa981ddece5338795.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nFlaw in the error handling of bound chains causes a use-after-free in the abort path of NFT_MSG_NEWRULE. The vulnerability requires CAP_NET_ADMIN to be triggered.\n\nWe recommend upgrading past commit 4bedf9eee016286c835e3d8fa981ddece5338795.",
       "Threats": [
         {
           "Type": "Impact",
@@ -859,7 +864,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-37453",
@@ -910,7 +916,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3772",
@@ -961,7 +968,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3863",
@@ -1028,7 +1036,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-40283",
@@ -1079,7 +1088,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4128",
@@ -1087,7 +1097,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1130,7 +1140,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4133",
@@ -1181,7 +1192,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4134",
@@ -1232,7 +1244,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4147",
@@ -1287,7 +1300,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4194",
@@ -1338,7 +1352,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4273",
@@ -1393,7 +1408,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4387",
@@ -1444,7 +1460,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4459",
@@ -1495,15 +1512,16 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4563",
-      "Description": "** REJECT ** This was assigned as a duplicate of CVE-2023-4244.",
+      "Description": "This was assigned as a duplicate of CVE-2023-4244.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1546,7 +1564,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4569",
@@ -1554,7 +1573,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1597,7 +1616,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

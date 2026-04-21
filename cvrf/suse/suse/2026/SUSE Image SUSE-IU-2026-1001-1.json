@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2026-03-08T16:02:05Z",
+        "Date": "2026-04-21T08:31:43Z",
         "Description": "current"
       }
     ]
@@ -319,12 +319,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-39327",
@@ -343,7 +341,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:libopenjp2-7-2.5.3-160000.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-11187",
@@ -364,7 +363,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-13465",
@@ -392,7 +392,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:cockpit-ws-selinux-340-160000.4.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-15467",
@@ -413,7 +414,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-15468",
@@ -434,7 +436,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-15469",
@@ -455,7 +458,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38704",
@@ -474,7 +478,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-39880",
@@ -493,7 +498,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-39977",
@@ -512,7 +518,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40042",
@@ -531,7 +538,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40130",
@@ -550,7 +558,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40160",
@@ -569,7 +578,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40167",
@@ -588,7 +598,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40170",
@@ -607,7 +618,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40179",
@@ -626,7 +638,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40190",
@@ -645,7 +658,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40209",
@@ -664,7 +678,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40211",
@@ -683,7 +698,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40212",
@@ -702,7 +718,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40213",
@@ -721,7 +738,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40214",
@@ -740,7 +758,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40215",
@@ -759,7 +778,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40218",
@@ -778,11 +798,12 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40219",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI/IOV: Add PCI rescan-remove locking when enabling/disabling SR-IOV\n\nBefore disabling SR-IOV via config space accesses to the parent PF,\nsriov_disable() first removes the PCI devices representing the VFs.\n\nSince commit 9d16947b7583 (\"PCI: Add global pci_lock_rescan_remove()\")\nsuch removal operations are serialized against concurrent remove and\nrescan using the pci_rescan_remove_lock. No such locking was ever added\nin sriov_disable() however. In particular when commit 18f9e9d150fc\n(\"PCI/IOV: Factor out sriov_add_vfs()\") factored out the PCI device\nremoval into sriov_del_vfs() there was still no locking around the\npci_iov_remove_virtfn() calls.\n\nOn s390 the lack of serialization in sriov_disable() may cause double\nremove and list corruption with the below (amended) trace being observed:\n\n  PSW:  0704c00180000000 0000000c914e4b38 (klist_put+56)\n  GPRS: 000003800313fb48 0000000000000000 0000000100000001 0000000000000001\n\t00000000f9b520a8 0000000000000000 0000000000002fbd 00000000f4cc9480\n\t0000000000000001 0000000000000000 0000000000000000 0000000180692828\n\t00000000818e8000 000003800313fe2c 000003800313fb20 000003800313fad8\n  #0 [3800313fb20] device_del at c9158ad5c\n  #1 [3800313fb88] pci_remove_bus_device at c915105ba\n  #2 [3800313fbd0] pci_iov_remove_virtfn at c9152f198\n  #3 [3800313fc28] zpci_iov_remove_virtfn at c90fb67c0\n  #4 [3800313fc60] zpci_bus_remove_device at c90fb6104\n  #5 [3800313fca0] __zpci_event_availability at c90fb3dca\n  #6 [3800313fd08] chsc_process_sei_nt0 at c918fe4a2\n  #7 [3800313fd60] crw_collect_info at c91905822\n  #8 [3800313fe10] kthread at c90feb390\n  #9 [3800313fe68] __ret_from_fork at c90f6aa64\n  #10 [3800313fe98] ret_from_fork at c9194f3f2.\n\nThis is because in addition to sriov_disable() removing the VFs, the\nplatform also generates hot-unplug events for the VFs. This being the\nreverse operation to the hotplug events generated by sriov_enable() and\nhandled via pdev-\u003eno_vf_scan. And while the event processing takes\npci_rescan_remove_lock and checks whether the struct pci_dev still exists,\nthe lack of synchronization makes this checking racy.\n\nOther races may also be possible of course though given that this lack of\nlocking persisted so long observable races seem very rare. Even on s390 the\nlist corruption was only observed with certain devices since the platform\nevents are only triggered by config accesses after the removal, so as long\nas the removal finished synchronously they would not race. Either way the\nlocking is missing so fix this by adding it to the sriov_del_vfs() helper.\n\nJust like PCI rescan-remove, locking is also missing in sriov_add_vfs()\nincluding for the error case where pci_stop_and_remove_bus_device() is\ncalled without the PCI rescan-remove lock being held. Even in the non-error\ncase, adding new PCI devices and buses should be serialized via the PCI\nrescan-remove lock. Add the necessary locking.",
+      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI/IOV: Fix race between SR-IOV enable/disable and hotplug\n\nCommit 05703271c3cd (\"PCI/IOV: Add PCI rescan-remove locking when\nenabling/disabling SR-IOV\") tried to fix a race between the VF removal\ninside sriov_del_vfs() and concurrent hot unplug by taking the PCI\nrescan/remove lock in sriov_del_vfs(). Similarly the PCI rescan/remove lock\nwas also taken in sriov_add_vfs() to protect addition of VFs.\n\nThis approach however causes deadlock on trying to remove PFs with SR-IOV\nenabled because PFs disable SR-IOV during removal and this removal happens\nunder the PCI rescan/remove lock. So the original fix had to be reverted.\n\nInstead of taking the PCI rescan/remove lock in sriov_add_vfs() and\nsriov_del_vfs(), fix the race that occurs with SR-IOV enable and disable vs\nhotplug higher up in the callchain by taking the lock in\nsriov_numvfs_store() before calling into the driver's sriov_configure()\ncallback.",
       "Threats": [
         {
           "Type": "Impact",
@@ -797,7 +818,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40220",
@@ -816,7 +838,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40221",
@@ -835,7 +858,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40223",
@@ -854,7 +878,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40225",
@@ -873,7 +898,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40226",
@@ -892,7 +918,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40231",
@@ -911,7 +938,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40233",
@@ -930,7 +958,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40235",
@@ -949,7 +978,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40237",
@@ -968,7 +998,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40238",
@@ -987,7 +1018,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40239",
@@ -1006,7 +1038,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40240",
@@ -1025,7 +1058,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40242",
@@ -1044,7 +1078,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40246",
@@ -1063,7 +1098,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40248",
@@ -1082,7 +1118,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40250",
@@ -1101,7 +1138,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40251",
@@ -1120,7 +1158,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40252",
@@ -1139,7 +1178,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40254",
@@ -1158,7 +1198,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40255",
@@ -1177,7 +1218,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40258",
@@ -1196,7 +1238,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40262",
@@ -1215,7 +1258,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40263",
@@ -1234,7 +1278,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40264",
@@ -1253,7 +1298,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40266",
@@ -1272,7 +1318,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40268",
@@ -1291,7 +1338,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40269",
@@ -1310,7 +1358,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40271",
@@ -1329,7 +1378,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40272",
@@ -1348,7 +1398,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40273",
@@ -1367,7 +1418,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40274",
@@ -1386,7 +1438,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40275",
@@ -1405,7 +1458,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40276",
@@ -1424,7 +1478,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40277",
@@ -1443,7 +1498,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40278",
@@ -1462,7 +1518,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40279",
@@ -1481,7 +1538,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40280",
@@ -1500,7 +1558,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40282",
@@ -1519,7 +1578,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40283",
@@ -1538,7 +1598,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40284",
@@ -1557,7 +1618,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40287",
@@ -1576,7 +1638,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40288",
@@ -1595,7 +1658,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40289",
@@ -1614,7 +1678,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40292",
@@ -1633,7 +1698,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40293",
@@ -1652,7 +1718,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40294",
@@ -1671,7 +1738,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40297",
@@ -1690,7 +1758,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40301",
@@ -1709,7 +1778,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40302",
@@ -1728,7 +1798,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40303",
@@ -1747,7 +1818,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40304",
@@ -1766,7 +1838,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40307",
@@ -1785,7 +1858,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40308",
@@ -1804,7 +1878,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40309",
@@ -1823,7 +1898,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40310",
@@ -1842,7 +1918,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40311",
@@ -1861,7 +1938,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40314",
@@ -1880,7 +1958,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40315",
@@ -1899,7 +1978,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40316",
@@ -1918,7 +1998,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40317",
@@ -1937,7 +2018,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40318",
@@ -1956,7 +2038,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40319",
@@ -1975,7 +2058,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40320",
@@ -1994,7 +2078,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40321",
@@ -2013,7 +2098,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40322",
@@ -2032,7 +2118,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40323",
@@ -2051,7 +2138,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40324",
@@ -2070,7 +2158,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40328",
@@ -2089,7 +2178,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40329",
@@ -2108,7 +2198,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40330",
@@ -2127,7 +2218,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40331",
@@ -2146,7 +2238,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40332",
@@ -2165,7 +2258,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40337",
@@ -2184,7 +2278,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40338",
@@ -2203,7 +2298,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40339",
@@ -2222,7 +2318,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40340",
@@ -2241,7 +2338,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40342",
@@ -2260,7 +2358,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40343",
@@ -2279,7 +2378,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40344",
@@ -2298,7 +2398,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40345",
@@ -2317,7 +2418,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40346",
@@ -2336,7 +2438,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40347",
@@ -2355,7 +2458,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40350",
@@ -2374,7 +2478,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40353",
@@ -2393,7 +2498,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40354",
@@ -2412,7 +2518,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40355",
@@ -2431,7 +2538,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40357",
@@ -2450,7 +2558,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40359",
@@ -2469,7 +2578,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40360",
@@ -2488,7 +2598,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40362",
@@ -2507,7 +2618,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-58060",
@@ -2527,7 +2639,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:libcups2-2.4.16-160000.1.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-58364",
@@ -2547,7 +2660,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:libcups2-2.4.16-160000.1.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-58436",
@@ -2567,7 +2681,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:libcups2-2.4.16-160000.1.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-61915",
@@ -2587,7 +2702,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:libcups2-2.4.16-160000.1.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-62229",
@@ -2604,7 +2720,8 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-62230",
@@ -2621,7 +2738,8 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-62231",
@@ -2638,7 +2756,8 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-66199",
@@ -2659,7 +2778,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68160",
@@ -2680,7 +2800,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68167",
@@ -2699,7 +2820,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68170",
@@ -2718,7 +2840,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68171",
@@ -2737,7 +2860,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68172",
@@ -2756,7 +2880,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68176",
@@ -2775,7 +2900,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68180",
@@ -2794,7 +2920,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68181",
@@ -2813,7 +2940,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68183",
@@ -2832,7 +2960,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68184",
@@ -2851,7 +2980,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68185",
@@ -2870,7 +3000,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68190",
@@ -2889,7 +3020,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68192",
@@ -2908,7 +3040,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68194",
@@ -2927,7 +3060,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68195",
@@ -2946,7 +3080,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68197",
@@ -2965,7 +3100,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68198",
@@ -2984,7 +3120,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68201",
@@ -3003,7 +3140,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68202",
@@ -3022,7 +3160,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68206",
@@ -3041,7 +3180,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68207",
@@ -3060,7 +3200,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68208",
@@ -3079,7 +3220,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68209",
@@ -3098,7 +3240,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68210",
@@ -3117,7 +3260,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68213",
@@ -3136,7 +3280,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68215",
@@ -3155,7 +3300,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68217",
@@ -3174,7 +3320,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68222",
@@ -3193,7 +3340,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68223",
@@ -3212,7 +3360,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68230",
@@ -3231,7 +3380,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68233",
@@ -3250,7 +3400,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68235",
@@ -3269,7 +3420,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68237",
@@ -3288,7 +3440,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68238",
@@ -3307,7 +3460,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68239",
@@ -3326,7 +3480,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68242",
@@ -3345,7 +3500,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68244",
@@ -3364,7 +3520,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68249",
@@ -3383,7 +3540,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68252",
@@ -3402,7 +3560,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68254",
@@ -3421,7 +3580,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68255",
@@ -3440,7 +3600,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68256",
@@ -3459,7 +3620,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68257",
@@ -3478,7 +3640,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68258",
@@ -3497,7 +3660,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68259",
@@ -3516,7 +3680,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68264",
@@ -3535,7 +3700,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68283",
@@ -3554,7 +3720,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68284",
@@ -3573,7 +3740,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68285",
@@ -3592,7 +3760,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68286",
@@ -3611,7 +3780,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68287",
@@ -3630,7 +3800,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68289",
@@ -3649,7 +3820,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68290",
@@ -3668,7 +3840,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68293",
@@ -3687,7 +3860,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68298",
@@ -3706,7 +3880,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68301",
@@ -3725,7 +3900,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68302",
@@ -3744,7 +3920,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68303",
@@ -3763,7 +3940,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68305",
@@ -3782,7 +3960,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68306",
@@ -3801,7 +3980,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68307",
@@ -3820,7 +4000,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68308",
@@ -3839,7 +4020,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68311",
@@ -3858,7 +4040,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68312",
@@ -3877,7 +4060,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68313",
@@ -3896,7 +4080,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68317",
@@ -3915,7 +4100,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68327",
@@ -3934,7 +4120,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68328",
@@ -3953,7 +4140,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68330",
@@ -3972,7 +4160,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68331",
@@ -3991,7 +4180,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68332",
@@ -4010,7 +4200,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68335",
@@ -4029,7 +4220,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68339",
@@ -4048,7 +4240,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68340",
@@ -4067,7 +4260,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68342",
@@ -4086,7 +4280,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68343",
@@ -4105,7 +4300,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68344",
@@ -4124,7 +4320,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68345",
@@ -4143,7 +4340,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68346",
@@ -4162,7 +4360,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68347",
@@ -4181,7 +4380,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68351",
@@ -4200,7 +4400,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68352",
@@ -4219,7 +4420,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68353",
@@ -4238,7 +4440,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68354",
@@ -4257,7 +4460,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68362",
@@ -4276,7 +4480,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68363",
@@ -4295,7 +4500,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68378",
@@ -4314,7 +4520,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68380",
@@ -4333,7 +4540,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68724",
@@ -4352,7 +4560,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68732",
@@ -4371,7 +4580,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68736",
@@ -4390,7 +4600,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68740",
@@ -4409,7 +4620,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68742",
@@ -4428,7 +4640,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68744",
@@ -4447,7 +4660,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68746",
@@ -4466,7 +4680,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68747",
@@ -4485,7 +4700,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68748",
@@ -4504,7 +4720,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68749",
@@ -4523,7 +4740,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68750",
@@ -4542,7 +4760,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68753",
@@ -4561,7 +4780,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68757",
@@ -4580,7 +4800,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68758",
@@ -4599,7 +4820,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68759",
@@ -4618,7 +4840,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68765",
@@ -4637,7 +4860,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-68766",
@@ -4656,7 +4880,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-69418",
@@ -4677,7 +4902,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-69419",
@@ -4698,7 +4924,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-69420",
@@ -4719,7 +4946,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-69421",
@@ -4740,7 +4968,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-71096",
@@ -4759,7 +4988,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:kernel-default-6.12.0-160000.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-8067",
@@ -4781,7 +5011,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:udisks2-2.10.1-160000.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2026-0988",
@@ -4813,7 +5044,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:typelib-1_0-Gio-2_0-2.84.4-160000.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2026-0989",
@@ -4835,7 +5067,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:python313-libxml2-2.13.8-160000.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2026-1484",
@@ -4867,7 +5100,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:typelib-1_0-Gio-2_0-2.84.4-160000.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2026-1485",
@@ -4899,7 +5133,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:typelib-1_0-Gio-2_0-2.84.4-160000.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2026-1489",
@@ -4931,7 +5166,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:typelib-1_0-Gio-2_0-2.84.4-160000.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2026-22795",
@@ -4952,7 +5188,8 @@
             "Public Cloud Image google/sles-16-0-sapcal-v20260214-x86-64:openssl-3-3.5.0-160000.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -289,12 +289,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-34503",
@@ -353,7 +351,8 @@
             "openSUSE Leap 15.4:libqpdf21-8.0.2-150000.3.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -31,33 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2022-3273,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2022-3273,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2022-3273,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2022-3273,SUSE-2022-3273,SUSE-OpenStack-Cloud-9-2022-3273,SUSE-OpenStack-Cloud-Crowbar-9-2022-3273,SUSE-SLE-SAP-12-SP4-2022-3273,SUSE-SLE-SDK-12-SP5-2022-3273,SUSE-SLE-SERVER-12-SP2-BCL-2022-3273,SUSE-SLE-SERVER-12-SP3-BCL-2022-3273,SUSE-SLE-SERVER-12-SP4-LTSS-2022-3273,SUSE-SLE-SERVER-12-SP5-2022-3273",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2022-3273,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2022-3273,SUSE-2022-3273,SUSE-OpenStack-Cloud-9-2022-3273,SUSE-OpenStack-Cloud-Crowbar-9-2022-3273,SUSE-SLE-SAP-12-SP4-2022-3273,SUSE-SLE-SDK-12-SP5-2022-3273,SUSE-SLE-SERVER-12-SP2-BCL-2022-3273,SUSE-SLE-SERVER-12-SP3-BCL-2022-3273,SUSE-SLE-SERVER-12-SP4-LTSS-2022-3273,SUSE-SLE-SERVER-12-SP5-2022-3273",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "MozillaFirefox-102.2.0-112.130.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-branding-SLE-102-35.9.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-102.2.0-112.130.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-branding-SLE-102-35.9.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "MozillaFirefox-102.2.0-112.130.1",
         "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
@@ -403,10 +383,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -446,7 +422,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2505",
@@ -461,16 +438,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-2505.html",
           "Description": "CVE-2022-2505"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201758",
+          "Description": "SUSE Bug 1201758"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -510,7 +487,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34468",
@@ -525,16 +503,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34468.html",
           "Description": "CVE-2022-34468"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -574,7 +552,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34469",
@@ -589,16 +568,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34469.html",
           "Description": "CVE-2022-34469"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -638,7 +617,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34470",
@@ -653,16 +633,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34470.html",
           "Description": "CVE-2022-34470"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -702,7 +682,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34471",
@@ -717,16 +698,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34471.html",
           "Description": "CVE-2022-34471"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -766,7 +747,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34472",
@@ -781,16 +763,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34472.html",
           "Description": "CVE-2022-34472"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -830,7 +812,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34473",
@@ -845,16 +828,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34473.html",
           "Description": "CVE-2022-34473"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -894,7 +877,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34474",
@@ -909,16 +893,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34474.html",
           "Description": "CVE-2022-34474"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -958,7 +942,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34475",
@@ -973,16 +958,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34475.html",
           "Description": "CVE-2022-34475"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1022,7 +1007,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34476",
@@ -1037,16 +1023,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34476.html",
           "Description": "CVE-2022-34476"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1086,7 +1072,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34477",
@@ -1101,16 +1088,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34477.html",
           "Description": "CVE-2022-34477"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1150,7 +1137,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34478",
@@ -1165,16 +1153,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34478.html",
           "Description": "CVE-2022-34478"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1214,7 +1202,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34479",
@@ -1229,16 +1218,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34479.html",
           "Description": "CVE-2022-34479"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1278,7 +1267,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34480",
@@ -1293,16 +1283,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34480.html",
           "Description": "CVE-2022-34480"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1342,7 +1332,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34481",
@@ -1357,16 +1348,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34481.html",
           "Description": "CVE-2022-34481"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1406,7 +1397,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34482",
@@ -1421,16 +1413,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34482.html",
           "Description": "CVE-2022-34482"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1470,7 +1462,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34483",
@@ -1485,16 +1478,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34483.html",
           "Description": "CVE-2022-34483"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1534,7 +1527,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34484",
@@ -1549,16 +1543,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34484.html",
           "Description": "CVE-2022-34484"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1598,7 +1592,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-34485",
@@ -1613,16 +1608,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-34485.html",
           "Description": "CVE-2022-34485"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200793",
+          "Description": "SUSE Bug 1200793"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1662,7 +1657,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-36314",
@@ -1677,16 +1673,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-36314.html",
           "Description": "CVE-2022-36314"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201758",
+          "Description": "SUSE Bug 1201758"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1726,7 +1722,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-36318",
@@ -1741,16 +1738,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-36318.html",
           "Description": "CVE-2022-36318"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201758",
+          "Description": "SUSE Bug 1201758"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1790,7 +1787,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-36319",
@@ -1805,16 +1803,16 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-36319.html",
           "Description": "CVE-2022-36319"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201758",
+          "Description": "SUSE Bug 1201758"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1854,7 +1852,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38472",
@@ -1883,10 +1882,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1926,7 +1921,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38473",
@@ -1951,10 +1947,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -1994,7 +1986,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38476",
@@ -2019,10 +2012,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -2062,7 +2051,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38477",
@@ -2087,10 +2077,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -2130,7 +2116,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38478",
@@ -2155,10 +2142,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-102-35.9.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.2.0-112.130.1",
@@ -2198,7 +2181,8 @@
             "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-102.2.0-112.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

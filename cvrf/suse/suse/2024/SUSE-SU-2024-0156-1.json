@@ -1583,12 +1583,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.8",
-          "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.8",
+        "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2023-51779",
@@ -1596,7 +1594,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1850,7 +1848,8 @@
             "openSUSE Leap Micro 5.4:kernel-default-base-5.14.21-150400.24.103.1.150400.24.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6121",
@@ -2092,7 +2091,8 @@
             "openSUSE Leap Micro 5.4:kernel-default-base-5.14.21-150400.24.103.1.150400.24.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6531",
@@ -2100,7 +2100,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2338,7 +2338,8 @@
             "openSUSE Leap Micro 5.4:kernel-default-base-5.14.21-150400.24.103.1.150400.24.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6546",
@@ -2584,7 +2585,8 @@
             "openSUSE Leap Micro 5.4:kernel-default-base-5.14.21-150400.24.103.1.150400.24.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6606",
@@ -2830,7 +2832,8 @@
             "openSUSE Leap Micro 5.4:kernel-default-base-5.14.21-150400.24.103.1.150400.24.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6610",
@@ -3072,7 +3075,8 @@
             "openSUSE Leap Micro 5.4:kernel-default-base-5.14.21-150400.24.103.1.150400.24.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6622",
@@ -3314,15 +3318,16 @@
             "openSUSE Leap Micro 5.4:kernel-default-base-5.14.21-150400.24.103.1.150400.24.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6931",
-      "Description": "A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.\n\n",
+      "Description": "A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3564,15 +3569,16 @@
             "openSUSE Leap Micro 5.4:kernel-default-base-5.14.21-150400.24.103.1.150400.24.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6932",
-      "Description": "A use-after-free vulnerability in the Linux kernel's ipv4: igmp component can be exploited to achieve local privilege escalation.\n\nA race condition can be exploited to cause a timer be mistakenly registered on a RCU read locked object which is freed by another thread.\n\nWe recommend upgrading past commit e2b706c691905fe78468c361aaabc719d0a496f1.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's ipv4: igmp component can be exploited to achieve local privilege escalation.\n\nA race condition can be exploited to cause a timer be mistakenly registered on a RCU read locked object which is freed by another thread.\n\nWe recommend upgrading past commit e2b706c691905fe78468c361aaabc719d0a496f1.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3826,7 +3832,8 @@
             "openSUSE Leap Micro 5.4:kernel-default-base-5.14.21-150400.24.103.1.150400.24.48.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

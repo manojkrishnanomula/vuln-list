@@ -69,7 +69,8 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2014-5354",
@@ -95,7 +96,8 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2014-5355",
@@ -126,12 +128,10 @@
           "ProductID": null
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

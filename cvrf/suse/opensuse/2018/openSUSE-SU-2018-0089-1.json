@@ -303,7 +303,8 @@
             "openSUSE Leap 42.3:nscd-2.22-10.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2017-1000409",
@@ -368,7 +369,8 @@
             "openSUSE Leap 42.3:nscd-2.22-10.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2017-15670",
@@ -434,12 +436,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:L/AC:L/Au:S/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:L/AC:L/Au:S/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2017-15671",
@@ -509,12 +509,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-15804",
@@ -580,12 +578,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-16997",
@@ -651,12 +647,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2018-1000001",
@@ -725,7 +719,8 @@
             "openSUSE Leap 42.3:nscd-2.22-10.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

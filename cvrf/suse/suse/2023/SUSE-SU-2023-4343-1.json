@@ -392,7 +392,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-rt-5.14.21-150500.13.24.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2860",
@@ -455,7 +456,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-rt-5.14.21-150500.13.24.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-31085",
@@ -522,11 +524,12 @@
             "openSUSE Leap 15.5:reiserfs-kmp-rt-5.14.21-150500.13.24.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-34324",
-      "Description": "Closing of an event channel in the Linux kernel can result in a deadlock.\nThis happens when the close is being performed in parallel to an unrelated\nXen console action and the handling of a Xen console interrupt in an\nunprivileged guest.\n\nThe closing of an event channel is e.g. triggered by removal of a\nparavirtual device on the other side. As this action will cause console\nmessages to be issued on the other side quite often, the chance of\ntriggering the deadlock is not neglectable.\n\nNote that 32-bit Arm-guests are not affected, as the 32-bit Linux kernel\non Arm doesn't use queued-RW-locks, which are required to trigger the\nissue (on Arm32 a waiting writer doesn't block further readers to get\nthe lock).\n",
+      "Description": "Closing of an event channel in the Linux kernel can result in a deadlock.\nThis happens when the close is being performed in parallel to an unrelated\nXen console action and the handling of a Xen console interrupt in an\nunprivileged guest.\n\nThe closing of an event channel is e.g. triggered by removal of a\nparavirtual device on the other side. As this action will cause console\nmessages to be issued on the other side quite often, the chance of\ntriggering the deadlock is not neglectable.\n\nNote that 32-bit Arm-guests are not affected, as the 32-bit Linux kernel\non Arm doesn't use queued-RW-locks, which are required to trigger the\nissue (on Arm32 a waiting writer doesn't block further readers to get\nthe lock).",
       "Threats": [
         {
           "Type": "Impact",
@@ -585,7 +588,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-rt-5.14.21-150500.13.24.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39189",
@@ -652,7 +656,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-rt-5.14.21-150500.13.24.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39191",
@@ -719,7 +724,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-rt-5.14.21-150500.13.24.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39193",
@@ -786,7 +792,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-rt-5.14.21-150500.13.24.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-45862",
@@ -849,7 +856,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-rt-5.14.21-150500.13.24.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5178",
@@ -916,7 +924,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-rt-5.14.21-150500.13.24.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -173,12 +173,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-1011",
@@ -186,7 +184,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -232,12 +230,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-1016",
@@ -245,13 +241,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-1016.html",
           "Description": "CVE-2022-1016"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1197227",
+          "Description": "SUSE Bug 1197227"
         },
         {
           "URL": "https://bugzilla.suse.com/1197335",
@@ -274,7 +274,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP3:kgraft-patch-4_4_180-94_156-default-3-2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

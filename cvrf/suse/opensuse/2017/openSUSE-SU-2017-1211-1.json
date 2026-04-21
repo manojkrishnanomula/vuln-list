@@ -147,7 +147,8 @@
             "openSUSE Leap 42.2:libtls15-32bit-2.5.3-5.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2016-7056",
@@ -193,12 +194,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:N/A:N"
+      }
     }
   ]
 }

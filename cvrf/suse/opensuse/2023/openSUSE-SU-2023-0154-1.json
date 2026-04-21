@@ -119,12 +119,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2023-25727",
@@ -154,7 +152,8 @@
             "openSUSE Leap 15.3:phpMyAdmin-4.9.11-bp153.2.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

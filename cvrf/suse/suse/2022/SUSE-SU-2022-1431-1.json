@@ -601,6 +601,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-22594.html",
           "Description": "CVE-2022-22594"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1195064",
+          "Description": "SUSE Bug 1195064"
         }
       ],
       "ProductStatuses": [
@@ -711,12 +715,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-22624",
@@ -848,7 +850,8 @@
             "openSUSE Leap 15.4:libwebkit2gtk3-lang-2.36.0-150200.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-22628",
@@ -976,7 +979,8 @@
             "openSUSE Leap 15.4:libwebkit2gtk3-lang-2.36.0-150200.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-22629",
@@ -1104,7 +1108,8 @@
             "openSUSE Leap 15.4:libwebkit2gtk3-lang-2.36.0-150200.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-22637",
@@ -1232,7 +1237,8 @@
             "openSUSE Leap 15.4:libwebkit2gtk3-lang-2.36.0-150200.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

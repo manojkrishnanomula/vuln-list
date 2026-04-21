@@ -31,33 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2022-1751,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2022-1751,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2022-1751,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2022-1751,SUSE-2022-1751,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2022-1751,SUSE-SLE-Product-HPC-15-SP1-LTSS-2022-1751,SUSE-SLE-Product-HPC-15-SP2-ESPOS-2022-1751,SUSE-SLE-Product-HPC-15-SP2-LTSS-2022-1751,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-1751,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-1751,SUSE-SLE-Product-SLES-15-SP2-BCL-2022-1751,SUSE-SLE-Product-SLES-15-SP2-LTSS-2022-1751,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-1751,SUSE-SLE-Product-SLES_SAP-15-SP2-2022-1751,SUSE-SLE-Product-SUSE-Manager-Proxy-4.1-2022-1751,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.1-2022-1751,SUSE-SLE-Product-SUSE-Manager-Server-4.1-2022-1751,SUSE-Storage-6-2022-1751,SUSE-Storage-7-2022-1751",
+      "Text": "SUSE-2022-1751,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2022-1751,SUSE-SLE-Product-HPC-15-SP1-LTSS-2022-1751,SUSE-SLE-Product-HPC-15-SP2-ESPOS-2022-1751,SUSE-SLE-Product-HPC-15-SP2-LTSS-2022-1751,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-1751,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-1751,SUSE-SLE-Product-SLES-15-SP2-BCL-2022-1751,SUSE-SLE-Product-SLES-15-SP2-LTSS-2022-1751,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-1751,SUSE-SLE-Product-SLES_SAP-15-SP2-2022-1751,SUSE-SLE-Product-SUSE-Manager-Proxy-4.1-2022-1751,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.1-2022-1751,SUSE-SLE-Product-SUSE-Manager-Server-4.1-2022-1751,SUSE-Storage-6-2022-1751,SUSE-Storage-7-2022-1751",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "kernel-firmware-20200107-150100.3.31.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-firmware-20200107-150100.3.31.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-firmware-20200107-150100.3.31.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-firmware-20200107-150100.3.31.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "kernel-firmware-20200107-150100.3.31.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 6",
@@ -336,10 +316,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -373,12 +349,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-26312",
@@ -403,10 +377,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -440,12 +410,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-26339",
@@ -470,10 +438,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -507,12 +471,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26342",
@@ -533,10 +495,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -570,12 +528,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-26347",
@@ -596,10 +552,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -633,12 +585,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.7",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.7",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26348",
@@ -659,10 +609,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -696,12 +642,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-26349",
@@ -722,10 +666,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -759,12 +699,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-26350",
@@ -785,10 +723,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -822,12 +756,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.9",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1.9",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-26364",
@@ -848,10 +780,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -885,12 +813,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26372",
@@ -911,10 +837,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -948,12 +870,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26373",
@@ -974,10 +894,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -1011,12 +927,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26375",
@@ -1037,10 +951,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -1074,12 +984,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26376",
@@ -1100,10 +1008,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -1137,12 +1041,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26378",
@@ -1163,10 +1065,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -1200,12 +1098,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26388",
@@ -1226,10 +1122,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -1263,12 +1155,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-33139",
@@ -1293,10 +1183,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -1330,12 +1216,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.7",
-          "Vector": "AV:A/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.7",
+        "Vector": "AV:A/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-33155",
@@ -1360,10 +1244,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -1397,12 +1277,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.7",
-          "Vector": "AV:A/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.7",
+        "Vector": "AV:A/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-46744",
@@ -1427,10 +1305,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:kernel-firmware-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 6:ucode-amd-20200107-150100.3.31.1",
             "SUSE Enterprise Storage 7:kernel-firmware-20200107-150100.3.31.1",
@@ -1464,12 +1338,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     }
   ]
 }

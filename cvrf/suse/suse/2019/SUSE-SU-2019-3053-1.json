@@ -121,7 +121,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -149,12 +149,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-12900",
@@ -162,7 +160,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -198,12 +196,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     }
   ]
 }

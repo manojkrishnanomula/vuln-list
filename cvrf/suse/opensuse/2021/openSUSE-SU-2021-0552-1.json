@@ -113,12 +113,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-6817",
@@ -147,7 +145,8 @@
             "openSUSE Leap 15.2:python3-bleach-3.1.5-lp152.2.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-23980",
@@ -176,7 +175,8 @@
             "openSUSE Leap 15.2:python3-bleach-3.1.5-lp152.2.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

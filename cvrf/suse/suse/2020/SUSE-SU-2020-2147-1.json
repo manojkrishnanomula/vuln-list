@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/kiosk/firefox-esr:esr-2020-2147,Container suse/kiosk/firefox-esr:latest-2020-2147,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2020-2147,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2020-2147,Image SLES15-SP4-SAP-Azure-LI-BYOS-2020-2147,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2020-2147,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2020-2147,Image SLES15-SP5-SAP-Azure-LI-BYOS-2020-2147,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2020-2147,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2020-2147,Image SLES15-SP6-SAP-Azure-LI-BYOS-2020-2147,Image SLES15-SP6-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP6-SAP-Azure-VLI-BYOS-2020-2147,Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production-2020-2147,Image SLES15-SP7-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production-2020-2147,SUSE-2020-2147,SUSE-SLE-Module-Desktop-Applications-15-SP2-2020-2147",
+      "Text": "Container suse/kiosk/firefox-esr:esr-2020-2147,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2020-2147,Image SLES15-SP4-SAP-Azure-LI-BYOS-2020-2147,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2020-2147,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2020-2147,Image SLES15-SP5-SAP-Azure-LI-BYOS-2020-2147,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2020-2147,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2020-2147,Image SLES15-SP6-SAP-Azure-LI-BYOS-2020-2147,Image SLES15-SP6-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP6-SAP-Azure-VLI-BYOS-2020-2147,Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production-2020-2147,Image SLES15-SP7-SAP-Azure-LI-BYOS-Production-2020-2147,Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production-2020-2147,SUSE-2020-2147,SUSE-SLE-Module-Desktop-Applications-15-SP2-2020-2147",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -46,36 +46,6 @@
       {
         "ProductReference": "MozillaFirefox-branding-SLE-78-9.2.4",
         "RelatesToProductReference": "Container suse/kiosk/firefox-esr:esr",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-78.1.0-8.3.1",
-        "RelatesToProductReference": "Container suse/kiosk/firefox-esr:latest",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-branding-SLE-78-9.2.4",
-        "RelatesToProductReference": "Container suse/kiosk/firefox-esr:latest",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-78.1.0-8.3.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-branding-SLE-78-9.2.4",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-78.1.0-8.3.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-branding-SLE-78-9.2.4",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -383,12 +353,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -435,12 +399,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-15653",
@@ -467,12 +429,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -519,12 +475,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-15654",
@@ -551,12 +505,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -603,12 +551,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-15655",
@@ -635,12 +581,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -687,12 +627,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-15656",
@@ -719,12 +657,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -771,12 +703,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "9.3",
-          "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "9.3",
+        "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-15657",
@@ -803,12 +733,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -855,12 +779,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-15658",
@@ -887,12 +809,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -939,12 +855,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-15659",
@@ -971,12 +885,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -1023,12 +931,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "9.3",
-          "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "9.3",
+        "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-6463",
@@ -1059,12 +965,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -1111,12 +1011,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-6514",
@@ -1147,12 +1045,6 @@
           "ProductID": [
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-78.1.0-8.3.1",
             "Container suse/kiosk/firefox-esr:esr:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-78.1.0-8.3.1",
-            "Container suse/kiosk/firefox-esr:latest:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-9.2.4",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.1.0-8.3.1",
@@ -1199,12 +1091,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     }
   ]
 }

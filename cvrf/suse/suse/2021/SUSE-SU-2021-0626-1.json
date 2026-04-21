@@ -31,28 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server-2021-626,Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server-2021-626,Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server-2021-626,SUSE-2021-626,SUSE-SLE-Module-SUSE-Manager-Server-4.0-2021-626",
+      "Text": "SUSE-2021-626,SUSE-SLE-Module-SUSE-Manager-Server-4.0-2021-626",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "py26-compat-salt-2016.11.10-10.22.1",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "py26-compat-salt-2016.11.10-10.22.1",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "py26-compat-salt-2016.11.10-10.22.1",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "py26-compat-salt-2016.11.10-10.22.1",
         "RelatesToProductReference": "SUSE Manager Server Module 4.0",
@@ -190,19 +175,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-28972",
@@ -231,19 +211,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-35662",
@@ -272,19 +247,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-25281",
@@ -313,19 +283,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-25282",
@@ -354,19 +319,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.4",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.4",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-25283",
@@ -395,19 +355,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-25284",
@@ -432,19 +387,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.9",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1.9",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-3144",
@@ -473,19 +423,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3148",
@@ -514,19 +459,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3197",
@@ -555,19 +495,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:py26-compat-salt-2016.11.10-10.22.1",
             "SUSE Manager Server Module 4.0:py26-compat-salt-2016.11.10-10.22.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     }
   ]
 }

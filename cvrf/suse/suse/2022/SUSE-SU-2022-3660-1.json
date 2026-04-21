@@ -862,11 +862,12 @@
             "openSUSE Leap Micro 5.2:qemu-x86-5.2.0-150300.118.3"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-35414",
-      "Description": "** DISPUTED ** softmmu/physmem.c in QEMU through 7.0.0 can perform an uninitialized read on the translate_fail path, leading to an io_readx or io_writex crash. NOTE: a third party states that the Non-virtualization Use Case in the qemu.org reference applies here, i.e., \"Bugs affecting the non-virtualization use case are not considered security bugs at this time.\"",
+      "Description": "softmmu/physmem.c in QEMU through 7.0.0 can perform an uninitialized read on the translate_fail path, leading to an io_readx or io_writex crash. NOTE: a third party states that the Non-virtualization Use Case in the qemu.org reference applies here, i.e., \"Bugs affecting the non-virtualization use case are not considered security bugs at this time.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1017,12 +1018,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
+      }
     }
   ]
 }

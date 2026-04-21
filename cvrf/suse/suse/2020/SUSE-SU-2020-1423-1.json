@@ -191,6 +191,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2020-13249.html",
           "Description": "CVE-2020-13249"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1171550",
+          "Description": "SUSE Bug 1171550"
         }
       ],
       "ProductStatuses": [
@@ -223,12 +227,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     }
   ]
 }

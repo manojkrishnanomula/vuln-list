@@ -31,28 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2022-1049,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2022-1049,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2022-1049,SUSE-2022-1049,SUSE-SLE-Product-SUSE-Manager-Server-4.1-2022-1049",
+      "Text": "SUSE-2022-1049,SUSE-SLE-Product-SUSE-Manager-Server-4.1-2022-1049",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "release-notes-susemanager-4.1.14.1-150200.3.77.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "release-notes-susemanager-4.1.14.1-150200.3.77.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "release-notes-susemanager-4.1.14.1-150200.3.77.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "release-notes-susemanager-4.1.14.1-150200.3.77.1",
         "RelatesToProductReference": "SUSE Manager Server 4.1",
@@ -122,19 +107,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:release-notes-susemanager-4.1.14.1-150200.3.77.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:release-notes-susemanager-4.1.14.1-150200.3.77.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:release-notes-susemanager-4.1.14.1-150200.3.77.1",
             "SUSE Manager Server 4.1:release-notes-susemanager-4.1.14.1-150200.3.77.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-22935",
@@ -163,19 +143,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:release-notes-susemanager-4.1.14.1-150200.3.77.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:release-notes-susemanager-4.1.14.1-150200.3.77.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:release-notes-susemanager-4.1.14.1-150200.3.77.1",
             "SUSE Manager Server 4.1:release-notes-susemanager-4.1.14.1-150200.3.77.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-22936",
@@ -204,19 +179,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:release-notes-susemanager-4.1.14.1-150200.3.77.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:release-notes-susemanager-4.1.14.1-150200.3.77.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:release-notes-susemanager-4.1.14.1-150200.3.77.1",
             "SUSE Manager Server 4.1:release-notes-susemanager-4.1.14.1-150200.3.77.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.4",
-          "Vector": "AV:A/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.4",
+        "Vector": "AV:A/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-22941",
@@ -245,19 +215,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:release-notes-susemanager-4.1.14.1-150200.3.77.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:release-notes-susemanager-4.1.14.1-150200.3.77.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:release-notes-susemanager-4.1.14.1-150200.3.77.1",
             "SUSE Manager Server 4.1:release-notes-susemanager-4.1.14.1-150200.3.77.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6",
-          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+      }
     }
   ]
 }

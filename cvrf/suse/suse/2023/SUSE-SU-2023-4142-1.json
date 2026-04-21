@@ -228,7 +228,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1192",
@@ -257,7 +258,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1206",
@@ -290,7 +292,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1859",
@@ -298,7 +301,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -319,7 +322,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2177",
@@ -348,7 +352,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4004",
@@ -381,7 +386,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-40283",
@@ -410,7 +416,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-42753",
@@ -418,7 +425,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -443,7 +450,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4389",
@@ -472,11 +480,12 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4622",
-      "Description": "A use-after-free vulnerability in the Linux kernel's af_unix component can be exploited to achieve local privilege escalation.\n\nThe unix_stream_sendpage() function tries to add data to the last skb in the peer's recv queue without locking the queue. Thus there is a race where unix_stream_sendpage() could access an skb locklessly that is being released by garbage collection, resulting in use-after-free.\n\nWe recommend upgrading past commit 790c2f9d15b594350ae9bca7b236f2b1859de02c.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's af_unix component can be exploited to achieve local privilege escalation.\n\nThe unix_stream_sendpage() function tries to add data to the last skb in the peer's recv queue without locking the queue. Thus there is a race where unix_stream_sendpage() could access an skb locklessly that is being released by garbage collection, resulting in use-after-free.\n\nWe recommend upgrading past commit 790c2f9d15b594350ae9bca7b236f2b1859de02c.",
       "Threats": [
         {
           "Type": "Impact",
@@ -513,11 +522,12 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4623",
-      "Description": "A use-after-free vulnerability in the Linux kernel's net/sched: sch_hfsc (HFSC qdisc traffic control) component can be exploited to achieve local privilege escalation.\n\nIf a class with a link-sharing curve (i.e. with the HFSC_FSC flag set) has a parent without a link-sharing curve, then init_vf() will call vttree_insert() on the parent, but vttree_remove() will be skipped in update_vf(). This leaves a dangling pointer that can cause a use-after-free.\n\nWe recommend upgrading past commit b3d26c5702c7d6c45456326e56d2ccf3f103e60f.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's net/sched: sch_hfsc (HFSC qdisc traffic control) component can be exploited to achieve local privilege escalation.\n\nIf a class with a link-sharing curve (i.e. with the HFSC_FSC flag set) has a parent without a link-sharing curve, then init_vf() will call vttree_insert() on the parent, but vttree_remove() will be skipped in update_vf(). This leaves a dangling pointer that can cause a use-after-free.\n\nWe recommend upgrading past commit b3d26c5702c7d6c45456326e56d2ccf3f103e60f.",
       "Threats": [
         {
           "Type": "Impact",
@@ -566,11 +576,12 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4881",
-      "Description": "** REJECT ** CVE-2023-4881 was wrongly assigned to a bug that was deemed to be a non-security issue by the Linux kernel security team.",
+      "Description": "CVE-2023-4881 was wrongly assigned to a bug that was deemed to be a non-security issue by the Linux kernel security team.",
       "Threats": [
         {
           "Type": "Impact",
@@ -595,11 +606,12 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4921",
-      "Description": "A use-after-free vulnerability in the Linux kernel's net/sched: sch_qfq component can be exploited to achieve local privilege escalation.\n\nWhen the plug qdisc is used as a class of the qfq qdisc, sending network packets triggers use-after-free in qfq_dequeue() due to the incorrect .peek handler of sch_plug and lack of error checking in agg_dequeue().\n\nWe recommend upgrading past commit 8fc134fee27f2263988ae38920bc03da416b03d8.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's net/sched: sch_qfq component can be exploited to achieve local privilege escalation.\n\nWhen the plug qdisc is used as a class of the qfq qdisc, sending network packets triggers use-after-free in qfq_dequeue() due to the incorrect .peek handler of sch_plug and lack of error checking in agg_dequeue().\n\nWe recommend upgrading past commit 8fc134fee27f2263988ae38920bc03da416b03d8.",
       "Threats": [
         {
           "Type": "Impact",
@@ -648,7 +660,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -31,118 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-Azure-BYOS-2022-367,Image SLES15-SAP-Azure-BYOS-2022-367,Image SLES15-SAP-Azure-LI-BYOS-Production-2022-367,Image SLES15-SAP-Azure-VLI-BYOS-Production-2022-367,Image SLES15-SAP-EC2-HVM-2022-367,SUSE-2022-367,SUSE-SLE-Module-Live-Patching-15-2022-367,SUSE-SLE-Product-HA-15-2022-367,SUSE-SLE-Product-HPC-15-2022-367,SUSE-SLE-Product-SLES-15-2022-367,SUSE-SLE-Product-SLES_SAP-15-2022-367",
+      "Text": "SUSE-2022-367,SUSE-SLE-Module-Live-Patching-15-2022-367,SUSE-SLE-Product-HA-15-2022-367,SUSE-SLE-Product-HPC-15-2022-367,SUSE-SLE-Product-SLES-15-2022-367,SUSE-SLE-Product-SLES_SAP-15-2022-367",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "kernel-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "cluster-md-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "dlm-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "gfs2-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "ocfs2-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "cluster-md-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "dlm-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "gfs2-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "ocfs2-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "cluster-md-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "dlm-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "gfs2-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "ocfs2-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "cluster-md-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "dlm-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "gfs2-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "ocfs2-kmp-default-4.12.14-150.83.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "cluster-md-kmp-default-4.12.14-150.83.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Availability Extension 15",
@@ -736,27 +631,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -809,12 +683,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-15126",
@@ -839,27 +711,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -912,12 +763,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.9",
-          "Vector": "AV:A/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.9",
+        "Vector": "AV:A/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-27820",
@@ -942,27 +791,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1015,12 +843,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.7",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.7",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-0920",
@@ -1061,27 +887,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1134,12 +939,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-0935",
@@ -1172,27 +975,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1245,12 +1027,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-28711",
@@ -1275,27 +1055,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1348,12 +1107,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-28712",
@@ -1378,27 +1135,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1451,12 +1187,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-28713",
@@ -1481,27 +1215,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1554,12 +1267,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-28714",
@@ -1584,27 +1295,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1657,12 +1347,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-28715",
@@ -1687,27 +1375,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1760,12 +1427,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-33098",
@@ -1790,27 +1455,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1863,12 +1507,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-3564",
@@ -1893,27 +1535,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -1966,12 +1587,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-39648",
@@ -1996,27 +1615,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -2069,12 +1667,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.9",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1.9",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-39657",
@@ -2099,27 +1695,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -2172,12 +1747,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-4002",
@@ -2206,27 +1779,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -2279,12 +1831,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-4083",
@@ -2317,27 +1867,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -2390,12 +1919,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-4149",
@@ -2420,27 +1947,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -2493,12 +1999,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-4197",
@@ -2523,27 +2027,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -2596,12 +2079,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-4202",
@@ -2609,7 +2090,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2630,27 +2111,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -2703,12 +2163,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-43975",
@@ -2733,27 +2191,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -2806,12 +2243,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-43976",
@@ -2836,27 +2271,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -2909,12 +2323,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-44733",
@@ -2939,27 +2351,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -3012,12 +2403,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-45095",
@@ -3042,27 +2431,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -3115,12 +2483,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-45486",
@@ -3145,27 +2511,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -3218,12 +2563,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.7",
-          "Vector": "AV:A/AC:L/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.7",
+        "Vector": "AV:A/AC:L/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-0322",
@@ -3248,27 +2591,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -3321,12 +2643,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-0330",
@@ -3334,7 +2654,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3355,27 +2675,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -3428,12 +2727,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-0435",
@@ -3466,27 +2763,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-BYOS:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:cluster-md-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:dlm-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:gfs2-kmp-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:kernel-default-4.12.14-150.83.1",
-            "Image SLES15-SAP-EC2-HVM:ocfs2-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:cluster-md-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:dlm-kmp-default-4.12.14-150.83.1",
             "SUSE Linux Enterprise High Availability Extension 15:gfs2-kmp-default-4.12.14-150.83.1",
@@ -3539,12 +2815,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "9",
-          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "9",
+        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+      }
     }
   ]
 }

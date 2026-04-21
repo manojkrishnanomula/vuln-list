@@ -753,16 +753,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-3341",
@@ -897,7 +891,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libswscale4-32bit-3.4.2-150000.4.53.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-48434",
@@ -1032,7 +1027,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libswscale4-32bit-3.4.2-150000.4.53.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

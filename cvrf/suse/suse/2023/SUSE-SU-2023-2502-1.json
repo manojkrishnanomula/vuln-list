@@ -336,7 +336,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3566",
@@ -375,7 +376,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-4269",
@@ -414,7 +416,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-45884",
@@ -453,7 +456,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-45885",
@@ -492,7 +496,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-45886",
@@ -531,7 +536,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-45887",
@@ -574,7 +580,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-45919",
@@ -593,6 +600,10 @@
         {
           "URL": "https://bugzilla.suse.com/1205803",
           "Description": "SUSE Bug 1205803"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1208600",
+          "Description": "SUSE Bug 1208600"
         },
         {
           "URL": "https://bugzilla.suse.com/1208912",
@@ -625,7 +636,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1079",
@@ -664,7 +676,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1380",
@@ -672,7 +685,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -703,7 +716,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1637",
@@ -742,7 +756,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2156",
@@ -785,7 +800,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2194",
@@ -824,11 +840,12 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23586",
-      "Description": "Due to a vulnerability in the io_uring subsystem, it is possible to leak kernel memory information to the user process. timens_install calls current_is_single_threaded to determine if the current process is single-threaded, but this call does not consider io_uring's io_worker threads, thus it is possible to insert a time namespace's vvar page to process's memory space via a page fault. When this time namespace is destroyed, the vvar page is also freed, but not removed from the process' memory, and a next page allocated by the kernel will be still available from the user-space process and can leak memory contents via this (read-only) use-after-free vulnerability. We recommend upgrading past version 5.10.161 or commit 788d0824269bef539fe31a785b1517882eafed93 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/io_uring",
+      "Description": "Due to a vulnerability in the io_uring subsystem, it is possible to leak kernel memory information to the user process.  timens_install calls current_is_single_threaded to determine if the current process is single-threaded, but this call does not consider io_uring's io_worker threads, thus it is possible to insert a time namespace's vvar page to process's memory space via a page fault. When this time namespace is destroyed, the vvar page is also freed, but not removed from the process' memory, and a next page allocated by the kernel will be still available from the user-space process and can leak memory contents via this (read-only) use-after-free vulnerability. We recommend upgrading past version 5.10.161 or commit   788d0824269bef539fe31a785b1517882eafed93 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/io_uring \n",
       "Threats": [
         {
           "Type": "Impact",
@@ -863,11 +880,12 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2483",
-      "Description": "** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2023-33203. Reason: This candidate is a reservation duplicate of CVE-2023-33203. Notes: All CVE users should reference CVE-2023-33203 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.",
+      "Description": "DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2023-33203. Reason: This candidate is a reservation duplicate of CVE-2023-33203. Notes: All CVE users should reference CVE-2023-33203 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.",
       "Threats": [
         {
           "Type": "Impact",
@@ -902,7 +920,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2513",
@@ -941,7 +960,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-31084",
@@ -980,7 +1000,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-31436",
@@ -988,7 +1009,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1043,7 +1064,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32233",
@@ -1086,7 +1108,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32269",
@@ -1125,7 +1148,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-33288",
@@ -1164,7 +1188,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.130.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

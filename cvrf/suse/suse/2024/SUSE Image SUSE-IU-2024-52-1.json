@@ -389,12 +389,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-26555",
@@ -414,12 +412,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.8",
-          "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.8",
+        "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-8694",
@@ -439,12 +435,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-8695",
@@ -464,12 +458,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2023-1667",
@@ -489,7 +481,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:libssh4-0.9.8-150400.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2283",
@@ -509,7 +502,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:libssh4-0.9.8-150400.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-38472",
@@ -529,7 +523,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:libavahi-common3-0.8-150400.7.13.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39804",
@@ -548,7 +543,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:tar-1.34-150000.3.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-48795",
@@ -572,7 +568,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:openssh-server-8.4p1-150300.3.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-49083",
@@ -591,7 +588,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:python3-cryptography-3.3.2-150400.23.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-50495",
@@ -613,7 +611,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:terminfo-base-6.1-150000.5.20.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-51779",
@@ -632,7 +631,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:kernel-default-5.14.21-150500.55.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5981",
@@ -651,7 +651,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:libgnutls30-3.7.3-150400.4.38.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6004",
@@ -671,7 +672,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:libssh4-0.9.8-150400.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6121",
@@ -690,7 +692,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:kernel-default-5.14.21-150500.55.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6531",
@@ -709,7 +712,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:kernel-default-5.14.21-150500.55.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6546",
@@ -728,7 +732,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:kernel-default-5.14.21-150500.55.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6606",
@@ -747,7 +752,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:kernel-default-5.14.21-150500.55.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6610",
@@ -766,7 +772,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:kernel-default-5.14.21-150500.55.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6622",
@@ -785,7 +792,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:kernel-default-5.14.21-150500.55.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6918",
@@ -805,7 +813,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:libssh4-0.9.8-150400.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6931",
@@ -824,7 +833,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:kernel-default-5.14.21-150500.55.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6932",
@@ -843,7 +853,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:kernel-default-5.14.21-150500.55.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-7207",
@@ -862,7 +873,8 @@
             "Public Cloud Image google/sles-15-sp5-byos-v20240126-arm64:cpio-2.13-150400.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

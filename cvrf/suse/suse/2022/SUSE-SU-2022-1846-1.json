@@ -31,23 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2022-1846,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2022-1846,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2022-1846,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2022-1846,SUSE-2022-1846,SUSE-OpenStack-Cloud-9-2022-1846,SUSE-OpenStack-Cloud-Crowbar-9-2022-1846,SUSE-SLE-SAP-12-SP4-2022-1846,SUSE-SLE-SERVER-12-SP4-LTSS-2022-1846,SUSE-SLE-SERVER-12-SP5-2022-1846",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2022-1846,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2022-1846,SUSE-2022-1846,SUSE-OpenStack-Cloud-9-2022-1846,SUSE-OpenStack-Cloud-Crowbar-9-2022-1846,SUSE-SLE-SAP-12-SP4-2022-1846,SUSE-SLE-SERVER-12-SP4-LTSS-2022-1846,SUSE-SLE-SERVER-12-SP5-2022-1846",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "kernel-firmware-20190618-5.25.2",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-firmware-20190618-5.25.2",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "kernel-firmware-20190618-5.25.2",
         "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
@@ -226,8 +216,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -245,12 +233,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-26339",
@@ -275,8 +261,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -294,12 +278,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26342",
@@ -320,8 +302,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -339,12 +319,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-26347",
@@ -365,8 +343,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -384,12 +360,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.7",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.7",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26348",
@@ -410,8 +384,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -429,12 +401,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-26349",
@@ -455,8 +425,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -474,12 +442,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-26350",
@@ -500,8 +466,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -519,12 +483,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.9",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1.9",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-26364",
@@ -545,8 +507,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -564,12 +524,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26372",
@@ -590,8 +548,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -609,12 +565,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26373",
@@ -635,8 +589,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -654,12 +606,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26375",
@@ -680,8 +630,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -699,12 +647,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26376",
@@ -725,8 +671,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -744,12 +688,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26378",
@@ -770,8 +712,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -789,12 +729,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-26388",
@@ -815,8 +753,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -834,12 +770,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-46744",
@@ -864,8 +798,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.25.2",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:kernel-firmware-20190618-5.25.2",
@@ -883,12 +815,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     }
   ]
 }

@@ -114,7 +114,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP5:kernel-livepatch-5_14_21-150500_13_18-rt-4-150500.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6176",
@@ -146,15 +147,16 @@
             "SUSE Linux Enterprise Live Patching 15 SP5:kernel-livepatch-5_14_21-150500_13_18-rt-4-150500.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6932",
-      "Description": "A use-after-free vulnerability in the Linux kernel's ipv4: igmp component can be exploited to achieve local privilege escalation.\n\nA race condition can be exploited to cause a timer be mistakenly registered on a RCU read locked object which is freed by another thread.\n\nWe recommend upgrading past commit e2b706c691905fe78468c361aaabc719d0a496f1.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's ipv4: igmp component can be exploited to achieve local privilege escalation.\n\nA race condition can be exploited to cause a timer be mistakenly registered on a RCU read locked object which is freed by another thread.\n\nWe recommend upgrading past commit e2b706c691905fe78468c361aaabc719d0a496f1.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -194,7 +196,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP5:kernel-livepatch-5_14_21-150500_13_18-rt-4-150500.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

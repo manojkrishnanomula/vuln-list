@@ -1218,7 +1218,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-20593",
-      "Description": "\nAn issue in \"Zen 2\" CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.\n\n\n\n\n\n\n",
+      "Description": "An issue in “Zen 2” CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1450,7 +1450,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.12.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2985",
@@ -1678,11 +1679,12 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.12.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3117",
-      "Description": "** REJECT ** Duplicate of CVE-2023-3390.",
+      "Description": "Duplicate of CVE-2023-3390.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1910,7 +1912,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.12.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-31248",
@@ -2142,7 +2145,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.12.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3390",
@@ -2165,6 +2169,10 @@
         {
           "URL": "https://bugzilla.suse.com/1212934",
           "Description": "SUSE Bug 1212934"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213245",
+          "Description": "SUSE Bug 1213245"
         },
         {
           "URL": "https://bugzilla.suse.com/1216225",
@@ -2378,7 +2386,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.12.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-35001",
@@ -2614,7 +2623,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.12.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3812",
@@ -2854,7 +2864,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.12.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

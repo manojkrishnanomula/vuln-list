@@ -31,23 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2022-1927,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2022-1927,SUSE-2022-1927,SUSE-SLE-Product-HPC-15-2022-1927,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2022-1927,SUSE-SLE-Product-HPC-15-SP1-LTSS-2022-1927,SUSE-SLE-Product-SLES-15-2022-1927,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-1927,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-1927,SUSE-SLE-Product-SLES_SAP-15-2022-1927,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-1927,SUSE-Storage-6-2022-1927",
+      "Text": "SUSE-2022-1927,SUSE-SLE-Product-HPC-15-2022-1927,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2022-1927,SUSE-SLE-Product-HPC-15-SP1-LTSS-2022-1927,SUSE-SLE-Product-SLES-15-2022-1927,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-1927,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-1927,SUSE-SLE-Product-SLES_SAP-15-2022-1927,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-1927,SUSE-Storage-6-2022-1927",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "MozillaFirefox-91.10.0-150000.150.44.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-91.10.0-150000.150.44.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "MozillaFirefox-91.10.0-150000.150.44.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 6",
@@ -324,8 +314,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.10.0-150000.150.44.1",
@@ -368,7 +356,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-91.10.0-150000.150.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-31737",
@@ -393,8 +382,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.10.0-150000.150.44.1",
@@ -437,7 +424,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-91.10.0-150000.150.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-31738",
@@ -462,8 +450,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.10.0-150000.150.44.1",
@@ -506,7 +492,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-91.10.0-150000.150.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-31739",
@@ -531,8 +518,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.10.0-150000.150.44.1",
@@ -575,7 +560,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-91.10.0-150000.150.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-31740",
@@ -600,8 +586,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.10.0-150000.150.44.1",
@@ -644,7 +628,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-91.10.0-150000.150.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-31741",
@@ -669,8 +654,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.10.0-150000.150.44.1",
@@ -713,7 +696,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-91.10.0-150000.150.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-31742",
@@ -738,8 +722,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.10.0-150000.150.44.1",
@@ -782,7 +764,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-91.10.0-150000.150.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-31747",
@@ -807,8 +790,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.10.0-150000.150.44.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.10.0-150000.150.44.1",
@@ -851,7 +832,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-91.10.0-150000.150.44.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -118,7 +118,8 @@
             "SUSE Linux Enterprise Live Patching 12 SP4:kgraft-patch-4_12_14-95_102-default-9-2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0590",
@@ -133,6 +134,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-0590.html",
           "Description": "CVE-2023-0590"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1207036",
+          "Description": "SUSE Bug 1207036"
         },
         {
           "URL": "https://bugzilla.suse.com/1207795",
@@ -158,7 +163,8 @@
             "SUSE Linux Enterprise Live Patching 12 SP4:kgraft-patch-4_12_14-95_102-default-9-2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1118",
@@ -166,7 +172,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -206,7 +212,8 @@
             "SUSE Linux Enterprise Live Patching 12 SP4:kgraft-patch-4_12_14-95_102-default-9-2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

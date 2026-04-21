@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles/15.2/virt-handler:0.38.1-2021-521,Container suse/sles/15.2/virt-launcher:0.38.1-2021-521,Image SLES15-SP2-EC2-ECS-HVM-2021-521,SUSE-2021-521,SUSE-SLE-Module-Basesystem-15-SP2-2021-521,SUSE-SLE-Module-Server-Applications-15-SP2-2021-521",
+      "Text": "Container suse/sles/15.2/virt-handler:0.38.1-2021-521,Container suse/sles/15.2/virt-launcher:0.38.1-2021-521,SUSE-2021-521,SUSE-SLE-Module-Basesystem-15-SP2-2021-521,SUSE-SLE-Module-Server-Applications-15-SP2-2021-521",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -76,11 +76,6 @@
       {
         "ProductReference": "qemu-x86-4.2.1-11.13.1",
         "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "qemu-tools-4.2.1-11.13.1",
-        "RelatesToProductReference": "Image SLES15-SP2-EC2-ECS-HVM",
         "RelationType": "Default Component Of"
       },
       {
@@ -294,7 +289,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.13.1",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.13.1",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.13.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:qemu-tools-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:qemu-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:qemu-arm-4.2.1-11.13.1",
@@ -321,12 +315,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-20181",
@@ -359,7 +351,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.13.1",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.13.1",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.13.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:qemu-tools-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:qemu-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:qemu-arm-4.2.1-11.13.1",
@@ -386,12 +377,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-20203",
@@ -424,7 +413,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.13.1",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.13.1",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.13.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:qemu-tools-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:qemu-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:qemu-arm-4.2.1-11.13.1",
@@ -451,12 +439,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-20221",
@@ -489,7 +475,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.13.1",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.13.1",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.13.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:qemu-tools-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:qemu-4.2.1-11.13.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:qemu-arm-4.2.1-11.13.1",
@@ -516,12 +501,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

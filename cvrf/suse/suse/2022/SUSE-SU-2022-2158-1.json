@@ -31,33 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-CHOST-BYOS-EC2-2022-2158,Image SLES15-SP1-SAPCAL-EC2-HVM-2022-2158,SUSE-2022-2158,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2022-2158,SUSE-SLE-Product-HPC-15-SP1-LTSS-2022-2158,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-2158,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-2158,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-2158,SUSE-Storage-6-2022-2158",
+      "Text": "SUSE-2022-2158,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2022-2158,SUSE-SLE-Product-HPC-15-SP1-LTSS-2022-2158,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-2158,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-2158,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-2158,SUSE-Storage-6-2022-2158",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "xen-libs-4.12.4_24-150100.3.72.1",
-        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.12.4_24-150100.3.72.1",
-        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.12.4_24-150100.3.72.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.12.4_24-150100.3.72.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "xen-4.12.4_24-150100.3.72.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 6",
@@ -304,10 +284,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-tools-domU-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-tools-domU-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-devel-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-libs-4.12.4_24-150100.3.72.1",
@@ -341,12 +317,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:L/AC:H/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:L/AC:H/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-26357",
@@ -371,10 +345,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-tools-domU-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-tools-domU-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-devel-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-libs-4.12.4_24-150100.3.72.1",
@@ -408,12 +378,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.2",
-          "Vector": "AV:L/AC:H/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.2",
+        "Vector": "AV:L/AC:H/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-26358",
@@ -438,10 +406,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-tools-domU-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-tools-domU-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-devel-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-libs-4.12.4_24-150100.3.72.1",
@@ -475,12 +439,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-26359",
@@ -505,10 +467,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-tools-domU-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-tools-domU-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-devel-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-libs-4.12.4_24-150100.3.72.1",
@@ -542,12 +500,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-26360",
@@ -572,10 +528,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-tools-domU-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-tools-domU-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-devel-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-libs-4.12.4_24-150100.3.72.1",
@@ -609,12 +561,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-26361",
@@ -639,10 +589,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-tools-domU-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-tools-domU-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-devel-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-libs-4.12.4_24-150100.3.72.1",
@@ -676,12 +622,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-26362",
@@ -706,10 +650,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-tools-domU-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-tools-domU-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-devel-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-libs-4.12.4_24-150100.3.72.1",
@@ -743,12 +683,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-26363",
@@ -773,10 +711,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-tools-domU-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-tools-domU-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-devel-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-libs-4.12.4_24-150100.3.72.1",
@@ -810,12 +744,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-26364",
@@ -840,10 +772,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:xen-tools-domU-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-libs-4.12.4_24-150100.3.72.1",
-            "Image SLES15-SP1-SAPCAL-EC2-HVM:xen-tools-domU-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-devel-4.12.4_24-150100.3.72.1",
             "SUSE Enterprise Storage 6:xen-libs-4.12.4_24-150100.3.72.1",
@@ -877,12 +805,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     }
   ]
 }

@@ -136,12 +136,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-10844",
@@ -182,7 +180,8 @@
             "openSUSE Leap 15.0:libgnutlsxx28-3.6.2-lp150.4.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2018-10845",
@@ -223,7 +222,8 @@
             "openSUSE Leap 15.0:libgnutlsxx28-3.6.2-lp150.4.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2018-10846",
@@ -260,7 +260,8 @@
             "openSUSE Leap 15.0:libgnutlsxx28-3.6.2-lp150.4.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

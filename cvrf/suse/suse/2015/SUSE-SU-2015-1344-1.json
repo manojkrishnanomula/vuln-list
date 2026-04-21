@@ -360,7 +360,8 @@
             "SUSE Linux Enterprise Workstation Extension 12:python-devel-2.7.9-14.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2013-1753",
@@ -426,12 +427,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2014-4650",
@@ -517,12 +516,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2014-7185",
@@ -600,12 +597,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.4",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.4",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
+      }
     }
   ]
 }

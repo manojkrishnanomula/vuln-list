@@ -1114,7 +1114,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2007",
@@ -1288,7 +1289,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-20588",
@@ -1462,11 +1464,12 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-21400",
-      "Description": "In multiple functions  of io_uring.c, there is a possible kernel memory corruption due to improper locking. This could lead to local escalation of privilege in the kernel with System execution privileges needed. User interaction is not needed for exploitation.\n\n",
+      "Description": "In multiple functions  of io_uring.c, there is a possible kernel memory corruption due to improper locking. This could lead to local escalation of privilege in the kernel with System execution privileges needed. User interaction is not needed for exploitation.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1636,11 +1639,12 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-34319",
-      "Description": "The fix for XSA-423 added logic to Linux'es netback driver to deal with\na frontend splitting a packet in a way such that not all of the headers\nwould come in one piece.  Unfortunately the logic introduced there\ndidn't account for the extreme case of the entire packet being split\ninto as many pieces as permitted by the protocol, yet still being\nsmaller than the area that's specially dealt with to keep all (possible)\nheaders together.  Such an unusual packet would therefore trigger a\nbuffer overrun in the driver.\n",
+      "Description": "The fix for XSA-423 added logic to Linux'es netback driver to deal with\na frontend splitting a packet in a way such that not all of the headers\nwould come in one piece.  Unfortunately the logic introduced there\ndidn't account for the extreme case of the entire packet being split\ninto as many pieces as permitted by the protocol, yet still being\nsmaller than the area that's specially dealt with to keep all (possible)\nheaders together.  Such an unusual packet would therefore trigger a\nbuffer overrun in the driver.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1810,7 +1814,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3772",
@@ -1984,7 +1989,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3863",
@@ -2174,7 +2180,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4128",
@@ -2182,7 +2189,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2348,7 +2355,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4132",
@@ -2522,7 +2530,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4133",
@@ -2696,7 +2705,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4134",
@@ -2870,7 +2880,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4147",
@@ -3048,7 +3059,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4194",
@@ -3222,7 +3234,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4273",
@@ -3400,7 +3413,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4385",
@@ -3578,7 +3592,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4387",
@@ -3752,7 +3767,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4459",
@@ -3926,7 +3942,8 @@
             "openSUSE Leap 15.4:dtb-zte-5.3.18-150300.59.133.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

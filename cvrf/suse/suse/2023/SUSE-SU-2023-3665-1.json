@@ -352,7 +352,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libxml2-devel-2.9.4-46.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28484",
@@ -419,7 +420,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libxml2-devel-2.9.4-46.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-29469",
@@ -486,11 +488,12 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libxml2-devel-2.9.4-46.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39615",
-      "Description": "** DISPUTED ** Xmlsoft Libxml2 v2.11.0 was discovered to contain an out-of-bounds read via the xmlSAX2StartElement() function at /libxml2/SAX2.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted XML file. NOTE: the vendor's position is that the product does not support the legacy SAX1 interface with custom callbacks; there is a crash even without crafted input.",
+      "Description": "Xmlsoft Libxml2 v2.11.0 was discovered to contain an out-of-bounds read via the xmlSAX2StartElement() function at /libxml2/SAX2.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted XML file. NOTE: the vendor's position is that the product does not support the legacy SAX1 interface with custom callbacks; there is a crash even without crafted input.",
       "Threats": [
         {
           "Type": "Impact",
@@ -553,7 +556,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libxml2-devel-2.9.4-46.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

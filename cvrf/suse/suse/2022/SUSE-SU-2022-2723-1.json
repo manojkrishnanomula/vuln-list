@@ -474,7 +474,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.98.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2020-36558",
@@ -558,7 +559,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.98.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-26341",
@@ -573,6 +575,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2021-26341.html",
           "Description": "CVE-2021-26341"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1191580",
+          "Description": "SUSE Bug 1191580"
         },
         {
           "URL": "https://bugzilla.suse.com/1196901",
@@ -639,12 +645,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-33655",
@@ -732,7 +736,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.98.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-33656",
@@ -812,7 +817,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.98.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-1462",
@@ -889,12 +895,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.3",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.3",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-20166",
@@ -975,12 +979,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-36946",
@@ -1084,7 +1086,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.98.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles/15.2/virt-handler:0.38.1-2021-1243,Container suse/sles/15.2/virt-launcher:0.38.1-2021-1243,Image SLES15-SP2-EC2-ECS-HVM-2021-1243,SUSE-2021-1243,SUSE-SLE-Module-Basesystem-15-SP2-2021-1243,SUSE-SLE-Module-Server-Applications-15-SP2-2021-1243,SUSE-SUSE-MicroOS-5.0-2021-1243",
+      "Text": "Container suse/sles/15.2/virt-handler:0.38.1-2021-1243,Container suse/sles/15.2/virt-launcher:0.38.1-2021-1243,SUSE-2021-1243,SUSE-SLE-Module-Basesystem-15-SP2-2021-1243,SUSE-SLE-Module-Server-Applications-15-SP2-2021-1243,SUSE-SUSE-MicroOS-5.0-2021-1243",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -76,11 +76,6 @@
       {
         "ProductReference": "qemu-x86-4.2.1-11.16.3",
         "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "qemu-tools-4.2.1-11.16.3",
-        "RelatesToProductReference": "Image SLES15-SP2-EC2-ECS-HVM",
         "RelationType": "Default Component Of"
       },
       {
@@ -414,7 +409,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -449,12 +443,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-15469",
@@ -487,7 +479,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -522,12 +513,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25084",
@@ -560,7 +549,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -595,12 +583,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25624",
@@ -633,7 +619,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -668,12 +653,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25625",
@@ -706,7 +689,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -741,12 +723,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.7",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.7",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-25723",
@@ -783,7 +763,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -818,12 +797,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-27616",
@@ -860,7 +837,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -895,12 +871,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-27617",
@@ -933,7 +907,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -968,12 +941,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-27821",
@@ -1006,7 +977,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -1041,12 +1011,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-28916",
@@ -1083,7 +1051,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -1118,12 +1085,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-29129",
@@ -1168,7 +1133,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -1203,12 +1167,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-29130",
@@ -1249,7 +1211,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -1284,12 +1245,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-29443",
@@ -1322,7 +1281,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -1357,12 +1315,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.3",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.3",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-20257",
@@ -1399,7 +1355,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -1434,12 +1389,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3416",
@@ -1476,7 +1429,6 @@
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-tools-4.2.1-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-vgabios-1.12.1+-11.16.3",
             "Container suse/sles/15.2/virt-launcher:0.38.1:qemu-x86-4.2.1-11.16.3",
-            "Image SLES15-SP2-EC2-ECS-HVM:qemu-tools-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-arm-4.2.1-11.16.3",
             "SUSE Linux Enterprise Micro 5.0:qemu-ipxe-1.0.0+-11.16.3",
@@ -1511,12 +1463,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

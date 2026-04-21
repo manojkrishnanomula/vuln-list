@@ -157,7 +157,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -209,12 +209,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-1016",
@@ -222,13 +220,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-1016.html",
           "Description": "CVE-2022-1016"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1197227",
+          "Description": "SUSE Bug 1197227"
         },
         {
           "URL": "https://bugzilla.suse.com/1197335",
@@ -257,7 +259,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP1:kernel-livepatch-4_12_14-197_99-default-12-150100.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

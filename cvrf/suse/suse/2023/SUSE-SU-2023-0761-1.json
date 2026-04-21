@@ -483,12 +483,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-13754",
@@ -496,7 +494,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -565,12 +563,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-14394",
@@ -646,7 +642,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:qemu-x86-3.1.1.1-66.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2020-17380",
@@ -727,12 +724,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25085",
@@ -813,12 +808,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3409",
@@ -895,12 +888,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3507",
@@ -977,12 +968,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3929",
@@ -997,6 +986,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2021-3929.html",
           "Description": "CVE-2021-3929"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1190011",
+          "Description": "SUSE Bug 1190011"
         },
         {
           "URL": "https://bugzilla.suse.com/1193880",
@@ -1058,7 +1051,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:qemu-x86-3.1.1.1-66.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-4206",
@@ -1139,12 +1133,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-0216",
@@ -1220,7 +1212,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:qemu-x86-3.1.1.1-66.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-1050",
@@ -1297,12 +1290,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-26354",
@@ -1379,16 +1370,14 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-35414",
-      "Description": "** DISPUTED ** softmmu/physmem.c in QEMU through 7.0.0 can perform an uninitialized read on the translate_fail path, leading to an io_readx or io_writex crash. NOTE: a third party states that the Non-virtualization Use Case in the qemu.org reference applies here, i.e., \"Bugs affecting the non-virtualization use case are not considered security bugs at this time.\"",
+      "Description": "softmmu/physmem.c in QEMU through 7.0.0 can perform an uninitialized read on the translate_fail path, leading to an io_readx or io_writex crash. NOTE: a third party states that the Non-virtualization Use Case in the qemu.org reference applies here, i.e., \"Bugs affecting the non-virtualization use case are not considered security bugs at this time.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1461,12 +1450,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-4144",
@@ -1542,7 +1529,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:qemu-x86-3.1.1.1-66.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

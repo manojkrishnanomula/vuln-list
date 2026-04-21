@@ -31,23 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-4533,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-4533,SUSE-2023-4533,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-4533,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-4533,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-4533",
+      "Text": "SUSE-2023-4533,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-4533,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-4533,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-4533",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "MozillaFirefox-115.5.0-150000.150.116.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-115.5.0-150000.150.116.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "MozillaFirefox-115.5.0-150000.150.116.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
@@ -188,8 +178,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-115.5.0-150000.150.116.1",
@@ -204,7 +192,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-115.5.0-150000.150.116.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5724",
@@ -229,8 +218,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-115.5.0-150000.150.116.1",
@@ -245,7 +232,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-115.5.0-150000.150.116.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5725",
@@ -270,8 +258,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-115.5.0-150000.150.116.1",
@@ -286,7 +272,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-115.5.0-150000.150.116.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5726",
@@ -311,8 +298,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-115.5.0-150000.150.116.1",
@@ -327,7 +312,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-115.5.0-150000.150.116.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5727",
@@ -352,8 +338,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-115.5.0-150000.150.116.1",
@@ -368,7 +352,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-115.5.0-150000.150.116.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5728",
@@ -393,8 +378,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-115.5.0-150000.150.116.1",
@@ -409,7 +392,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-115.5.0-150000.150.116.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5730",
@@ -434,8 +418,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-115.5.0-150000.150.116.1",
@@ -450,7 +432,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-115.5.0-150000.150.116.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5732",
@@ -475,8 +458,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-115.5.0-150000.150.116.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-115.5.0-150000.150.116.1",
@@ -491,7 +472,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-115.5.0-150000.150.116.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

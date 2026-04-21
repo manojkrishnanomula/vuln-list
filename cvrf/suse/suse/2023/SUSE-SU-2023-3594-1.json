@@ -154,7 +154,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_93-default-13-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2156",
@@ -186,7 +187,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_93-default-13-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2176",
@@ -222,11 +224,12 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_93-default-13-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3090",
-      "Description": "A heap out-of-bounds write vulnerability in the Linux Kernel ipvlan network driver can be exploited to achieve local privilege escalation.\n\nThe out-of-bounds write is caused by missing skb-\u003ecb  initialization in the ipvlan network driver. The vulnerability is reachable if  CONFIG_IPVLAN is enabled.\n\n\nWe recommend upgrading past commit 90cbed5247439a966b645b34eb0a2e037836ea8e.\n\n",
+      "Description": "A heap out-of-bounds write vulnerability in the Linux Kernel ipvlan network driver can be exploited to achieve local privilege escalation.\n\nThe out-of-bounds write is caused by missing skb-\u003ecb  initialization in the ipvlan network driver. The vulnerability is reachable if  CONFIG_IPVLAN is enabled.\n\n\nWe recommend upgrading past commit 90cbed5247439a966b645b34eb0a2e037836ea8e.",
       "Threats": [
         {
           "Type": "Impact",
@@ -262,7 +265,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_93-default-13-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32233",
@@ -294,7 +298,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_93-default-13-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-35001",
@@ -330,7 +335,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_93-default-13-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3567",
@@ -378,7 +384,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_93-default-13-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

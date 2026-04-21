@@ -1400,7 +1400,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2021-33631",
-      "Description": "Integer Overflow or Wraparound vulnerability in openEuler kernel on Linux (filesystem modules) allows Forced Integer Overflow.This issue affects openEuler kernel: from 4.19.90 before 4.19.90-2401.3, from 5.10.0-60.18.0 before 5.10.0-183.0.0.\n\n",
+      "Description": "Integer Overflow or Wraparound vulnerability in openEuler kernel on Linux (filesystem modules) allows Forced Integer Overflow.This issue affects openEuler kernel: from 4.19.90 before 4.19.90-2401.3, from 5.10.0-60.18.0 before 5.10.0-183.0.0.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1626,11 +1626,12 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-46838",
-      "Description": "Transmit requests in Xen's virtual network protocol can consist of\nmultiple parts.  While not really useful, except for the initial part\nany of them may be of zero length, i.e. carry no data at all.  Besides a\ncertain initial portion of the to be transferred data, these parts are\ndirectly translated into what Linux calls SKB fragments.  Such converted\nrequest parts can, when for a particular SKB they are all of length\nzero, lead to a de-reference of NULL in core networking code.\n",
+      "Description": "Transmit requests in Xen's virtual network protocol can consist of\nmultiple parts.  While not really useful, except for the initial part\nany of them may be of zero length, i.e. carry no data at all.  Besides a\ncertain initial portion of the to be transferred data, these parts are\ndirectly translated into what Linux calls SKB fragments.  Such converted\nrequest parts can, when for a particular SKB they are all of length\nzero, lead to a de-reference of NULL in core networking code.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1856,7 +1857,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-47233",
@@ -2090,11 +2092,12 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4921",
-      "Description": "A use-after-free vulnerability in the Linux kernel's net/sched: sch_qfq component can be exploited to achieve local privilege escalation.\n\nWhen the plug qdisc is used as a class of the qfq qdisc, sending network packets triggers use-after-free in qfq_dequeue() due to the incorrect .peek handler of sch_plug and lack of error checking in agg_dequeue().\n\nWe recommend upgrading past commit 8fc134fee27f2263988ae38920bc03da416b03d8.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's net/sched: sch_qfq component can be exploited to achieve local privilege escalation.\n\nWhen the plug qdisc is used as a class of the qfq qdisc, sending network packets triggers use-after-free in qfq_dequeue() due to the incorrect .peek handler of sch_plug and lack of error checking in agg_dequeue().\n\nWe recommend upgrading past commit 8fc134fee27f2263988ae38920bc03da416b03d8.",
       "Threats": [
         {
           "Type": "Impact",
@@ -2344,7 +2347,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-51042",
@@ -2574,7 +2578,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-51043",
@@ -2804,7 +2809,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-51780",
@@ -3058,7 +3064,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-51782",
@@ -3288,7 +3295,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6040",
@@ -3518,7 +3526,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6356",
@@ -3748,7 +3757,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6531",
@@ -3756,7 +3766,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3982,7 +3992,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6535",
@@ -4212,7 +4223,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6536",
@@ -4442,7 +4454,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6915",
@@ -4672,7 +4685,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-0340",
@@ -4902,7 +4916,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-0565",
@@ -5136,7 +5151,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-0641",
@@ -5366,7 +5382,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-0775",
@@ -5608,7 +5625,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-1085",
@@ -5842,11 +5860,12 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-1086",
-      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.",
       "Threats": [
         {
           "Type": "Impact",
@@ -6088,11 +6107,12 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-24860",
-      "Description": "A race condition was found in the Linux kernel's bluetooth device driver in {min,max}_key_size_set() function. This can result in a null pointer dereference issue, possibly leading to a kernel panic or denial of service issue.\n\n\n\n\n",
+      "Description": "A race condition was found in the Linux kernel's bluetooth device driver in {min,max}_key_size_set() function. This can result in a null pointer dereference issue, possibly leading to a kernel panic or denial of service issue.",
       "Threats": [
         {
           "Type": "Impact",
@@ -6318,7 +6338,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-default-5.14.21-150500.55.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

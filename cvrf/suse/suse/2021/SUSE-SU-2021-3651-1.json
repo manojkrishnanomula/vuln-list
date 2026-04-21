@@ -31,33 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SAP-Azure-LI-BYOS-Production-2021-3651,Image SLES15-SAP-Azure-VLI-BYOS-Production-2021-3651,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2021-3651,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2021-3651,SUSE-2021-3651,SUSE-SLE-Product-HPC-15-2021-3651,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2021-3651,SUSE-SLE-Product-HPC-15-SP1-LTSS-2021-3651,SUSE-SLE-Product-SLES-15-2021-3651,SUSE-SLE-Product-SLES-15-SP1-BCL-2021-3651,SUSE-SLE-Product-SLES-15-SP1-LTSS-2021-3651,SUSE-SLE-Product-SLES_SAP-15-2021-3651,SUSE-SLE-Product-SLES_SAP-15-SP1-2021-3651,SUSE-Storage-6-2021-3651",
+      "Text": "SUSE-2021-3651,SUSE-SLE-Product-HPC-15-2021-3651,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2021-3651,SUSE-SLE-Product-HPC-15-SP1-LTSS-2021-3651,SUSE-SLE-Product-SLES-15-2021-3651,SUSE-SLE-Product-SLES-15-SP1-BCL-2021-3651,SUSE-SLE-Product-SLES-15-SP1-LTSS-2021-3651,SUSE-SLE-Product-SLES_SAP-15-2021-3651,SUSE-SLE-Product-SLES_SAP-15-SP1-2021-3651,SUSE-Storage-6-2021-3651",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "MozillaFirefox-91.3.0-150.6.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-91.3.0-150.6.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-91.3.0-150.6.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-91.3.0-150.6.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "MozillaFirefox-91.3.0-150.6.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 6",
@@ -334,10 +314,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.3.0-150.6.1",
@@ -381,12 +357,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-38504",
@@ -411,10 +385,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.3.0-150.6.1",
@@ -458,12 +428,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-38505",
@@ -488,10 +456,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.3.0-150.6.1",
@@ -535,12 +499,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-38506",
@@ -565,10 +527,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.3.0-150.6.1",
@@ -612,12 +570,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-38507",
@@ -642,10 +598,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.3.0-150.6.1",
@@ -689,12 +641,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-38508",
@@ -719,10 +669,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.3.0-150.6.1",
@@ -766,12 +712,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-38509",
@@ -796,10 +740,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.3.0-150.6.1",
@@ -843,12 +783,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-38510",
@@ -873,10 +811,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-devel-91.3.0-150.6.1",
             "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-91.3.0-150.6.1",
@@ -920,12 +854,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     }
   ]
 }

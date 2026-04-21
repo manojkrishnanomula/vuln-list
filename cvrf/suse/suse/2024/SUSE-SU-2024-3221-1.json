@@ -1635,12 +1635,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.4",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.4",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2023-45142",
@@ -1922,7 +1920,8 @@
             "openSUSE Leap Micro 5.5:containerd-1.7.21-150000.117.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-47108",
@@ -2204,7 +2203,8 @@
             "openSUSE Leap Micro 5.5:containerd-1.7.21-150000.117.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

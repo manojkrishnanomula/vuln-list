@@ -156,12 +156,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.7",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.7",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2015-8804",
@@ -202,7 +200,8 @@
             "openSUSE 13.2:nettle-debuginfo-2.7.1-6.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-8805",
@@ -243,7 +242,8 @@
             "openSUSE 13.2:nettle-debuginfo-2.7.1-6.5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -31,73 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP2-BYOS-Azure-2023-862,Image SLES15-SP2-HPC-BYOS-Azure-2023-862,Image SLES15-SP2-SAP-Azure-2023-862,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-862,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-862,Image SLES15-SP2-SAP-BYOS-Azure-2023-862,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2023-862,Image SLES15-SP2-SAP-BYOS-GCE-2023-862,Image SLES15-SP2-SAP-EC2-HVM-2023-862,Image SLES15-SP2-SAP-GCE-2023-862,SUSE-2023-862,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-862,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-862,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-862,SUSE-Storage-7-2023-862",
+      "Text": "SUSE-2023-862,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-862,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-862,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-862,SUSE-Storage-7-2023-862",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.4_20-150200.3.71.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "xen-4.13.4_20-150200.3.71.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7",
@@ -290,18 +230,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-devel-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-libs-4.13.4_20-150200.3.71.1",
@@ -328,7 +256,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP2:xen-tools-xendomains-wait-disk-4.13.4_20-150200.3.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-42332",
@@ -353,18 +282,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-devel-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-libs-4.13.4_20-150200.3.71.1",
@@ -391,7 +308,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP2:xen-tools-xendomains-wait-disk-4.13.4_20-150200.3.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-42333",
@@ -416,18 +334,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-devel-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-libs-4.13.4_20-150200.3.71.1",
@@ -454,7 +360,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP2:xen-tools-xendomains-wait-disk-4.13.4_20-150200.3.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-42334",
@@ -479,18 +386,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.4_20-150200.3.71.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-devel-4.13.4_20-150200.3.71.1",
             "SUSE Enterprise Storage 7:xen-libs-4.13.4_20-150200.3.71.1",
@@ -517,7 +412,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP2:xen-tools-xendomains-wait-disk-4.13.4_20-150200.3.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

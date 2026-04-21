@@ -31,58 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-SAP-Azure-2020-2690,Image SLES12-SP4-SAP-Azure-BYOS-2020-2690,Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2020-2690,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2020-2690,Image SLES12-SP4-SAP-EC2-HVM-2020-2690,Image SLES12-SP4-SAP-EC2-HVM-BYOS-2020-2690,Image SLES12-SP4-SAP-GCE-2020-2690,Image SLES12-SP4-SAP-GCE-BYOS-2020-2690,Image SLES12-SP4-SAP-OCI-BYOS-2020-2690,Image SLES12-SP5-Azure-SAP-BYOS-2020-2690,Image SLES12-SP5-Azure-SAP-On-Demand-2020-2690,Image SLES12-SP5-EC2-SAP-BYOS-2020-2690,Image SLES12-SP5-EC2-SAP-On-Demand-2020-2690,Image SLES12-SP5-GCE-SAP-BYOS-2020-2690,Image SLES12-SP5-GCE-SAP-On-Demand-2020-2690,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2020-2690,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2020-2690,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2020-2690,SUSE-2020-2690,SUSE-SLE-SDK-12-SP5-2020-2690,SUSE-SLE-SERVER-12-SP5-2020-2690",
+      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2020-2690,Image SLES12-SP5-Azure-SAP-On-Demand-2020-2690,Image SLES12-SP5-EC2-SAP-BYOS-2020-2690,Image SLES12-SP5-EC2-SAP-On-Demand-2020-2690,Image SLES12-SP5-GCE-SAP-BYOS-2020-2690,Image SLES12-SP5-GCE-SAP-On-Demand-2020-2690,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2020-2690,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2020-2690,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2020-2690,SUSE-2020-2690,SUSE-SLE-SDK-12-SP5-2020-2690,SUSE-SLE-SERVER-12-SP5-2020-2690",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "libjasper1-1.900.14-195.22.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libjasper1-1.900.14-195.22.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libjasper1-1.900.14-195.22.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libjasper1-1.900.14-195.22.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libjasper1-1.900.14-195.22.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libjasper1-1.900.14-195.22.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libjasper1-1.900.14-195.22.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libjasper1-1.900.14-195.22.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libjasper1-1.900.14-195.22.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "libjasper1-1.900.14-195.22.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
@@ -337,15 +292,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -363,16 +309,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.5",
-          "Vector": "AV:L/AC:M/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2016-9398",
@@ -401,15 +341,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -427,16 +358,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.5",
-          "Vector": "AV:L/AC:M/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2016-9399",
@@ -465,15 +390,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -491,16 +407,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.5",
-          "Vector": "AV:L/AC:M/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2016-9557",
@@ -533,15 +443,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -559,16 +460,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-14132",
@@ -597,15 +492,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -623,16 +509,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.6",
-          "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-5499",
@@ -673,15 +553,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -699,16 +570,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-5503",
@@ -745,15 +610,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -771,16 +627,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-5504",
@@ -817,15 +667,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -843,16 +684,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-5505",
@@ -889,15 +724,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -915,16 +741,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-9782",
@@ -957,15 +777,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -983,16 +794,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-18873",
@@ -1025,15 +830,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -1051,12 +847,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-19139",
@@ -1085,15 +879,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -1111,12 +896,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-19543",
@@ -1153,15 +936,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -1179,12 +953,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-20570",
@@ -1213,15 +985,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -1239,12 +1002,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-20622",
@@ -1277,15 +1038,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -1303,12 +1055,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-9154",
@@ -1337,15 +1087,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -1363,12 +1104,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-9252",
@@ -1397,15 +1136,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-Azure:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-GCE:libjasper1-1.900.14-195.22.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libjasper1-1.900.14-195.22.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libjasper1-1.900.14-195.22.1",
@@ -1423,12 +1153,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

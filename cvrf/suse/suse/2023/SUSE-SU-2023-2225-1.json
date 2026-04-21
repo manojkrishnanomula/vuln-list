@@ -385,12 +385,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.5",
-          "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.5",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2023-28319",
@@ -461,7 +459,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libcurl-devel-8.0.1-11.65.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28320",
@@ -469,7 +468,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -536,7 +535,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libcurl-devel-8.0.1-11.65.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28321",
@@ -611,7 +611,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libcurl-devel-8.0.1-11.65.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28322",
@@ -682,7 +683,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libcurl-devel-8.0.1-11.65.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

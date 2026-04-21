@@ -31,28 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2022-510,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2022-510,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2022-510,SUSE-2022-510,SUSE-SLE-Module-SUSE-Manager-Server-4.1-2022-510",
+      "Text": "SUSE-2022-510,SUSE-SLE-Module-SUSE-Manager-Server-4.1-2022-510",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
         "RelatesToProductReference": "SUSE Manager Server Module 4.1",
@@ -117,7 +102,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -134,19 +119,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
             "SUSE Manager Server Module 4.1:cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-45083",
@@ -171,19 +151,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1",
             "SUSE Manager Server Module 4.1:cobbler-3.0.0+git20190806.32c4bae0-8.22.9.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:N"
+      }
     }
   ]
 }

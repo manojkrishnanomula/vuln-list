@@ -215,7 +215,8 @@
             "openSUSE Leap 42.2:monitoring-tools-1.14.0-4.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2016-9566",
@@ -267,12 +268,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.6",
-          "Vector": "AV:L/AC:M/Au:S/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.6",
+        "Vector": "AV:L/AC:M/Au:S/C:C/I:C/A:C"
+      }
     }
   ]
 }

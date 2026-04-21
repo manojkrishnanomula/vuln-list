@@ -211,16 +211,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        },
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-38288",
@@ -262,7 +256,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.80.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-40745",
@@ -304,7 +299,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.80.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-41175",
@@ -346,7 +342,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.80.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

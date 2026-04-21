@@ -242,7 +242,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25433",
@@ -284,7 +285,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-26966",
@@ -326,7 +328,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2908",
@@ -368,11 +371,12 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3316",
-      "Description": "A NULL pointer dereference in TIFFClose() is caused by a failure to open an output file (non-existent path or a path that requires permissions like /dev/null) while specifying zones.\n\n",
+      "Description": "A NULL pointer dereference in TIFFClose() is caused by a failure to open an output file (non-existent path or a path that requires permissions like /dev/null) while specifying zones.",
       "Threats": [
         {
           "Type": "Impact",
@@ -410,7 +414,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3576",
@@ -418,7 +423,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -452,7 +457,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3618",
@@ -494,15 +500,16 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-38288",
-      "Description": "** REJECT ** Not a Security Issue.",
+      "Description": "Not a Security Issue.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -536,15 +543,16 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-38289",
-      "Description": "** REJECT ** Not a Security Issue.",
+      "Description": "Not a Security Issue.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -578,7 +586,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:libtiff-devel-4.0.9-44.71.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

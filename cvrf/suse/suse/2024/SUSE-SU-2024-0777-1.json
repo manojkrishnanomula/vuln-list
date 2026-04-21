@@ -159,16 +159,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:P"
-        },
-        {
-          "BaseScore": "7.9",
-          "Vector": "AV:N/AC:M/Au:S/C:C/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.9",
+        "Vector": "AV:N/AC:M/Au:S/C:C/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2019-17566",
@@ -197,12 +191,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-11987",
@@ -231,12 +223,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.4",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.4",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-38398",
@@ -264,7 +254,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:xmlgraphics-batik-1.17-2.7.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38648",
@@ -292,7 +283,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:xmlgraphics-batik-1.17-2.7.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-40146",
@@ -320,7 +312,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:xmlgraphics-batik-1.17-2.7.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-41704",
@@ -348,7 +341,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:xmlgraphics-batik-1.17-2.7.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-42890",
@@ -376,7 +370,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:xmlgraphics-batik-1.17-2.7.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-44729",
@@ -400,7 +395,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:xmlgraphics-batik-1.17-2.7.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-44730",
@@ -424,7 +420,8 @@
             "SUSE Linux Enterprise Software Development Kit 12 SP5:xmlgraphics-batik-1.17-2.7.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

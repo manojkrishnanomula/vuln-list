@@ -281,12 +281,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.8",
-          "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.8",
+        "Vector": "AV:A/AC:L/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-45887",
@@ -331,7 +329,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1206",
@@ -376,7 +375,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-31085",
@@ -421,7 +421,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3111",
@@ -466,7 +467,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39189",
@@ -511,7 +513,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39192",
@@ -556,7 +559,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39193",
@@ -601,7 +605,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39197",
@@ -609,7 +614,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -646,7 +651,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-45863",
@@ -691,7 +697,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-51779",
@@ -699,7 +706,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -752,7 +759,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6606",
@@ -797,15 +805,16 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6932",
-      "Description": "A use-after-free vulnerability in the Linux kernel's ipv4: igmp component can be exploited to achieve local privilege escalation.\n\nA race condition can be exploited to cause a timer be mistakenly registered on a RCU read locked object which is freed by another thread.\n\nWe recommend upgrading past commit e2b706c691905fe78468c361aaabc719d0a496f1.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's ipv4: igmp component can be exploited to achieve local privilege escalation.\n\nA race condition can be exploited to cause a timer be mistakenly registered on a RCU read locked object which is freed by another thread.\n\nWe recommend upgrading past commit e2b706c691905fe78468c361aaabc719d0a496f1.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -858,7 +867,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.150.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

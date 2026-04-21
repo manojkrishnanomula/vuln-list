@@ -129,12 +129,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.4",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.4",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-12180",
@@ -166,12 +164,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-3630",
@@ -202,7 +198,8 @@
             "SUSE Linux Enterprise Module for Server Applications 15:qemu-uefi-aarch64-2017+git1510945757.b2662641d5-5.14.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

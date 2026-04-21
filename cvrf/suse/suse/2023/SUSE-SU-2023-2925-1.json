@@ -119,7 +119,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -140,11 +140,12 @@
             "openSUSE Leap 15.5:redis7-7.0.8-150500.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-36021",
-      "Description": "Redis is an in-memory database that persists on disk. Authenticated users can use string matching commands (like `SCAN` or `KEYS`) with a specially crafted pattern to trigger a denial-of-service attack on Redis, causing it to hang and consume 100% CPU time. The problem is fixed in Redis versions 6.0.18, 6.2.11, 7.0.9.",
+      "Description": "Redis is an in-memory database that persists on disk. Authenticated users can use string matching commands (like `SCAN` or `KEYS`) with a specially crafted pattern to trigger a denial-of-service attack on Redis, causing it to hang and consume 100% CPU time. The problem is fixed in Redis versions 6.0.18, 6.2.11, 7.0.9.\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -173,7 +174,8 @@
             "openSUSE Leap 15.5:redis7-7.0.8-150500.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25155",
@@ -206,7 +208,8 @@
             "openSUSE Leap 15.5:redis7-7.0.8-150500.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28425",
@@ -235,7 +238,8 @@
             "openSUSE Leap 15.5:redis7-7.0.8-150500.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28856",
@@ -264,11 +268,12 @@
             "openSUSE Leap 15.5:redis7-7.0.8-150500.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-36824",
-      "Description": "Redis is an in-memory database that persists on disk. In Redit 7.0 prior to 7.0.12, extracting key names from a command and a list of arguments may, in some cases, trigger a heap overflow and result in reading random heap memory, heap corruption and potentially remote code execution. Several scenarios that may lead to authenticated users executing a specially crafted `COMMAND GETKEYS` or `COMMAND GETKEYSANDFLAGS`and authenticated users who were set with ACL rules that match key names, executing a specially crafted command that refers to a variadic list of key names. The vulnerability is patched in Redis 7.0.12.\n\n",
+      "Description": "Redis is an in-memory database that persists on disk. In Redit 7.0 prior to 7.0.12, extracting key names from a command and a list of arguments may, in some cases, trigger a heap overflow and result in reading random heap memory, heap corruption and potentially remote code execution. Several scenarios that may lead to authenticated users executing a specially crafted `COMMAND GETKEYS` or `COMMAND GETKEYSANDFLAGS`and authenticated users who were set with ACL rules that match key names, executing a specially crafted command that refers to a variadic list of key names. The vulnerability is patched in Redis 7.0.12.",
       "Threats": [
         {
           "Type": "Impact",
@@ -293,7 +298,8 @@
             "openSUSE Leap 15.5:redis7-7.0.8-150500.3.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

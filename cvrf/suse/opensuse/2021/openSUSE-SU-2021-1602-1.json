@@ -173,12 +173,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.5",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.5",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-41178",
@@ -218,12 +216,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-41179",
@@ -262,7 +258,8 @@
             "openSUSE Leap 15.3:nextcloud-apache-20.0.14-bp153.2.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

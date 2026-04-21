@@ -403,12 +403,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.3",
-          "Vector": "AV:A/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.3",
+        "Vector": "AV:A/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-26541",
@@ -443,12 +441,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-4037",
@@ -482,7 +478,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2663",
@@ -520,15 +517,16 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-28748",
-      "Description": "** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2022-2964. Reason: This candidate is a reservation duplicate of CVE-2022-2964. Notes: All CVE users should reference CVE-2022-2964 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.",
+      "Description": "DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2022-2964. Reason: This candidate is a reservation duplicate of CVE-2022-2964. Notes: All CVE users should reference CVE-2022-2964 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -554,7 +552,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2964",
@@ -596,7 +595,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3169",
@@ -630,7 +630,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3424",
@@ -638,7 +639,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -676,7 +677,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3524",
@@ -714,11 +716,12 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3542",
-      "Description": "** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.",
+      "Description": "DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.",
       "Threats": [
         {
           "Type": "Impact",
@@ -752,7 +755,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3565",
@@ -798,7 +802,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3567",
@@ -832,7 +837,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3586",
@@ -840,7 +846,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -882,7 +888,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3594",
@@ -920,7 +927,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3621",
@@ -958,7 +966,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3628",
@@ -992,7 +1001,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3629",
@@ -1000,7 +1010,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1027,12 +1037,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.4",
-          "Vector": "AV:A/AC:H/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1.4",
+        "Vector": "AV:A/AC:H/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-3635",
@@ -1047,6 +1055,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-3635.html",
           "Description": "CVE-2022-3635"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202096",
+          "Description": "SUSE Bug 1202096"
         },
         {
           "URL": "https://bugzilla.suse.com/1204631",
@@ -1078,7 +1090,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3646",
@@ -1112,7 +1125,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3649",
@@ -1150,7 +1164,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3903",
@@ -1188,7 +1203,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-40307",
@@ -1222,7 +1238,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-40768",
@@ -1256,7 +1273,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-4095",
@@ -1306,7 +1324,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-41848",
@@ -1348,7 +1367,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-41850",
@@ -1356,7 +1376,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1386,7 +1406,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-41858",
@@ -1428,7 +1449,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-42703",
@@ -1443,6 +1465,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-42703.html",
           "Description": "CVE-2022-42703"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202096",
+          "Description": "SUSE Bug 1202096"
         },
         {
           "URL": "https://bugzilla.suse.com/1204168",
@@ -1478,7 +1504,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-43750",
@@ -1516,7 +1543,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-43945",
@@ -1570,7 +1598,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-45934",
@@ -1608,7 +1637,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.196.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

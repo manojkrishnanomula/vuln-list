@@ -244,7 +244,8 @@
             "SUSE Manager Client Tools 12:spacewalk-client-tools-4.3.14-52.83.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-31130",
@@ -287,7 +288,8 @@
             "SUSE Manager Client Tools 12:spacewalk-client-tools-4.3.14-52.83.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-39201",
@@ -330,7 +332,8 @@
             "SUSE Manager Client Tools 12:spacewalk-client-tools-4.3.14-52.83.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-39229",
@@ -373,7 +376,8 @@
             "SUSE Manager Client Tools 12:spacewalk-client-tools-4.3.14-52.83.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-39306",
@@ -416,11 +420,12 @@
             "SUSE Manager Client Tools 12:spacewalk-client-tools-4.3.14-52.83.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-39307",
-      "Description": "Grafana is an open-source platform for monitoring and observability. When using the forget password on the login page, a POST request is made to the `/api/user/password/sent-reset-email` URL. When the username or email does not exist, a JSON response contains a \"user not found\" message. This leaks information to unauthenticated users and introduces a security risk. This issue has been patched in 9.2.4 and backported to 8.5.15. There are no known workarounds.",
+      "Description": "Grafana is an open-source platform for monitoring and observability. When using the forget password on the login page, a POST request is made to the `/api/user/password/sent-reset-email` URL. When the username or email does not exist, a JSON response contains a “user not found” message. This leaks information to unauthenticated users and introduces a security risk. This issue has been patched in 9.2.4 and backported to 8.5.15. There are no known workarounds.",
       "Threats": [
         {
           "Type": "Impact",
@@ -459,7 +464,8 @@
             "SUSE Manager Client Tools 12:spacewalk-client-tools-4.3.14-52.83.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

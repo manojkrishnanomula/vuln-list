@@ -496,7 +496,8 @@
             "SUSE Linux Enterprise Software Development Kit 11 SP4:libmysql55client_r18-x86-5.5.55-0.38.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2017-3302",
@@ -552,16 +553,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-3305",
@@ -621,16 +616,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.1",
-          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
-        },
-        {
-          "BaseScore": "6.3",
-          "Vector": "AV:N/AC:M/Au:S/C:C/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.3",
+        "Vector": "AV:N/AC:M/Au:S/C:C/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2017-3308",
@@ -638,7 +627,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -682,16 +671,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-3309",
@@ -699,7 +682,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -743,16 +726,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-3329",
@@ -804,16 +781,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-3453",
@@ -821,7 +792,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -865,16 +836,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-3456",
@@ -882,7 +847,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -926,16 +891,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-3461",
@@ -987,16 +946,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-3462",
@@ -1048,16 +1001,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-3463",
@@ -1109,16 +1056,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-3464",
@@ -1126,7 +1067,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -1170,16 +1111,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:P/A:N"
-        },
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2017-3600",
@@ -1235,16 +1170,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:N/AC:H/Au:S/C:P/I:P/A:P"
-        },
-        {
-          "BaseScore": "6",
-          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+      }
     }
   ]
 }

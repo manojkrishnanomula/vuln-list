@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "HPE-Helion-OpenStack-8-2020-3918,Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2020-3918,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2020-3918,SUSE-2020-3918,SUSE-OpenStack-Cloud-7-2020-3918,SUSE-OpenStack-Cloud-8-2020-3918,SUSE-OpenStack-Cloud-9-2020-3918,SUSE-OpenStack-Cloud-Crowbar-8-2020-3918,SUSE-OpenStack-Cloud-Crowbar-9-2020-3918,SUSE-SLE-SAP-12-SP2-2020-3918,SUSE-SLE-SAP-12-SP3-2020-3918,SUSE-SLE-SAP-12-SP4-2020-3918,SUSE-SLE-SERVER-12-SP2-2020-3918,SUSE-SLE-SERVER-12-SP2-BCL-2020-3918,SUSE-SLE-SERVER-12-SP3-2020-3918,SUSE-SLE-SERVER-12-SP3-BCL-2020-3918,SUSE-SLE-SERVER-12-SP4-LTSS-2020-3918,SUSE-Storage-5-2020-3918",
+      "Text": "HPE-Helion-OpenStack-8-2020-3918,SUSE-2020-3918,SUSE-OpenStack-Cloud-7-2020-3918,SUSE-OpenStack-Cloud-8-2020-3918,SUSE-OpenStack-Cloud-9-2020-3918,SUSE-OpenStack-Cloud-Crowbar-8-2020-3918,SUSE-OpenStack-Cloud-Crowbar-9-2020-3918,SUSE-SLE-SAP-12-SP2-2020-3918,SUSE-SLE-SAP-12-SP3-2020-3918,SUSE-SLE-SAP-12-SP4-2020-3918,SUSE-SLE-SERVER-12-SP2-2020-3918,SUSE-SLE-SERVER-12-SP2-BCL-2020-3918,SUSE-SLE-SERVER-12-SP3-2020-3918,SUSE-SLE-SERVER-12-SP3-BCL-2020-3918,SUSE-SLE-SERVER-12-SP4-LTSS-2020-3918,SUSE-Storage-5-2020-3918",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,16 +41,6 @@
       {
         "ProductReference": "clamav-0.103.0-33.32.1",
         "RelatesToProductReference": "HPE Helion OpenStack 8",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "clamav-0.103.0-33.32.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "clamav-0.103.0-33.32.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -206,7 +196,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -232,8 +222,6 @@
           "Type": "Fixed",
           "ProductID": [
             "HPE Helion OpenStack 8:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:clamav-0.103.0-33.32.1",
             "SUSE Enterprise Storage 5:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-LTSS:clamav-0.103.0-33.32.1",
@@ -251,12 +239,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-15961",
@@ -286,8 +272,6 @@
           "Type": "Fixed",
           "ProductID": [
             "HPE Helion OpenStack 8:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:clamav-0.103.0-33.32.1",
             "SUSE Enterprise Storage 5:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-LTSS:clamav-0.103.0-33.32.1",
@@ -305,12 +289,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.1",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.1",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-3123",
@@ -336,8 +318,6 @@
           "Type": "Fixed",
           "ProductID": [
             "HPE Helion OpenStack 8:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:clamav-0.103.0-33.32.1",
             "SUSE Enterprise Storage 5:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-LTSS:clamav-0.103.0-33.32.1",
@@ -355,12 +335,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-3327",
@@ -390,8 +368,6 @@
           "Type": "Fixed",
           "ProductID": [
             "HPE Helion OpenStack 8:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:clamav-0.103.0-33.32.1",
             "SUSE Enterprise Storage 5:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-LTSS:clamav-0.103.0-33.32.1",
@@ -409,12 +385,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-3341",
@@ -440,8 +414,6 @@
           "Type": "Fixed",
           "ProductID": [
             "HPE Helion OpenStack 8:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:clamav-0.103.0-33.32.1",
             "SUSE Enterprise Storage 5:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-LTSS:clamav-0.103.0-33.32.1",
@@ -459,12 +431,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-3350",
@@ -494,8 +464,6 @@
           "Type": "Fixed",
           "ProductID": [
             "HPE Helion OpenStack 8:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:clamav-0.103.0-33.32.1",
             "SUSE Enterprise Storage 5:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-LTSS:clamav-0.103.0-33.32.1",
@@ -513,12 +481,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.3",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.3",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-3481",
@@ -544,8 +510,6 @@
           "Type": "Fixed",
           "ProductID": [
             "HPE Helion OpenStack 8:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:clamav-0.103.0-33.32.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:clamav-0.103.0-33.32.1",
             "SUSE Enterprise Storage 5:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:clamav-0.103.0-33.32.1",
             "SUSE Linux Enterprise Server 12 SP2-LTSS:clamav-0.103.0-33.32.1",
@@ -563,12 +527,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container containers/open-webui:0-2021-2793,SUSE-2021-2793,SUSE-SLE-Module-Desktop-Applications-15-SP2-2021-2793,SUSE-SLE-Module-Desktop-Applications-15-SP3-2021-2793,SUSE-SLE-Product-HPC-15-2021-2793,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2021-2793,SUSE-SLE-Product-HPC-15-SP1-LTSS-2021-2793,SUSE-SLE-Product-SLES-15-2021-2793,SUSE-SLE-Product-SLES-15-SP1-BCL-2021-2793,SUSE-SLE-Product-SLES-15-SP1-LTSS-2021-2793,SUSE-SLE-Product-SLES_SAP-15-2021-2793,SUSE-SLE-Product-SLES_SAP-15-SP1-2021-2793,SUSE-SLE-Product-SUSE-Manager-Proxy-4.0-2021-2793,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.0-2021-2793,SUSE-SLE-Product-SUSE-Manager-Server-4.0-2021-2793,SUSE-Storage-6-2021-2793",
+      "Text": "Container containers/lmcache-vllm-openai:0-2021-2793,Container containers/open-webui:0-2021-2793,Container containers/vllm-openai:0-2021-2793,Image ai_15_6-2021-2793,SUSE-2021-2793,SUSE-SLE-Module-Desktop-Applications-15-SP2-2021-2793,SUSE-SLE-Module-Desktop-Applications-15-SP3-2021-2793,SUSE-SLE-Product-HPC-15-2021-2793,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2021-2793,SUSE-SLE-Product-HPC-15-SP1-LTSS-2021-2793,SUSE-SLE-Product-SLES-15-2021-2793,SUSE-SLE-Product-SLES-15-SP1-BCL-2021-2793,SUSE-SLE-Product-SLES-15-SP1-LTSS-2021-2793,SUSE-SLE-Product-SLES_SAP-15-2021-2793,SUSE-SLE-Product-SLES_SAP-15-SP1-2021-2793,SUSE-SLE-Product-SUSE-Manager-Proxy-4.0-2021-2793,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.0-2021-2793,SUSE-SLE-Product-SUSE-Manager-Server-4.0-2021-2793,SUSE-Storage-6-2021-2793",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,7 +40,22 @@
     "Relationships": [
       {
         "ProductReference": "libIlmImf-2_2-23-2.2.1-3.35.1",
+        "RelatesToProductReference": "Container containers/lmcache-vllm-openai:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libIlmImf-2_2-23-2.2.1-3.35.1",
         "RelatesToProductReference": "Container containers/open-webui:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libIlmImf-2_2-23-2.2.1-3.35.1",
+        "RelatesToProductReference": "Container containers/vllm-openai:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libIlmImf-2_2-23-2.2.1-3.35.1",
+        "RelatesToProductReference": "Image ai_15_6",
         "RelationType": "Default Component Of"
       },
       {
@@ -364,7 +379,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container containers/lmcache-vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
             "Container containers/open-webui:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Container containers/vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Image ai_15_6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImfUtil-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:openexr-devel-2.2.1-3.35.1",
@@ -412,7 +430,8 @@
             "SUSE Manager Server 4.0:openexr-devel-2.2.1-3.35.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-20299",
@@ -441,7 +460,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container containers/lmcache-vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
             "Container containers/open-webui:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Container containers/vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Image ai_15_6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImfUtil-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:openexr-devel-2.2.1-3.35.1",
@@ -490,12 +512,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-20300",
@@ -524,7 +544,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container containers/lmcache-vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
             "Container containers/open-webui:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Container containers/vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Image ai_15_6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImfUtil-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:openexr-devel-2.2.1-3.35.1",
@@ -573,12 +596,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.1",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.1",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-20302",
@@ -607,7 +628,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container containers/lmcache-vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
             "Container containers/open-webui:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Container containers/vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Image ai_15_6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImfUtil-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:openexr-devel-2.2.1-3.35.1",
@@ -656,12 +680,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.1",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.1",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-20303",
@@ -690,7 +712,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container containers/lmcache-vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
             "Container containers/open-webui:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Container containers/vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Image ai_15_6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImfUtil-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:openexr-devel-2.2.1-3.35.1",
@@ -739,12 +764,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-20304",
@@ -773,7 +796,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container containers/lmcache-vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
             "Container containers/open-webui:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Container containers/vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Image ai_15_6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImfUtil-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:openexr-devel-2.2.1-3.35.1",
@@ -821,7 +847,8 @@
             "SUSE Manager Server 4.0:openexr-devel-2.2.1-3.35.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-3476",
@@ -846,7 +873,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container containers/lmcache-vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
             "Container containers/open-webui:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Container containers/vllm-openai:0:libIlmImf-2_2-23-2.2.1-3.35.1",
+            "Image ai_15_6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImf-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:libIlmImfUtil-2_2-23-2.2.1-3.35.1",
             "SUSE Enterprise Storage 6:openexr-devel-2.2.1-3.35.1",
@@ -895,12 +925,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

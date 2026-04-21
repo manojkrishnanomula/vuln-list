@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "HPE-Helion-OpenStack-8-2021-3215,Image SLES12-SP4-Azure-BYOS-2021-3215,Image SLES12-SP4-EC2-HVM-BYOS-2021-3215,Image SLES12-SP4-GCE-BYOS-2021-3215,Image SLES12-SP4-SAP-Azure-2021-3215,Image SLES12-SP4-SAP-Azure-BYOS-2021-3215,Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2021-3215,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2021-3215,Image SLES12-SP4-SAP-EC2-HVM-2021-3215,Image SLES12-SP4-SAP-EC2-HVM-BYOS-2021-3215,Image SLES12-SP4-SAP-GCE-2021-3215,Image SLES12-SP4-SAP-GCE-BYOS-2021-3215,Image SLES12-SP5-Azure-BYOS-2021-3215,Image SLES12-SP5-Azure-Basic-On-Demand-2021-3215,Image SLES12-SP5-Azure-HPC-BYOS-2021-3215,Image SLES12-SP5-Azure-HPC-On-Demand-2021-3215,Image SLES12-SP5-Azure-SAP-BYOS-2021-3215,Image SLES12-SP5-Azure-SAP-On-Demand-2021-3215,Image SLES12-SP5-Azure-Standard-On-Demand-2021-3215,Image SLES12-SP5-EC2-BYOS-2021-3215,Image SLES12-SP5-EC2-ECS-On-Demand-2021-3215,Image SLES12-SP5-EC2-On-Demand-2021-3215,Image SLES12-SP5-EC2-SAP-BYOS-2021-3215,Image SLES12-SP5-EC2-SAP-On-Demand-2021-3215,Image SLES12-SP5-GCE-BYOS-2021-3215,Image SLES12-SP5-GCE-On-Demand-2021-3215,Image SLES12-SP5-GCE-SAP-BYOS-2021-3215,Image SLES12-SP5-GCE-SAP-On-Demand-2021-3215,Image SLES12-SP5-OCI-BYOS-BYOS-2021-3215,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2021-3215,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2021-3215,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2021-3215,SUSE-2021-3215,SUSE-OpenStack-Cloud-8-2021-3215,SUSE-OpenStack-Cloud-9-2021-3215,SUSE-OpenStack-Cloud-Crowbar-8-2021-3215,SUSE-OpenStack-Cloud-Crowbar-9-2021-3215,SUSE-SLE-SAP-12-SP3-2021-3215,SUSE-SLE-SAP-12-SP4-2021-3215,SUSE-SLE-SDK-12-SP5-2021-3215,SUSE-SLE-SERVER-12-SP2-BCL-2021-3215,SUSE-SLE-SERVER-12-SP3-2021-3215,SUSE-SLE-SERVER-12-SP3-BCL-2021-3215,SUSE-SLE-SERVER-12-SP4-LTSS-2021-3215,SUSE-SLE-SERVER-12-SP5-2021-3215",
+      "Text": "HPE-Helion-OpenStack-8-2021-3215,Image SLES12-SP5-Azure-BYOS-2021-3215,Image SLES12-SP5-Azure-Basic-On-Demand-2021-3215,Image SLES12-SP5-Azure-HPC-BYOS-2021-3215,Image SLES12-SP5-Azure-HPC-On-Demand-2021-3215,Image SLES12-SP5-Azure-SAP-BYOS-2021-3215,Image SLES12-SP5-Azure-SAP-On-Demand-2021-3215,Image SLES12-SP5-Azure-Standard-On-Demand-2021-3215,Image SLES12-SP5-EC2-BYOS-2021-3215,Image SLES12-SP5-EC2-ECS-On-Demand-2021-3215,Image SLES12-SP5-EC2-On-Demand-2021-3215,Image SLES12-SP5-EC2-SAP-BYOS-2021-3215,Image SLES12-SP5-EC2-SAP-On-Demand-2021-3215,Image SLES12-SP5-GCE-BYOS-2021-3215,Image SLES12-SP5-GCE-On-Demand-2021-3215,Image SLES12-SP5-GCE-SAP-BYOS-2021-3215,Image SLES12-SP5-GCE-SAP-On-Demand-2021-3215,Image SLES12-SP5-OCI-BYOS-BYOS-2021-3215,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2021-3215,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2021-3215,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2021-3215,SUSE-2021-3215,SUSE-OpenStack-Cloud-8-2021-3215,SUSE-OpenStack-Cloud-9-2021-3215,SUSE-OpenStack-Cloud-Crowbar-8-2021-3215,SUSE-OpenStack-Cloud-Crowbar-9-2021-3215,SUSE-SLE-SAP-12-SP3-2021-3215,SUSE-SLE-SAP-12-SP4-2021-3215,SUSE-SLE-SDK-12-SP5-2021-3215,SUSE-SLE-SERVER-12-SP2-BCL-2021-3215,SUSE-SLE-SERVER-12-SP3-2021-3215,SUSE-SLE-SERVER-12-SP3-BCL-2021-3215,SUSE-SLE-SERVER-12-SP4-LTSS-2021-3215,SUSE-SLE-SERVER-12-SP5-2021-3215",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -56,101 +56,6 @@
       {
         "ProductReference": "sqlite3-devel-3.36.0-9.18.1",
         "RelatesToProductReference": "HPE Helion OpenStack 8",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "sqlite3-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "sqlite3-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "sqlite3-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "sqlite3-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "sqlite3-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "sqlite3-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "sqlite3-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsqlite3-0-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "sqlite3-3.36.0-9.18.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -803,25 +708,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -903,12 +789,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2015-3415",
@@ -949,25 +833,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -1049,12 +914,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2016-6153",
@@ -1087,25 +950,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -1187,16 +1031,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.3",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:N"
-        },
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-10989",
@@ -1229,25 +1067,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -1329,12 +1148,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2017-2518",
@@ -1367,25 +1184,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -1467,12 +1265,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-20346",
@@ -1525,25 +1321,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -1625,12 +1402,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-8740",
@@ -1663,25 +1438,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -1763,12 +1519,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-16168",
@@ -1801,25 +1555,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -1901,12 +1636,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19244",
@@ -1939,25 +1672,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -2039,12 +1753,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19317",
@@ -2052,7 +1764,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -2081,25 +1793,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -2181,12 +1874,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19603",
@@ -2219,25 +1910,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -2319,12 +1991,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19645",
@@ -2353,25 +2023,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -2453,12 +2104,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19646",
@@ -2487,25 +2136,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -2587,12 +2217,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19880",
@@ -2629,25 +2257,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -2729,12 +2338,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19923",
@@ -2767,25 +2374,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -2867,12 +2455,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19924",
@@ -2901,25 +2487,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -3001,12 +2568,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2019-19925",
@@ -3039,25 +2604,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -3139,12 +2685,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19926",
@@ -3181,25 +2725,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -3281,12 +2806,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-19959",
@@ -3315,25 +2838,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -3415,12 +2919,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2019-20218",
@@ -3465,25 +2967,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -3565,12 +3048,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-8457",
@@ -3607,25 +3088,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -3707,12 +3169,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-13434",
@@ -3741,25 +3201,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -3841,12 +3282,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-13435",
@@ -3875,25 +3314,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -3975,12 +3395,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-13630",
@@ -4009,25 +3427,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -4109,12 +3508,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-13631",
@@ -4143,25 +3540,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -4243,12 +3621,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-13632",
@@ -4277,25 +3653,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -4377,12 +3734,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-15358",
@@ -4411,25 +3766,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -4511,12 +3847,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-9327",
@@ -4545,25 +3879,6 @@
             "HPE Helion OpenStack 8:libsqlite3-0-32bit-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-3.36.0-9.18.1",
             "HPE Helion OpenStack 8:sqlite3-devel-3.36.0-9.18.1",
-            "Image SLES12-SP4-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-Azure:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:sqlite3-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:libsqlite3-0-3.36.0-9.18.1",
-            "Image SLES12-SP4-SAP-GCE:sqlite3-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-BYOS:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libsqlite3-0-3.36.0-9.18.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libsqlite3-0-3.36.0-9.18.1",
@@ -4645,12 +3960,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

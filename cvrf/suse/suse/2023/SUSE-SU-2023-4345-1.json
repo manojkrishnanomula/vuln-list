@@ -326,7 +326,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.72.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-31085",
@@ -376,11 +377,12 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.72.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-34324",
-      "Description": "Closing of an event channel in the Linux kernel can result in a deadlock.\nThis happens when the close is being performed in parallel to an unrelated\nXen console action and the handling of a Xen console interrupt in an\nunprivileged guest.\n\nThe closing of an event channel is e.g. triggered by removal of a\nparavirtual device on the other side. As this action will cause console\nmessages to be issued on the other side quite often, the chance of\ntriggering the deadlock is not neglectable.\n\nNote that 32-bit Arm-guests are not affected, as the 32-bit Linux kernel\non Arm doesn't use queued-RW-locks, which are required to trigger the\nissue (on Arm32 a waiting writer doesn't block further readers to get\nthe lock).\n",
+      "Description": "Closing of an event channel in the Linux kernel can result in a deadlock.\nThis happens when the close is being performed in parallel to an unrelated\nXen console action and the handling of a Xen console interrupt in an\nunprivileged guest.\n\nThe closing of an event channel is e.g. triggered by removal of a\nparavirtual device on the other side. As this action will cause console\nmessages to be issued on the other side quite often, the chance of\ntriggering the deadlock is not neglectable.\n\nNote that 32-bit Arm-guests are not affected, as the 32-bit Linux kernel\non Arm doesn't use queued-RW-locks, which are required to trigger the\nissue (on Arm32 a waiting writer doesn't block further readers to get\nthe lock).",
       "Threats": [
         {
           "Type": "Impact",
@@ -422,11 +424,12 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.72.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3777",
-      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nWhen nf_tables_delrule() is flushing table rules, it is not checked whether the chain is bound and the chain's owner rule can also release the objects in certain circumstances.\n\nWe recommend upgrading past commit 6eaf41e87a223ae6f8e7a28d6e78384ad7e407f8.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nWhen nf_tables_delrule() is flushing table rules, it is not checked whether the chain is bound and the chain's owner rule can also release the objects in certain circumstances.\n\nWe recommend upgrading past commit 6eaf41e87a223ae6f8e7a28d6e78384ad7e407f8.",
       "Threats": [
         {
           "Type": "Impact",
@@ -472,7 +475,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.72.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39189",
@@ -522,7 +526,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.72.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39193",
@@ -572,7 +577,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.72.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-45862",
@@ -618,7 +624,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.72.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-46813",
@@ -668,7 +675,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.72.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5178",
@@ -718,7 +726,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.72.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

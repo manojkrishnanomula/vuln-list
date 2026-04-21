@@ -31,53 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-EC2-CHOST-HVM-BYOS-2020-1634,Image SLES15-EC2-HVM-BYOS-2020-1634,Image SLES15-SAP-EC2-HVM-2020-1634,Image SLES15-SAP-EC2-HVM-BYOS-2020-1634,SUSE-2020-1634,SUSE-SLE-Product-HPC-15-2020-1634,SUSE-SLE-Product-SLES_SAP-15-2020-1634",
+      "Text": "SUSE-2020-1634,SUSE-SLE-Product-HPC-15-2020-1634,SUSE-SLE-Product-SLES_SAP-15-2020-1634",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "xen-libs-4.10.4_10-3.31.1",
-        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.10.4_10-3.31.1",
-        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.10.4_10-3.31.1",
-        "RelatesToProductReference": "Image SLES15-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.10.4_10-3.31.1",
-        "RelatesToProductReference": "Image SLES15-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.10.4_10-3.31.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.10.4_10-3.31.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.10.4_10-3.31.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.10.4_10-3.31.1",
-        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "xen-4.10.4_10-3.31.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
@@ -265,14 +225,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-tools-domU-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-devel-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-libs-4.10.4_10-3.31.1",
@@ -291,12 +243,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-11739",
@@ -321,14 +271,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-tools-domU-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-devel-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-libs-4.10.4_10-3.31.1",
@@ -347,12 +289,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-11740",
@@ -381,14 +321,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-tools-domU-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-devel-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-libs-4.10.4_10-3.31.1",
@@ -407,12 +339,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-11741",
@@ -441,14 +371,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-tools-domU-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-devel-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-libs-4.10.4_10-3.31.1",
@@ -467,12 +389,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.9",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.9",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-11742",
@@ -501,14 +421,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-tools-domU-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-devel-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-libs-4.10.4_10-3.31.1",
@@ -527,12 +439,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-11743",
@@ -557,14 +467,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-CHOST-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM-BYOS:xen-tools-domU-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-libs-4.10.4_10-3.31.1",
-            "Image SLES15-SAP-EC2-HVM:xen-tools-domU-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-devel-4.10.4_10-3.31.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xen-libs-4.10.4_10-3.31.1",
@@ -583,12 +485,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

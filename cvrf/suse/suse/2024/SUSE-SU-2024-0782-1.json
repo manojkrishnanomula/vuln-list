@@ -1393,12 +1393,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-27043",
@@ -1641,7 +1639,8 @@
             "openSUSE Leap 15.5:python311-tools-3.11.8-150400.9.23.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6597",
@@ -1892,7 +1891,8 @@
             "openSUSE Leap 15.5:python311-tools-3.11.8-150400.9.23.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

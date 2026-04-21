@@ -119,16 +119,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.5",
-          "Vector": "AV:L/AC:M/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "2.6",
-          "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.6",
+        "Vector": "AV:N/AC:H/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2014-0019",
@@ -163,12 +157,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.9",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1.9",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

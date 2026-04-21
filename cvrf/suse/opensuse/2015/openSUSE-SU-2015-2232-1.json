@@ -274,12 +274,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.7",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.7",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2015-6937",
@@ -353,7 +351,8 @@
             "openSUSE Leap 42.1:kernel-xen-devel-4.1.13-5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-7799",
@@ -419,7 +418,8 @@
             "openSUSE Leap 42.1:kernel-xen-devel-4.1.13-5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-7990",
@@ -485,7 +485,8 @@
             "openSUSE Leap 42.1:kernel-xen-devel-4.1.13-5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-8104",
@@ -559,7 +560,8 @@
             "openSUSE Leap 42.1:kernel-xen-devel-4.1.13-5.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

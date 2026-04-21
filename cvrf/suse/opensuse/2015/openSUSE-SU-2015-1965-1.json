@@ -128,12 +128,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.5",
-          "Vector": "AV:A/AC:L/Au:S/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.5",
+        "Vector": "AV:A/AC:L/Au:S/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2015-4037",
@@ -172,7 +170,8 @@
             "openSUSE Leap 42.1:xen-tools-domU-4.5.1_12-3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-7835",
@@ -215,7 +214,8 @@
             "openSUSE Leap 42.1:xen-tools-domU-4.5.1_12-3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-7969",
@@ -254,7 +254,8 @@
             "openSUSE Leap 42.1:xen-tools-domU-4.5.1_12-3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-7971",
@@ -289,7 +290,8 @@
             "openSUSE Leap 42.1:xen-tools-domU-4.5.1_12-3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-7972",
@@ -328,7 +330,8 @@
             "openSUSE Leap 42.1:xen-tools-domU-4.5.1_12-3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

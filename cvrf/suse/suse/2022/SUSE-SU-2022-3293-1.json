@@ -1997,16 +1997,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.7",
-          "Vector": "AV:L/AC:L/Au:S/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36516",
@@ -2276,12 +2270,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-33135",
@@ -2539,12 +2531,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-4037",
@@ -2801,7 +2791,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-20368",
@@ -3062,7 +3053,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-20369",
@@ -3323,7 +3315,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2588",
@@ -3592,7 +3585,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2639",
@@ -3849,7 +3843,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2663",
@@ -4110,7 +4105,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-28356",
@@ -4368,12 +4364,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-28693",
@@ -4630,7 +4624,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2873",
@@ -4887,7 +4882,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2905",
@@ -5144,7 +5140,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2938",
@@ -5152,7 +5149,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5401,7 +5398,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2959",
@@ -5662,7 +5660,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2977",
@@ -5919,7 +5918,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3028",
@@ -6180,7 +6180,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3078",
@@ -6188,7 +6189,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6437,7 +6438,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-32250",
@@ -6715,12 +6717,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-36879",
@@ -6981,7 +6981,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-36946",
@@ -7266,7 +7267,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-39188",
@@ -7274,7 +7276,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -7539,7 +7541,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-39190",
@@ -7796,7 +7799,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-default-5.14.21-150400.24.21.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

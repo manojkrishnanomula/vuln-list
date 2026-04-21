@@ -368,7 +368,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-36280",
@@ -407,7 +408,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38096",
@@ -446,7 +448,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-47929",
@@ -485,11 +488,12 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0045",
-      "Description": "The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set   function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.   The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.\n\nWe recommend upgrading past commit  a664ec9158eeddd75121d39c9a0758016097fa96\n\n",
+      "Description": "The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set   function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.   The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.\n\nWe recommend upgrading past commit  a664ec9158eeddd75121d39c9a0758016097fa96",
       "Threats": [
         {
           "Type": "Impact",
@@ -524,7 +528,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0179",
@@ -571,11 +576,12 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0266",
-      "Description": "A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel.  SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit  56b88b50565cd8b946a2d00b0c83927b7ebb055e\n",
+      "Description": "A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel.  SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit  56b88b50565cd8b946a2d00b0c83927b7ebb055e",
       "Threats": [
         {
           "Type": "Impact",
@@ -618,7 +624,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0590",
@@ -633,6 +640,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-0590.html",
           "Description": "CVE-2023-0590"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1207036",
+          "Description": "SUSE Bug 1207036"
         },
         {
           "URL": "https://bugzilla.suse.com/1207795",
@@ -669,7 +680,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0597",
@@ -716,7 +728,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1076",
@@ -759,7 +772,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1095",
@@ -798,7 +812,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1118",
@@ -806,7 +821,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -857,7 +872,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1195",
@@ -896,7 +912,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-22995",
@@ -904,7 +921,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -935,7 +952,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-22998",
@@ -974,7 +992,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23000",
@@ -982,7 +1001,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1013,7 +1032,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23004",
@@ -1021,7 +1041,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1052,7 +1072,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23006",
@@ -1091,7 +1112,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23559",
@@ -1130,7 +1152,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25012",
@@ -1173,7 +1196,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-26545",
@@ -1181,7 +1205,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1220,7 +1244,8 @@
             "SUSE Real Time Module 15 SP3:ocfs2-kmp-rt-5.3.18-150300.121.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

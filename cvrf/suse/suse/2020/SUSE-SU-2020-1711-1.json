@@ -122,6 +122,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2020-13249.html",
           "Description": "CVE-2020-13249"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1171550",
+          "Description": "SUSE Bug 1171550"
         }
       ],
       "ProductStatuses": [
@@ -137,12 +141,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2752",
@@ -176,12 +178,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.5",
-          "Vector": "AV:N/AC:M/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.5",
+        "Vector": "AV:N/AC:M/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2760",
@@ -215,12 +215,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.5",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.5",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2812",
@@ -254,12 +252,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2814",
@@ -293,12 +289,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P"
+      }
     }
   ]
 }

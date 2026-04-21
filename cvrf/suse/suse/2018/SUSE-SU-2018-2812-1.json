@@ -101,7 +101,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -112,6 +112,10 @@
         {
           "URL": "https://bugzilla.suse.com/1077628",
           "Description": "SUSE Bug 1077628"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1087102",
+          "Description": "SUSE Bug 1087102"
         },
         {
           "URL": "https://bugzilla.suse.com/1097158",
@@ -157,12 +161,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2018-12115",
@@ -194,12 +196,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

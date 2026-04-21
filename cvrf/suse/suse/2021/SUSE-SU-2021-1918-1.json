@@ -31,28 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-CHOST-BYOS-Azure-2021-1918,Image SLES15-SP1-CHOST-BYOS-EC2-2021-1918,Image SLES15-SP1-CHOST-BYOS-GCE-2021-1918,SUSE-2021-1918,SUSE-SLE-Module-Server-Applications-15-SP2-2021-1918,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2021-1918,SUSE-SLE-Product-HPC-15-SP1-LTSS-2021-1918,SUSE-SLE-Product-SLES-15-SP1-BCL-2021-1918,SUSE-SLE-Product-SLES-15-SP1-LTSS-2021-1918,SUSE-SLE-Product-SLES_SAP-15-SP1-2021-1918,SUSE-SLE-Product-SUSE-Manager-Proxy-4.0-2021-1918,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.0-2021-1918,SUSE-SLE-Product-SUSE-Manager-Server-4.0-2021-1918,SUSE-Storage-6-2021-1918",
+      "Text": "SUSE-2021-1918,SUSE-SLE-Module-Server-Applications-15-SP2-2021-1918,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2021-1918,SUSE-SLE-Product-HPC-15-SP1-LTSS-2021-1918,SUSE-SLE-Product-SLES-15-SP1-BCL-2021-1918,SUSE-SLE-Product-SLES-15-SP1-LTSS-2021-1918,SUSE-SLE-Product-SLES_SAP-15-SP1-2021-1918,SUSE-SLE-Product-SUSE-Manager-Proxy-4.0-2021-1918,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.0-2021-1918,SUSE-SLE-Product-SUSE-Manager-Server-4.0-2021-1918,SUSE-Storage-6-2021-1918",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "qemu-tools-3.1.1.1-9.27.2",
-        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "qemu-tools-3.1.1.1-9.27.2",
-        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "qemu-tools-3.1.1.1-9.27.2",
-        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "qemu-3.1.1.1-9.27.2",
         "RelatesToProductReference": "SUSE Enterprise Storage 6",
@@ -1086,9 +1071,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -1273,12 +1255,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-10756",
@@ -1307,9 +1287,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -1494,12 +1471,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-14364",
@@ -1536,9 +1511,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -1723,12 +1695,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25707",
@@ -1757,9 +1727,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -1943,7 +1910,8 @@
             "SUSE Manager Server 4.0:qemu-x86-3.1.1.1-9.27.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2020-25723",
@@ -1972,9 +1940,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -2159,12 +2124,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-29129",
@@ -2201,9 +2164,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -2388,12 +2348,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-29130",
@@ -2426,9 +2384,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -2613,12 +2568,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-8608",
@@ -2647,9 +2600,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -2834,12 +2784,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-20257",
@@ -2868,9 +2816,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -3055,12 +3000,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3419",
@@ -3089,9 +3032,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP1-CHOST-BYOS-Azure:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-EC2:qemu-tools-3.1.1.1-9.27.2",
-            "Image SLES15-SP1-CHOST-BYOS-GCE:qemu-tools-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-arm-3.1.1.1-9.27.2",
             "SUSE Enterprise Storage 6:qemu-audio-alsa-3.1.1.1-9.27.2",
@@ -3275,7 +3215,8 @@
             "SUSE Manager Server 4.0:qemu-x86-3.1.1.1-9.27.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

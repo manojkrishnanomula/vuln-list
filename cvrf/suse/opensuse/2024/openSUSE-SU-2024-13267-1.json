@@ -373,12 +373,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-31626",
@@ -454,12 +452,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6",
-          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-3247",
@@ -534,7 +530,8 @@
             "openSUSE Tumbleweed:php8-zlib-8.2.10-3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

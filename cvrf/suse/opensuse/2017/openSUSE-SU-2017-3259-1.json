@@ -155,7 +155,8 @@
             "openSUSE Leap 42.3:osc-0.162.0-10.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2017-14804",
@@ -197,12 +198,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "8.5",
-          "Vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "8.5",
+        "Vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2017-9274",
@@ -243,7 +242,8 @@
             "openSUSE Leap 42.3:osc-0.162.0-10.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -649,16 +649,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:N/A:N"
-        },
-        {
-          "BaseScore": "4.7",
-          "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.7",
+        "Vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-36691",
@@ -727,7 +721,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-3923",
@@ -792,7 +787,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-4203",
@@ -858,12 +854,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-20567",
@@ -928,7 +922,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-43945",
@@ -1013,7 +1008,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0394",
@@ -1078,7 +1074,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0590",
@@ -1093,6 +1090,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-0590.html",
           "Description": "CVE-2023-0590"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1207036",
+          "Description": "SUSE Bug 1207036"
         },
         {
           "URL": "https://bugzilla.suse.com/1207795",
@@ -1155,7 +1156,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0597",
@@ -1228,7 +1230,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1076",
@@ -1297,7 +1300,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1095",
@@ -1362,7 +1366,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1118",
@@ -1370,7 +1375,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1447,7 +1452,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1390",
@@ -1520,7 +1526,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1513",
@@ -1585,7 +1592,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1611",
@@ -1650,7 +1658,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1670",
@@ -1719,7 +1728,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1855",
@@ -1784,7 +1794,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1989",
@@ -1865,7 +1876,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1990",
@@ -1873,7 +1885,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1938,11 +1950,12 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1998",
-      "Description": "The Linux kernel allows userspace processes to enable mitigations by calling prctl with PR_SET_SPECULATION_CTRL which disables the speculation feature as well as by using seccomp. We had noticed that on VMs of at least one major cloud provider, the kernel still left the victim process exposed to attacks in some cases even after enabling the spectre-BTI mitigation with prctl. The same behavior can be observed on a bare-metal machine when forcing the mitigation to IBRS on boot command line.\n\nThis happened because when plain IBRS was enabled (not enhanced IBRS), the kernel had some logic that determined that STIBP was not needed. The IBRS bit implicitly protects against cross-thread branch target injection. However, with legacy IBRS, the IBRS bit was cleared on returning to userspace, due to performance reasons, which disabled the implicit STIBP and left userspace threads vulnerable to cross-thread branch target injection against which STIBP protects.\n\n\n",
+      "Description": "The Linux kernel allows userspace processes to enable mitigations by calling prctl with PR_SET_SPECULATION_CTRL which disables the speculation feature as well as by using seccomp. We had noticed that on VMs of at least one major cloud provider, the kernel still left the victim process exposed to attacks in some cases even after enabling the spectre-BTI mitigation with prctl. The same behavior can be observed on a bare-metal machine when forcing the mitigation to IBRS on boot command line.\n\nThis happened because when plain IBRS was enabled (not enhanced IBRS), the kernel had some logic that determined that STIBP was not needed. The IBRS bit implicitly protects against cross-thread branch target injection. However, with legacy IBRS, the IBRS bit was cleared on returning to userspace, due to performance reasons, which disabled the implicit STIBP and left userspace threads vulnerable to cross-thread branch target injection against which STIBP protects.",
       "Threats": [
         {
           "Type": "Impact",
@@ -2003,7 +2016,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2124",
@@ -2068,7 +2082,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2162",
@@ -2076,7 +2091,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2153,7 +2168,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23454",
@@ -2238,7 +2254,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23455",
@@ -2253,6 +2270,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-23455.html",
           "Description": "CVE-2023-23455"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1207036",
+          "Description": "SUSE Bug 1207036"
         },
         {
           "URL": "https://bugzilla.suse.com/1207125",
@@ -2311,11 +2332,12 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2483",
-      "Description": "** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2023-33203. Reason: This candidate is a reservation duplicate of CVE-2023-33203. Notes: All CVE users should reference CVE-2023-33203 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.",
+      "Description": "DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2023-33203. Reason: This candidate is a reservation duplicate of CVE-2023-33203. Notes: All CVE users should reference CVE-2023-33203 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.",
       "Threats": [
         {
           "Type": "Impact",
@@ -2376,7 +2398,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28328",
@@ -2445,7 +2468,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28464",
@@ -2518,7 +2542,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28772",
@@ -2591,7 +2616,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-30772",
@@ -2656,7 +2682,8 @@
             "SUSE OpenStack Cloud Crowbar 9:kernel-syms-4.12.14-95.125.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

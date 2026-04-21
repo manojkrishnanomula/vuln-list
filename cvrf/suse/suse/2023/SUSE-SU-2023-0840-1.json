@@ -1842,7 +1842,8 @@
             "SUSE Manager Server 4.2:qemu-x86-5.2.0-150300.121.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-3507",
@@ -2155,12 +2156,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3929",
@@ -2175,6 +2174,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2021-3929.html",
           "Description": "CVE-2021-3929"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1190011",
+          "Description": "SUSE Bug 1190011"
         },
         {
           "URL": "https://bugzilla.suse.com/1193880",
@@ -2472,7 +2475,8 @@
             "SUSE Manager Server 4.2:qemu-x86-5.2.0-150300.121.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-0216",
@@ -2784,7 +2788,8 @@
             "SUSE Manager Server 4.2:qemu-x86-5.2.0-150300.121.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-1050",
@@ -3097,12 +3102,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-4144",
@@ -3414,7 +3417,8 @@
             "SUSE Manager Server 4.2:qemu-x86-5.2.0-150300.121.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

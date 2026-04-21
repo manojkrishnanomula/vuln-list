@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2026-03-08T15:57:40Z",
+        "Date": "2026-04-21T08:27:59Z",
         "Description": "current"
       }
     ]
@@ -727,12 +727,10 @@
           "ProductID": null
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-11135",
@@ -752,12 +750,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2019-20044",
@@ -777,12 +773,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-45444",
@@ -802,12 +796,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.1",
-          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.1",
+        "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-52888",
@@ -826,7 +818,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-10041",
@@ -845,7 +838,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:pam-1.3.0-150000.6.86.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-11053",
@@ -865,7 +859,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-12718",
@@ -885,7 +880,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:python3-curses-3.6.15-150300.10.97.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-2004",
@@ -905,7 +901,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-2236",
@@ -924,7 +921,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libgcrypt20-1.10.3-150600.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-23337",
@@ -944,7 +942,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libjq1-1.6-150000.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-2379",
@@ -964,7 +963,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-2398",
@@ -984,7 +984,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-2466",
@@ -1004,7 +1005,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-26831",
@@ -1023,7 +1025,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-35221",
@@ -1044,7 +1047,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:ruby2.5-stdlib-2.5.9-150000.4.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-36028",
@@ -1063,7 +1067,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-36350",
@@ -1082,7 +1087,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-39298",
@@ -1101,7 +1107,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-41965",
@@ -1121,7 +1128,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:vim-data-common-9.1.1406-150500.20.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-44963",
@@ -1140,7 +1148,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-45310",
@@ -1159,7 +1168,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:runc-1.2.6-150000.73.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-45339",
@@ -1178,7 +1188,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:google-osconfig-agent-20250416.02-150000.1.50.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-49568",
@@ -1197,7 +1208,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-49861",
@@ -1216,7 +1228,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-50106",
@@ -1235,7 +1248,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-56613",
@@ -1254,7 +1268,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-56699",
@@ -1273,7 +1288,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-56738",
@@ -1293,7 +1309,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:grub2-arm64-efi-2.12-150600.8.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-56742",
@@ -1312,7 +1329,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-57947",
@@ -1331,7 +1349,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-57982",
@@ -1350,7 +1369,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-58053",
@@ -1369,7 +1389,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-6197",
@@ -1389,7 +1410,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-7264",
@@ -1409,7 +1431,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-8096",
@@ -1429,7 +1452,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-9681",
@@ -1449,7 +1473,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-0167",
@@ -1469,7 +1494,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-0495",
@@ -1488,7 +1514,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:docker-28.3.3_ce-150000.230.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-0665",
@@ -1508,7 +1535,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-0725",
@@ -1528,7 +1556,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-10148",
@@ -1548,7 +1577,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-21658",
@@ -1567,7 +1597,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-21720",
@@ -1586,7 +1617,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-21839",
@@ -1605,7 +1637,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-21854",
@@ -1624,7 +1657,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-21872",
@@ -1643,7 +1677,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-21898",
@@ -1662,7 +1697,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-21899",
@@ -1681,7 +1717,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-21920",
@@ -1700,7 +1737,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-21997",
@@ -1719,7 +1757,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22035",
@@ -1738,7 +1777,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22083",
@@ -1757,7 +1797,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22090",
@@ -1776,7 +1817,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22111",
@@ -1795,7 +1837,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22113",
@@ -1814,7 +1857,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22120",
@@ -1833,7 +1877,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22868",
@@ -1852,7 +1897,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:docker-28.3.3_ce-150000.230.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22869",
@@ -1871,7 +1917,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:docker-28.3.3_ce-150000.230.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-22872",
@@ -1890,7 +1937,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:docker-28.3.3_ce-150000.230.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-23163",
@@ -1909,7 +1957,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-27221",
@@ -1930,7 +1979,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:ruby2.5-stdlib-2.5.9-150000.4.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-29768",
@@ -1950,7 +2000,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:vim-data-common-9.1.1406-150500.20.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-30258",
@@ -1969,7 +2020,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:gpg2-2.4.4-150600.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-32462",
@@ -1988,7 +2040,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:sudo-1.9.15p5-150600.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-32463",
@@ -2007,7 +2060,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:sudo-1.9.15p5-150600.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-32988",
@@ -2026,7 +2080,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libgnutls30-3.8.3-150600.4.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-32989",
@@ -2045,7 +2100,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libgnutls30-3.8.3-150600.4.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-32990",
@@ -2064,7 +2120,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libgnutls30-3.8.3-150600.4.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37738",
@@ -2083,7 +2140,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37743",
@@ -2102,7 +2160,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37756",
@@ -2121,7 +2180,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37757",
@@ -2140,7 +2200,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37786",
@@ -2159,7 +2220,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37798",
@@ -2178,7 +2240,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37800",
@@ -2197,7 +2260,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37801",
@@ -2216,7 +2280,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37856",
@@ -2235,7 +2300,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37859",
@@ -2254,7 +2320,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37864",
@@ -2273,7 +2340,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37874",
@@ -2292,7 +2360,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37884",
@@ -2311,7 +2380,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37885",
@@ -2330,7 +2400,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37909",
@@ -2349,7 +2420,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37917",
@@ -2368,7 +2440,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37920",
@@ -2387,7 +2460,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37921",
@@ -2406,7 +2480,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37923",
@@ -2425,7 +2500,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37927",
@@ -2444,7 +2520,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37933",
@@ -2463,7 +2540,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37936",
@@ -2482,7 +2560,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37938",
@@ -2501,7 +2580,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37945",
@@ -2520,7 +2600,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37946",
@@ -2539,7 +2620,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37961",
@@ -2558,7 +2640,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37968",
@@ -2577,7 +2660,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37973",
@@ -2596,7 +2680,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37984",
@@ -2615,7 +2700,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37987",
@@ -2634,7 +2720,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37992",
@@ -2653,7 +2740,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37994",
@@ -2672,7 +2760,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37995",
@@ -2691,7 +2780,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37997",
@@ -2710,7 +2800,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-37998",
@@ -2729,7 +2820,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38000",
@@ -2748,7 +2840,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38001",
@@ -2767,7 +2860,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38003",
@@ -2786,7 +2880,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38004",
@@ -2805,7 +2900,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38005",
@@ -2824,7 +2920,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38007",
@@ -2843,7 +2940,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38009",
@@ -2862,7 +2960,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38010",
@@ -2881,7 +2980,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38011",
@@ -2900,7 +3000,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38013",
@@ -2919,7 +3020,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38014",
@@ -2938,7 +3040,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38015",
@@ -2957,7 +3060,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38018",
@@ -2976,7 +3080,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38020",
@@ -2995,7 +3100,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38022",
@@ -3014,7 +3120,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38023",
@@ -3033,7 +3140,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38024",
@@ -3052,7 +3160,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38027",
@@ -3071,7 +3180,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38031",
@@ -3090,7 +3200,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38034",
@@ -3109,7 +3220,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38035",
@@ -3128,7 +3240,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38040",
@@ -3147,7 +3260,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38043",
@@ -3166,7 +3280,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38044",
@@ -3185,7 +3300,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38045",
@@ -3204,7 +3320,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38051",
@@ -3223,7 +3340,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38052",
@@ -3242,7 +3360,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38053",
@@ -3261,7 +3380,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38057",
@@ -3280,7 +3400,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38058",
@@ -3299,7 +3420,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38059",
@@ -3318,7 +3440,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38060",
@@ -3337,7 +3460,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38061",
@@ -3356,7 +3480,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38062",
@@ -3375,7 +3500,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38063",
@@ -3394,7 +3520,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38064",
@@ -3413,7 +3540,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38065",
@@ -3432,7 +3560,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38068",
@@ -3451,7 +3580,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38072",
@@ -3470,7 +3600,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38074",
@@ -3489,7 +3620,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38077",
@@ -3508,7 +3640,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38078",
@@ -3527,7 +3660,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38079",
@@ -3546,7 +3680,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38080",
@@ -3565,7 +3700,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38081",
@@ -3584,7 +3720,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38083",
@@ -3603,7 +3740,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38084",
@@ -3622,7 +3760,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38085",
@@ -3641,7 +3780,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38087",
@@ -3660,7 +3800,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38088",
@@ -3679,7 +3820,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38089",
@@ -3698,7 +3840,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38090",
@@ -3717,7 +3860,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38094",
@@ -3736,7 +3880,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38095",
@@ -3755,7 +3900,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38097",
@@ -3774,7 +3920,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38098",
@@ -3793,7 +3940,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38099",
@@ -3812,7 +3960,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38100",
@@ -3831,7 +3980,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38102",
@@ -3850,7 +4000,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38105",
@@ -3869,7 +4020,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38107",
@@ -3888,7 +4040,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38108",
@@ -3907,7 +4060,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38109",
@@ -3926,7 +4080,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38110",
@@ -3945,7 +4100,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38111",
@@ -3964,7 +4120,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38112",
@@ -3983,7 +4140,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38113",
@@ -4002,7 +4160,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38115",
@@ -4021,7 +4180,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38117",
@@ -4040,7 +4200,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38118",
@@ -4059,7 +4220,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38122",
@@ -4078,7 +4240,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38123",
@@ -4097,7 +4260,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38124",
@@ -4116,7 +4280,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38126",
@@ -4135,7 +4300,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38127",
@@ -4154,7 +4320,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38129",
@@ -4173,7 +4340,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38131",
@@ -4192,7 +4360,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38132",
@@ -4211,7 +4380,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38135",
@@ -4230,7 +4400,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38136",
@@ -4249,7 +4420,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38138",
@@ -4268,7 +4440,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38142",
@@ -4287,7 +4460,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38143",
@@ -4306,7 +4480,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38145",
@@ -4325,7 +4500,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38147",
@@ -4344,7 +4520,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38148",
@@ -4363,7 +4540,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38149",
@@ -4382,7 +4560,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38151",
@@ -4401,7 +4580,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38153",
@@ -4420,7 +4600,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38154",
@@ -4439,7 +4620,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38155",
@@ -4458,7 +4640,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38157",
@@ -4477,7 +4660,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38158",
@@ -4496,7 +4680,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38159",
@@ -4515,7 +4700,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38161",
@@ -4534,7 +4720,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38162",
@@ -4553,7 +4740,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38166",
@@ -4572,7 +4760,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38173",
@@ -4591,7 +4780,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38174",
@@ -4610,7 +4800,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38180",
@@ -4629,7 +4820,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38181",
@@ -4648,7 +4840,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38182",
@@ -4667,7 +4860,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38183",
@@ -4686,7 +4880,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38187",
@@ -4705,7 +4900,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38188",
@@ -4724,7 +4920,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38192",
@@ -4743,7 +4940,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38193",
@@ -4762,7 +4960,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38194",
@@ -4781,7 +4980,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38197",
@@ -4800,7 +5000,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38198",
@@ -4819,7 +5020,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38200",
@@ -4838,7 +5040,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38202",
@@ -4857,7 +5060,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38203",
@@ -4876,7 +5080,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38204",
@@ -4895,7 +5100,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38206",
@@ -4914,7 +5120,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38210",
@@ -4933,7 +5140,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38211",
@@ -4952,7 +5160,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38212",
@@ -4971,7 +5180,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38213",
@@ -4990,7 +5200,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38214",
@@ -5009,7 +5220,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38215",
@@ -5028,7 +5240,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38217",
@@ -5047,7 +5260,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38220",
@@ -5066,7 +5280,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38222",
@@ -5085,7 +5300,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38225",
@@ -5104,7 +5320,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38226",
@@ -5123,7 +5340,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38227",
@@ -5142,7 +5360,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38229",
@@ -5161,7 +5380,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38231",
@@ -5180,7 +5400,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38236",
@@ -5199,7 +5420,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38239",
@@ -5218,7 +5440,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38244",
@@ -5237,7 +5460,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38246",
@@ -5256,7 +5480,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38248",
@@ -5275,7 +5500,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38249",
@@ -5294,7 +5520,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38250",
@@ -5313,7 +5540,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38257",
@@ -5332,7 +5560,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38259",
@@ -5351,7 +5580,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38264",
@@ -5370,7 +5600,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38272",
@@ -5389,7 +5620,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38275",
@@ -5408,7 +5640,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38277",
@@ -5427,7 +5660,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38279",
@@ -5446,7 +5680,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38283",
@@ -5465,7 +5700,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38286",
@@ -5484,7 +5720,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38289",
@@ -5503,7 +5740,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38290",
@@ -5522,7 +5760,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38292",
@@ -5541,7 +5780,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38293",
@@ -5560,7 +5800,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38300",
@@ -5579,7 +5820,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38303",
@@ -5598,7 +5840,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38304",
@@ -5617,7 +5860,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38305",
@@ -5636,7 +5880,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38307",
@@ -5655,7 +5900,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38310",
@@ -5674,7 +5920,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38312",
@@ -5693,7 +5940,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38313",
@@ -5712,7 +5960,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38319",
@@ -5731,7 +5980,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38323",
@@ -5750,7 +6000,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38326",
@@ -5769,7 +6020,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38328",
@@ -5788,7 +6040,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38332",
@@ -5807,7 +6060,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38334",
@@ -5826,7 +6080,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38335",
@@ -5845,7 +6100,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38336",
@@ -5864,7 +6120,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38337",
@@ -5883,7 +6140,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38338",
@@ -5902,7 +6160,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38342",
@@ -5921,7 +6180,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38343",
@@ -5940,7 +6200,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38344",
@@ -5959,7 +6220,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38345",
@@ -5978,7 +6240,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38348",
@@ -5997,7 +6260,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38349",
@@ -6016,7 +6280,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38350",
@@ -6035,7 +6300,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38352",
@@ -6054,7 +6320,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38354",
@@ -6073,7 +6340,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38362",
@@ -6092,7 +6360,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38363",
@@ -6111,7 +6380,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38364",
@@ -6130,7 +6400,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38365",
@@ -6149,7 +6420,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38369",
@@ -6168,7 +6440,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38371",
@@ -6187,7 +6460,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38373",
@@ -6206,7 +6480,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38375",
@@ -6225,7 +6500,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38376",
@@ -6244,7 +6520,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38377",
@@ -6263,7 +6540,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38380",
@@ -6282,7 +6560,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38382",
@@ -6301,7 +6580,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38384",
@@ -6320,7 +6600,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38385",
@@ -6339,7 +6620,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38386",
@@ -6358,7 +6640,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38387",
@@ -6377,7 +6660,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38389",
@@ -6396,7 +6680,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38391",
@@ -6415,7 +6700,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38392",
@@ -6434,7 +6720,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38393",
@@ -6453,7 +6740,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38395",
@@ -6472,7 +6760,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38396",
@@ -6491,7 +6780,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38399",
@@ -6510,7 +6800,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38400",
@@ -6529,7 +6820,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38401",
@@ -6548,7 +6840,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38403",
@@ -6567,7 +6860,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38404",
@@ -6586,7 +6880,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38406",
@@ -6605,7 +6900,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38409",
@@ -6624,7 +6920,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38410",
@@ -6643,7 +6940,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38412",
@@ -6662,7 +6960,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38414",
@@ -6681,7 +6980,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38415",
@@ -6700,7 +7000,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38416",
@@ -6719,7 +7020,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38420",
@@ -6738,7 +7040,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38424",
@@ -6757,7 +7060,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38425",
@@ -6776,7 +7080,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38426",
@@ -6795,7 +7100,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38428",
@@ -6814,7 +7120,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38429",
@@ -6833,7 +7140,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38430",
@@ -6852,7 +7160,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38436",
@@ -6871,7 +7180,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38443",
@@ -6890,7 +7200,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38448",
@@ -6909,7 +7220,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38449",
@@ -6928,7 +7240,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38455",
@@ -6947,7 +7260,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38457",
@@ -6966,7 +7280,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38460",
@@ -6985,7 +7300,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38461",
@@ -7004,7 +7320,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38462",
@@ -7023,7 +7340,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38463",
@@ -7042,7 +7360,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38465",
@@ -7061,7 +7380,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38467",
@@ -7080,7 +7400,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38468",
@@ -7099,7 +7420,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38470",
@@ -7118,7 +7440,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38471",
@@ -7137,7 +7460,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38473",
@@ -7156,7 +7480,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38474",
@@ -7175,7 +7500,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38476",
@@ -7194,7 +7520,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38477",
@@ -7213,7 +7540,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38478",
@@ -7232,7 +7560,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38480",
@@ -7251,7 +7580,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38481",
@@ -7270,7 +7600,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38482",
@@ -7289,7 +7620,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38483",
@@ -7308,7 +7640,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38485",
@@ -7327,7 +7660,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38487",
@@ -7346,7 +7680,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38489",
@@ -7365,7 +7700,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38494",
@@ -7384,7 +7720,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38495",
@@ -7403,7 +7740,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38496",
@@ -7422,7 +7760,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38497",
@@ -7441,7 +7780,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-38498",
@@ -7460,7 +7800,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:kernel-default-6.4.0-150600.23.65.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-40909",
@@ -7480,7 +7821,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:perl-base-5.26.1-150300.17.20.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4373",
@@ -7503,7 +7845,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libgobject-2_0-0-2.78.6-150600.4.16.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4435",
@@ -7523,7 +7866,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:python3-curses-3.6.15-150300.10.97.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4516",
@@ -7543,7 +7887,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:python3-curses-3.6.15-150300.10.97.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4517",
@@ -7563,7 +7908,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:python3-curses-3.6.15-150300.10.97.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4598",
@@ -7586,7 +7932,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:udev-254.27-150600.4.43.3"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-46802",
@@ -7605,7 +7952,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:screen-4.6.2-150000.5.8.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-48060",
@@ -7625,7 +7973,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libjq1-1.6-150000.3.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4877",
@@ -7645,7 +7994,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libssh4-0.9.8-150600.11.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4878",
@@ -7665,7 +8015,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libssh4-0.9.8-150600.11.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-48964",
@@ -7684,7 +8035,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:iputils-20221126-150500.3.14.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-4947",
@@ -7704,7 +8056,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-49794",
@@ -7723,7 +8076,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libxml2-2-2.10.3-150500.5.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-49795",
@@ -7742,7 +8096,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libxml2-2-2.10.3-150500.5.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-49796",
@@ -7761,7 +8116,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libxml2-2-2.10.3-150500.5.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-50181",
@@ -7780,7 +8136,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:python3-urllib3-1.25.10-150300.4.18.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5025",
@@ -7800,7 +8157,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5222",
@@ -7820,7 +8178,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libicu65_1-ledata-65.1-150200.4.15.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5278",
@@ -7839,7 +8198,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:coreutils-8.32-150400.9.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5318",
@@ -7859,7 +8219,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libssh4-0.9.8-150600.11.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5372",
@@ -7879,7 +8240,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libssh4-0.9.8-150600.11.3.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-5399",
@@ -7899,7 +8261,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-54388",
@@ -7918,7 +8281,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:docker-28.3.3_ce-150000.230.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6018",
@@ -7938,7 +8302,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:pam-config-1.1-150600.16.8.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6021",
@@ -7957,7 +8322,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libxml2-2-2.10.3-150500.5.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6052",
@@ -7980,7 +8346,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libgobject-2_0-0-2.78.6-150600.4.16.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6069",
@@ -8000,7 +8367,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:python3-curses-3.6.15-150300.10.97.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6170",
@@ -8019,7 +8387,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libxml2-2-2.10.3-150500.5.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6395",
@@ -8038,7 +8407,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libgnutls30-3.8.3-150600.4.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6442",
@@ -8059,7 +8429,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:ruby2.5-stdlib-2.5.9-150000.4.49.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-6965",
@@ -8079,7 +8450,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:sqlite3-tcl-3.50.2-150000.3.33.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-7425",
@@ -8098,7 +8470,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libxml2-2-2.10.3-150500.5.32.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-7519",
@@ -8119,7 +8492,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:polkit-121-150500.3.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-8058",
@@ -8142,7 +8516,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:nscd-2.38-150600.14.37.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-8194",
@@ -8162,7 +8537,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:python3-curses-3.6.15-150300.10.97.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2025-9086",
@@ -8182,7 +8558,8 @@
             "Public Cloud Image google/sles-15-sp6-v20250920-arm64:libcurl4-8.14.1-150600.4.28.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

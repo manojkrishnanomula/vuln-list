@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp3:latest-2021-693,HPE-Helion-OpenStack-8-2021-693,Image SLES12-SP4-OCI-BYOS-2021-693,Image SLES12-SP4-SAP-OCI-BYOS-2021-693,SUSE-2021-693,SUSE-OpenStack-Cloud-7-2021-693,SUSE-OpenStack-Cloud-8-2021-693,SUSE-OpenStack-Cloud-9-2021-693,SUSE-OpenStack-Cloud-Crowbar-8-2021-693,SUSE-OpenStack-Cloud-Crowbar-9-2021-693,SUSE-SLE-SAP-12-SP2-2021-693,SUSE-SLE-SAP-12-SP3-2021-693,SUSE-SLE-SAP-12-SP4-2021-693,SUSE-SLE-SDK-12-SP5-2021-693,SUSE-SLE-SERVER-12-SP2-2021-693,SUSE-SLE-SERVER-12-SP2-BCL-2021-693,SUSE-SLE-SERVER-12-SP3-2021-693,SUSE-SLE-SERVER-12-SP3-BCL-2021-693,SUSE-SLE-SERVER-12-SP4-LTSS-2021-693,SUSE-SLE-SERVER-12-SP5-2021-693",
+      "Text": "Container suse/sles12sp3:latest-2021-693,HPE-Helion-OpenStack-8-2021-693,SUSE-2021-693,SUSE-OpenStack-Cloud-7-2021-693,SUSE-OpenStack-Cloud-8-2021-693,SUSE-OpenStack-Cloud-9-2021-693,SUSE-OpenStack-Cloud-Crowbar-8-2021-693,SUSE-OpenStack-Cloud-Crowbar-9-2021-693,SUSE-SLE-SAP-12-SP2-2021-693,SUSE-SLE-SAP-12-SP3-2021-693,SUSE-SLE-SAP-12-SP4-2021-693,SUSE-SLE-SDK-12-SP5-2021-693,SUSE-SLE-SERVER-12-SP2-2021-693,SUSE-SLE-SERVER-12-SP2-BCL-2021-693,SUSE-SLE-SERVER-12-SP3-2021-693,SUSE-SLE-SERVER-12-SP3-BCL-2021-693,SUSE-SLE-SERVER-12-SP4-LTSS-2021-693,SUSE-SLE-SERVER-12-SP5-2021-693",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -76,26 +76,6 @@
       {
         "ProductReference": "openldap2-ppolicy-check-password-1.2-18.83.1",
         "RelatesToProductReference": "HPE Helion OpenStack 8",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libldap-2_4-2-2.4.41-18.83.1",
-        "RelatesToProductReference": "Image SLES12-SP4-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openldap2-client-2.4.41-18.83.1",
-        "RelatesToProductReference": "Image SLES12-SP4-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libldap-2_4-2-2.4.41-18.83.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openldap2-client-2.4.41-18.83.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -769,10 +749,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -883,12 +859,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36222",
@@ -921,10 +895,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -1035,12 +1005,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36223",
@@ -1073,10 +1041,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -1187,12 +1151,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36224",
@@ -1225,10 +1187,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -1339,12 +1297,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36225",
@@ -1377,10 +1333,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -1491,12 +1443,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36226",
@@ -1529,10 +1479,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -1643,12 +1589,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36227",
@@ -1681,10 +1625,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -1795,12 +1735,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36228",
@@ -1833,10 +1771,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -1947,12 +1881,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36229",
@@ -1989,10 +1921,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -2103,12 +2031,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-36230",
@@ -2141,10 +2067,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -2255,12 +2177,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-27212",
@@ -2293,10 +2213,6 @@
             "HPE Helion OpenStack 8:openldap2-client-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-doc-2.4.41-18.83.1",
             "HPE Helion OpenStack 8:openldap2-ppolicy-check-password-1.2-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:libldap-2_4-2-2.4.41-18.83.1",
-            "Image SLES12-SP4-SAP-OCI-BYOS:openldap2-client-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libldap-2_4-2-32bit-2.4.41-18.83.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:openldap2-2.4.41-18.83.1",
@@ -2407,12 +2323,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

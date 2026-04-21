@@ -466,7 +466,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-28693",
@@ -512,7 +513,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3567",
@@ -558,7 +560,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3628",
@@ -604,7 +607,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3635",
@@ -619,6 +623,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-3635.html",
           "Description": "CVE-2022-3635"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202096",
+          "Description": "SUSE Bug 1202096"
         },
         {
           "URL": "https://bugzilla.suse.com/1204631",
@@ -662,7 +670,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3707",
@@ -708,7 +717,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3903",
@@ -758,7 +768,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-4095",
@@ -820,7 +831,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-4129",
@@ -866,7 +878,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-4139",
@@ -920,7 +933,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-41850",
@@ -970,7 +984,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-41858",
@@ -1024,11 +1039,12 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-42895",
-      "Description": "There is an infoleak vulnerability in the Linux kernel's net/bluetooth/l2cap_core.c's l2cap_parse_conf_req function which can be used to leak kernel pointers remotely. We recommend upgrading past commit https://github.com/torvalds/linux/commit/b1a2cd50c0357f243b7435a732b4e62ba3157a2e https://www.google.com/url",
+      "Description": "There is an infoleak vulnerability in the Linux kernel's net/bluetooth/l2cap_core.c's l2cap_parse_conf_req function which can be used to leak kernel pointers remotely.\nWe recommend upgrading past commit   https://github.com/torvalds/linux/commit/b1a2cd50c0357f243b7435a732b4e62ba3157a2e https://www.google.com/url \n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -1070,11 +1086,12 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-42896",
-      "Description": "There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2cap_core.c's l2cap_connect and l2cap_le_connect_req functions which may allow code execution and leaking kernel memory (respectively) remotely via Bluetooth. A remote attacker could execute code leaking kernel memory via Bluetooth if within proximity of the victim. We recommend upgrading past commit https://www.google.com/url https://github.com/torvalds/linux/commit/711f8c3fb3db61897080468586b970c87c61d9e4 https://www.google.com/url",
+      "Description": "There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2cap_core.c's l2cap_connect and l2cap_le_connect_req functions which may allow code execution and leaking kernel memory (respectively) remotely via Bluetooth.  A remote attacker could execute code leaking kernel memory via Bluetooth if within proximity of the victim.\n\nWe recommend upgrading past commit    https://www.google.com/url  https://github.com/torvalds/linux/commit/711f8c3fb3db61897080468586b970c87c61d9e4 https://www.google.com/url \n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -1116,7 +1133,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-4378",
@@ -1194,7 +1212,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-43945",
@@ -1260,7 +1279,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-45934",
@@ -1310,7 +1330,8 @@
             "openSUSE Leap 15.3:reiserfs-kmp-azure-5.3.18-150300.38.88.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -206,12 +206,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.7",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.7",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2017-18224",
@@ -259,7 +257,8 @@
             "openSUSE Leap 15.0:kernel-vanilla-devel-4.12.14-lp150.12.25.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2018-18386",
@@ -311,7 +310,8 @@
             "openSUSE Leap 15.0:kernel-vanilla-devel-4.12.14-lp150.12.25.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2018-18445",
@@ -359,7 +359,8 @@
             "openSUSE Leap 15.0:kernel-vanilla-devel-4.12.14-lp150.12.25.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2018-18710",
@@ -407,7 +408,8 @@
             "openSUSE Leap 15.0:kernel-vanilla-devel-4.12.14-lp150.12.25.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

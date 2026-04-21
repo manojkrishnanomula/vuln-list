@@ -742,7 +742,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1079",
@@ -842,7 +843,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1249",
@@ -942,7 +944,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1637",
@@ -1042,7 +1045,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2002",
@@ -1146,11 +1150,12 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3090",
-      "Description": "A heap out-of-bounds write vulnerability in the Linux Kernel ipvlan network driver can be exploited to achieve local privilege escalation.\n\nThe out-of-bounds write is caused by missing skb-\u003ecb  initialization in the ipvlan network driver. The vulnerability is reachable if  CONFIG_IPVLAN is enabled.\n\n\nWe recommend upgrading past commit 90cbed5247439a966b645b34eb0a2e037836ea8e.\n\n",
+      "Description": "A heap out-of-bounds write vulnerability in the Linux Kernel ipvlan network driver can be exploited to achieve local privilege escalation.\n\nThe out-of-bounds write is caused by missing skb-\u003ecb  initialization in the ipvlan network driver. The vulnerability is reachable if  CONFIG_IPVLAN is enabled.\n\n\nWe recommend upgrading past commit 90cbed5247439a966b645b34eb0a2e037836ea8e.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1258,7 +1263,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3111",
@@ -1362,7 +1368,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3141",
@@ -1466,7 +1473,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3159",
@@ -1481,6 +1489,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-3159.html",
           "Description": "CVE-2023-3159"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1208600",
+          "Description": "SUSE Bug 1208600"
         },
         {
           "URL": "https://bugzilla.suse.com/1212128",
@@ -1582,7 +1594,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3161",
@@ -1686,7 +1699,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3268",
@@ -1790,7 +1804,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3358",
@@ -1890,7 +1905,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-35824",
@@ -1994,7 +2010,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.165.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

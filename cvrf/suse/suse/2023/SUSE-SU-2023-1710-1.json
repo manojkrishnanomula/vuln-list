@@ -2092,7 +2092,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-36280",
@@ -2355,7 +2356,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38096",
@@ -2618,11 +2620,12 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0045",
-      "Description": "The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set   function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.   The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.\n\nWe recommend upgrading past commit  a664ec9158eeddd75121d39c9a0758016097fa96\n\n",
+      "Description": "The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set   function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.   The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.\n\nWe recommend upgrading past commit  a664ec9158eeddd75121d39c9a0758016097fa96",
       "Threats": [
         {
           "Type": "Impact",
@@ -2881,7 +2884,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0461",
@@ -3160,7 +3164,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0597",
@@ -3431,7 +3436,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1075",
@@ -3439,7 +3445,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3694,7 +3700,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1076",
@@ -3961,7 +3968,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1078",
@@ -4228,7 +4236,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1095",
@@ -4491,7 +4500,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1118",
@@ -4499,7 +4509,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4774,7 +4784,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-22995",
@@ -4782,7 +4793,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5037,7 +5048,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-22998",
@@ -5300,7 +5312,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23000",
@@ -5308,7 +5321,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5563,7 +5576,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23004",
@@ -5571,7 +5585,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5826,7 +5840,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23559",
@@ -6089,7 +6104,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25012",
@@ -6356,7 +6372,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-26545",
@@ -6364,7 +6381,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -6627,7 +6644,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28328",
@@ -6894,7 +6912,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.55.3.150400.24.22.7"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -101,7 +101,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2022-32166",
-      "Description": "In ovs versions v0.90.0 through v2.5.0 are vulnerable to heap buffer over-read in flow.c. An unsafe comparison of \"minimasks\" function could lead access to an unmapped region of memory. This vulnerability is capable of crashing the software, memory modification, and possible remote execution.",
+      "Description": "In ovs versions v0.90.0 through v2.5.0 are vulnerable to heap buffer over-read in flow.c. An unsafe comparison of “minimasks” function could lead access to an unmapped region of memory. This vulnerability is capable of crashing the software, memory modification, and possible remote execution.",
       "Threats": [
         {
           "Type": "Impact",
@@ -128,7 +128,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:openvswitch-switch-2.5.11-25.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-4337",
@@ -159,7 +160,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:openvswitch-switch-2.5.11-25.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-4338",
@@ -190,7 +192,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:openvswitch-switch-2.5.11-25.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

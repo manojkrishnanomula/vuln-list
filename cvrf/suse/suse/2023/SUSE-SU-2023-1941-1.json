@@ -198,7 +198,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2019-14560",
-      "Description": "** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.",
+      "Description": "DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.",
       "Threats": [
         {
           "Type": "Impact",
@@ -246,7 +246,8 @@
             "SUSE OpenStack Cloud Crowbar 9:qemu-ovmf-x86_64-2017+git1510945757.b2662641d5-3.41.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-38578",
@@ -299,12 +300,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     }
   ]
 }

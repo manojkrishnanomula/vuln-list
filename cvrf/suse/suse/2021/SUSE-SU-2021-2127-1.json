@@ -31,103 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure-2021-2127,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM-2021-2127,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE-2021-2127,Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2021-2127,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2021-2127,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2021-2127,Image SLES15-SP3-EC2-HVM-2021-2127,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2021-2127,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2021-2127,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2021-2127,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2021-2127,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2021-2127,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2021-2127,Image SLES15-SP3-SAP-Azure-2021-2127,Image SLES15-SP3-SAP-EC2-HVM-2021-2127,Image SLES15-SP3-SAP-GCE-2021-2127,Image SLES15-SP3-SAPCAL-Azure-2021-2127,Image SLES15-SP3-SAPCAL-EC2-HVM-2021-2127,Image SLES15-SP3-SAPCAL-GCE-2021-2127,SUSE-2021-2127,SUSE-SLE-Module-Basesystem-15-SP2-2021-2127,SUSE-SLE-Module-Basesystem-15-SP3-2021-2127,SUSE-SLE-Module-Packagehub-Subpackages-15-SP3-2021-2127,SUSE-SLE-Module-Server-Applications-15-SP2-2021-2127,SUSE-SLE-Module-Server-Applications-15-SP3-2021-2127",
+      "Text": "Image SLES15-SP3-EC2-HVM-2021-2127,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2021-2127,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2021-2127,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2021-2127,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2021-2127,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2021-2127,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2021-2127,Image SLES15-SP3-SAP-Azure-2021-2127,Image SLES15-SP3-SAP-EC2-HVM-2021-2127,Image SLES15-SP3-SAP-GCE-2021-2127,Image SLES15-SP3-SAPCAL-Azure-2021-2127,Image SLES15-SP3-SAPCAL-EC2-HVM-2021-2127,Image SLES15-SP3-SAPCAL-GCE-2021-2127,SUSE-2021-2127,SUSE-SLE-Module-Basesystem-15-SP2-2021-2127,SUSE-SLE-Module-Basesystem-15-SP3-2021-2127,SUSE-SLE-Module-Packagehub-Subpackages-15-SP3-2021-2127,SUSE-SLE-Module-Server-Applications-15-SP2-2021-2127,SUSE-SLE-Module-Server-Applications-15-SP3-2021-2127",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "apache2-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-prefork-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-utils-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-prefork-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-utils-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-prefork-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-utils-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-prefork-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-utils-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-prefork-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-utils-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-prefork-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "apache2-utils-2.4.43-3.22.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "apache2-2.4.43-3.22.1",
         "RelatesToProductReference": "Image SLES15-SP3-EC2-HVM",
@@ -476,24 +386,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-utils-2.4.43-3.22.1",
@@ -549,12 +441,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-35452",
@@ -583,24 +473,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-utils-2.4.43-3.22.1",
@@ -656,12 +528,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-26690",
@@ -690,24 +560,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-utils-2.4.43-3.22.1",
@@ -763,12 +615,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-26691",
@@ -797,24 +647,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-utils-2.4.43-3.22.1",
@@ -870,12 +702,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-30641",
@@ -900,24 +730,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-utils-2.4.43-3.22.1",
@@ -973,12 +785,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-31618",
@@ -1007,24 +817,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:apache2-utils-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-prefork-2.4.43-3.22.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:apache2-utils-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-prefork-2.4.43-3.22.1",
             "Image SLES15-SP3-EC2-HVM:apache2-utils-2.4.43-3.22.1",
@@ -1080,12 +872,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

@@ -201,20 +201,14 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        },
-        {
-          "BaseScore": "7.8",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.8",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2023-24998",
-      "Description": "Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads.\n\n\n\n\nNote that, like all of the file upload limits, the\n          new configuration option (FileUploadBase#setFileCountMax) is not\n          enabled by default and must be explicitly configured.\n\n\n",
+      "Description": "Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads.\n\n\n\n\nNote that, like all of the file upload limits, the\n          new configuration option (FileUploadBase#setFileCountMax) is not\n          enabled by default and must be explicitly configured.",
       "Threats": [
         {
           "Type": "Impact",
@@ -265,7 +259,8 @@
             "SUSE OpenStack Cloud Crowbar 9:jakarta-commons-fileupload-javadoc-1.1.1-122.8.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

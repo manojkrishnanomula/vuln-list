@@ -31,18 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2022-1932,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2022-1932,SUSE-2022-1932,SUSE-SLE-SERVER-12-SP5-2022-1932",
+      "Text": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2022-1932,SUSE-2022-1932,SUSE-SLE-SERVER-12-SP5-2022-1932",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "patch-2.7.5-8.8.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "patch-2.7.5-8.8.1",
         "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
@@ -126,19 +121,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:patch-2.7.5-8.8.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:patch-2.7.5-8.8.1",
             "SUSE Linux Enterprise Server 12 SP5:patch-2.7.5-8.8.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:patch-2.7.5-8.8.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2019-13636",
@@ -163,19 +155,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:patch-2.7.5-8.8.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:patch-2.7.5-8.8.1",
             "SUSE Linux Enterprise Server 12 SP5:patch-2.7.5-8.8.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:patch-2.7.5-8.8.1"
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P"
+      }
     }
   ]
 }

@@ -31,18 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-EC2-CHOST-HVM-BYOS-2021-1895,SUSE-2021-1895,SUSE-SLE-Product-HPC-15-2021-1895,SUSE-SLE-Product-SLES-15-2021-1895,SUSE-SLE-Product-SLES_SAP-15-2021-1895",
+      "Text": "SUSE-2021-1895,SUSE-SLE-Product-HPC-15-2021-1895,SUSE-SLE-Product-SLES-15-2021-1895,SUSE-SLE-Product-SLES_SAP-15-2021-1895",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "qemu-tools-2.11.2-9.46.1",
-        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "qemu-2.11.2-9.46.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
@@ -489,7 +484,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -555,12 +549,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-10756",
@@ -589,7 +581,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -655,12 +646,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-13754",
@@ -685,7 +674,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -751,12 +739,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-14364",
@@ -793,7 +779,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -859,12 +844,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25707",
@@ -893,7 +876,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -958,7 +940,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:qemu-x86-2.11.2-9.46.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2020-25723",
@@ -987,7 +970,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -1053,12 +1035,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-29129",
@@ -1095,7 +1075,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -1161,12 +1140,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-29130",
@@ -1199,7 +1176,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -1265,12 +1241,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-8608",
@@ -1299,7 +1273,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -1365,12 +1338,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-20257",
@@ -1399,7 +1370,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -1465,12 +1435,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3419",
@@ -1499,7 +1467,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-EC2-CHOST-HVM-BYOS:qemu-tools-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-arm-2.11.2-9.46.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:qemu-block-curl-2.11.2-9.46.1",
@@ -1564,7 +1531,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:qemu-x86-2.11.2-9.46.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

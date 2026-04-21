@@ -195,7 +195,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2021-33631",
-      "Description": "Integer Overflow or Wraparound vulnerability in openEuler kernel on Linux (filesystem modules) allows Forced Integer Overflow.This issue affects openEuler kernel: from 4.19.90 before 4.19.90-2401.3, from 5.10.0-60.18.0 before 5.10.0-183.0.0.\n\n",
+      "Description": "Integer Overflow or Wraparound vulnerability in openEuler kernel on Linux (filesystem modules) allows Forced Integer Overflow.This issue affects openEuler kernel: from 4.19.90 before 4.19.90-2401.3, from 5.10.0-60.18.0 before 5.10.0-183.0.0.",
       "Threats": [
         {
           "Type": "Impact",
@@ -220,11 +220,12 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-46838",
-      "Description": "Transmit requests in Xen's virtual network protocol can consist of\nmultiple parts.  While not really useful, except for the initial part\nany of them may be of zero length, i.e. carry no data at all.  Besides a\ncertain initial portion of the to be transferred data, these parts are\ndirectly translated into what Linux calls SKB fragments.  Such converted\nrequest parts can, when for a particular SKB they are all of length\nzero, lead to a de-reference of NULL in core networking code.\n",
+      "Description": "Transmit requests in Xen's virtual network protocol can consist of\nmultiple parts.  While not really useful, except for the initial part\nany of them may be of zero length, i.e. carry no data at all.  Besides a\ncertain initial portion of the to be transferred data, these parts are\ndirectly translated into what Linux calls SKB fragments.  Such converted\nrequest parts can, when for a particular SKB they are all of length\nzero, lead to a de-reference of NULL in core networking code.",
       "Threats": [
         {
           "Type": "Impact",
@@ -249,7 +250,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-47233",
@@ -282,7 +284,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-51043",
@@ -311,7 +314,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-51780",
@@ -364,7 +368,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-51782",
@@ -393,7 +398,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6040",
@@ -422,7 +428,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6356",
@@ -451,7 +458,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6535",
@@ -480,7 +488,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6536",
@@ -509,7 +518,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6915",
@@ -538,7 +548,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-0565",
@@ -571,7 +582,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-0775",
@@ -612,11 +624,12 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-1086",
-      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.",
       "Threats": [
         {
           "Type": "Impact",
@@ -657,7 +670,8 @@
             "SUSE Linux Enterprise Micro 5.2:kernel-rt-5.3.18-150300.158.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

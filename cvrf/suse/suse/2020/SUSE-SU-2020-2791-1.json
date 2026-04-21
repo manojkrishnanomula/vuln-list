@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles/15.2/virt-launcher:0.38.1-2020-2791,Image SLES15-SP2-Azure-Basic-2020-2791,Image SLES15-SP2-Azure-Standard-2020-2791,Image SLES15-SP2-BYOS-Azure-2020-2791,Image SLES15-SP2-BYOS-EC2-HVM-2020-2791,Image SLES15-SP2-BYOS-GCE-2020-2791,Image SLES15-SP2-CHOST-BYOS-Aliyun-2020-2791,Image SLES15-SP2-CHOST-BYOS-Azure-2020-2791,Image SLES15-SP2-CHOST-BYOS-EC2-2020-2791,Image SLES15-SP2-CHOST-BYOS-GCE-2020-2791,Image SLES15-SP2-EC2-ECS-HVM-2020-2791,Image SLES15-SP2-EC2-HVM-2020-2791,Image SLES15-SP2-GCE-2020-2791,Image SLES15-SP2-HPC-Azure-2020-2791,Image SLES15-SP2-HPC-BYOS-Azure-2020-2791,Image SLES15-SP2-HPC-BYOS-EC2-HVM-2020-2791,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure-2020-2791,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM-2020-2791,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE-2020-2791,Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2020-2791,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2020-2791,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2020-2791,Image SLES15-SP2-SAP-Azure-2020-2791,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2020-2791,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2020-2791,Image SLES15-SP2-SAP-BYOS-Azure-2020-2791,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2020-2791,Image SLES15-SP2-SAP-BYOS-GCE-2020-2791,Image SLES15-SP2-SAP-EC2-HVM-2020-2791,Image SLES15-SP2-SAP-GCE-2020-2791,SUSE-2020-2791,SUSE-SLE-Module-Basesystem-15-SP2-2020-2791,SUSE-SLE-Module-Server-Applications-15-SP2-2020-2791",
+      "Text": "Container suse/sles/15.2/virt-launcher:0.38.1-2020-2791,SUSE-2020-2791,SUSE-SLE-Module-Basesystem-15-SP2-2020-2791,SUSE-SLE-Module-Server-Applications-15-SP2-2020-2791",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,196 +41,6 @@
       {
         "ProductReference": "xen-libs-4.13.1_08-3.10.1",
         "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Azure-Basic",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Azure-Standard",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-EC2-ECS-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-EC2-ECS-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-HPC-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-tools-domU-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xen-libs-4.13.1_08-3.10.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -392,44 +202,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -439,12 +211,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-25596",
@@ -474,44 +244,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -521,12 +253,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25597",
@@ -552,44 +282,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -599,12 +291,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-25598",
@@ -630,44 +320,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -677,12 +329,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25599",
@@ -708,44 +358,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -755,12 +367,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25600",
@@ -786,44 +396,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -833,12 +405,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-25601",
@@ -864,44 +434,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -911,12 +443,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-25602",
@@ -942,44 +472,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -989,12 +481,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:S/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:S/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-25603",
@@ -1024,44 +514,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -1071,12 +523,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25604",
@@ -1106,44 +556,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sles/15.2/virt-launcher:0.38.1:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Basic:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Azure-Standard:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Aliyun:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-EC2:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-CHOST-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-ECS-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-Azure:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-BYOS-GCE:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-libs-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-EC2-HVM:xen-tools-domU-4.13.1_08-3.10.1",
-            "Image SLES15-SP2-SAP-GCE:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-libs-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:xen-tools-domU-4.13.1_08-3.10.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP2:xen-4.13.1_08-3.10.1",
@@ -1153,12 +565,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.9",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1.9",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

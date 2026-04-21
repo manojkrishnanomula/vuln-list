@@ -31,28 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP2-Azure-Basic-2021-96,Image SLES15-SP2-Azure-Standard-2021-96,Image SLES15-SP2-HPC-Azure-2021-96,SUSE-2021-96,SUSE-SLE-Module-Public-Cloud-15-SP2-2021-96",
+      "Text": "SUSE-2021-96,SUSE-SLE-Module-Public-Cloud-15-SP2-2021-96",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "kernel-azure-5.3.18-18.32.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Azure-Basic",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-azure-5.3.18-18.32.1",
-        "RelatesToProductReference": "Image SLES15-SP2-Azure-Standard",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "kernel-azure-5.3.18-18.32.1",
-        "RelatesToProductReference": "Image SLES15-SP2-HPC-Azure",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "kernel-azure-5.3.18-18.32.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Public Cloud 15 SP2",
@@ -590,9 +575,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -601,12 +583,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-0465",
@@ -635,9 +615,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -646,12 +623,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-0466",
@@ -688,9 +663,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -699,12 +671,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-11668",
@@ -733,9 +703,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -744,12 +711,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.6",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.6",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:P/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-27068",
@@ -774,9 +739,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -785,12 +747,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-27786",
@@ -819,9 +779,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -830,12 +787,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-27825",
@@ -864,9 +819,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -875,12 +827,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-27830",
@@ -905,9 +855,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -916,12 +863,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-29370",
@@ -950,9 +895,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -961,12 +903,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-29373",
@@ -995,9 +935,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -1006,12 +943,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-29660",
@@ -1040,9 +975,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -1051,12 +983,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-29661",
@@ -1093,9 +1023,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP2-Azure-Basic:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-Azure-Standard:kernel-azure-5.3.18-18.32.1",
-            "Image SLES15-SP2-HPC-Azure:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-azure-devel-5.3.18-18.32.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP2:kernel-devel-azure-5.3.18-18.32.1",
@@ -1104,12 +1031,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     }
   ]
 }

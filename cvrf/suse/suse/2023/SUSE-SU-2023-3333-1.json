@@ -235,7 +235,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -285,12 +285,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2018-3639",
@@ -408,12 +406,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-40982",
@@ -458,7 +454,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-45919",
@@ -477,6 +474,10 @@
         {
           "URL": "https://bugzilla.suse.com/1205803",
           "Description": "SUSE Bug 1205803"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1208600",
+          "Description": "SUSE Bug 1208600"
         },
         {
           "URL": "https://bugzilla.suse.com/1208912",
@@ -511,7 +512,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0459",
@@ -556,11 +558,12 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-20593",
-      "Description": "\nAn issue in \"Zen 2\" CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.\n\n\n\n\n\n\n",
+      "Description": "An issue in “Zen 2” CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.",
       "Threats": [
         {
           "Type": "Impact",
@@ -605,7 +608,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3141",
@@ -650,7 +654,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3159",
@@ -665,6 +670,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-3159.html",
           "Description": "CVE-2023-3159"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1208600",
+          "Description": "SUSE Bug 1208600"
         },
         {
           "URL": "https://bugzilla.suse.com/1212128",
@@ -707,7 +716,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3161",
@@ -752,7 +762,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3268",
@@ -797,7 +808,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3567",
@@ -858,7 +870,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-35824",
@@ -903,15 +916,16 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-3776",
-      "Description": "A use-after-free vulnerability in the Linux kernel's net/sched: cls_fw component can be exploited to achieve local privilege escalation.\n\nIf tcf_change_indev() fails, fw_set_parms() will immediately return an error after incrementing or decrementing the reference counter in tcf_bind_filter(). If an attacker can control the reference counter and set it to zero, they can cause the reference to be freed, leading to a use-after-free vulnerability.\n\nWe recommend upgrading past commit 0323bce598eea038714f941ce2b22541c46d488f.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's net/sched: cls_fw component can be exploited to achieve local privilege escalation.\n\nIf tcf_change_indev() fails, fw_set_parms() will immediately return an error after incrementing or decrementing the reference counter in tcf_bind_filter(). If an attacker can control the reference counter and set it to zero, they can cause the reference to be freed, leading to a use-after-free vulnerability.\n\nWe recommend upgrading past commit 0323bce598eea038714f941ce2b22541c46d488f.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -976,7 +990,8 @@
             "SUSE Linux Enterprise Server 11 SP4 LTSS EXTREME CORE:kernel-xen-devel-3.0.101-108.144.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -31,33 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SAP-Azure-LI-BYOS-Production-2021-2762,Image SLES15-SAP-Azure-VLI-BYOS-Production-2021-2762,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2021-2762,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2021-2762,SUSE-2021-2762,SUSE-SLE-Product-HPC-15-2021-2762,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2021-2762,SUSE-SLE-Product-HPC-15-SP1-LTSS-2021-2762,SUSE-SLE-Product-SLES-15-2021-2762,SUSE-SLE-Product-SLES-15-SP1-BCL-2021-2762,SUSE-SLE-Product-SLES-15-SP1-LTSS-2021-2762,SUSE-SLE-Product-SLES_SAP-15-2021-2762,SUSE-SLE-Product-SLES_SAP-15-SP1-2021-2762,SUSE-SLE-Product-SUSE-Manager-Proxy-4.0-2021-2762,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.0-2021-2762,SUSE-SLE-Product-SUSE-Manager-Server-4.0-2021-2762,SUSE-Storage-6-2021-2762",
+      "Text": "SUSE-2021-2762,SUSE-SLE-Product-HPC-15-2021-2762,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2021-2762,SUSE-SLE-Product-HPC-15-SP1-LTSS-2021-2762,SUSE-SLE-Product-SLES-15-2021-2762,SUSE-SLE-Product-SLES-15-SP1-BCL-2021-2762,SUSE-SLE-Product-SLES-15-SP1-LTSS-2021-2762,SUSE-SLE-Product-SLES_SAP-15-2021-2762,SUSE-SLE-Product-SLES_SAP-15-SP1-2021-2762,SUSE-SLE-Product-SUSE-Manager-Proxy-4.0-2021-2762,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.0-2021-2762,SUSE-SLE-Product-SUSE-Manager-Server-4.0-2021-2762,SUSE-Storage-6-2021-2762",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "libsoup-2_4-1-2.62.2-17.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoup-2_4-1-2.62.2-17.8.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoup-2_4-1-2.62.2-17.8.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoup-2_4-1-2.62.2-17.8.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
         "RelatesToProductReference": "SUSE Enterprise Storage 6",
@@ -934,10 +914,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -1097,12 +1073,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6",
-          "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-21779",
@@ -1131,10 +1105,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -1294,12 +1264,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-30663",
@@ -1324,10 +1292,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -1487,12 +1451,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-30665",
@@ -1517,10 +1479,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -1680,12 +1638,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-30689",
@@ -1710,10 +1666,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -1873,12 +1825,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-30720",
@@ -1903,10 +1853,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -2066,12 +2012,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-30734",
@@ -2096,10 +2040,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -2259,12 +2199,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-30744",
@@ -2289,10 +2227,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -2452,12 +2386,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-30749",
@@ -2482,10 +2414,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -2645,12 +2573,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-30758",
@@ -2675,10 +2601,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -2838,12 +2760,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-30795",
@@ -2868,10 +2788,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -3031,12 +2947,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "9.3",
-          "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "9.3",
+        "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-30797",
@@ -3061,10 +2975,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -3224,12 +3134,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-30799",
@@ -3254,10 +3162,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libjavascriptcoregtk-4_0-18-2.32.3-3.77.3",
             "SUSE Enterprise Storage 6:libsoup-2_4-1-2.62.2-17.8.1",
             "SUSE Enterprise Storage 6:libsoup-devel-2.62.2-17.8.1",
@@ -3417,12 +3321,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "9.3",
-          "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "9.3",
+        "Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C"
+      }
     }
   ]
 }

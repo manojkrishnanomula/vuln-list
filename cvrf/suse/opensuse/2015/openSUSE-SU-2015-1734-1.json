@@ -74,12 +74,10 @@
           "ProductID": null
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2015-3255",
@@ -109,7 +107,8 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-3256",
@@ -135,7 +134,8 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-4625",
@@ -165,7 +165,8 @@
           "Type": "Fixed",
           "ProductID": null
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -339,20 +339,14 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.9",
-          "Vector": "AV:A/AC:M/Au:N/C:P/I:N/A:N"
-        },
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-17049",
-      "Description": "A security feature bypass vulnerability exists in the way Key Distribution Center (KDC) determines if a service ticket can be used for delegation via Kerberos Constrained Delegation (KCD).\nTo exploit the vulnerability, a compromised service that is configured to use KCD could tamper with a service ticket that is not valid for delegation to force the KDC to accept it.\nThe update addresses this vulnerability by changing how the KDC validates service tickets used with KCD.",
+      "Description": "unknown",
       "Threats": [
         {
           "Type": "Impact",
@@ -407,12 +401,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "9",
-          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "9",
+        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-25717",
@@ -511,12 +503,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "8.5",
-          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "8.5",
+        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-25718",
@@ -571,12 +561,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.5",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.5",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25719",
@@ -631,12 +619,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "9",
-          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "9",
+        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2020-25721",
@@ -695,12 +681,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.5",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.5",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25722",
@@ -755,12 +739,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.5",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.5",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-20254",
@@ -823,12 +805,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.5",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.5",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-23192",
@@ -883,12 +863,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-3738",
@@ -943,12 +921,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.5",
-          "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.5",
+        "Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-44142",
@@ -1015,12 +991,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "9",
-          "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "9",
+        "Vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C"
+      }
     }
   ]
 }

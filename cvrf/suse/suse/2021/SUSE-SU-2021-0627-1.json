@@ -31,103 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-Azure-BYOS-2021-627,Image SLES12-SP4-EC2-HVM-BYOS-2021-627,Image SLES12-SP4-GCE-BYOS-2021-627,Image SLES12-SP4-SAP-Azure-BYOS-2021-627,Image SLES12-SP4-SAP-EC2-HVM-BYOS-2021-627,Image SLES12-SP4-SAP-GCE-BYOS-2021-627,Image SLES12-SP5-Azure-BYOS-2021-627,Image SLES12-SP5-Azure-HPC-BYOS-2021-627,Image SLES12-SP5-Azure-SAP-BYOS-2021-627,Image SLES12-SP5-EC2-BYOS-2021-627,Image SLES12-SP5-EC2-SAP-BYOS-2021-627,Image SLES12-SP5-GCE-BYOS-2021-627,Image SLES12-SP5-GCE-SAP-BYOS-2021-627,SUSE-2021-627,SUSE-SLE-Manager-Tools-12-2021-627,SUSE-SLE-Module-Adv-Systems-Management-12-2021-627,SUSE-SLE-POS-12-SP2-2021-627",
+      "Text": "Image SLES12-SP5-Azure-BYOS-2021-627,Image SLES12-SP5-Azure-HPC-BYOS-2021-627,Image SLES12-SP5-Azure-SAP-BYOS-2021-627,Image SLES12-SP5-EC2-BYOS-2021-627,Image SLES12-SP5-EC2-SAP-BYOS-2021-627,Image SLES12-SP5-GCE-BYOS-2021-627,Image SLES12-SP5-GCE-SAP-BYOS-2021-627,SUSE-2021-627,SUSE-SLE-Manager-Tools-12-2021-627,SUSE-SLE-Module-Adv-Systems-Management-12-2021-627,SUSE-SLE-POS-12-SP2-2021-627",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "python2-salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3000-46.129.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "python2-salt-3000-46.129.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
@@ -470,24 +380,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -533,12 +425,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.4",
-          "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-28972",
@@ -567,24 +457,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -630,12 +502,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-35662",
@@ -664,24 +534,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -727,12 +579,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-25281",
@@ -761,24 +611,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -824,12 +656,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-25282",
@@ -858,24 +688,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -921,12 +733,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.4",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.4",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-25283",
@@ -955,24 +765,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -1018,12 +810,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-25284",
@@ -1048,24 +838,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -1111,12 +883,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "1.9",
-          "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "1.9",
+        "Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-3144",
@@ -1145,24 +915,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -1208,12 +960,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3148",
@@ -1242,24 +992,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -1305,12 +1037,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3197",
@@ -1339,24 +1069,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES12-SP4-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-GCE-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:salt-minion-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python2-salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-3000-46.129.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:salt-minion-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:python2-salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-3000-46.129.1",
             "Image SLES12-SP5-Azure-BYOS:salt-minion-3000-46.129.1",
@@ -1402,12 +1114,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     }
   ]
 }

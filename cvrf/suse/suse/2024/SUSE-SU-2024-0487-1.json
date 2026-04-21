@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/manager/5.0/x86_64/server:latest-2024-487,Image server-image-2024-487,SUSE-2024-487,SUSE-SLE-Manager-Tools-15-2024-487,SUSE-SLE-Manager-Tools-For-Micro-5-2024-487,SUSE-SLE-Module-SUSE-Manager-Proxy-4.3-2024-487,SUSE-SLE-Module-SUSE-Manager-Server-4.3-2024-487,openSUSE-SLE-15.5-2024-487",
+      "Text": "Container suse/manager/5.0/x86_64/server:latest-2024-487,Container suse/multi-linux-manager/5.1/x86_64/server:latest-2024-487,Image server-image-2024-487,SUSE-2024-487,SUSE-SLE-Manager-Tools-15-2024-487,SUSE-SLE-Manager-Tools-For-Micro-5-2024-487,SUSE-SLE-Module-SUSE-Manager-Proxy-4.3-2024-487,SUSE-SLE-Module-SUSE-Manager-Server-4.3-2024-487,openSUSE-SLE-15.5-2024-487",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,6 +41,11 @@
       {
         "ProductReference": "prometheus-postgres_exporter-0.10.1-150000.1.17.1",
         "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "prometheus-postgres_exporter-0.10.1-150000.1.17.1",
+        "RelatesToProductReference": "Container suse/multi-linux-manager/5.1/x86_64/server:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -253,6 +258,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/manager/5.0/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "Image server-image:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "SUSE Manager Client Tools 15:firewalld-prometheus-config-0.1-150000.3.53.1",
             "SUSE Manager Client Tools 15:golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1",
@@ -277,12 +283,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-3807",
@@ -308,6 +312,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/manager/5.0/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "Image server-image:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "SUSE Manager Client Tools 15:firewalld-prometheus-config-0.1-150000.3.53.1",
             "SUSE Manager Client Tools 15:golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1",
@@ -332,12 +337,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.8",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.8",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2021-3918",
@@ -363,6 +366,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/manager/5.0/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "Image server-image:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "SUSE Manager Client Tools 15:firewalld-prometheus-config-0.1-150000.3.53.1",
             "SUSE Manager Client Tools 15:golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1",
@@ -387,12 +391,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-43138",
@@ -418,6 +420,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/manager/5.0/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "Image server-image:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "SUSE Manager Client Tools 15:firewalld-prometheus-config-0.1-150000.3.53.1",
             "SUSE Manager Client Tools 15:golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1",
@@ -442,12 +445,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-43798",
@@ -473,6 +474,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/manager/5.0/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "Image server-image:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "SUSE Manager Client Tools 15:firewalld-prometheus-config-0.1-150000.3.53.1",
             "SUSE Manager Client Tools 15:golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1",
@@ -497,12 +499,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2021-43815",
@@ -528,6 +528,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/manager/5.0/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "Image server-image:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "SUSE Manager Client Tools 15:firewalld-prometheus-config-0.1-150000.3.53.1",
             "SUSE Manager Client Tools 15:golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1",
@@ -552,12 +553,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.5",
-          "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.5",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-0155",
@@ -583,6 +582,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/manager/5.0/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "Image server-image:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "SUSE Manager Client Tools 15:firewalld-prometheus-config-0.1-150000.3.53.1",
             "SUSE Manager Client Tools 15:golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1",
@@ -607,12 +607,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-41715",
@@ -642,6 +640,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/manager/5.0/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "Image server-image:prometheus-postgres_exporter-0.10.1-150000.1.17.1",
             "SUSE Manager Client Tools 15:firewalld-prometheus-config-0.1-150000.3.53.1",
             "SUSE Manager Client Tools 15:golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1",
@@ -665,7 +664,8 @@
             "openSUSE Leap 15.5:spacecmd-4.3.26-150000.3.113.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -385,12 +385,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-20251",
@@ -473,7 +471,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:samba-winbind-4.4.2-38.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-32742",
@@ -548,11 +547,12 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:samba-winbind-4.4.2-38.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-37966",
-      "Description": "Windows Kerberos RC4-HMAC Elevation of Privilege Vulnerability",
+      "Description": "unknown",
       "Threats": [
         {
           "Type": "Impact",
@@ -631,11 +631,12 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:samba-winbind-4.4.2-38.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38023",
-      "Description": "Netlogon RPC Elevation of Privilege Vulnerability",
+      "Description": "unknown",
       "Threats": [
         {
           "Type": "Impact",
@@ -710,7 +711,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:samba-winbind-4.4.2-38.55.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

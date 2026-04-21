@@ -140,7 +140,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2022-25147",
-      "Description": "Integer Overflow or Wraparound vulnerability in apr_base64 functions of Apache Portable Runtime Utility (APR-util) allows an attacker to write beyond bounds of a buffer.\n\n\n\n\nThis issue affects Apache Portable Runtime Utility (APR-util) 1.6.1 and prior versions.\n\n",
+      "Description": "Integer Overflow or Wraparound vulnerability in apr_base64 functions of Apache Portable Runtime Utility (APR-util) allows an attacker to write beyond bounds of a buffer.\n\n\n\n\nThis issue affects Apache Portable Runtime Utility (APR-util) 1.6.1 and prior versions.",
       "Threats": [
         {
           "Type": "Impact",
@@ -182,7 +182,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libapr-util1-dbd-sqlite3-1.6.1-150000.4.9.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

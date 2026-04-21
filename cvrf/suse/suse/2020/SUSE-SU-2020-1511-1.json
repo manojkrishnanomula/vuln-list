@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/openjdk-devel:11-2020-1511,Container bci/openjdk:11-2020-1511,Container bci/openjdk:latest-2020-1511,Container containers/apache-tomcat:10.1-openjdk11-2020-1511,Container containers/apache-tomcat:9-openjdk11-2020-1511,Container suse/manager/5.0/x86_64/server-attestation:latest-2020-1511,Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest-2020-1511,Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server-2020-1511,Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server-2020-1511,Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server-2020-1511,Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2020-1511,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2020-1511,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2020-1511,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2020-1511,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2020-1511,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2020-1511,Image SLES15-SP4-Manager-Server-4-3-2020-1511,Image SLES15-SP4-Manager-Server-4-3-Azure-llc-2020-1511,Image SLES15-SP4-Manager-Server-4-3-Azure-ltd-2020-1511,Image SLES15-SP4-Manager-Server-4-3-BYOS-2020-1511,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2020-1511,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2020-1511,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2020-1511,Image SLES15-SP4-Manager-Server-4-3-EC2-llc-2020-1511,Image SLES15-SP4-Manager-Server-4-3-EC2-ltd-2020-1511,SUSE-2020-1511,SUSE-SLE-Module-Basesystem-15-SP1-2020-1511,SUSE-SLE-Module-Basesystem-15-SP2-2020-1511,SUSE-SLE-Module-Packagehub-Subpackages-15-SP2-2020-1511,SUSE-SLE-Product-HPC-15-2020-1511,SUSE-SLE-Product-SLES-15-2020-1511,SUSE-SLE-Product-SLES_SAP-15-2020-1511",
+      "Text": "Container bci/openjdk-devel:11-2020-1511,Container bci/openjdk:11-2020-1511,Container bci/openjdk:latest-2020-1511,Container containers/apache-tomcat:10.1-openjdk11-2020-1511,Container containers/apache-tomcat:9-openjdk11-2020-1511,Container suse/manager/5.0/x86_64/server-attestation:latest-2020-1511,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2020-1511,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2020-1511,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2020-1511,Image SLES15-SP4-Manager-Server-4-3-2020-1511,Image SLES15-SP4-Manager-Server-4-3-Azure-llc-2020-1511,Image SLES15-SP4-Manager-Server-4-3-Azure-ltd-2020-1511,Image SLES15-SP4-Manager-Server-4-3-BYOS-2020-1511,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2020-1511,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2020-1511,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2020-1511,Image SLES15-SP4-Manager-Server-4-3-EC2-llc-2020-1511,Image SLES15-SP4-Manager-Server-4-3-EC2-ltd-2020-1511,SUSE-2020-1511,SUSE-SLE-Module-Basesystem-15-SP1-2020-1511,SUSE-SLE-Module-Basesystem-15-SP2-2020-1511,SUSE-SLE-Module-Packagehub-Subpackages-15-SP2-2020-1511,SUSE-SLE-Product-HPC-15-2020-1511,SUSE-SLE-Product-SLES-15-2020-1511,SUSE-SLE-Product-SLES_SAP-15-2020-1511",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -96,71 +96,6 @@
       {
         "ProductReference": "java-11-openjdk-headless-11.0.7.0-3.42.4",
         "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server-attestation:latest",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-headless-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-headless-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-headless-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-headless-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-headless-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-headless-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "java-11-openjdk-headless-11.0.7.0-3.42.4",
-        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -499,19 +434,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -559,12 +481,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2755",
@@ -605,19 +525,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -665,12 +572,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2756",
@@ -711,19 +616,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -771,12 +663,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2757",
@@ -817,19 +707,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -877,12 +754,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2767",
@@ -919,19 +794,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -979,12 +841,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-2773",
@@ -1021,19 +881,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -1081,12 +928,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2778",
@@ -1123,19 +968,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -1183,12 +1015,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-2781",
@@ -1229,19 +1059,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -1289,12 +1106,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2800",
@@ -1335,19 +1150,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -1395,12 +1197,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-2803",
@@ -1441,19 +1241,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -1501,12 +1288,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.1",
-          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.1",
+        "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2805",
@@ -1547,19 +1332,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -1607,12 +1379,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.1",
-          "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.1",
+        "Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-2816",
@@ -1649,19 +1419,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -1709,12 +1466,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-2830",
@@ -1755,19 +1510,6 @@
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-11.0.7.0-3.42.4",
             "Container containers/apache-tomcat:9-openjdk11:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Container suse/manager/5.0/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Container suse/multi-linux-manager/5.1/x86_64/server-attestation:latest:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:java-11-openjdk-headless-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-11.0.7.0-3.42.4",
-            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:java-11-openjdk-headless-11.0.7.0-3.42.4",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:java-11-openjdk-11.0.7.0-3.42.4",
@@ -1815,12 +1557,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

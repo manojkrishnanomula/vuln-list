@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "HPE-Helion-OpenStack-8-2020-3903,Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2020-3903,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2020-3903,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2020-3903,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2020-3903,SUSE-2020-3903,SUSE-OpenStack-Cloud-7-2020-3903,SUSE-OpenStack-Cloud-8-2020-3903,SUSE-OpenStack-Cloud-9-2020-3903,SUSE-OpenStack-Cloud-Crowbar-8-2020-3903,SUSE-OpenStack-Cloud-Crowbar-9-2020-3903,SUSE-SLE-SAP-12-SP2-2020-3903,SUSE-SLE-SAP-12-SP3-2020-3903,SUSE-SLE-SAP-12-SP4-2020-3903,SUSE-SLE-SDK-12-SP5-2020-3903,SUSE-SLE-SERVER-12-SP2-2020-3903,SUSE-SLE-SERVER-12-SP2-BCL-2020-3903,SUSE-SLE-SERVER-12-SP3-2020-3903,SUSE-SLE-SERVER-12-SP3-BCL-2020-3903,SUSE-SLE-SERVER-12-SP4-LTSS-2020-3903,SUSE-SLE-SERVER-12-SP5-2020-3903,SUSE-Storage-5-2020-3903",
+      "Text": "HPE-Helion-OpenStack-8-2020-3903,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2020-3903,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2020-3903,SUSE-2020-3903,SUSE-OpenStack-Cloud-7-2020-3903,SUSE-OpenStack-Cloud-8-2020-3903,SUSE-OpenStack-Cloud-9-2020-3903,SUSE-OpenStack-Cloud-Crowbar-8-2020-3903,SUSE-OpenStack-Cloud-Crowbar-9-2020-3903,SUSE-SLE-SAP-12-SP2-2020-3903,SUSE-SLE-SAP-12-SP3-2020-3903,SUSE-SLE-SAP-12-SP4-2020-3903,SUSE-SLE-SDK-12-SP5-2020-3903,SUSE-SLE-SERVER-12-SP2-2020-3903,SUSE-SLE-SERVER-12-SP2-BCL-2020-3903,SUSE-SLE-SERVER-12-SP3-2020-3903,SUSE-SLE-SERVER-12-SP3-BCL-2020-3903,SUSE-SLE-SERVER-12-SP4-LTSS-2020-3903,SUSE-SLE-SERVER-12-SP5-2020-3903,SUSE-Storage-5-2020-3903",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -51,16 +51,6 @@
       {
         "ProductReference": "MozillaFirefox-translations-common-78.6.0-112.39.1",
         "RelatesToProductReference": "HPE Helion OpenStack 8",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-78.6.0-112.39.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "MozillaFirefox-78.6.0-112.39.1",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -401,8 +391,6 @@
             "HPE Helion OpenStack 8:MozillaFirefox-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-devel-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-translations-common-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "SUSE Enterprise Storage 5:MozillaFirefox-78.6.0-112.39.1",
@@ -457,12 +445,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-26971",
@@ -490,8 +476,6 @@
             "HPE Helion OpenStack 8:MozillaFirefox-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-devel-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-translations-common-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "SUSE Enterprise Storage 5:MozillaFirefox-78.6.0-112.39.1",
@@ -546,12 +530,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-26973",
@@ -579,8 +561,6 @@
             "HPE Helion OpenStack 8:MozillaFirefox-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-devel-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-translations-common-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "SUSE Enterprise Storage 5:MozillaFirefox-78.6.0-112.39.1",
@@ -635,12 +615,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-26974",
@@ -668,8 +646,6 @@
             "HPE Helion OpenStack 8:MozillaFirefox-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-devel-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-translations-common-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "SUSE Enterprise Storage 5:MozillaFirefox-78.6.0-112.39.1",
@@ -724,12 +700,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-26978",
@@ -757,8 +731,6 @@
             "HPE Helion OpenStack 8:MozillaFirefox-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-devel-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-translations-common-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "SUSE Enterprise Storage 5:MozillaFirefox-78.6.0-112.39.1",
@@ -813,12 +785,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-35111",
@@ -846,8 +816,6 @@
             "HPE Helion OpenStack 8:MozillaFirefox-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-devel-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-translations-common-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "SUSE Enterprise Storage 5:MozillaFirefox-78.6.0-112.39.1",
@@ -902,12 +870,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+      }
     },
     {
       "CVE": "CVE-2020-35112",
@@ -935,8 +901,6 @@
             "HPE Helion OpenStack 8:MozillaFirefox-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-devel-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-translations-common-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "SUSE Enterprise Storage 5:MozillaFirefox-78.6.0-112.39.1",
@@ -991,12 +955,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-35113",
@@ -1024,8 +986,6 @@
             "HPE Helion OpenStack 8:MozillaFirefox-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-devel-78.6.0-112.39.1",
             "HPE Helion OpenStack 8:MozillaFirefox-translations-common-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
-            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.6.0-112.39.1",
             "SUSE Enterprise Storage 5:MozillaFirefox-78.6.0-112.39.1",
@@ -1080,12 +1040,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "6.8",
-          "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+      }
     }
   ]
 }

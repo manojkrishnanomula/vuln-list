@@ -96,6 +96,10 @@
           "Description": "CVE-2023-0590"
         },
         {
+          "URL": "https://bugzilla.suse.com/1207036",
+          "Description": "SUSE Bug 1207036"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1207795",
           "Description": "SUSE Bug 1207795"
         },
@@ -120,7 +124,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_87-default-11-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1118",
@@ -128,7 +133,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -169,7 +174,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_87-default-11-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -666,7 +666,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.186.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-31083",
@@ -766,7 +767,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.186.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39197",
@@ -774,7 +776,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -870,7 +872,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.186.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39198",
@@ -978,7 +981,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.186.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-45863",
@@ -1082,7 +1086,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.186.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-45871",
@@ -1182,11 +1187,12 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.186.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5717",
-      "Description": "A heap out-of-bounds write vulnerability in the Linux kernel's Linux Kernel Performance Events (perf) component can be exploited to achieve local privilege escalation.\n\nIf perf_read_group() is called while an event's sibling_list is smaller than its child's sibling_list, it can increment or write to memory locations outside of the allocated buffer.\n\nWe recommend upgrading past commit 32671e3799ca2e4590773fd0e63aaa4229e50c06.\n\n",
+      "Description": "A heap out-of-bounds write vulnerability in the Linux kernel's Linux Kernel Performance Events (perf) component can be exploited to achieve local privilege escalation.\n\nIf perf_read_group() is called while an event's sibling_list is smaller than its child's sibling_list, it can increment or write to memory locations outside of the allocated buffer.\n\nWe recommend upgrading past commit 32671e3799ca2e4590773fd0e63aaa4229e50c06.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1298,7 +1304,8 @@
             "SUSE Linux Enterprise Workstation Extension 12 SP5:kernel-default-extra-4.12.14-122.186.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -134,7 +134,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_76-default-14-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1390",
@@ -170,7 +171,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_76-default-14-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23455",
@@ -185,6 +187,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-23455.html",
           "Description": "CVE-2023-23455"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1207036",
+          "Description": "SUSE Bug 1207036"
         },
         {
           "URL": "https://bugzilla.suse.com/1207125",
@@ -206,7 +212,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_76-default-14-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-28466",
@@ -246,7 +253,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_76-default-14-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-31436",
@@ -254,7 +262,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -298,7 +306,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP3:kernel-livepatch-5_3_18-150300_59_76-default-14-150300.2.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

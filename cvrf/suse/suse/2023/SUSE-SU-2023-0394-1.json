@@ -431,12 +431,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.9",
-          "Vector": "AV:A/AC:M/Au:N/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.9",
+        "Vector": "AV:A/AC:M/Au:N/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2022-4382",
@@ -490,7 +488,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-47929",
@@ -540,7 +539,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0179",
@@ -598,11 +598,12 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0266",
-      "Description": "A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel.  SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit  56b88b50565cd8b946a2d00b0c83927b7ebb055e\n",
+      "Description": "A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel.  SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit  56b88b50565cd8b946a2d00b0c83927b7ebb055e",
       "Threats": [
         {
           "Type": "Impact",
@@ -656,7 +657,8 @@
             "openSUSE Leap 15.4:reiserfs-kmp-azure-5.14.21-150400.14.34.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

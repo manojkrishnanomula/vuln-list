@@ -31,43 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SAP-Azure-LI-BYOS-Production-2020-3166,Image SLES15-SAP-Azure-VLI-BYOS-Production-2020-3166,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2020-3166,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2020-3166,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2020-3166,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2020-3166,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2020-3166,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2020-3166,Image SLES15-SP4-SAP-Azure-LI-BYOS-2020-3166,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2020-3166,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2020-3166,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2020-3166,Image SLES15-SP5-SAP-Azure-LI-BYOS-2020-3166,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2020-3166,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2020-3166,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2020-3166,SUSE-2020-3166,SUSE-SLE-Module-Basesystem-15-SP1-2020-3166,SUSE-SLE-Module-Basesystem-15-SP2-2020-3166,SUSE-SLE-Module-Desktop-Applications-15-SP1-2020-3166,SUSE-SLE-Module-Desktop-Applications-15-SP2-2020-3166",
+      "Text": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2020-3166,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2020-3166,Image SLES15-SP4-SAP-Azure-LI-BYOS-2020-3166,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2020-3166,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2020-3166,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2020-3166,Image SLES15-SP5-SAP-Azure-LI-BYOS-2020-3166,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2020-3166,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2020-3166,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2020-3166,SUSE-2020-3166,SUSE-SLE-Module-Basesystem-15-SP1-2020-3166,SUSE-SLE-Module-Basesystem-15-SP2-2020-3166,SUSE-SLE-Module-Desktop-Applications-15-SP1-2020-3166,SUSE-SLE-Module-Desktop-Applications-15-SP2-2020-3166",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "wireshark-3.2.7-3.41.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "wireshark-3.2.7-3.41.1",
-        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "wireshark-3.2.7-3.41.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "wireshark-3.2.7-3.41.1",
-        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "wireshark-3.2.7-3.41.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "wireshark-3.2.7-3.41.1",
-        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "wireshark-3.2.7-3.41.1",
         "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
@@ -250,12 +220,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
@@ -281,12 +245,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25862",
@@ -311,12 +273,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
@@ -342,12 +298,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25863",
@@ -372,12 +326,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
@@ -403,12 +351,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2020-25866",
@@ -433,12 +379,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
-            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:wireshark-3.2.7-3.41.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:wireshark-3.2.7-3.41.1",
@@ -464,12 +404,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5",
-          "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5",
+        "Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+      }
     }
   ]
 }

@@ -484,7 +484,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-25775",
@@ -535,7 +536,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39197",
@@ -543,7 +545,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -590,7 +592,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39198",
@@ -649,15 +652,16 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-4244",
-      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nDue to a race condition between nf_tables netlink control plane transaction and nft_set element garbage collection, it is possible to underflow the reference counter causing a use-after-free vulnerability.\n\nWe recommend upgrading past commit 3e91b0ebd994635df2346353322ac51ce84ce6d8.\n\n",
+      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nDue to a race condition between nf_tables netlink control plane transaction and nft_set element garbage collection, it is possible to underflow the reference counter causing a use-after-free vulnerability.\n\nWe recommend upgrading past commit 3e91b0ebd994635df2346353322ac51ce84ce6d8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -704,7 +708,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-45863",
@@ -759,7 +764,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-45871",
@@ -810,7 +816,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-46862",
@@ -861,7 +868,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5158",
@@ -912,7 +920,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5633",
@@ -967,11 +976,12 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-5717",
-      "Description": "A heap out-of-bounds write vulnerability in the Linux kernel's Linux Kernel Performance Events (perf) component can be exploited to achieve local privilege escalation.\n\nIf perf_read_group() is called while an event's sibling_list is smaller than its child's sibling_list, it can increment or write to memory locations outside of the allocated buffer.\n\nWe recommend upgrading past commit 32671e3799ca2e4590773fd0e63aaa4229e50c06.\n\n",
+      "Description": "A heap out-of-bounds write vulnerability in the Linux kernel's Linux Kernel Performance Events (perf) component can be exploited to achieve local privilege escalation.\n\nIf perf_read_group() is called while an event's sibling_list is smaller than its child's sibling_list, it can increment or write to memory locations outside of the allocated buffer.\n\nWe recommend upgrading past commit 32671e3799ca2e4590773fd0e63aaa4229e50c06.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1034,7 +1044,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6039",
@@ -1085,7 +1096,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-6176",
@@ -1140,7 +1152,8 @@
             "openSUSE Leap 15.5:reiserfs-kmp-azure-5.14.21-150500.33.26.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

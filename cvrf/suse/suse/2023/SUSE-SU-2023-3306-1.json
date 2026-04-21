@@ -152,11 +152,12 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm14-14.21.3-6.46.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-30589",
-      "Description": "The llhttp parser in the http module in Node v20.2.0 does not strictly use the CRLF sequence to delimit HTTP requests. This can lead to HTTP Request Smuggling (HRS).\n\nThe CR character (without LF) is sufficient to delimit HTTP header fields in the llhttp parser. According to RFC7230 section 3, only the CRLF sequence should delimit each header-field. This impacts all Node.js active versions: v16, v18, and, v20\n",
+      "Description": "The llhttp parser in the http module in Node v20.2.0 does not strictly use the CRLF sequence to delimit HTTP requests. This can lead to HTTP Request Smuggling (HRS).\n\nThe CR character (without LF) is sufficient to delimit HTTP header fields in the llhttp parser. According to RFC7230 section 3, only the CRLF sequence should delimit each header-field. This impacts all Node.js active versions: v16, v18, and, v20",
       "Threats": [
         {
           "Type": "Impact",
@@ -183,7 +184,8 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm14-14.21.3-6.46.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-30590",
@@ -214,7 +216,8 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm14-14.21.3-6.46.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32002",
@@ -245,7 +248,8 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm14-14.21.3-6.46.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32006",
@@ -276,7 +280,8 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm14-14.21.3-6.46.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-32559",
@@ -307,7 +312,8 @@
             "SUSE Linux Enterprise Module for Web and Scripting 12:npm14-14.21.3-6.46.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

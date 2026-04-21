@@ -225,12 +225,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "2.1",
-          "Vector": "AV:N/AC:H/Au:S/C:N/I:P/A:N"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:N/AC:H/Au:S/C:N/I:P/A:N"
+      }
     },
     {
       "CVE": "CVE-2023-2727",
@@ -265,7 +263,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:kubernetes1.24-client-common-1.24.17-150300.7.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2728",
@@ -300,7 +299,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:kubernetes1.24-client-common-1.24.17-150300.7.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-39325",
@@ -339,7 +339,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:kubernetes1.24-client-common-1.24.17-150300.7.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-44487",
@@ -406,7 +407,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:kubernetes1.24-client-common-1.24.17-150300.7.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-45288",
@@ -441,7 +443,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:kubernetes1.24-client-common-1.24.17-150300.7.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-0793",
@@ -476,7 +479,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:kubernetes1.24-client-common-1.24.17-150300.7.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-24786",
@@ -511,7 +515,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:kubernetes1.24-client-common-1.24.17-150300.7.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2024-3177",
@@ -546,7 +551,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP3:kubernetes1.24-client-common-1.24.17-150300.7.6.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

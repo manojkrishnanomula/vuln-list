@@ -123,12 +123,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "7.2",
-          "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "7.2",
+        "Vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C"
+      }
     },
     {
       "CVE": "CVE-2022-2588",
@@ -168,7 +166,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_24_18-default-5-150400.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-42703",
@@ -183,6 +182,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-42703.html",
           "Description": "CVE-2022-42703"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202096",
+          "Description": "SUSE Bug 1202096"
         },
         {
           "URL": "https://bugzilla.suse.com/1204168",
@@ -212,7 +215,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_24_18-default-5-150400.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-42722",
@@ -248,7 +252,8 @@
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_24_18-default-5-150400.2.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

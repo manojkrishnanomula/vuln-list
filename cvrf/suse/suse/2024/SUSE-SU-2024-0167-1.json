@@ -159,12 +159,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "3.3",
-          "Vector": "AV:A/AC:L/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "3.3",
+        "Vector": "AV:A/AC:L/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2023-50229",
@@ -200,7 +198,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libbluetooth3-5.48-150200.13.30.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-50230",
@@ -236,7 +235,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libbluetooth3-5.48-150200.13.30.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

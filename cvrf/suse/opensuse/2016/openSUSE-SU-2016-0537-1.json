@@ -1194,12 +1194,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:L/AC:M/Au:S/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:L/AC:M/Au:S/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2016-2069",
@@ -1417,7 +1415,8 @@
             "openSUSE 13.2:xtables-addons-kmp-xen-debuginfo-2.6_k3.16.7_35-17.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

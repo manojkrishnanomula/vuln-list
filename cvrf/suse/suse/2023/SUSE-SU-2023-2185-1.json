@@ -147,12 +147,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.3",
-          "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.3",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-27664",
@@ -188,7 +186,8 @@
             "SUSE:EL-9:Update:Products:ManagerTools:Update:prometheus-postgres_exporter-0.10.1-1.6.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-46146",
@@ -220,7 +219,8 @@
             "SUSE:EL-9:Update:Products:ManagerTools:Update:prometheus-postgres_exporter-0.10.1-1.6.2"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

@@ -179,6 +179,10 @@
           "Description": "CVE-2021-3929"
         },
         {
+          "URL": "https://bugzilla.suse.com/1190011",
+          "Description": "SUSE Bug 1190011"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1193880",
           "Description": "SUSE Bug 1193880"
         }
@@ -202,7 +206,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:qemu-x86-2.6.2-41.76.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2021-4206",
@@ -247,12 +252,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-4207",
@@ -293,12 +296,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.6",
-          "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.6",
+        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-0216",
@@ -338,7 +339,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:qemu-x86-2.6.2-41.76.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

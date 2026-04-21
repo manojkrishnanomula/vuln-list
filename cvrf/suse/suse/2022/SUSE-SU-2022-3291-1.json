@@ -531,12 +531,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:N/AC:M/Au:S/C:N/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-4203",
@@ -613,12 +611,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "4.9",
-          "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "4.9",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:N/A:P"
+      }
     },
     {
       "CVE": "CVE-2022-20368",
@@ -698,7 +694,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-20369",
@@ -778,7 +775,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-21385",
@@ -858,7 +856,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2588",
@@ -946,7 +945,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-26373",
@@ -1026,7 +1026,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2639",
@@ -1102,7 +1103,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2663",
@@ -1182,7 +1184,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-2977",
@@ -1258,7 +1261,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-3028",
@@ -1338,7 +1342,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-36879",
@@ -1418,7 +1423,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-39188",
@@ -1426,7 +1432,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1510,7 +1516,8 @@
             "SUSE Linux Enterprise Server for SAP Applications 15:reiserfs-kmp-default-4.12.14-150000.150.101.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

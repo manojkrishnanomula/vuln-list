@@ -1472,7 +1472,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2022-2196",
-      "Description": "A regression exists in the Linux Kernel within KVM: nVMX that allowed for speculative execution attacks.  L2 can carry out Spectre v2 attacks on L1 due to L1 thinking it doesn't need retpolines or IBPB  after running L2 due to KVM (L0) advertising eIBRS support to L1. An attacker at L2 with code execution can execute code on an indirect branch on the host machine. We recommend upgrading to Kernel 6.2 or past commit  2e7eab81425a\n",
+      "Description": "A regression exists in the Linux Kernel within KVM: nVMX that allowed for speculative execution attacks.  L2 can carry out Spectre v2 attacks on L1 due to L1 thinking it doesn't need retpolines or IBPB  after running L2 due to KVM (L0) advertising eIBRS support to L1. An attacker at L2 with code execution can execute code on an indirect branch on the host machine. We recommend upgrading to Kernel 6.2 or past commit  2e7eab81425a",
       "Threats": [
         {
           "Type": "Impact",
@@ -1722,7 +1722,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0386",
@@ -1980,7 +1981,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1670",
@@ -2238,7 +2240,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1855",
@@ -2492,7 +2495,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1989",
@@ -2762,7 +2766,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1990",
@@ -3024,11 +3029,12 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-1998",
-      "Description": "The Linux kernel allows userspace processes to enable mitigations by calling prctl with PR_SET_SPECULATION_CTRL which disables the speculation feature as well as by using seccomp. We had noticed that on VMs of at least one major cloud provider, the kernel still left the victim process exposed to attacks in some cases even after enabling the spectre-BTI mitigation with prctl. The same behavior can be observed on a bare-metal machine when forcing the mitigation to IBRS on boot command line.\n\nThis happened because when plain IBRS was enabled (not enhanced IBRS), the kernel had some logic that determined that STIBP was not needed. The IBRS bit implicitly protects against cross-thread branch target injection. However, with legacy IBRS, the IBRS bit was cleared on returning to userspace, due to performance reasons, which disabled the implicit STIBP and left userspace threads vulnerable to cross-thread branch target injection against which STIBP protects.\n\n\n",
+      "Description": "The Linux kernel allows userspace processes to enable mitigations by calling prctl with PR_SET_SPECULATION_CTRL which disables the speculation feature as well as by using seccomp. We had noticed that on VMs of at least one major cloud provider, the kernel still left the victim process exposed to attacks in some cases even after enabling the spectre-BTI mitigation with prctl. The same behavior can be observed on a bare-metal machine when forcing the mitigation to IBRS on boot command line.\n\nThis happened because when plain IBRS was enabled (not enhanced IBRS), the kernel had some logic that determined that STIBP was not needed. The IBRS bit implicitly protects against cross-thread branch target injection. However, with legacy IBRS, the IBRS bit was cleared on returning to userspace, due to performance reasons, which disabled the implicit STIBP and left userspace threads vulnerable to cross-thread branch target injection against which STIBP protects.",
       "Threats": [
         {
           "Type": "Impact",
@@ -3278,7 +3284,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2008",
@@ -3532,7 +3539,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2019",
@@ -3786,7 +3794,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2176",
@@ -4048,7 +4057,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-2235",
@@ -4306,7 +4316,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23006",
@@ -4560,7 +4571,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-30772",
@@ -4814,7 +4826,8 @@
             "openSUSE Leap Micro 5.3:kernel-default-base-5.14.21-150400.24.63.1.150400.24.27.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

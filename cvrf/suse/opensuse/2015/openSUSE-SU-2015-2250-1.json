@@ -184,12 +184,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": [
-        {
-          "BaseScore": "5.1",
-          "Vector": "AV:A/AC:M/Au:S/C:N/I:N/A:C"
-        }
-      ]
+      "CVSSScoreSets": {
+        "BaseScore": "5.1",
+        "Vector": "AV:A/AC:M/Au:S/C:N/I:N/A:C"
+      }
     },
     {
       "CVE": "CVE-2015-7311",
@@ -236,7 +234,8 @@
             "openSUSE 13.2:xen-tools-domU-debuginfo-4.4.3_04-33.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-7835",
@@ -287,7 +286,8 @@
             "openSUSE 13.2:xen-tools-domU-debuginfo-4.4.3_04-33.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-7970",
@@ -330,7 +330,8 @@
             "openSUSE 13.2:xen-tools-domU-debuginfo-4.4.3_04-33.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2015-8104",
@@ -389,7 +390,8 @@
             "openSUSE 13.2:xen-tools-domU-debuginfo-4.4.3_04-33.1"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

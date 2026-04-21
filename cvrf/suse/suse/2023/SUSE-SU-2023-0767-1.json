@@ -166,7 +166,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.202.6"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2022-38096",
@@ -200,7 +201,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.202.6"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-0590",
@@ -215,6 +217,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-0590.html",
           "Description": "CVE-2023-0590"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1207036",
+          "Description": "SUSE Bug 1207036"
         },
         {
           "URL": "https://bugzilla.suse.com/1207795",
@@ -246,7 +252,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.202.6"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-23559",
@@ -280,7 +287,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.202.6"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2023-26545",
@@ -288,7 +296,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -322,7 +330,8 @@
             "SUSE Linux Enterprise Server 12 SP2-BCL:kernel-syms-4.4.121-92.202.6"
           ]
         }
-      ]
+      ],
+      "CVSSScoreSets": {}
     }
   ]
 }

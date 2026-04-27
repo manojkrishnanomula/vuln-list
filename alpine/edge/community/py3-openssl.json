@@ -1,11 +1,10 @@
 {
-  "name": "ruby-addressable",
+  "name": "py3-openssl",
   "secfixes": {
-    "2.8.0-r0": [
-      "CVE-2021-32740"
-    ],
-    "2.9.0-r0": [
-      "CVE-2026-35611"
+    "26.1.0-r0": [
+      "CVE-2026-27448",
+      "CVE-2026-27459",
+      "CVE-2026-40475"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

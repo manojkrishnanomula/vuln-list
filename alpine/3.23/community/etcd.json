@@ -1,11 +1,16 @@
 {
-  "name": "perl-cryptx",
+  "name": "etcd",
   "secfixes": {
-    "0.079-r0": [
-      "CVE-2019-17362"
+    "3.6.10-r0": [
+      "CVE-2026-33343",
+      "CVE-2026-33413"
     ],
-    "0.088-r0": [
-      "CVE-2026-41564"
+    "3.6.8-r0": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "CVE-2025-61726",
+      "CVE-2025-61731",
+      "CVE-2025-61732"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
@@ -21,6 +26,6 @@
     "x86_64"
   ],
   "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
-  "reponame": "main",
-  "distroversion": "v3.22"
+  "reponame": "community",
+  "distroversion": "v3.23"
 }

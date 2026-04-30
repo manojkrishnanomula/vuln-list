@@ -106,6 +106,91 @@
       "GHSA-8r55-rv5w-6pfm",
       "GHSA-gfw7-2v73-69wg",
       "GHSA-r837-hpv7-pc2f"
+    ],
+    "2.11.1-r1": [
+      "CVE-2026-25604",
+      "GHSA-rv5f-ccpm-xjj4"
+    ],
+    "2.11.2-r0": [
+      "CVE-2025-69219",
+      "GHSA-9r5j-7r2x-rv4g"
+    ],
+    "2.11.2-r1": [
+      "CVE-2026-31958",
+      "GHSA-78cv-mqj4-43f7",
+      "GHSA-qjxf-f2mg-c6mc"
+    ],
+    "2.11.2-r2": [
+      "CVE-2026-27448",
+      "CVE-2026-27459",
+      "CVE-2026-32597",
+      "GHSA-5pwr-322w-8jr4",
+      "GHSA-752w-5fwx-jx9f",
+      "GHSA-vp96-hxj8-p424"
+    ],
+    "2.11.2-r3": [
+      "CVE-2026-30922",
+      "GHSA-jr27-m4p2-rc6r"
+    ],
+    "2.11.2-r4": [
+      "CVE-2026-4539",
+      "GHSA-5239-wwwm-4pmq"
+    ],
+    "2.11.2-r5": [
+      "CVE-2025-8869",
+      "CVE-2026-22815",
+      "CVE-2026-24049",
+      "CVE-2026-25645",
+      "CVE-2026-26007",
+      "CVE-2026-27205",
+      "CVE-2026-33936",
+      "CVE-2026-34073",
+      "CVE-2026-34513",
+      "CVE-2026-34514",
+      "CVE-2026-34515",
+      "CVE-2026-34516",
+      "CVE-2026-34517",
+      "CVE-2026-34518",
+      "CVE-2026-34519",
+      "CVE-2026-34520",
+      "CVE-2026-34525",
+      "GHSA-2vrm-gr82-f7m5",
+      "GHSA-3wq7-rqq7-wx6j",
+      "GHSA-4xh5-x5gv-qwph",
+      "GHSA-63hf-3vf5-4wqf",
+      "GHSA-68rp-wp8r-4726",
+      "GHSA-8rrh-rw8j-w5fx",
+      "GHSA-966j-vmvw-g2g9",
+      "GHSA-9f5j-8jwj-x28g",
+      "GHSA-c427-h43c-vf67",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-hcc4-c3v8-rx92",
+      "GHSA-m5qp-6w8w-w647",
+      "GHSA-m959-cc7f-wv43",
+      "GHSA-mwh4-6h8g-pg8w",
+      "GHSA-p998-jp59-783m",
+      "GHSA-r6ph-v2qm-q3c2",
+      "GHSA-w2fm-2cpv-w7v5"
+    ],
+    "2.11.2-r7": [
+      "CVE-2026-35029",
+      "CVE-2026-35030",
+      "GHSA-53mr-6c8q-9789",
+      "GHSA-69x8-hrgq-fjj8",
+      "GHSA-jjhc-v7c2-5hh6"
+    ],
+    "2.11.2-r8": [
+      "CVE-2026-39892",
+      "GHSA-jj8c-mmj3-mmgv",
+      "GHSA-p423-j2cm-9vmq",
+      "GHSA-pjjw-68hj-v9mw"
+    ],
+    "2.11.2-r9": [
+      "CVE-2026-1703",
+      "CVE-2026-40347",
+      "GHSA-6vgw-5pg2-w6jp",
+      "GHSA-mj87-hwqh-73pj",
+      "GHSA-v92g-xgxw-vvmm"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

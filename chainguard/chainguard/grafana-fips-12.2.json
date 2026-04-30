@@ -5,9 +5,19 @@
       "CVE-2025-47914",
       "CVE-2025-58181",
       "CVE-2026-24051",
+      "CVE-2026-32282",
+      "CVE-2026-32288",
+      "CVE-2026-33816",
+      "CVE-2026-33817",
+      "CVE-2026-40179",
+      "GHSA-6jwv-w5xf-7j27",
       "GHSA-9h8m-3fm2-qjrq",
+      "GHSA-9jj7-4m8r-rfcm",
       "GHSA-f6x5-jh6r-wrfv",
-      "GHSA-j5w8-q4qc-rx2x"
+      "GHSA-j5w8-q4qc-rx2x",
+      "GHSA-vffh-x6r8-xx99",
+      "GHSA-x4jj-h2v8-hqqv",
+      "GHSA-xj38-jxc5-rppx"
     ],
     "12.2.4-r0": [
       "CVE-2025-64751",
@@ -22,6 +32,65 @@
     "12.2.5-r0": [
       "CVE-2026-24851",
       "GHSA-jq9f-gm9w-rwm9"
+    ],
+    "12.2.7-r2": [
+      "CVE-2026-32285",
+      "CVE-2026-33186",
+      "GHSA-6g7g-w4f8-9c9x",
+      "GHSA-p77j-4mvh-x3m3"
+    ],
+    "12.2.7-r3": [
+      "CVE-2026-33729",
+      "GHSA-h6c8-cww8-35hf"
+    ],
+    "12.2.7-r4": [
+      "CVE-2026-27140",
+      "CVE-2026-27143",
+      "CVE-2026-27144",
+      "CVE-2026-32280",
+      "CVE-2026-32281",
+      "CVE-2026-32283",
+      "CVE-2026-32289",
+      "CVE-2026-34986",
+      "GHSA-5w89-2c2x-6x66",
+      "GHSA-78h2-9frx-2jm8",
+      "GHSA-7mr4-xjxg-34g6",
+      "GHSA-cfp9-33rc-j74f",
+      "GHSA-cqrx-3m42-5p5w",
+      "GHSA-gjvh-7jh8-7xhm",
+      "GHSA-jrg3-gfjw-hm96",
+      "GHSA-m4pr-4j3g-9v7v"
+    ],
+    "12.2.8.01-r0": [
+      "CVE-2026-1229",
+      "CVE-2026-21724",
+      "CVE-2026-27876",
+      "CVE-2026-27877",
+      "CVE-2026-27879",
+      "CVE-2026-27880",
+      "CVE-2026-28375",
+      "CVE-2026-33375",
+      "GHSA-3q27-7qjq-p9c5",
+      "GHSA-4368-7mjc-5763",
+      "GHSA-736h-475m-xhjc",
+      "GHSA-7g92-g4vh-hp84",
+      "GHSA-9vq6-r4xh-vm55",
+      "GHSA-jmfj-8gxc-cg8c",
+      "GHSA-mp76-5xhh-vxvc",
+      "GHSA-q9hv-hpm4-hj6x"
+    ],
+    "12.2.8.01-r1": [
+      "CVE-2026-39883",
+      "GHSA-hfvc-g4fc-pqhx"
+    ],
+    "12.2.8.01-r2": [
+      "CVE-2026-34972",
+      "CVE-2026-39882",
+      "CVE-2026-40293",
+      "GHSA-68m9-983m-f3v5",
+      "GHSA-jwvj-g8pc-cx45",
+      "GHSA-w8rr-5gcm-pp58",
+      "GHSA-xmrv-pmrh-hhx2"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

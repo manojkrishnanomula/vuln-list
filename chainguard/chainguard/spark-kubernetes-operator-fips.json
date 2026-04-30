@@ -1,0 +1,32 @@
+{
+  "name": "spark-kubernetes-operator-fips",
+  "secfixes": {
+    "0.7.0-r1": [
+      "CVE-2025-11143",
+      "GHSA-wjpw-4j6x-6rwh"
+    ],
+    "0.7.0-r2": [
+      "CVE-2026-24281",
+      "CVE-2026-24308",
+      "GHSA-7xrh-hqfc-g7qr",
+      "GHSA-crhr-qqj8-rpxc"
+    ],
+    "0.8.0-r1": [
+      "CVE-2026-34477",
+      "CVE-2026-34478",
+      "CVE-2026-34480",
+      "CVE-2026-34481",
+      "GHSA-3pxv-7cmr-fjr4",
+      "GHSA-445c-vh5m-36rj",
+      "GHSA-6hg6-v5c8-fphq",
+      "GHSA-w35j-pv5h-q9q9"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

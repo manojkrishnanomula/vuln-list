@@ -1,6 +1,10 @@
 {
   "name": "open-webui",
   "secfixes": {
+    "0": [
+      "CVE-2025-6176",
+      "GHSA-2qfp-q593-8484"
+    ],
     "0.6.18-r1": [
       "CVE-2025-54121",
       "GHSA-2c2j-9gv5-cj73"
@@ -34,10 +38,6 @@
     "0.6.34-r2": [
       "CVE-2025-62727",
       "GHSA-7f5h-v6xp-fcq8"
-    ],
-    "0.6.34-r3": [
-      "CVE-2025-6176",
-      "GHSA-2qfp-q593-8484"
     ],
     "0.6.37-r0": [
       "CVE-2025-65106",
@@ -83,6 +83,59 @@
       "GHSA-63vm-454h-vhhq",
       "GHSA-jm66-cg57-jjv5"
     ],
+    "0.8.10-r1": [
+      "CVE-2026-31826",
+      "CVE-2026-32274",
+      "CVE-2026-32597",
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-752w-5fwx-jx9f",
+      "GHSA-hqmh-ppp3-xvm7"
+    ],
+    "0.8.12-r2": [
+      "CVE-2026-33123",
+      "CVE-2026-33230",
+      "CVE-2026-33231",
+      "CVE-2026-33699",
+      "CVE-2026-4539",
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-87mj-5ggw-8qc3",
+      "GHSA-gfwx-w7gr-fvh7",
+      "GHSA-jm6w-m3j8-898g",
+      "GHSA-qpxp-75px-xjcp",
+      "GHSA-rf74-v2fm-23pw"
+    ],
+    "0.8.12-r3": [
+      "CVE-2026-22815",
+      "CVE-2026-34450",
+      "CVE-2026-34452",
+      "CVE-2026-34513",
+      "CVE-2026-34514",
+      "CVE-2026-34515",
+      "CVE-2026-34516",
+      "CVE-2026-34517",
+      "CVE-2026-34518",
+      "CVE-2026-34519",
+      "CVE-2026-34520",
+      "CVE-2026-34525",
+      "CVE-2026-39892",
+      "CVE-2026-40087",
+      "CVE-2026-41066",
+      "GHSA-2vrm-gr82-f7m5",
+      "GHSA-3wq7-rqq7-wx6j",
+      "GHSA-63hf-3vf5-4wqf",
+      "GHSA-926x-3r5x-gfhw",
+      "GHSA-966j-vmvw-g2g9",
+      "GHSA-c427-h43c-vf67",
+      "GHSA-hcc4-c3v8-rx92",
+      "GHSA-m5qp-6w8w-w647",
+      "GHSA-mwh4-6h8g-pg8w",
+      "GHSA-p423-j2cm-9vmq",
+      "GHSA-p998-jp59-783m",
+      "GHSA-q5f5-3gjm-7mfm",
+      "GHSA-vfmq-68hx-4jfw",
+      "GHSA-w2fm-2cpv-w7v5",
+      "GHSA-w828-4qhx-vxx3"
+    ],
     "0.8.3-r0": [
       "CVE-2026-0994",
       "CVE-2026-24049",
@@ -120,6 +173,32 @@
     "0.8.9-r0": [
       "CVE-2025-14009",
       "GHSA-7p94-766c-hgjp"
+    ],
+    "0.9.2-r0": [
+      "CVE-2025-66034",
+      "CVE-2025-66418",
+      "CVE-2025-66471",
+      "CVE-2025-71176",
+      "CVE-2026-21441",
+      "CVE-2026-25645",
+      "CVE-2026-40260",
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-3crg-w4f6-42mx",
+      "GHSA-4pxv-j86v-mhcw",
+      "GHSA-6w46-j5rx-g56g",
+      "GHSA-768j-98cg-p3fv",
+      "GHSA-7gw9-cf7v-778f",
+      "GHSA-fv5p-p927-qmxr",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-jj6c-8h6c-hppx",
+      "GHSA-jj8c-mmj3-mmgv",
+      "GHSA-rpm5-65cw-6hj4",
+      "GHSA-rr7j-v2q5-chgv",
+      "GHSA-v92g-xgxw-vvmm",
+      "GHSA-x284-j5p8-9c5p",
+      "GHSA-x2qx-6953-8485"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

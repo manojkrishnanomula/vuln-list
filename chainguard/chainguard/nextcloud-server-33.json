@@ -1,0 +1,25 @@
+{
+  "name": "nextcloud-server-33",
+  "secfixes": {
+    "33.0.0-r1": [
+      "CVE-2026-30964",
+      "GHSA-f7pm-6hr8-7ggm"
+    ],
+    "33.0.1-r0": [
+      "CVE-2026-24739",
+      "GHSA-r39x-jcww-82v6"
+    ],
+    "33.0.2-r1": [
+      "GHSA-46fq-v4pg-gr3j",
+      "GHSA-qqc2-7f54-r7wp",
+      "GHSA-x92j-g74p-p2hq"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

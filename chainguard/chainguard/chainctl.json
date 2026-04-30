@@ -1,6 +1,10 @@
 {
   "name": "chainctl",
   "secfixes": {
+    "0": [
+      "CVE-2026-33809",
+      "GHSA-44p7-9xx4-hf2g"
+    ],
     "0.2.107-r0": [
       "CVE-2025-53945",
       "GHSA-x6ph-r535-3vjw"
@@ -100,6 +104,42 @@
     "0.2.213-r0": [
       "CVE-2026-1229",
       "GHSA-q9hv-hpm4-hj6x"
+    ],
+    "0.2.221-r1": [
+      "CVE-2026-27141",
+      "GHSA-8fj7-8h3w-xwfm"
+    ],
+    "0.2.222-r0": [
+      "CVE-2026-33186",
+      "GHSA-p77j-4mvh-x3m3"
+    ],
+    "0.2.233-r0": [
+      "CVE-2026-34986",
+      "GHSA-78h2-9frx-2jm8"
+    ],
+    "0.2.234-r1": [
+      "CVE-2026-33481",
+      "GHSA-rjcw-vg7j-m9rc"
+    ],
+    "0.2.236-r0": [
+      "CVE-2026-39883",
+      "GHSA-hfvc-g4fc-pqhx"
+    ],
+    "0.2.248-r0": [
+      "CVE-2026-33762",
+      "CVE-2026-34165",
+      "CVE-2026-4660",
+      "GHSA-3xc5-wrhm-f963",
+      "GHSA-92mm-2pjq-r785",
+      "GHSA-gm2x-2g9h-ccm8",
+      "GHSA-jhf3-xxhw-2wpp"
+    ],
+    "0.2.249-r0": [
+      "GHSA-xmrv-pmrh-hhx2"
+    ],
+    "0.2.249-r1": [
+      "CVE-2026-39984",
+      "GHSA-xm5m-wgh2-rrg3"
     ],
     "0.2.59-r0": [
       "CVE-2023-45288",

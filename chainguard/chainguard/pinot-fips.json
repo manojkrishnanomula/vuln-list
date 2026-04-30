@@ -1,0 +1,34 @@
+{
+  "name": "pinot-fips",
+  "secfixes": {
+    "1.4.0-r1": [
+      "CVE-2026-33870",
+      "GHSA-pwqr-wmgm-9rr8"
+    ],
+    "1.4.0-r2": [
+      "CVE-2025-67721",
+      "GHSA-vx9q-rhv9-3jvg"
+    ],
+    "1.4.0-r3": [
+      "CVE-2026-33871",
+      "GHSA-w9fj-cfpg-grvv"
+    ],
+    "1.4.0-r6": [
+      "CVE-2026-34480",
+      "GHSA-3pxv-7cmr-fjr4"
+    ],
+    "1.5.0-r0": [
+      "CVE-2025-11143",
+      "CVE-2025-8916",
+      "GHSA-4cx2-fc23-5wg6",
+      "GHSA-wjpw-4j6x-6rwh"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

@@ -28,6 +28,34 @@
       "GHSA-6rv6-r2f2-gqrc",
       "GHSA-jh94-8q48-f3m3",
       "GHSA-x85f-j5v8-5vrv"
+    ],
+    "3.14.3-r3": [
+      "CVE-2026-2297",
+      "GHSA-86jh-grmm-2v3h"
+    ],
+    "3.14.3-r5": [
+      "CVE-2026-4519",
+      "GHSA-rm92-fj5q-mpj5"
+    ],
+    "3.14.3-r6": [
+      "CVE-2026-3644",
+      "CVE-2026-4224",
+      "GHSA-h46w-ffvp-4pw5",
+      "GHSA-vf33-88pf-hwp3"
+    ],
+    "3.14.4-r0": [
+      "CVE-2025-13462",
+      "CVE-2026-3479",
+      "GHSA-43rw-359f-4h89",
+      "GHSA-9qpv-486p-2v4h"
+    ],
+    "3.14.4-r3": [
+      "CVE-2026-1502",
+      "CVE-2026-4786",
+      "CVE-2026-6100",
+      "GHSA-cccx-m78h-m3xw",
+      "GHSA-hjxq-7w9q-2jw6",
+      "GHSA-pg25-7cx5-cvcm"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

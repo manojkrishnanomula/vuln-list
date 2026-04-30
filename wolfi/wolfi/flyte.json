@@ -1,6 +1,12 @@
 {
   "name": "flyte",
   "secfixes": {
+    "0": [
+      "CVE-2026-32286",
+      "CVE-2026-33816",
+      "GHSA-9jj7-4m8r-rfcm",
+      "GHSA-jqcq-xjh3-6g23"
+    ],
     "1.11.0-r1": [
       "CVE-2023-45288",
       "GHSA-4v7x-pqxf-cx7m"
@@ -126,6 +132,25 @@
     "1.16.4-r1": [
       "CVE-2026-24051",
       "GHSA-9h8m-3fm2-qjrq"
+    ],
+    "1.16.4-r3": [
+      "CVE-2026-33186",
+      "CVE-2026-4427",
+      "GHSA-p77j-4mvh-x3m3",
+      "GHSA-x6gf-mpr2-68h6"
+    ],
+    "1.16.5-r1": [
+      "CVE-2026-34986",
+      "GHSA-78h2-9frx-2jm8"
+    ],
+    "1.16.5-r3": [
+      "CVE-2026-39882",
+      "CVE-2026-39883",
+      "GHSA-hfvc-g4fc-pqhx",
+      "GHSA-w8rr-5gcm-pp58"
+    ],
+    "1.16.6-r0": [
+      "GHSA-j88v-2chj-qfwx"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

@@ -1,6 +1,10 @@
 {
   "name": "tekton-pipelines-1.7",
   "secfixes": {
+    "1.7.0-r10": [
+      "CVE-2026-39882",
+      "GHSA-w8rr-5gcm-pp58"
+    ],
     "1.7.0-r2": [
       "CVE-2026-24137",
       "GHSA-fcv2-xgw5-pqxf"
@@ -12,6 +16,18 @@
     "1.7.0-r6": [
       "CVE-2025-15558",
       "GHSA-p436-gjf2-799p"
+    ],
+    "1.7.0-r7": [
+      "CVE-2026-33186",
+      "GHSA-p77j-4mvh-x3m3"
+    ],
+    "1.7.0-r8": [
+      "CVE-2026-34986",
+      "GHSA-78h2-9frx-2jm8"
+    ],
+    "1.7.0-r9": [
+      "CVE-2026-39883",
+      "GHSA-hfvc-g4fc-pqhx"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

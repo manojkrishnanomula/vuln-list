@@ -1,21 +1,21 @@
 {
-  "id": "RLSA-2023:7668",
+  "id": "RLSA-2026:8317",
   "title": "Important: squid:4 security update",
   "issued": {
-    "date": "2023-12-06 23:16:33"
+    "date": "2026-04-16 00:01:17"
   },
   "updated": {
-    "date": "2023-12-06 23:18:01"
+    "date": "2026-04-29 06:08:39"
   },
   "severity": "Important",
-  "description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: DoS against HTTP and HTTPS (CVE-2023-5824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: Squid: Denial of Service via heap Use-After-Free vulnerability in ICP handling (CVE-2026-33526)\n\n* Squid: Squid: Denial of Service via crafted ICP traffic (CVE-2026-32748)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "collections": [
     {
       "module": {
         "name": "squid",
         "stream": "4",
-        "version": "8090020231206161717",
-        "context": "b46abd14",
+        "version": "8100020251027191941",
+        "context": "e155f54d",
         "arch": "aarch64"
       },
       "packages": [
@@ -41,10 +41,10 @@
           "name": "squid",
           "epoch": "7",
           "version": "4.15",
-          "release": "7.module+el8.9.0+1568+6d4fd5d4.1",
+          "release": "10.module+el8.10.0+40156+3f7c6af1.11",
           "arch": "aarch64",
-          "src": "squid-4.15-7.module+el8.9.0+1568+6d4fd5d4.1.src.rpm",
-          "filename": "squid-4.15-7.module+el8.9.0+1568+6d4fd5d4.1.aarch64.rpm"
+          "src": "squid-4.15-10.module+el8.10.0+1928+e8441768.5.src.rpm",
+          "filename": "squid-4.15-10.module+el8.10.0+40156+3f7c6af1.11.aarch64.rpm"
         }
       ]
     }
@@ -72,32 +72,44 @@
       "name": "squid",
       "epoch": "7",
       "version": "4.15",
-      "release": "7.module+el8.9.0+1568+6d4fd5d4.1",
+      "release": "10.module+el8.10.0+40156+3f7c6af1.11",
       "arch": "aarch64",
-      "src": "squid-4.15-7.module+el8.9.0+1568+6d4fd5d4.1.src.rpm",
-      "filename": "squid-4.15-7.module+el8.9.0+1568+6d4fd5d4.1.aarch64.rpm"
+      "src": "squid-4.15-10.module+el8.10.0+1928+e8441768.5.src.rpm",
+      "filename": "squid-4.15-10.module+el8.10.0+40156+3f7c6af1.11.aarch64.rpm"
     }
   ],
   "references": [
     {
-      "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5824",
-      "id": "CVE-2023-5824",
-      "title": "CVE-2023-5824",
+      "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32748",
+      "id": "CVE-2026-32748",
+      "title": "CVE-2026-32748",
       "type": "cve"
     },
     {
-      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=2245914",
-      "id": "2245914",
+      "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33526",
+      "id": "CVE-2026-33526",
+      "title": "CVE-2026-33526",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=2451574",
+      "id": "2451574",
       "type": "bugzilla"
     },
     {
-      "href": "https://errata.rockylinux.org/RLSA-2023:7668",
-      "id": "RLSA-2023:7668",
-      "title": "RLSA-2023:7668",
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=2451577",
+      "id": "2451577",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.rockylinux.org/RLSA-2026:8317",
+      "id": "RLSA-2026:8317",
+      "title": "RLSA-2026:8317",
       "type": "self"
     }
   ],
   "cveids": [
-    "CVE-2023-5824"
+    "CVE-2026-32748",
+    "CVE-2026-33526"
   ]
 }

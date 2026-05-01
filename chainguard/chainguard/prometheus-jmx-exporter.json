@@ -1,5 +1,5 @@
 {
-  "name": "strimzi-kafka-operator",
+  "name": "prometheus-jmx-exporter",
   "secfixes": {
     "0": [
       "CVE-2024-47535",
@@ -55,50 +55,13 @@
       "GHSA-45p5-v273-3qqr",
       "GHSA-h5fg-jpgr-rv9c"
     ],
-    "0.49.1-r2": [
-      "CVE-2025-68161",
-      "GHSA-vc5p-v9hr-52mj"
-    ],
-    "0.49.1-r5": [
+    "0.49.1-r1": [
       "CVE-2024-29371",
       "GHSA-3677-xxcr-wjqv"
     ],
-    "0.50.0-r0": [
-      "CVE-2026-1002",
-      "GHSA-cphf-4846-3xx9"
-    ],
-    "0.50.1-r4": [
-      "CVE-2026-1605",
-      "GHSA-xxh7-fcf3-rj7f"
-    ],
-    "0.51.0-r0": [
-      "GHSA-72hv-8253-57qq"
-    ],
-    "0.51.0-r1": [
-      "CVE-2026-24281",
-      "CVE-2026-24308",
-      "GHSA-7xrh-hqfc-g7qr",
-      "GHSA-crhr-qqj8-rpxc"
-    ],
-    "0.51.0-r2": [
-      "CVE-2025-12183",
-      "CVE-2025-66566",
-      "GHSA-cmp6-m4wj-q63q",
-      "GHSA-vqf4-7m7x-wgfc"
-    ],
-    "0.51.0-r22": [
-      "CVE-2026-33870",
-      "CVE-2026-33871",
-      "CVE-2026-34477",
-      "CVE-2026-34478",
-      "CVE-2026-34480",
-      "CVE-2026-34481",
-      "GHSA-3pxv-7cmr-fjr4",
-      "GHSA-445c-vh5m-36rj",
-      "GHSA-6hg6-v5c8-fphq",
-      "GHSA-pwqr-wmgm-9rr8",
-      "GHSA-w35j-pv5h-q9q9",
-      "GHSA-w9fj-cfpg-grvv"
+    "0.49.1-r2": [
+      "CVE-2025-68161",
+      "GHSA-vc5p-v9hr-52mj"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

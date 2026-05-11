@@ -1,0 +1,32 @@
+{
+  "name": "knative-kafka-broker-1.22",
+  "secfixes": {
+    "1.22.0-r1": [
+      "CVE-2026-41417",
+      "GHSA-v8h7-rr48-vmmv"
+    ],
+    "1.22.0-r2": [
+      "CVE-2026-42579",
+      "GHSA-cm33-6792-r9fm"
+    ],
+    "1.22.0-r3": [
+      "CVE-2026-42587",
+      "GHSA-f6hv-jmp6-3vwv"
+    ],
+    "1.22.0-r4": [
+      "CVE-2026-42583",
+      "GHSA-mj4r-2hfc-f8p6"
+    ],
+    "1.22.0-r5": [
+      "CVE-2026-42578",
+      "GHSA-45q3-82m4-75jr"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

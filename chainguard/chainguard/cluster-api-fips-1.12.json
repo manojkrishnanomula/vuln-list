@@ -1,6 +1,10 @@
 {
   "name": "cluster-api-fips-1.12",
   "secfixes": {
+    "0": [
+      "CVE-2026-39825",
+      "GHSA-h74g-238j-357m"
+    ],
     "1.12.2-r1": [
       "CVE-2025-61732",
       "CVE-2025-68121",
@@ -36,6 +40,10 @@
     "1.12.5-r1": [
       "CVE-2026-39883",
       "GHSA-hfvc-g4fc-pqhx"
+    ],
+    "1.12.7-r1": [
+      "CVE-2026-35469",
+      "GHSA-pc3f-x583-g7j2"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

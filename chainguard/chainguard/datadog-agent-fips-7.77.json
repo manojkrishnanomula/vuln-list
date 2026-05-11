@@ -1,6 +1,10 @@
 {
   "name": "datadog-agent-fips-7.77",
   "secfixes": {
+    "0": [
+      "CVE-2026-40179",
+      "GHSA-vffh-x6r8-xx99"
+    ],
     "7.77.3-r1": [
       "CVE-2026-27141",
       "GHSA-8fj7-8h3w-xwfm"
@@ -22,6 +26,38 @@
       "GHSA-mh2q-q3fh-2475",
       "GHSA-pc3f-x583-g7j2",
       "GHSA-w8rr-5gcm-pp58"
+    ],
+    "7.77.3-r5": [
+      "CVE-2026-27448",
+      "CVE-2026-27459",
+      "GHSA-5pwr-322w-8jr4",
+      "GHSA-vp96-hxj8-p424"
+    ],
+    "7.77.3-r7": [
+      "CVE-2025-50181",
+      "CVE-2025-66418",
+      "CVE-2025-66471",
+      "CVE-2026-21441",
+      "CVE-2026-25645",
+      "CVE-2026-3219",
+      "CVE-2026-41602",
+      "CVE-2026-6357",
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-58qw-9mgm-455v",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-jp4c-xjxw-mgf9",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-wf45-q9ch-q8gh"
+    ],
+    "7.77.3-r8": [
+      "CVE-2026-33811",
+      "CVE-2026-39823",
+      "CVE-2026-39826",
+      "GHSA-2283-wf8c-rw8r",
+      "GHSA-3v2c-x6q9-f697",
+      "GHSA-497x-jcxf-m478"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

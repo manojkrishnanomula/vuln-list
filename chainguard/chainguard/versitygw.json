@@ -1,0 +1,20 @@
+{
+  "name": "versitygw",
+  "secfixes": {
+    "1.4.1-r1": [
+      "CVE-2026-32952",
+      "GHSA-pjcq-xvwq-hhpj"
+    ],
+    "1.4.1-r2": [
+      "CVE-2026-42554",
+      "GHSA-qjv7-627w-8qjv"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

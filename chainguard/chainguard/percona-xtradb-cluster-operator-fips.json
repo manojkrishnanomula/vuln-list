@@ -4,6 +4,8 @@
     "0": [
       "CVE-2026-32282",
       "CVE-2026-32288",
+      "CVE-2026-39825",
+      "GHSA-h74g-238j-357m",
       "GHSA-x4jj-h2v8-hqqv",
       "GHSA-xj38-jxc5-rppx"
     ],
@@ -52,6 +54,10 @@
     "1.19.1-r2": [
       "CVE-2026-29181",
       "GHSA-mh2q-q3fh-2475"
+    ],
+    "1.19.1-r3": [
+      "CVE-2026-39820",
+      "GHSA-p9h5-jm8x-mjm5"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

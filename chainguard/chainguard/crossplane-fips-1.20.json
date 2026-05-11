@@ -3,6 +3,8 @@
   "secfixes": {
     "0": [
       "CVE-2026-32282",
+      "CVE-2026-39825",
+      "GHSA-h74g-238j-357m",
       "GHSA-xj38-jxc5-rppx"
     ],
     "1.20.4-r1": [
@@ -46,6 +48,7 @@
       "GHSA-x4jj-h2v8-hqqv"
     ],
     "1.20.5-r11": [
+      "CVE-2026-41506",
       "GHSA-3xc5-wrhm-f963"
     ],
     "1.20.5-r2": [
@@ -77,6 +80,11 @@
     "1.20.6-r1": [
       "CVE-2026-34986",
       "GHSA-78h2-9frx-2jm8"
+    ],
+    "1.20.7-r1": [
+      "CVE-2026-39984",
+      "GHSA-pmwq-pjrm-6p5r",
+      "GHSA-xm5m-wgh2-rrg3"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

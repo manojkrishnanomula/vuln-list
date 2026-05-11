@@ -189,6 +189,7 @@
       "GHSA-xpg8-3hhp-p7w8"
     ],
     "1.7.0-r0": [
+      "CVE-2026-41889",
       "GHSA-j88v-2chj-qfwx"
     ],
     "1.7.0-r1": [
@@ -197,6 +198,13 @@
     ],
     "1.7.0-r2": [
       "GHSA-xmrv-pmrh-hhx2"
+    ],
+    "1.7.0-r3": [
+      "CVE-2026-41602",
+      "GHSA-wf45-q9ch-q8gh"
+    ],
+    "1.7.0-r5": [
+      "CVE-2026-33814"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
